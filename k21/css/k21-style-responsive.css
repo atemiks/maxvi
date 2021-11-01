@@ -71,8 +71,8 @@
 	.k21-presentation-block.k21-presentation-screen-block {
 		top: 147px;
 		height: 320px;
-		padding-left: 80px;
-		padding-right: 80px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	.k21-presentation-block.k21-presentation-flashlight-block {
@@ -177,6 +177,11 @@
 		height: 255px;
 	}
 
+	
+	.k21-presentation-block  {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
 
 	.k21-presentation-block .k21-presentation-title {
 		font-size: 26px;
@@ -190,8 +195,8 @@
 	.k21-presentation-block.k21-presentation-screen-block {
 		top: 122px;
 		height: 255px;
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 
 	.k21-presentation-block.k21-presentation-flashlight-block {
@@ -308,7 +313,7 @@
 
 	/* section design */
 	.k21-design {
-		height: 685px;
+		height: 725px;
 	}
 
 	.k21-design .k21-title {
@@ -320,7 +325,7 @@
 	}
 
 	#k21-design-parallax {
-		top: 180px;
+		top: 220px;
 		left: 15px;
 		right: 15px;
 		width: 330px;
@@ -347,11 +352,11 @@
 
 	/* section presentation */
 	.k21-presentation {
-		height: 1080px;
+		height: 1100px;
 	}
 
 	.k21-presentation .k21-media-figure {
-		top: 370px;
+		top: 390px;
 		width: 320px;
 		height: 678px;
 	}
@@ -393,7 +398,7 @@
 
 	.k21-presentation-block.k21-presentation-flashlight-block {
 		top: 215px;
-		height: 135px;
+		height: 155px;
 	}
 	/* section presentation end */
 
