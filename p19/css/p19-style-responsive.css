@@ -15,12 +15,13 @@
 	}
 
 	.p19-design .p19-title {
-		top: 210px;
+		top: 105px;
 	}
 
 	.p19-design .p19-description {
-		top: 330px;
+		top: 275px;
 	}
+
 
 	#p19-design-parallax {
 		width: 506px;
@@ -147,7 +148,7 @@
 	}
 
 	.p19-design .p19-title {
-		top: 120px;
+		top: 135px;
 	}
 	/* section design end */
 
@@ -311,15 +312,19 @@
 
 	/* section design */
 	.p19-design {
-		height: 540px;
+		height: 580px;
 	}
 
 	.p19-design .p19-title {
 		top: 40px;
 	}
 
+	.p19-design .p19-description {
+		top: 150px;
+	}
+
 	#p19-design-parallax {
-		top: 175px;
+		top: 215px;
 		left: 15px;
 		right: 15px;
 		width: 330px;
