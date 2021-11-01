@@ -1,0 +1,429 @@
+.p19-landing {
+	overflow: hidden;
+	max-width: 2160px;
+	margin: auto;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #010101;
+	line-height: 1.25;
+}
+
+.p19-landing section {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.p19-landing img {
+	max-width: 100%;
+}
+
+
+.p19-landing .container {
+	position: relative;
+	width: 100%;
+	max-width: 1220px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.p19-landing .section-dark,
+.p19-landing .section-dark .p19-title,
+.p19-landing .section-dark .p19-subtitle,
+.p19-landing .section-dark .p19-description {
+	color: #fff;
+}
+
+
+.p19-landing .d-flex {
+	-webkit-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.p19-landing .d-flex.row:before,
+.p19-landing .d-flex.row:after {
+	display: none;
+}
+
+.p19-landing .flex-nowrap {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+
+.p19-landing .justify-content-center {
+	justify-content: center;
+}
+
+
+.p19-landing .align-items-start {
+	align-items: start;
+}
+
+.p19-landing .align-items-center {
+	align-items: center;
+}
+
+.p19-landing .align-self-center {
+	align-self: center;
+}
+
+.p19-landing .align-self-end {
+	align-self: flex-end;
+}
+
+
+
+.p19-title {
+	margin: 0 0 20px;
+	font-size: 43px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.p19-title span {
+	font-weight: 300;
+}
+
+.p19-title .text-lead {
+	font-size: 180%;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.p19-description {
+	margin: 0 0 45px;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.p19-description > p {
+	margin-bottom: 20px;
+}
+
+.p19-description-large {
+	font-size: 42px;
+}
+
+.p19-media-figure {
+	opacity: 1 !important;
+	margin: 0;
+}
+
+.p19-media-figure .p19-media {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/* section design */
+.p19-design {
+	height: 730px;
+}
+
+.p19-design .p19-title,
+.p19-design .p19-subtitle,
+.p19-design .p19-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.p19-design .p19-title {
+	top: 260px;
+}
+
+
+#p19-design-parallax {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	right: 0;
+	width: 724px;
+	height: 705px;
+	margin: auto;
+}
+
+#p19-design-parallax .p19-design-parallax-layer {
+	position: absolute;
+}
+
+#p19-design-parallax .p19-design-parallax-media {
+	display: block;
+	max-width: none;
+}
+
+#p19-design-parallax .p19-design-parallax-layer.layer-1 .p19-design-parallax-media {
+	width: 724px;
+	height: 705px;
+}
+/* section design end */
+
+
+/* section speaker */
+.p19-speaker {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	height: 785px;
+}
+
+.p19-speaker::after {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0, 0, 0, .5);
+	content: '';
+}
+
+.p19-speaker .p19-speaker-video {
+	position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.p19-speaker .container {
+	z-index: 2;
+}
+
+.p19-speaker .p19-title,
+.p19-speaker .p19-subtitle,
+.p19-speaker .p19-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.p19-speaker .p19-title {
+	top: 310px;
+}
+
+.p19-speaker .p19-description {
+	top: 420px;
+}
+
+#p19-speaker-parallax {
+	position: absolute;
+	top: 115px;
+	left: 15px;
+	width: 481px;
+	height: 647px;
+}
+
+#p19-speaker-parallax .p19-speaker-parallax-layer {
+	position: absolute;
+}
+
+#p19-speaker-parallax .p19-speaker-parallax-media {
+	display: block;
+	max-width: none;
+}
+
+#p19-speaker-parallax .p19-speaker-parallax-layer.layer-1 .p19-speaker-parallax-media {
+	width: 481px;
+	height: 647px;
+}
+/* section speaker end */
+
+
+/* section screen */
+.p19-screen {
+	height: 730px;
+}
+
+.p19-screen .p19-title,
+.p19-screen .p19-subtitle,
+.p19-screen .p19-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+	text-align: center;
+}
+
+.p19-screen .p19-title {
+	top: 70px;
+}
+
+.p19-screen .p19-description {
+	top: 140px;
+}
+
+#p19-screen-parallax {
+	position: absolute;
+	top: 270px;
+	right: 115px;
+	width: 899px;
+	height: 391px;
+}
+
+#p19-screen-parallax .p19-screen-parallax-layer {
+	width: 100%;
+	height: 100%;
+}
+
+#p19-screen-parallax .p19-screen-parallax-media {
+	position: absolute;
+	max-width: none;
+}
+
+#p19-screen-parallax .p19-screen-parallax-layer.layer-1 {
+	z-index: 1;
+}
+
+#p19-screen-parallax .p19-screen-parallax-layer.layer-1 .p19-screen-parallax-media {
+	width: 899px;
+	height: 391px;
+}
+
+#p19-screen-parallax .p19-screen-parallax-layer.layer-2 {
+	overflow: hidden;
+	position: relative;
+	margin: 38px 0 0 425px;
+	width: 418px;
+	height: 320px;
+}
+
+#p19-screen-parallax .p19-screen-parallax-layer.layer-2 .p19-screen-video {
+	position: relative;
+	height: inherit;
+}
+/* section screen end */
+
+
+/* section battery */
+.p19-battery {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	height: 735px;
+	background-color: #00b3f5;
+}
+
+.p19-battery .p19-battery-video {
+	position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.p19-battery .container {
+	z-index: 1;
+}
+
+.p19-battery .p19-title,
+.p19-battery .p19-subtitle,
+.p19-battery .p19-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.p19-battery .p19-title {
+	top: 270px;
+}
+
+.p19-battery .p19-description {
+	top: 375px;
+}
+
+#p19-battery-parallax {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	width: 274px;
+	height: 696px;
+	margin: auto;
+}
+
+#p19-battery-parallax .p19-battery-parallax-media {
+	display: block;
+	max-width: none;
+}
+
+#p19-battery-parallax .p19-battery-parallax-layer.layer-1 .p19-battery-parallax-media {
+	width: 274px;
+	height: 696px;
+}
+/* section battery end */
+
+
+/* section features */
+.p19-features {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.p19-features .p19-title {
+	font-size: 35px;
+	text-align: center;
+}
+
+.p19-feature-card {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #434343;
+}
+
+.p19-feature-media {
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 15px;
+}
+
+.p19-feature-title {
+	margin: 0 0 10px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.38;
+	color: inherit;
+}
+
+
+.p19-features-grid {
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 45px -10px -30px;
+}
+
+.p19-features-grid:before,
+.p19-features-grid:after {
+	display: none;
+}
+
+.p19-features-grid .p19-feature-item {
+	flex: 0 0 20%;
+	max-width: 20%;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* section features end */

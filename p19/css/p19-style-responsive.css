@@ -1,0 +1,467 @@
+@media (max-width: 1199px) {
+	.p19-description {
+		font-size: 28px;
+	}
+
+	.p19-description-large {
+		font-size: 30px;
+		line-height: 1.35;
+	}
+
+
+	/* section design */
+	.p19-design {
+		height: 530px;
+	}
+
+	.p19-design .p19-title {
+		top: 210px;
+	}
+
+	.p19-design .p19-description {
+		top: 330px;
+	}
+
+	#p19-design-parallax {
+		width: 506px;
+		height: 492px;
+	}
+
+	#p19-design-parallax .p19-design-parallax-layer.layer-1 .p19-design-parallax-media {
+		width: 506px;
+		height: 492px;
+	}
+	/* section design end */
+
+
+	/* section speaker */
+	.p19-speaker {
+		height: 620px;
+	}
+	
+	.p19-speaker .p19-title {
+		top: 180px;
+	}
+
+	.p19-speaker .p19-description {
+		top: 300px;
+	}
+
+	#p19-speaker-parallax {
+		top: 60px;
+		left: 15px;
+		width: 384px;
+		height: 516px;
+	}
+
+	#p19-speaker-parallax .p19-speaker-parallax-layer.layer-1 .p19-speaker-parallax-media {
+		width: 384px;
+		height: 516px;
+	}
+	/* section speaker end */
+
+
+	/* section screen */
+	.p19-screen {
+		height: 620px;
+	}
+
+	.p19-screen .p19-title {
+		top: 60px;
+	}
+
+	.p19-screen .p19-description {
+		top: 130px;
+	}
+
+	#p19-screen-parallax {
+		top: 240px;
+		right: 15px;
+		width: 720px;
+		height: 313px;
+	}
+	
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-1 .p19-screen-parallax-media {
+		width: 720px;
+		height: 313px;
+	}
+	
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-2 {
+		margin: 30px 0 0 340px;
+		width: 335px;
+		height: 254px;
+	}
+	/* section screen end */
+
+
+	/* section battery */
+	.p19-battery {
+		height: 620px;
+	}
+
+	.p19-battery .p19-title {
+		top: 220px;
+	}
+
+	.p19-battery .p19-description {
+		top: 335px;
+	}
+
+	#p19-battery-parallax {
+		top: 35px;
+		width: 220px;
+		height: 558px;
+	}
+	
+	#p19-battery-parallax .p19-battery-parallax-layer.layer-1 .p19-battery-parallax-media {
+		width: 220px;
+		height: 558px;
+	}
+	/* section battery end */
+}
+
+@media (max-width: 991px) {
+	.p19-landing .container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.p19-title {
+		font-size: 34px;
+	}
+
+	.p19-description {
+		font-size: 20px;
+		line-height: 1.35;
+	}
+
+	.p19-description-large {
+		font-size: 24px;
+		line-height: 1.35;
+	}
+
+
+	/* section design */
+	.p19-design {
+		height: 540px;
+	}
+
+	.p19-design .p19-title {
+		top: 120px;
+	}
+	/* section design end */
+
+
+	/* section speaker */
+	.p19-speaker {
+		height: 560px;
+	}
+	
+	.p19-speaker .p19-title {
+		top: 130px;
+	}
+
+	.p19-speaker .p19-description {
+		top: 230px;
+	}
+
+	#p19-speaker-parallax {
+		top: 40px;
+		left: 15px;
+		width: 364px;
+		height: 489px;
+	}
+
+	#p19-speaker-parallax .p19-speaker-parallax-layer.layer-1 .p19-speaker-parallax-media {
+		width: 364px;
+		height: 489px;
+	}
+	/* section speaker end */
+
+
+	/* section screen */
+	.p19-screen {
+		height: 540px;
+	}
+
+	.p19-screen .p19-title {
+		top: 40px;
+	}
+
+	.p19-screen .p19-description {
+		top: 100px;
+	}
+
+	#p19-screen-parallax {
+		top: 200px;
+		right: 15px;
+		width: 612px;
+		height: 266px;
+	}
+	
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-1 .p19-screen-parallax-media {
+		width: 612px;
+		height: 266px;
+	}
+
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-2 {
+		margin: 25px 0 0 285px;
+		width: 295px;
+		height: 220px;
+	}
+	/* section screen end */
+
+
+	/* section battery */
+	.p19-battery {
+		height: 540px;
+	}
+
+	.p19-battery .p19-title {
+		top: 190px;
+	}
+
+	.p19-battery .p19-description {
+		top: 315px;
+	}
+
+	#p19-battery-parallax {
+		top: 35px;
+		width: 188px;
+		height: 477px;
+	}
+	
+	#p19-battery-parallax .p19-battery-parallax-layer.layer-1 .p19-battery-parallax-media {
+		width: 188px;
+		height: 477px;
+	}
+	/* section battery end */
+
+
+	/* section  features */
+	.p19-features-grid .p19-feature-item {
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+	/* section  features end */
+}
+
+@media (max-width: 767px) {
+	.p19-landing .container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.p19-landing .content-inner {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+
+	.p19-title {
+		margin: 0 0 15px;
+		font-size: 24px !important;
+		line-height: 1.35;
+	}
+
+	.p19-description {
+		margin: 0 0 20px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+
+	.p19-title[data-aos],
+	.p19-subtitle[data-aos],
+	.p19-description[data-aos] {
+		transform: translate(0, 100px);
+	}
+
+	.p19-title[data-aos].aos-animate,
+	.p19-subtitle[data-aos].aos-animate,
+	.p19-description[data-aos].aos-animate {
+		transform: translate(0);
+	}
+
+	.p19-design .content-wrapper.d-flex,
+	.p19-speaker .content-wrapper.d-flex,
+	.p19-screen .content-wrapper.d-flex,
+	.p19-battery .content-wrapper.d-flex {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+
+	.p19-design .p19-title,
+	.p19-design .p19-subtitle,
+	.p19-design .p19-description,
+	.p19-speaker .p19-title,
+	.p19-speaker .p19-subtitle,
+	.p19-speaker .p19-description,
+	.p19-screen .p19-title,
+	.p19-screen .p19-subtitle,
+	.p19-screen .p19-description,
+	.p19-battery .p19-title,
+	.p19-battery .p19-subtitle,
+	.p19-battery .p19-description {
+		max-width: 290px;
+	}
+
+
+	/* section design */
+	.p19-design {
+		height: 540px;
+	}
+
+	.p19-design .p19-title {
+		top: 40px;
+	}
+
+	#p19-design-parallax {
+		top: 175px;
+		left: 15px;
+		right: 15px;
+		width: 330px;
+		height: 321px;
+		margin: auto;
+	}
+	
+	#p19-design-parallax .p19-design-parallax-layer.layer-1 .p19-design-parallax-media {
+		width: 330px;
+		height: 321px;
+	}
+	/* section design end */
+
+
+	/* section speaker */
+	.p19-speaker {
+		height: 625px;
+	}
+
+	.p19-speaker .p19-title {
+		top: 40px;
+	}
+
+	.p19-speaker .p19-description {
+		top: 80px;
+	}
+
+	#p19-speaker-parallax {
+		top: 140px;
+		left: 15px;
+		right: 15px;
+		width: 330px;
+		height: 443px;
+		margin: auto;
+	}
+
+	#p19-speaker-parallax .p19-speaker-parallax-layer.layer-1 .p19-speaker-parallax-media {
+		width: 330px;
+		height: 443px;
+	}
+	/* section speaker end */
+
+
+	/* section screen */
+	.p19-screen {
+		height: 480px;
+	}
+
+	.p19-screen .p19-title,
+	.p19-screen .p19-subtitle,
+	.p19-screen .p19-description {
+		text-align: left;
+	}
+
+	.p19-screen .p19-title {
+		top: 40px;
+	}
+
+	.p19-screen .p19-description {
+		top: 85px;
+	}
+
+	.p19-screen .p19-media-figure {
+		top: 295px;
+		left: 15px;
+		width: 560px;
+		height: 244px;
+	}
+
+	#p19-screen-parallax {
+		top: 200px;
+		right: 15px;
+		width: 490px;
+		right: calc(50% - 140px);
+		height: 213px;
+		margin: auto;
+	}
+	
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-1 .p19-screen-parallax-media {
+		width: 490px;
+		height: 213px;
+	}
+
+	#p19-screen-parallax .p19-screen-parallax-layer.layer-2 {
+		margin: 20px 0 0 230px;
+		width: 235px;
+		height: 175px;
+	}
+	/* section screen end */
+
+
+	/* section battery */
+	.p19-battery {
+		height: 625px;
+	}
+
+	.p19-battery::after {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background:rgba(0, 0, 0, .25);
+		content: '';
+	}
+
+	.p19-battery .p19-title {
+		top: 40px;
+	}
+
+	.p19-battery .p19-description {
+		top: 115px;
+	}
+
+
+	#p19-battery-parallax {
+		top: 175px;
+		width: 160px;
+		height: 406px;
+	}
+	
+	#p19-battery-parallax .p19-battery-parallax-layer.layer-1 .p19-battery-parallax-media {
+		width: 160px;
+		height: 406px;
+	}
+	/* section battery end */
+
+
+	/* section features */
+	.p19-features-grid .p19-feature-item {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	/* section  features end */
+}
+
+@media (max-width: 375px) {
+	/* section  features */
+	.p19-features-grid .p19-feature-item {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	/* section  features end */
+}
