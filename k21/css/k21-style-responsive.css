@@ -83,7 +83,7 @@
 
 	/* section battery */
 	.k21-battery {
-		height: 640px;
+		height: 675px;
 	}
 
 	.k21-battery .k21-title {
@@ -91,24 +91,24 @@
 	}
 
 	.k21-battery .k21-media-figure {
-		top: 140px;
-		width: 972px;
-		height: 453px;
+		top: 170px;
+		width: 954px;
+		height: 396px;
 	}
 
 	.k21-battery .k21-media-figure .k21-media {
-		width: 972px;
-		height: 453px;
+		width: 954px;
+		height: 396px;
 	}
 
 
 	.k21-battery-block {
-		height: 585px;
+		height: 620px;
 	}
 
 
 	.k21-battery-counter-block {
-		top: 180px;
+		top: 140px;
 	}
 
 	.k21-battery-counter-block .k21-battery-counter {
@@ -207,7 +207,7 @@
 
 	/* section battery */
 	.k21-battery {
-		height: 540px;
+		height: 500px;
 	}
 
 	.k21-battery .k21-title {
@@ -215,14 +215,18 @@
 	}
 
 	.k21-battery .k21-media-figure {
-		top: 115px;
-		width: 777px;
-		height: 362px;
+		top: 145px;
+		width: 720px;
+		height: 298px;
+	}
+
+	.k21-battery .k21-media-figure::before {
+		filter: blur(35px);
 	}
 
 	.k21-battery .k21-media-figure .k21-media {
-		width: 777px;
-		height: 362px;
+		width: 720px;
+		height: 298px;
 	}
 
 
@@ -233,7 +237,7 @@
 
 
 	.k21-battery-counter-block {
-		top: 150px;
+		top: 110px;
 		font-size: 24px;
 	}
 
@@ -414,14 +418,18 @@
 
 
 	.k21-battery .k21-media-figure {
-		top: 85px;
-		width: 388px;
-		height: 181px;
+		top: 100px;
+		width: 350px;
+		height: 145px;
+	}
+
+	.k21-battery .k21-media-figure::before {
+		filter: blur(20px);
 	}
 
 	.k21-battery .k21-media-figure .k21-media {
-		width: 388px;
-		height: 181px;
+		width: 350px;
+		height: 145px;
 	}
 
 
@@ -434,11 +442,13 @@
 
 
 	.k21-battery-counter-block {
-		top: 65px;
+		top: 50px;
+		font-size: 20px;
 	}
 
 	.k21-battery-counter-block .k21-battery-counter {
 		width: 110px;
+		margin-left: -0.5em;
 		font-size: 48px;
 	}
 	/* section battery end */

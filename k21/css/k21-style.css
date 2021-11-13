@@ -188,17 +188,6 @@
 	height: 1285px;
 }
 
-/* .k21-presentation .k21-presentation-video {
-	position: absolute;
-    z-index: 0;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translate(-50%, -50%);
-} */
-
-
 .k21-presentation .k21-title,
 .k21-presentation .k21-subtitle,
 .k21-presentation .k21-description {
@@ -329,11 +318,12 @@
 
 .k21-battery .k21-media-figure {
 	position: absolute;
-	top: 120px;
+	z-index: 1;
+	top: 170px;
 	left: 50%;
 	right: 50%;
-	width: 1215px;
-	height: 567px;
+	width: 1060px;
+	height: 440px;
 	margin: auto;
 }
 
@@ -345,9 +335,21 @@
 	transform: translate(-50%, 0);
 }
 
+.k21-battery .k21-media-figure::before {
+	position: absolute;
+	z-index: -1;
+	top: 15%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	background: #1de9b6;
+	filter: blur(50px);
+	content: '';
+}
+
 .k21-battery .k21-media-figure .k21-media {
-	width: 1215px;
-	height: 567px;
+	width: 1060px;
+	height: 440px;
 }
 
 
@@ -366,7 +368,7 @@
 .k21-battery-counter-block {
 	position: absolute;
 	z-index: 1;
-	top: 210px;
+	top: 135px;
 	left: 15px;
 	right: 15px;
 	color: #1de9b6;
@@ -378,7 +380,7 @@
 .k21-battery-counter-block .k21-battery-counter {
 	display: inline-block;
 	width: 380px;
-	margin-left: .9em;
+	margin-left: -0.25em;
 	text-align: right;
 	font-size: 170px;
 	font-weight: 700;
