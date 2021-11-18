@@ -1,0 +1,627 @@
+@media (max-width: 1199px) {
+	.b100ds-title {
+		font-size: 38px;
+	}
+
+	.b100ds-large-title {
+		font-size: 43px;
+	}
+
+	.b100ds-extralarge-title {
+		font-size: 60px;
+	}
+
+	.b100ds-subtitle {
+		font-size: 34px;
+	}
+
+	/* section intro */
+	.b100ds-intro {
+		height: 640px;
+	}
+
+	.b100ds-intro .b100ds-title {
+		top: 170px;
+	}
+
+	.b100ds-intro .b100ds-subtitle {
+		top: 330px;
+	}
+
+	.b100ds-intro .b100ds-figure {
+		width: 912px;
+		height: 665px;
+	}
+
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-1 {
+		top: 0;
+		left: 255px;
+		width: 632px;
+		height: 588px;
+	}
+	
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-2 {
+		top: 85px;
+		left: -35px;
+		width: 675px;
+		height: 592px;
+	}
+	/* section intro end */
+
+
+	/* section dock */
+	.b100ds-dock {
+		height: 690px;
+	}
+
+	.b100ds-dock .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-dock .b100ds-subtitle {
+		top: 145px;
+	}
+
+	.b100ds-dock .b100ds-figure {
+		top: 250px;
+		width: 872px;
+		height: 372px;
+	}
+
+	.b100ds-dock .b100ds-figure .b100ds-media {
+		width: 278px;
+		height: 175px;
+	}
+	/* section dock end */
+
+
+	/* section keyboard */
+	.b100ds-keyboard {
+		height: 580px;
+	}
+
+	.b100ds-keyboard .b100ds-title {
+		top: 60px;
+	}
+
+	.b100ds-keyboard .b100ds-subtitle {
+		top: 180px;
+	}
+
+	.b100ds-keyboard .b100ds-figure {
+		top: -80px;
+		width: 1020px;
+		height: 579px;
+	}
+
+	.b100ds-keyboard .b100ds-figure .b100ds-media {
+		width: 1020px;
+		height: 579px;	
+	}
+	/* section keyboard end */
+
+
+	/* section sos */
+	.b100ds-sos {
+		height: 580px;
+	}
+
+
+	.b100ds-sos .b100ds-title {
+		top: 75px;
+	}
+
+	.b100ds-sos .b100ds-subtitle {
+		top: 195px;
+	}
+
+	.b100ds-sos .b100ds-figure {
+		top: 10px;
+		width: 720px;
+		height: 1139px;
+	}
+
+	.b100ds-sos .b100ds-figure .b100ds-media {
+		width: 720px;
+		height: 1139px;	
+	}
+	/* section sos end */
+
+
+	/* section camera */
+	.b100ds-camera {
+		height: 620px;
+	}
+
+	.b100ds-camera .b100ds-title {
+		top: 240px;
+	}
+
+	.b100ds-camera .b100ds-subtitle {
+		top: 310px;
+	}
+
+	.b100ds-camera .b100ds-figure {
+		top: 50px;
+		width: 474px;
+		height: 1021px;
+	}
+
+	.b100ds-camera .b100ds-figure .b100ds-media {
+		width: 474px;
+		height: 1021px;
+	}
+	/* section camera end */
+
+
+	/* section battery */
+	.b100ds-battery {
+		height: 560px;
+	}
+
+	.b100ds-battery .b100ds-title {
+		top: 100px;
+	}
+
+	.b100ds-battery .b100ds-subtitle {
+		top: 220px;
+	}
+	/* section battery end */
+}
+
+@media (max-width: 991px) {
+	.b100ds-landing {
+		background-position: 0 150px;
+	}
+
+	.b100ds-landing .container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.b100ds-title {
+		font-size: 34px;
+	}
+
+	.b100ds-large-title {
+		font-size: 38px;
+	}
+
+	.b100ds-extralarge-title {
+		font-size: 48px;
+	}
+
+	.b100ds-subtitle {
+		font-size: 28px;
+	}
+
+	/* section intro */
+	.b100ds-intro {
+		height: 640px;
+	}
+
+	.b100ds-intro .b100ds-title {
+		top: 120px;
+	}
+
+	.b100ds-intro .b100ds-subtitle {
+		top: 260px;
+	}
+
+	.b100ds-intro .b100ds-figure {
+		width: 775px;
+		height: 565px;
+	}
+
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-1 {
+		top: 0;
+		left: 200px;
+		width: 538px;
+		height: 501px;
+	}
+	
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-2 {
+		top: 135px;
+		left: -35px;
+		width: 574px;
+		height: 504px;
+	}
+	/* section intro end */
+
+
+	/* section dock */
+	.b100ds-dock {
+		height: 600px;
+	}
+
+	.b100ds-dock .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-dock .b100ds-subtitle {
+		top: 135px;
+	}
+
+	.b100ds-dock .b100ds-figure {
+		top: 240px;
+		width: 698px;
+		height: 295px;
+	}
+
+	.b100ds-dock .b100ds-figure .b100ds-media {
+		width: 222px;
+		height: 140px;
+	}
+	/* section dock end */
+
+
+	/* section keyboard */
+	.b100ds-keyboard {
+		height: 440px;
+	}
+
+	.b100ds-keyboard .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-keyboard .b100ds-subtitle {
+		top: 150px;
+	}
+
+	.b100ds-keyboard .b100ds-figure {
+		top: -80px;
+		width: 816px;
+		height: 464px;
+	}
+
+	.b100ds-keyboard .b100ds-figure .b100ds-media {
+		width: 816px;
+		height: 464px;	
+	}
+	/* section keyboard end */
+
+
+	/* section sos */
+	.b100ds-sos {
+		height: 480px;
+	}
+
+	.b100ds-sos .b100ds-title {
+		top: 60px;
+	}
+
+	.b100ds-sos .b100ds-subtitle {
+		top: 165px;
+	}
+
+	.b100ds-sos .b100ds-figure {
+		top: 10px;
+		width: 576px;
+		height: 911px;
+	}
+
+	.b100ds-sos .b100ds-figure .b100ds-media {
+		width: 576px;
+		height: 911px;	
+	}
+	/* section sos end */
+
+
+	/* section camera */
+	.b100ds-camera {
+		height: 520px;
+	}
+
+	.b100ds-camera .b100ds-title {
+		top: 200px;
+	}
+
+	.b100ds-camera .b100ds-subtitle {
+		top: 265px;
+	}
+
+	.b100ds-camera .b100ds-figure {
+		top: 50px;
+		width: 380px;
+		height: 819px;
+	}
+
+	.b100ds-camera .b100ds-figure .b100ds-media {
+		width: 380px;
+		height: 819px;
+	}
+	/* section camera end */
+
+
+	/* section battery */
+	.b100ds-battery {
+		height: 480px;
+	}
+
+	.b100ds-battery .b100ds-title {
+		top: 100px;
+	}
+
+	.b100ds-battery .b100ds-subtitle {
+		top: 205px;
+	}
+	/* section battery end */
+
+
+	/* section  features */
+	.b100ds-features-grid .b100ds-feature-item {
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+	/* section  features end */
+}
+
+@media (max-width: 767px) {
+	.b100ds-landing {
+		background-position: 0 200px;
+		background-size: 768px auto;
+	}
+
+	.b100ds-landing .container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.b100ds-landing .content-inner {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+
+	.b100ds-title {
+		margin: 0 0 15px;
+		font-size: 24px !important;
+		line-height: 1.35;
+	}
+
+	.b100ds-extralarge-title {
+		font-size: 34px !important;
+	}
+
+	.b100ds-subtitle {
+		font-size: 20px;
+	}
+
+	.b100ds-description {
+		margin: 0 0 20px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+
+	.b100ds-title[data-aos],
+	.b100ds-subtitle[data-aos],
+	.b100ds-description[data-aos] {
+		transform: translate(0, 100px);
+	}
+
+	.b100ds-title[data-aos].aos-animate,
+	.b100ds-subtitle[data-aos].aos-animate,
+	.b100ds-description[data-aos].aos-animate {
+		transform: translate(0);
+	}
+
+	.b100ds-intro .content-wrapper.d-flex,
+	.b100ds-dock .content-wrapper.d-flex,
+	.b100ds-keyboard .content-wrapper.d-flex,
+	.b100ds-sos .content-wrapper.d-flex,
+	.b100ds-camera .content-wrapper.d-flex,
+	.b100ds-battery .content-wrapper.d-flex {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+
+	.b100ds-intro .b100ds-title,
+	.b100ds-intro .b100ds-subtitle,
+	.b100ds-intro .b100ds-description,
+	.b100ds-dock .b100ds-title,
+	.b100ds-dock .b100ds-subtitle,
+	.b100ds-dock .b100ds-description,
+	.b100ds-keyboard .b100ds-title,
+	.b100ds-keyboard .b100ds-subtitle,
+	.b100ds-keyboard .b100ds-description,
+	.b100ds-sos .b100ds-title,
+	.b100ds-sos .b100ds-subtitle,
+	.b100ds-sos .b100ds-description,
+	.b100ds-battery .b100ds-title,
+	.b100ds-battery .b100ds-subtitle,
+	.b100ds-battery .b100ds-description {
+		max-width: 290px;
+	}
+
+
+	/* section intro */
+	.b100ds-intro {
+		height: 780px;
+	}
+
+	.b100ds-intro .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-intro .b100ds-subtitle {
+		top: 140px;
+	}
+
+	.b100ds-intro .b100ds-figure {
+		top: 240px;
+		width: 658px;
+		height: 530px;
+	}
+
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-1 {
+		top: 0;
+		left: 210px;
+		width: 457px;
+		height: 425px;
+	}
+	
+	.b100ds-intro .b100ds-figure .b100ds-media.layer-2 {
+		top: 105px;
+		left: 25px;
+		width: 488px;
+		height: 428px;
+	}
+	/* section intro end */
+
+
+	/* section dock */
+	.b100ds-dock {
+		height: 480px;
+	}
+
+	.b100ds-dock .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-dock .b100ds-subtitle {
+		top: 145px;
+	}
+
+	.b100ds-dock .b100ds-figure {
+		top: 220px;
+		width: 524px;
+		height: 220px;
+	}
+
+	.b100ds-dock .b100ds-figure .b100ds-media {
+		width: 166px;
+		height: 105px;
+	}
+	/* section dock end */
+	
+
+	/* section keyboard */
+	.b100ds-keyboard {
+		height: 540px;
+	}
+
+	.b100ds-keyboard .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-keyboard .b100ds-subtitle {
+		top: 120px;
+	}
+
+	.b100ds-keyboard .b100ds-figure {
+		top: 130px;
+		width: 652px;
+		height: 370px;
+	}
+
+	.b100ds-keyboard .b100ds-figure .b100ds-media {
+		width: 652px;
+		height: 370px;	
+	}
+	/* section keyboard end */
+
+
+	/* section sos */
+	.b100ds-sos {
+		height: 550px;
+	}
+
+	.b100ds-sos .b100ds-title,
+	.b100ds-sos .b100ds-subtitle,
+	.b100ds-sos .b100ds-description {
+		text-align: left;
+	}
+
+	.b100ds-sos .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-sos .b100ds-subtitle {
+		top: 115px;
+	}
+
+	.b100ds-sos .b100ds-figure {
+		top: 230px;
+		width: 460px;
+		height: 727px;
+	}
+
+	.b100ds-sos .b100ds-figure .b100ds-media {
+		width: 460px;
+		height: 727px;	
+	}
+	/* section sos end */
+
+
+	/* section camera */
+	.b100ds-camera {
+		height: 520px;
+	}
+
+	.b100ds-camera .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-camera .b100ds-subtitle {
+		top: 80px;
+	}
+
+	.b100ds-camera .b100ds-figure {
+		top: 150px;
+		width: 304px;
+		height: 655px;
+		margin: auto;
+	}
+
+	.b100ds-camera .b100ds-figure .b100ds-media {
+		width: 304px;
+		height: 655px;
+	}
+	/* section camera end */
+
+
+	/* section battery */
+	.b100ds-battery {
+		height: 480px;
+	}
+
+	.b100ds-battery::before {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, .5);
+		content: '';
+	}
+
+	.b100ds-battery .b100ds-title {
+		top: 40px;
+	}
+
+	.b100ds-battery .b100ds-subtitle {
+		top: 80px;
+	}
+	/* section battery end */
+
+
+	/* section features */
+	.b100ds-features-grid .b100ds-feature-item {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	/* section  features end */
+}
+
+@media (max-width: 375px) {
+	/* section  features */
+	.b100ds-features-grid .b100ds-feature-item {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	/* section  features end */
+}
