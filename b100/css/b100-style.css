@@ -1,0 +1,405 @@
+.b100-landing {
+	overflow: hidden;
+	max-width: 2160px;
+	margin: auto;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #010101;
+	line-height: 1.2;
+}
+
+.b100-landing section {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.b100-landing img {
+	max-width: 100%;
+}
+
+
+.b100-landing .container {
+	position: relative;
+	width: 100%;
+	max-width: 1185px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.b100-landing .section-dark,
+.b100-landing .section-dark .b100-title,
+.b100-landing .section-dark .b100-subtitle,
+.b100-landing .section-dark .b100-description {
+	color: #fff;
+}
+
+
+.b100-landing .d-flex {
+	-webkit-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.b100-landing .d-flex.row:before,
+.b100-landing .d-flex.row:after {
+	display: none;
+}
+
+.b100-landing .flex-nowrap {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+
+.b100-landing .justify-content-center {
+	justify-content: center;
+}
+
+
+.b100-landing .align-items-start {
+	align-items: start;
+}
+
+.b100-landing .align-items-center {
+	align-items: center;
+}
+
+.b100-landing .align-self-center {
+	align-self: center;
+}
+
+.b100-landing .align-self-end {
+	align-self: flex-end;
+}
+
+
+
+.b100-title {
+	margin: 0 0 20px;
+	font-size: 43px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.b100-title span {
+	font-weight: 300;
+}
+
+.b100-title .text-lead {
+	font-size: 180%;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.b100-large-title {
+	font-size: 50px;
+}
+
+.b100-extralarge-title {
+	font-size: 62px;
+	font-weight: 900;
+	line-height: 1.1;
+}
+
+.b100-subtitle {
+	font-size: 43px;
+	font-weight: 300;
+}
+
+.b100-description {
+	margin: 0 0 45px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.35;
+}
+
+.b100-description > p {
+	margin-bottom: 20px;
+}
+
+.b100-media-figure {
+	opacity: 1 !important;
+	margin: 0;
+}
+
+.b100-media-figure .b100-media {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/* section intro */
+.b100-intro {
+	position: relative;
+	z-index: 1;
+	height: 770px;
+	background-color: #f8f8f8;
+}
+
+.b100-intro .b100-title,
+.b100-intro .b100-subtitle,
+.b100-intro .b100-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.b100-intro .b100-title,
+.b100-intro .b100-title[data-aos],
+.b100-intro .b100-title[data-aos].aos-animate,
+.b100-intro .b100-subtitle,
+.b100-intro .b100-subtitle[data-aos],
+.b100-intro .b100-subtitle[data-aos].aos-animate {
+	transform: rotate(-20deg) translate(0);
+	transform-origin: center;
+	transition: top 600ms ease, left 600ms ease;
+}
+
+.b100-intro .b100-title,
+.b100-intro .b100-title[data-aos] {
+	top: 165px;
+	left: 105px;
+}
+
+
+.b100-intro .b100-title[data-aos].aos-animate {
+	top: 275px;
+	left: 135px;
+}
+
+.b100-intro .b100-subtitle,
+.b100-intro .b100-subtitle[data-aos] {
+	top: -50px;
+	left: 40px;
+}
+
+.b100-intro .b100-subtitle[data-aos].aos-animate {
+	top: 55px;
+	left: 70px;
+}
+
+
+.b100-intro .b100-figure,
+.b100-intro .b100-figure[data-aos] {
+	position: absolute;
+	top: 320px;
+    left: 50px;
+	right: 15px;
+	width: 644px;
+	height: 474px;
+	transition: top 800ms ease, left 800ms ease;
+}
+
+.b100-intro .b100-figure[data-aos].aos-animate {
+	top: 260px;
+    left: 190px;
+}
+
+.b100-intro .b100-figure .b100-media {
+	width: 644px;
+	height: 474px;
+}
+/* section intro end */
+
+
+/* section sos */
+.b100-sos {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	height: 765px;
+}
+
+.b100-sos .b100-title,
+.b100-sos .b100-subtitle,
+.b100-sos .b100-description {
+	position: absolute;
+	z-index: 1;
+	left: 40px;
+	right: 15px;
+	color: inherit;
+}
+
+.b100-sos .b100-title {
+	top: 310px;
+	color: #bd1717;
+}
+
+.b100-sos .b100-title::before {
+	position: absolute;
+	top: 50%;
+	left: -28px;
+	height: 92px;
+	width: 726px;
+	border: 2px solid #bd1717;
+	border-radius: 50px;
+	transform: translateY(-50%);
+	content: '';
+}
+
+.b100-sos .b100-subtitle {
+	top: 400px;
+}
+
+.b100-sos .b100-figure {
+	position: absolute;
+	top: 68px;
+	left: 15px;
+	right: 15px;
+	width: 590px;
+	height: 1272px;
+	margin: 0 0 0 auto;
+}
+
+.b100-sos .b100-figure .b100-media {
+	width: 590px;
+	height: 1272px;
+}
+/* section sos end */
+
+
+/* section keyboard */
+.b100-keyboard {
+	position: relative;
+	z-index: 1;
+	height: 770px;
+}
+
+.b100-keyboard .b100-title,
+.b100-keyboard .b100-subtitle,
+.b100-keyboard .b100-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.b100-keyboard .b100-title {
+	top: 290px;
+}
+
+.b100-keyboard .b100-subtitle {
+	top: 420px;
+}
+
+.b100-keyboard .b100-figure {
+	position: absolute;
+	top: 110px;
+	right: -35px;
+	width: 1163px;
+	height: 575px;
+}
+
+.b100-keyboard .b100-figure .b100-media {
+	width: 1163px;
+	height: 575px;	
+}
+/* section keyboard end */
+
+
+/* section fm */
+.b100-fm {
+	position: relative;
+	z-index: 1;
+	height: 715px;
+}
+
+.b100-fm .b100-title,
+.b100-fm .b100-subtitle,
+.b100-fm .b100-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.b100-fm .b100-title {
+	top: 155px;
+}
+
+.b100-fm .b100-subtitle {
+	top: 220px;
+}
+
+.b100-fm .b100-figure {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	width: 405px;
+	height: 691px;
+	margin: auto;
+}
+
+.b100-fm .b100-figure .b100-media {
+	width: 405px;
+	height: 691px;	
+}
+/* section fm end */
+
+
+/* section features */
+.b100-features {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.b100-features .b100-title {
+	font-size: 35px;
+	text-align: center;
+}
+
+.b100-feature-card {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #434343;
+}
+
+.b100-feature-media {
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 15px;
+}
+
+.b100-feature-title {
+	margin: 0 0 10px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.38;
+	color: inherit;
+}
+
+
+.b100-features-grid {
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 45px -10px -30px;
+}
+
+.b100-features-grid:before,
+.b100-features-grid:after {
+	display: none;
+}
+
+.b100-features-grid .b100-feature-item {
+	flex: 0 0 20%;
+	max-width: 20%;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* section features end */
