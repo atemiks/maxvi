@@ -152,8 +152,13 @@
 
                     <div class="header-search">
                         <button type="button" class="header-search-toggle" >
-                            <i class="fa fa-search"></i>
-                            <i class="fa fa-close"></i>
+                            <svg class="header-search-media icon-search" width="28" height="28">
+                                <use xlink:href="icons/sprite.svg#icon-search"></use>
+                            </svg>
+
+                            <svg class="header-search-media icon-close" width="28" height="28">
+                                <use xlink:href="icons/sprite.svg#icon-close-thin"></use>
+                            </svg>
                         </button>
                     </div>
 
@@ -212,7 +217,9 @@
         <form action="" class="header-search-form">
             <input type="search" class="header-search-input" placeholder="Поиск по каталогу" required >
             <button type="submit" class="header-search-button" >
-                <i class="fa fa-search"></i>
+                <svg class="header-search-media icon-search" width="24" height="24">
+                    <use xlink:href="icons/sprite.svg#icon-search"></use>
+                </svg>
             </button>
         </form>
 
