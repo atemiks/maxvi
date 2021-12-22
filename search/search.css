@@ -85,11 +85,6 @@
     outline: none;
 }
 
-.header-search-input .header-search-media {
-    display: block;
-    margin: auto;
-}
-
 .header-search-button {
     flex: 0 0 80px;
     width: 80px;
@@ -100,6 +95,11 @@
     color: #fff;
     font-size: 20px;
     text-align: center;
+}
+
+.header-search-button .header-search-media {
+    display: block;
+    margin: auto;
 }
 
 /* search suggestion */ 
