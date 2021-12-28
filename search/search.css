@@ -126,6 +126,14 @@
     border-bottom: 1px solid rgba(0,0,0,.5);
 }
 
+.header-search-suggestion-item:nth-child(n+9) {
+    display: none;
+}
+
+.header-search-suggestion-item.header-search-suggestion-category-item {
+    display: block !important;
+}
+
 .header-search-suggestion-link {
     position: relative;
     display: block;
