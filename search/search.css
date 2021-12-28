@@ -16,6 +16,18 @@
     color: #e8e8e8;
 }
 
+.header-search-toggle .header-search-media {
+    margin: auto;
+}
+
+.header-search-toggle .header-search-media.icon-search {
+    display: block;
+}
+
+.header-search-toggle .header-search-media.icon-close {
+    display: none;
+}
+
 
 .header-search-overlay {
     opacity: 0;
@@ -47,7 +59,7 @@
     transition: opacity .15s linear;
 }
 
-.header-search {
+.header-search-form {
     position: relative;
     z-index: 2;
     display: flex;
@@ -85,6 +97,11 @@
     text-align: center;
 }
 
+.header-search-button .header-search-media {
+    display: block;
+    margin: auto;
+}
+
 /* search suggestion */ 
 .header-search-suggestion-list {
     position: relative;
@@ -107,14 +124,6 @@
 
 .header-search-suggestion-item:not(:last-child) {
     border-bottom: 1px solid rgba(0,0,0,.5);
-}
-
-.header-search-suggestion-item:nth-child(n+9) {
-    display: none;
-}
-
-.header-search-suggestion-category-item {
-    display: block !important;
 }
 
 .header-search-suggestion-link {
@@ -167,14 +176,54 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
+    .header-search-toggle.active .header-search-media.icon-search {
+        display: none;
+    }
+
+    .header-search-toggle.active .header-search-media.icon-close {
+        display: block;
+    }
+
     .header-search-overlay {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        top: 60px;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+
+    .header-search-form,
+    .header-search-suggestion-list {
+        max-width: 940px;
     }
 
     .header-search-suggestion-list {
         margin-top: -45px;
         padding-top: 45px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-search-form,
+    .header-search-suggestion-list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-search-button {
+        flex: 0 0 60px;
+        width: 60px;
+        min-width: 60px;
+    }
+
+    .header-search-form,
+    .header-search-suggestion-list {
+        max-width: none;
+    }
+
+    .header-search-suggestion-list {
+        height: calc(100vh - 60px);
+        margin: -60px -15px 0;
+        padding-top: 60px;
     }
 }
