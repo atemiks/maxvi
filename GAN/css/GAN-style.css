@@ -1,0 +1,662 @@
+.GAN-landing {
+	overflow: hidden;
+	max-width: 2160px;
+	margin: auto;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #010101;
+	line-height: 1.25;
+}
+
+.GAN-landing section {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.GAN-landing img {
+	max-width: 100%;
+}
+
+
+.GAN-landing .container {
+	position: relative;
+	width: 100%;
+	max-width: 1220px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.GAN-landing .section-dark,
+.GAN-landing .section-dark .GAN-title,
+.GAN-landing .section-dark .GAN-subtitle,
+.GAN-landing .section-dark .GAN-description {
+	color: #fff;
+}
+
+
+.GAN-landing .d-flex {
+	-webkit-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.GAN-landing .d-flex.row:before,
+.GAN-landing .d-flex.row:after {
+	display: none;
+}
+
+.GAN-landing .flex-nowrap {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+
+.GAN-landing .justify-content-center {
+	justify-content: center;
+}
+
+
+.GAN-landing .align-items-start {
+	align-items: start;
+}
+
+.GAN-landing .align-items-center {
+	align-items: center;
+}
+
+.GAN-landing .align-self-center {
+	align-self: center;
+}
+
+.GAN-landing .align-self-end {
+	align-self: flex-end;
+}
+
+
+
+.GAN-title {
+	margin: 0 0 20px;
+	font-size: 43px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.GAN-title span {
+	font-weight: 300;
+}
+
+.GAN-title .text-lead {
+	font-size: 180%;
+	font-weight: 900;
+	line-height: normal;
+}
+
+.GAN-title-sm {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.GAN-title-xs {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.GAN-description {
+	margin: 0 0 45px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.GAN-description p {
+	margin: 0;
+}
+
+.GAN-description p + p {
+	margin-top: 20px;
+}
+
+.GAN-description ul {
+	margin: 0 0 0 15px;
+	padding: 0;
+	list-style: none;
+}
+
+.GAN-media-figure {
+	opacity: 1 !important;
+	margin: 0;
+}
+
+.GAN-media-figure .GAN-media {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+/* section intro */
+.GAN-intro {
+	height: 735px;
+}
+
+.GAN-intro .GAN-title,
+.GAN-intro .GAN-subtitle,
+.GAN-intro .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-intro .GAN-title {
+	top: 340px;
+}
+
+.GAN-intro .GAN-title .text-lead {
+	font-size: 250%;
+}
+
+.GAN-intro .GAN-media-figure {
+	position: absolute;
+	top: 25px;
+	left: -23%;
+	width: 390px;
+	height: 654px;
+}
+
+.GAN-intro .GAN-media-figure .GAN-media {
+	position: absolute;
+	animation: introChargerAnimation 6s infinite;
+}
+
+.GAN-intro .GAN-media-figure .GAN-media.layer-1 {
+	top: 0;
+	left: 0;
+	width: 197px;
+	height: 377px;
+}
+
+.GAN-intro .GAN-media-figure .GAN-media.layer-2 {
+	top: 166px;
+	left: 92px;
+	width: 246px;
+	height: 348px;
+	animation-delay: 300ms;
+}
+
+.GAN-intro .GAN-media-figure .GAN-media.layer-3 {
+	top: 367px;
+	left: 67px;
+	width: 322px;
+	height: 278px;
+	animation-delay: 600ms;
+}
+/* section intro end */
+
+
+/* section usefull */
+.GAN-usefull {
+	height: 735px;
+}
+
+.GAN-usefull .GAN-title,
+.GAN-usefull .GAN-subtitle,
+.GAN-usefull .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-usefull .GAN-title {
+	top: 210px;
+}
+
+
+#GAN-usefull-parallax {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	right: 0;
+	width: 503px;
+	height: 742px;
+	margin: auto;
+}
+
+#GAN-usefull-parallax .GAN-usefull-parallax-layer {
+	position: absolute;
+	width: 503px;
+	height: 742px;
+}
+/* section usefull end */
+
+
+/* section technology */
+.GAN-technology {
+	height: 735px;
+	background-position: center top !important;
+}
+
+.GAN-technology .GAN-title,
+.GAN-technology .GAN-subtitle,
+.GAN-technology .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	color: inherit;
+}
+
+.GAN-technology .GAN-title {
+	top: 130px;
+}
+
+.GAN-technology .GAN-description {
+	top: 300px;
+	line-height: 1.3;
+}
+/* section technology end */
+
+
+/* section chip */
+.GAN-chip {
+	height: 735px;
+}
+
+.GAN-chip .GAN-title,
+.GAN-chip .GAN-subtitle,
+.GAN-chip .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-chip .GAN-title {
+	top: 180px;
+}
+
+.GAN-chip .GAN-description {
+	top: 445px;
+	line-height: 1.25;
+}
+
+.GAN-chip .GAN-media-figure {
+	position: absolute;
+	top: 125px;
+	left: -10%;
+	width: 601px;
+	height: 619px;
+}
+
+.GAN-chip .GAN-media-figure .GAN-media {
+	width: 601px;
+	height: 619px;
+}
+/* section chip end */
+
+
+/* section protection */
+.GAN-protection {
+	height: 735px;
+	background-color: #00032a;
+}
+
+.GAN-protection .GAN-title,
+.GAN-protection .GAN-subtitle,
+.GAN-protection .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-protection .GAN-title {
+	top: 115px;
+}
+
+.GAN-protection .GAN-protection-grid {
+	position: absolute;
+	top: 310px;
+	left: 0;
+	right: 0;
+}
+
+.GAN-protection .GAN-protection-item {
+	margin-bottom: 35px;
+}
+
+.GAN-protection-thumbnail {
+	height: 130px;
+	width: 110px;
+	height: 130px;
+	margin: 0 auto 35px;
+}
+
+.GAN-protection-media {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.GAN-protection-title {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+}
+/* section protection end */
+
+
+/* section universal */
+.GAN-universal {
+	height: 805px;
+	background-color: #79523b;
+}
+
+.GAN-universal::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .2);
+	content: '';
+}
+
+.GAN-universal .GAN-title,
+.GAN-universal .GAN-subtitle,
+.GAN-universal .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-universal .GAN-title {
+	top: 355px;
+}
+/* section universal end */
+
+
+/* section charging */
+.GAN-charging {
+	height: 735px;
+}
+
+.GAN-charging .container {
+	max-width: 1180px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.GAN-charging .GAN-typography-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.GAN-charging .GAN-title,
+.GAN-charging .GAN-subtitle,
+.GAN-charging .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-charging .GAN-title {
+	top: 355px;
+}
+
+
+.GAN-charging-block {
+	max-width: 605px;
+	background-image: linear-gradient(to right, #b6b6b6 0%, #c4c5c5 25%, #d6d9de 50%, #d7dae0 75%, #c0c0c5 100%);
+}
+
+.GAN-charging-block .GAN-charging-thumbnail {
+	width: 605px;
+	height: 400px;
+}
+
+.GAN-charging-block .GAN-charging-media {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+	object-position: center bottom;
+}
+
+.GAN-charging-block .GAN-charging-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	min-height: 335px;
+	padding: 25px 70px;
+	background: linear-gradient(to top, #de00ff 0%, #1948f7 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.GAN-charging-block .GAN-charging-timer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 25px 0 0;
+	font-size: 70px;
+	line-height: 50px;
+	line-height: 0.85;
+}
+
+.GAN-charging-block .GAN-charging-timer .GAN-charging-timer-unit {
+	flex: 0 0 100%;
+	width: 100%;
+	font-size: 70%;
+}
+/* section charging end */
+
+
+/* section design */
+.GAN-design {
+	height: 665px;
+}
+
+.GAN-design .GAN-title,
+.GAN-design .GAN-subtitle,
+.GAN-design .GAN-description {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	color: inherit;
+}
+
+.GAN-design .GAN-title {
+	top: 220px;
+}
+
+.GAN-design .GAN-description {
+	top: 420px;
+}
+
+
+.GAN-design .GAN-media-figure {
+	position: absolute;
+	top: 70px;
+	left: 19%;
+	width: 575px;
+	height: 568px;
+}
+
+.GAN-design .GAN-media-figure .GAN-media {
+	position: absolute;
+}
+
+.GAN-design .GAN-media-figure .GAN-media.layer-1 {
+	top: 0;
+	left: 190px;
+	width: 384px;
+	height: 568px;
+}
+
+.GAN-design .GAN-media-figure .GAN-media.layer-2 {
+	top: 18px;
+	left: 0;
+	width: 246px;
+	height: 521px;
+}
+/* section design end */
+
+
+/* section series */
+.GAN-series {
+	padding: 75px 0 60px;
+}
+
+.GAN-series .GAN-title,
+.GAN-series .GAN-subtitle,
+.GAN-series .GAN-description {
+	color: inherit;
+}
+
+.GAN-series .GAN-title {
+	margin-bottom: 50px;
+}
+
+.GAN-series .GAN-series-thumbnail {
+	position: relative;
+	width: 258px;
+	height: 314px;
+	margin: 0 auto 60px;
+}
+
+.GAN-series .GAN-series-thumbnail .GAN-series-media {
+	position: absolute;
+	width: 222px;
+	height: 222px;
+}
+
+.GAN-series .GAN-series-thumbnail .GAN-series-media.layer-2 {
+	top: 0;
+	left: 36px;
+}
+
+.GAN-series .GAN-series-thumbnail .GAN-series-media.layer-1 {
+	opacity: 1 !important;
+	top: 92px;
+	left: 0;
+}
+
+.GAN-series .GAN-series-title {
+	margin: 0 0 15px;
+}
+
+.GAN-series .GAN-series-specifications-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 15px;
+	line-height: normal;
+}
+
+.GAN-series .GAN-series-specifications-list img {
+	margin-bottom: 8px;
+}
+
+.GAN-series .GAN-series-specifications-list small {
+	font-size: 10px;
+}
+
+.GAN-series .GAN-series-specification-item {
+	margin-bottom: 25px;
+}
+/* section series end */
+
+
+/* section features */
+.GAN-features {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.GAN-features .GAN-title {
+	font-size: 35px;
+	text-align: center;
+}
+
+.GAN-feature-card {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #434343;
+}
+
+.GAN-feature-media {
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 15px;
+}
+
+.GAN-feature-title {
+	margin: 0 0 10px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.38;
+	color: inherit;
+}
+
+
+.GAN-features-grid {
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 45px -10px -30px;
+}
+
+.GAN-features-grid:before,
+.GAN-features-grid:after {
+	display: none;
+}
+
+.GAN-features-grid .GAN-feature-item {
+	flex: 0 0 20%;
+	max-width: 20%;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* section features end */
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+
+@keyframes introChargerAnimation {
+	0% {
+	  	transform: translate(0, 0);
+	}
+  
+	50% {
+	  	transform: translate(1.5%, 3.5%);
+	}
+
+	100% {
+		transform: translate(0);
+  	}
+}
