@@ -148,8 +148,11 @@
 
 
 	/* section charging */
-	.GAN-charging-block .GAN-charging-title {
+	.GAN-charging-block .GAN-charging-content {
 		padding: 40px 30px;
+	}
+
+	.GAN-charging-block .GAN-charging-title {
 		font-size: 38px;
 	}
 
@@ -364,8 +367,11 @@
 		height: 280px;
 	}
 
-	.GAN-charging-block .GAN-charging-title {
+	.GAN-charging-block .GAN-charging-content {
 		min-height: 270px;
+	}
+
+	.GAN-charging-block .GAN-charging-title {
 		font-size: 28px;
 	}
 
@@ -669,12 +675,15 @@
 		height: 280px;
 	}
 
-	.GAN-charging-block .GAN-charging-title {
+	.GAN-charging-block .GAN-charging-content {
 		position: absolute;
 		top: 0;
 		width: 100%;
 		min-height: 270px;
 		justify-content: center;
+	}
+
+	.GAN-charging-block .GAN-charging-title {
 		font-size: 28px;
 	}
 

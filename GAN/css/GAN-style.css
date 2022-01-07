@@ -419,7 +419,7 @@
 
 
 .GAN-charging-block {
-	max-width: 605px;
+	width: 100%;
 	background-image: linear-gradient(to right, #b6b6b6 0%, #c4c5c5 25%, #d6d9de 50%, #d7dae0 75%, #c0c0c5 100%);
 }
 
@@ -435,13 +435,16 @@
 	object-position: center bottom;
 }
 
-.GAN-charging-block .GAN-charging-title {
+.GAN-charging-block .GAN-charging-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
 	min-height: 335px;
 	padding: 25px 70px;
+}
+
+.GAN-charging-block .GAN-charging-title {
 	background: linear-gradient(to top, #de00ff 0%, #1948f7 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -452,10 +455,7 @@
 }
 
 .GAN-charging-block .GAN-charging-timer {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
+	display: block;
 	margin: 25px 0 0;
 	font-size: 70px;
 	line-height: 50px;
