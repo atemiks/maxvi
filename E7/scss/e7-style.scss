@@ -144,6 +144,8 @@
 /* section intro */
 .e7-intro {
 	height: 795px;
+	padding-top: 0;
+	padding-bottom: 0;
 	background-color: #dbe1e1;
 	color: #729ebf;
 
@@ -190,6 +192,8 @@
 .e7-design {
 	overflow: hidden;
 	height: 720px;
+	padding-top: 0;
+	padding-bottom: 0;
 	background: linear-gradient(180deg, rgba(221,226,225,1) 0%, rgba(255,255,255,1) 100%);
 	color: #729ebf;
 
@@ -230,6 +234,8 @@
 /* section ergonomics */
 .e7-ergonomics {
 	height: 780px;
+	padding-top: 0;
+	padding-bottom: 0;
 	background-color: #fe9925;
 	background-position: left bottom !important;
 	background-size: contain !important;
@@ -254,6 +260,8 @@
 /* section sos */
 .e7-sos {
 	height: 780px;
+	padding-top: 0;
+	padding-bottom: 0;
 	background: #0c0765 linear-gradient(to left, #f81a74, #252ffc);
 	background-size: 400% 400% !important;
 	animation: e7-sos-background-animation 6s ease infinite;
