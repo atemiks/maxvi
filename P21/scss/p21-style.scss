@@ -142,6 +142,21 @@
 	padding-bottom: 0;
 	background-color: #191738;
 
+	.p21-design-bg {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		// top: 50%;
+		// left: 50%;
+		// min-width: 100%;
+		// min-height: 100%;
+		// transform: translate(-50%, -50%);
+	}
+
 	.p21-title,
 	.p21-subtitle,
 	.p21-description {
@@ -191,11 +206,16 @@
 	.p21-camera-bg {
 		position: absolute;
 		z-index: 0;
-		top: 50%;
-		left: 50%;
-		min-width: 100%;
-		min-height: 100%;
-		transform: translate(-50%, -50%);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		// top: 50%;
+		// left: 50%;
+		// min-width: 100%;
+		// min-height: 100%;
+		// transform: translate(-50%, -50%);
 	}
 
 
@@ -280,11 +300,16 @@
 			.p21-media-video {
 				position: absolute;
 				z-index: 0;
-				top: 50%;
-				left: 50%;
-				width: auto;
+				top: 0;
+				left: 0;
+				width: 100%;
 				height: 100%;
-				transform: translate(-50%, -50%);
+				object-fit: cover;
+				// top: 50%;
+				// left: 50%;
+				// width: auto;
+				// height: 100%;
+				// transform: translate(-50%, -50%);
 			}
 		}
 	}
@@ -302,11 +327,16 @@
 	.p21-battery-bg {
 		position: absolute;
 		z-index: 0;
-		top: 50%;
-		left: 50%;
-		min-width: 100%;
-		min-height: 100%;
-		transform: translate(-50%, -50%);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		// top: 50%;
+		// left: 50%;
+		// min-width: 100%;
+		// min-height: 100%;
+		// transform: translate(-50%, -50%);
 	}
 
 	.p21-title,
