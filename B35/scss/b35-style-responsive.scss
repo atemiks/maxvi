@@ -1,0 +1,299 @@
+@media (max-width: 1199px) {
+	/* section screen */
+	.b35-screen {
+		height: 640px;
+
+		.b35-title,
+		.b35-model {
+			font-size: 54px;
+		}
+
+		.b35-title {
+			top: 485px;
+		}
+	}
+	/* section screen end */
+
+
+	/* section sos */
+	.b35-sos {
+		height: 640px;
+
+		.b35-title {
+			top: 100px;
+			font-size: 54px;
+
+			&::after {
+				bottom: -40px;
+				height: 12px;
+			}
+		}
+
+		.b35-media-figure {
+			top: 60px;
+			width: 450px;
+			height: 800px;
+		}
+	}
+	/* section sos end */
+
+
+	/* section flashlight */
+	.b35-flashlight {
+		height: 640px;
+
+		.b35-title {
+			top: 420px;
+			font-size: 54px;
+		}
+	}
+	/* section flashlight end */
+
+
+	/* section battery */
+	.b35-battery {
+		height: 640px;
+
+		.b35-title,
+		.b35-subtitle {
+			font-size: 54px;
+		}
+		
+		.b35-title {
+			top: 100px;
+		}
+
+		.b35-subtitle {
+			top: 485px;
+		}
+
+		.b35-media-figure {
+			top: 230px;
+			width: 338px;
+			height: 180px;
+		}
+	}
+	/* section battery end */
+}
+
+
+@media (max-width: 991px) {
+	.b35-landing {
+		.container {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+
+	/* section screen */
+	.b35-screen {
+		height: 540px;
+
+		.b35-title,
+		.b35-model {
+			font-size: 40px;
+		}
+
+		.b35-title {
+			top: 425px;
+		}
+	}
+	/* section screen end */
+
+
+	/* section sos */
+	.b35-sos {
+		height: 540px;
+
+		.b35-title {
+			top: 80px;
+			font-size: 40px;
+
+			&::after {
+				height: 10px;
+			}
+		}
+
+		.b35-media-figure {
+			top: 40px;
+			width: 382px;
+			height: 680px;
+		}
+	}
+	/* section sos end */
+	
+
+	/* section flashlight */
+	.b35-flashlight {
+		height: 540px;
+
+		.b35-title {
+			top: 360px;
+			font-size: 40px;
+		}
+	}
+	/* section flashlight end */
+
+
+	/* section battery */
+	.b35-battery {
+		height: 500px;
+
+		.b35-title,
+		.b35-subtitle {
+			font-size: 40px;
+		}
+		
+		.b35-title {
+			top: 80px;
+		}
+
+		.b35-subtitle {
+			top: 380px;
+		}
+
+		.b35-media-figure {
+			top: 175px;
+			width: 288px;
+			height: 153px;
+
+			.b35-media-charge {
+				border-radius: 15px;
+			}
+		}
+	}
+	/* section battery end */
+
+
+	/* section  features */
+	.b35-features-grid {
+		.b35-feature-item {
+			flex: 0 0 33.3333%;
+			max-width: 33.3333%;
+		}
+	}
+	/* section  features end */
+}
+
+@media (max-width: 767px) {
+	.b35-landing {
+		.container {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.content-inner {
+			margin-bottom: 40px;
+			text-align: center;
+		}
+	}
+
+
+	.b35-title {
+		margin: 0 0 15px;
+		font-size: 24px !important;
+		line-height: 1.35;
+	}
+
+	.b35-description {
+		margin: 0 0 20px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+
+	.b35-title[data-aos],
+	.b35-subtitle[data-aos],
+	.b35-description[data-aos] {
+		transform: translate(0, 100px);
+	}
+
+	.b35-title[data-aos].aos-animate,
+	.b35-subtitle[data-aos].aos-animate,
+	.b35-description[data-aos].aos-animate {
+		transform: translate(0);
+	}
+
+
+	/* section screen */
+	.b35-screen {
+		height: 530px;
+	}
+	/* section screen end */
+
+
+	/* section sos */
+	.b35-sos {
+		height: 565px;
+
+		.b35-title {
+			top: 40px;
+
+			&::after {
+				bottom: -30px;
+				height: 8px;
+			}
+		}
+
+
+		.b35-media-figure {
+			top: 225px;
+			width: 325px;
+			height: 578px;
+		}
+	}
+	/* section sos end */
+
+
+	/* section flashlight */
+	.b35-flashlight {
+		height: 400px;
+
+		.b35-title {
+			top: 280px;
+		}
+	}
+	/* section flashlight end */
+
+
+	/* section battery */
+	.b35-battery {
+		height: 380px;
+
+		.b35-title {
+			top: 50px;
+		}
+
+		.b35-subtitle {
+			top: 280px;
+		}
+
+		.b35-media-figure {
+			top: 115px;
+			width: 244px;
+			height: 130px;
+		}
+	}
+	/* section battery end */
+
+
+	/* section features */
+	.b35-features-grid {
+		.b35-feature-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+	}
+	/* section features end */
+}
+
+@media (max-width: 375px) {
+	/* section  features */
+	.b35-features-grid {
+		.b35-feature-item {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+	/* section  features end */
+}
