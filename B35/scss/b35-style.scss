@@ -357,8 +357,8 @@
 		&[data-aos] {
 			&.aos-animate {
 				.b35-media-charge {
-					animation: b35-battery-animation 5s linear forwards;
-					animation-delay: 600ms;
+					animation: b35-battery-animation 1.5s linear forwards;
+					animation-delay: 300ms;
 				}
 			}
 		}
