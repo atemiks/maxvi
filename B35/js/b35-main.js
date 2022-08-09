@@ -28,14 +28,14 @@ $(document).ready(function() {
 		}, delay);
 	}
 
-	function scrollNumberAnimation(elem, endNumber, inter, steps, defaultNumber) {
+	function scrollNumberAnimation(elem, endNumber, inter, steps, defaultNumber, offset) {
 		let element = document.querySelector('.' + elem);
-		let onTop = (element.getBoundingClientRect().y + (element.offsetHeight * 0.5)) - document.documentElement.clientHeight;
+		let onTop = (element.getBoundingClientRect().y + (element.offsetHeight * 0.5)) - document.documentElement.clientHeight - offset;
 		let onBottom = (element.getBoundingClientRect().y + element.offsetHeight);
 		
 		
 		if (onTop < 0 && onBottom > 0 && +element.innerHTML !== endNumber && !(+element.innerHTML < endNumber && +element.innerHTML > defaultNumber)) {
-			animateNumber(elem, endNumber, inter, steps)
+			animateNumber(elem, endNumber, inter, steps);
 		}
 		else if (+element.innerHTML !== defaultNumber && !(onTop < 0 && onBottom > 0) && !(+element.innerHTML < endNumber && +element.innerHTML > defaultNumber)){
 			element.innerHTML = defaultNumber;
@@ -43,6 +43,7 @@ $(document).ready(function() {
 	}
 
 	window.addEventListener('scroll', function() {
-		scrollNumberAnimation('b35-battery-counter', 2500, 1500, 100, 0);
+		let heightBatteryFigure = document.querySelector('.b35-battery .b35-media-figure').offsetHeight;
+		scrollNumberAnimation('b35-battery-counter', 2500, 1500, 100, 0, heightBatteryFigure);
 	});
 });

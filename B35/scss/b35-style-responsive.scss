@@ -55,7 +55,8 @@
 		height: 640px;
 
 		.b35-title,
-		.b35-subtitle {
+		.b35-subtitle,
+		.b35-battery-value {
 			font-size: 54px;
 		}
 		
@@ -63,8 +64,8 @@
 			top: 100px;
 		}
 
-		.b35-subtitle {
-			top: 485px;
+		.b35-battery-value {
+			top: 255px;
 		}
 
 		.b35-media-figure {
@@ -140,7 +141,8 @@
 		height: 500px;
 
 		.b35-title,
-		.b35-subtitle {
+		.b35-subtitle,
+		.b35-battery-value {
 			font-size: 40px;
 		}
 		
@@ -148,8 +150,8 @@
 			top: 80px;
 		}
 
-		.b35-subtitle {
-			top: 380px;
+		.b35-battery-value {
+			top: 205px;
 		}
 
 		.b35-media-figure {
@@ -263,9 +265,10 @@
 		.b35-title {
 			top: 50px;
 		}
-
-		.b35-subtitle {
-			top: 280px;
+		
+		.b35-battery-value {
+			top: 175px;
+			font-size: 30px;
 		}
 
 		.b35-media-figure {

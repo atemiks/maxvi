@@ -312,7 +312,8 @@
 
 	.b35-title,
 	.b35-subtitle,
-	.b35-description {
+	.b35-description,
+	.b35-battery-value {
 		position: absolute;
 		left: 15px;
 		right: 15px;
@@ -324,10 +325,11 @@
 		font-size: 68px;
 	}
 
-	.b35-subtitle {
-		top: 520px;
+	.b35-battery-value {
+		top: 250px;
 		font-size: 68px;
 		font-weight: 900;
+		white-space: nowrap;
 	}
 
 	.b35-media-figure {
@@ -357,8 +359,8 @@
 		&[data-aos] {
 			&.aos-animate {
 				.b35-media-charge {
-					animation: b35-battery-animation 1.5s linear forwards;
-					animation-delay: 300ms;
+					animation: b35-battery-animation 1.3s linear forwards;
+					animation-delay: 100ms;
 				}
 			}
 		}
