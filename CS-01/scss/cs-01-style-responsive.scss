@@ -1,3 +1,17 @@
+@media (max-width: 1680px) {
+	/* section intro */
+	.cs-01-intro {
+		.cs-01-title,
+		.cs-01-subtitle,
+		.cs-01-description,
+		.cs-01-model {
+			left: 15px;
+			right: 15px;
+		}
+	}
+	/* section intro end */
+}
+
 @media (max-width: 1199px) {
 	/* section intro */
 	.cs-01-intro {
