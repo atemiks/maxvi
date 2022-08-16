@@ -11,6 +11,19 @@
 		.b35-title {
 			top: 485px;
 		}
+
+		.b35-media-figure {
+			top: 125px;
+			width: 862px;
+			height: 496px;
+		}
+
+		.b35-media-video-cover {
+			top: 70px;
+			left: 155px;
+			width: 400px;
+			height: 230px;
+		}
 	}
 	/* section screen end */
 
@@ -97,6 +110,19 @@
 
 		.b35-title {
 			top: 425px;
+		}
+
+		.b35-media-figure {
+			top: 115px;
+			width: 700px;
+			height: 403px;
+		}
+
+		.b35-media-video-cover {
+			top: 60px;
+			left: 125px;
+			width: 320px;
+			height: 185px;
 		}
 	}
 	/* section screen end */
@@ -220,6 +246,11 @@
 	/* section screen */
 	.b35-screen {
 		height: 530px;
+
+		.b35-media-figure {
+			top: 115px;
+			left: -70px;
+		}
 	}
 	/* section screen end */
 

@@ -144,7 +144,7 @@
 	.b35-description,
 	.b35-model {
 		position: absolute;
-		z-index: 1;
+		z-index: 2;
 		left: 15px;
 		right: 15px;
 		color: inherit;
@@ -179,16 +179,36 @@
 
 	.b35-media-figure {
 		position: absolute;
-		top: 40px;
+		z-index: 1;
+		top: 165px;
 		left: 15px;
 		right: 15px;
-		// width: 466px;
-		// height: 714px;
+		width: 958px;
+		height: 552px;
 		margin: auto;
 
 		.b35-media {
 			width: inherit;
 			height: inherit;
+		}
+	}
+
+	.b35-media-video-cover {
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+		top: 80px;
+		left: 175px;
+		width: 447px;
+		height: 252px;
+
+		.b35-media-video {
+			position: relative;
+			width: inherit;
+			height: inherit;
+			object-fit: cover;
+			object-position: center;
+			background-color: #000;
 		}
 	}
 }
