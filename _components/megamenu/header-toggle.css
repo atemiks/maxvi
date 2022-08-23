@@ -1,0 +1,24 @@
+.header-toggle {
+    cursor: pointer;
+    display: none;
+    width: 28px;
+    min-width: auto;
+    margin: 0 15px 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+
+@media (max-width: 1024px) {
+    .header-toggle {
+        display: block;
+    }
+}
+
+.header-toggle span {
+    display: block;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}

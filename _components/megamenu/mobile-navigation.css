@@ -1,0 +1,61 @@
+.mobile-navigation .mobile-navigation-list {
+    text-align: left;
+}
+
+.mobile-navigation-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-navigation-toggle {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 32px;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-left: 1px solid #fff;
+    border-radius: 0;
+    background: transparent;
+}
+
+.mobile-navigation-toggle::after {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+    content: '';
+}
+
+.mobile-navigation-toggle.active::after {
+    clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
+}
+
+
+.mobile-subnav-list {
+    display: none;
+    flex: 0 0 calc(100% + 30px);
+    width: calc(100% + 30px);
+    min-width: calc(100% + 30px);
+    margin: 0 -15px;
+    padding: 4px 15px;
+    list-style: none;
+    background-color: #818181;
+}
+
+.mobile-subnav-list .mobile-subnav-list {
+    padding-left: 30px;
+}
+
+.mobile-subnav-list .mobile-subnav-item .mobile-subnav-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
