@@ -72,10 +72,17 @@
     border-radius: 10px;
 }
 
+.megamenu-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .megamenu-nav-list {
     min-height: 200px;
-    flex: 0 0 300px;
-    width: 300px;
+    /* flex: 0 0 300px; */
+    /* width: 300px; */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -119,59 +126,51 @@
 }
 
 /* megamenu subnav */
-.megamenu-subnav-wrapper {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 300px;
-    /* min-height: 100%; */
-    padding: 15px 30px;
-    background-color: #818181;
-    transition: opacity 300ms ease;
+.megamenu-tab-content {
+    padding-left: 0;
+    padding-right: 0;
     color: #fff;
 }
 
-.megamenu-nav-item:hover .megamenu-subnav-wrapper,
-.megamenu-nav-item.active .megamenu-subnav-wrapper {
-    display: block;
+.megamenu-tab-pane {
+    display: none;
+    padding: 15px 30px;
+    background-color: #818181;
+    color: #fff;
 }
 
-/* .megamenu-subnav-wrapper.visible {
-    display: block;
-} */
-
-.megamenu-subnav-header {
+.megamenu-pane-header {
     margin-bottom: 30px;
 }
 
-.megamenu-subnav-title {
+.megamenu-pane-title {
     color: inherit;
 }
 
-.megamenu-subnav-list {
+.megamenu-pane-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
 
-.megamenu-subnav-list .megamenu-subnav-list {
+.megamenu-pane-list .megamenu-pane-list {
     display: none;
     padding-left: 20px;
 }
 
-.megamenu-subnav-link {
+.megamenu-pane-link {
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
     color: currentColor;
 }
 
-.megamenu-subnav-link:hover {
+.megamenu-pane-link:hover {
     color: rgba(255, 255, 255, .8);
 }
 
-.megamenu-subnav-toggle {
+.megamenu-pane-toggle {
     cursor: pointer;
     position: relative;
     width: 24px;
@@ -184,7 +183,7 @@
     background: transparent;
 }
 
-.megamenu-subnav-toggle::after {
+.megamenu-pane-toggle::after {
     display: block;
     width: 12px;
     height: 12px;
@@ -195,7 +194,7 @@
     content: '';
 }
 
-.megamenu-subnav-toggle.active::after {
+.megamenu-pane-toggle.active::after {
     clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
 }
 
