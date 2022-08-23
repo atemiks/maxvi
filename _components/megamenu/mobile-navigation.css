@@ -9,6 +9,11 @@
     justify-content: space-between;
 }
 
+.mobile-navigation-link {
+    flex: 1;
+    max-width: calc(100% - 60px);
+}
+
 .mobile-navigation-toggle {
     cursor: pointer;
     position: relative;
