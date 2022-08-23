@@ -48,8 +48,7 @@
     top: 100%;
     left: 15px;
     right: 15px;
-    height: auto;
-    max-height: calc(100vh - 100px);
+    height: calc(100vh - 100px);
     transform: translateY(20px);
     transition: opacity 100ms ease, transform 100ms ease;
 }
