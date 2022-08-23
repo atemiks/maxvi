@@ -21,4 +21,17 @@
     height: 2px;
     margin: 6px 0;
     background: #fff;
+    transition: 300ms all;
+}
+
+.header-toggle.active span:nth-child(1) {
+    transform: translateY(4px) rotate(135deg);
+}
+
+.header-toggle.active span:nth-child(2) {
+    display: none;
+}
+
+.header-toggle.active span:nth-child(3) {
+    transform: translateY(-4px) rotate(-135deg);
 }

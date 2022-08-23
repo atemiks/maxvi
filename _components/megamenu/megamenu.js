@@ -1,6 +1,8 @@
 let megamenuToggle = $( ".header-megamenu-toggle" ),
     megamenuContainer = $( ".megamenu-wrapper" ),
-    megamenuNavContainer = $('.megamenu-nav-list');
+    megamenuNavContainer = $('.megamenu-nav-list'),
+    megamenuNavChildren = $(megamenuNavContainer).find('.megamenu-nav-item'),
+    activeSubnavContainer = undefined;
 
 function openMegamenu() {
     $(megamenuToggle).addClass('active');
@@ -10,6 +12,11 @@ function openMegamenu() {
 function closeMegamenu() {
     $(megamenuToggle).removeClass('active');
     $(megamenuContainer).removeClass('open');
+}
+
+
+function setMegamenuHeight(height) {
+    $(".megamenu-nav-list").css("min-height", height);
 }
 
 
@@ -23,15 +30,25 @@ $(document).on('click', function(e) {
     }
 });
 
-$('.megamenu-nav-item.has-children').hover(
+$('.megamenu-nav-item').hover(
     function () {
-        let megamenuSubnavContainer = $(this).find($('.megamenu-subnav-wrapper'));
+        let target = $(this);
+        
+        $(megamenuNavChildren).each(function(index) {
+            $(megamenuNavChildren[index]).removeClass('active');
+        });
 
-        $(this).parent(".megamenu-nav-list").css("min-height", megamenuSubnavContainer.outerHeight());
-        $(megamenuSubnavContainer).toggleClass('open');
-    },
-    function () {
-        let megamenuSubnavContainer = $(this).find($('.megamenu-subnav-wrapper'));
-        $(megamenuSubnavContainer).toggleClass('open');
+        $(target).addClass('active');
+        activeSubnavContainer = $(target).find($('.megamenu-subnav-wrapper'));
+        setMegamenuHeight(activeSubnavContainer.outerHeight());
     }
 );
+
+$('.megamenu-subnav-toggle').on('click', function() {
+    let target = $(this);
+
+    $(target).toggleClass('active');
+    $(target).next().slideToggle('fast', function() {
+        setMegamenuHeight(activeSubnavContainer.outerHeight());
+    });
+})

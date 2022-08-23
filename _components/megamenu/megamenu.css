@@ -20,8 +20,22 @@
     display: block;
     height: 4px;
     width: 32px;
-    margin: 5px auto;
+    margin: 6px auto;
     background-color: #fff;
+    transform-origin: center;
+    transition: 300ms all;
+}
+
+.header-megamenu-toggle.active span:nth-child(1) {
+    transform: translateY(6px) rotate(135deg);
+}
+
+.header-megamenu-toggle.active span:nth-child(2) {
+    display: none;
+}
+
+.header-megamenu-toggle.active span:nth-child(3) {
+    transform: translateY(-4px) rotate(-135deg);
 }
 
 
@@ -47,13 +61,14 @@
 }
 
 .megamenu-nav-list {
-    min-height: 300px;
+    min-height: 200px;
     flex: 0 0 300px;
     width: 300px;
     margin: 0;
     padding: 0;
     list-style: none;
-    background: rgba(0, 0, 0, 0.8);
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: rgba(10, 10, 10, 0.9);
 }
 
 .megamenu-nav-link {
@@ -69,8 +84,10 @@
     transition: 300ms ease;
 }
 
-.megamenu-nav-item:hover .megamenu-nav-link {
-    background: rgba(0, 0, 0, 0.8);
+.megamenu-nav-item:hover .megamenu-nav-link,
+.megamenu-nav-item.active .megamenu-nav-link {
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: rgba(50, 50, 50, 1);
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
@@ -80,23 +97,28 @@
     z-index: 1;
     top: 50%;
     right: 10px;
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform: translateY(-50%);
-    transition: clip-path 200ms;
-    content: '';
+    font-family: 'FontAwesome';
+    font-size: 120%;
+    content: "\f105";
+    /* icon plus */
+    /* clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%); */
+    /* transition: clip-path 200ms; */
 }
 
 .megamenu-nav-item.has-children:hover .megamenu-nav-link::after {
-    clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
+    /* icon minus */
+    /* clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%); */
 }
 
 /* megamenu subnav */
 .megamenu-subnav-wrapper {
     display: none;
-    overflow: visible;
     position: absolute;
     top: 0;
     left: 300px;
@@ -107,11 +129,14 @@
     color: #fff;
 }
 
-.megamenu-subnav-wrapper.open {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: space-between;
+.megamenu-nav-item:hover .megamenu-subnav-wrapper,
+.megamenu-nav-item.active .megamenu-subnav-wrapper {
+    display: block;
 }
+
+/* .megamenu-subnav-wrapper.visible {
+    display: block;
+} */
 
 .megamenu-subnav-header {
     margin-bottom: 30px;
@@ -129,16 +154,18 @@
 }
 
 .megamenu-subnav-list .megamenu-subnav-list {
+    display: none;
     padding-left: 20px;
     column-count: 1;
 }
 
 .megamenu-subnav-item {
-    display: block;
+    /* display: flex; */
 }
 
 .megamenu-subnav-link {
-    display: block;
+    /* flex: 1; */
+    display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
     color: currentColor;
@@ -146,6 +173,34 @@
 
 .megamenu-subnav-link:hover {
     color: rgba(255, 255, 255, .8);
+}
+
+.megamenu-subnav-toggle {
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+.megamenu-subnav-toggle::after {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+    background: #fff;
+    clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+    transition: clip-path 200ms;
+    content: '';
+}
+
+.megamenu-subnav-toggle.active::after {
+    clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
 }
 
 @media screen and (max-width: 1024px) {
