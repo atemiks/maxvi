@@ -6,9 +6,16 @@
     border: none;
     border-radius: 5px;
     background: rgb(50,11,78);
-    background: linear-gradient(45deg, rgba(50,11,78,1) 0%, rgba(6,24,62,1) 100%);
+    background: linear-gradient(45deg, rgba(50,11,78,1) 25%, rgba(6,24,62,1) 50%, #ee7752 75%, #e73c7e 100%);
+    background-position: 0 50%;
+    transition: background 600ms ease;
+    background-size: 400% 400%;
     color: #fff;
     text-transform: uppercase;
+}
+
+.header-megamenu-toggle:hover {
+    background-position: 100% 50%;
 }
 
 .megamenu-wrapper {
