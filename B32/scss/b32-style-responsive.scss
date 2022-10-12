@@ -119,6 +119,12 @@
         .b32-description {
             top: 245px;
         }
+
+        .b32-media-figure {
+            top: 280px;
+            width: 792px;
+            height: 363px;
+        }
     }
     /* section flashlight end */
 
@@ -270,12 +276,18 @@
         height: 540px;
 
         .b32-title {
-            top: 40px;
+            top: 30px;
             font-size: 44px;
         }
 
         .b32-description {
-            top: 265px;
+            top: 255px;
+        }
+
+        .b32-media-figure {
+            top: 280px;
+            width: 634px;
+            height: 290px;
         }
     }
     /* section flashlight end */
@@ -345,7 +357,7 @@
     .b32-subtitle[data-aos],
     .b32-description[data-aos],
     .b32-media-figure[data-aos] {
-        transform: translate(0, 100px);
+        transform: translate(0, 50px);
     }
 
     .b32-title[data-aos].aos-animate,
@@ -481,6 +493,12 @@
 
         .b32-description {
             top: 150px;
+        }
+
+        .b32-media-figure {
+            top: 250px;
+            width: 340px;
+            height: 173px;
         }
     }
     /* section flashlight end */

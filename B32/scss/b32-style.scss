@@ -407,6 +407,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background: #1e268f;
+    background-position: center bottom !important;
 
     .b32-title,
     .b32-subtitle,
@@ -427,19 +428,37 @@
         max-width: 330px;
     }
 
-    // .b32-media-figure {
-    //     position: absolute;
-    //     top: 85px;
-    //     right: 90px;
-    //     width: 777px;
-    //     height: 536px;
-    //     margin: auto;
+    .b32-media-figure {
+        position: absolute;
+        top: 325px;
+        left: 15px;
+        right: 15px;
+        width: 990px;
+        height: 454px;
+        margin: auto;
 
-    //     .b32-media {
-    //         width: inherit;
-    //         height: inherit;
-    //     }
-    // }
+        .b32-media {
+            width: inherit;
+            height: inherit;
+            transform: translate(0, 0);
+            animation: b32-flashlight-image-animation 8s linear infinite;
+        }
+
+        @keyframes b32-flashlight-image-animation {
+            25% {
+                transform: translate(0, -2.5%);
+            }
+            50% {
+                transform: translate(0, 0);
+            }
+            75% {
+                transform: translate(0, 2.5%);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+    }
 }
 /* section flashlight end */
 
