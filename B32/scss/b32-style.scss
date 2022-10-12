@@ -1,7 +1,6 @@
 .b32-landing {
     overflow: hidden;
     max-width: 2160px;
-    padding-bottom: 70px;
     margin: auto;
     background: #fff;
     font-family: 'Roboto', sans-serif;
@@ -404,8 +403,6 @@
 
 /* section flashlight */
 .b32-flashlight {
-    overflow: hidden;
-    z-index: 2;
     height: 770px;
     padding-top: 0;
     padding-bottom: 0;
@@ -448,9 +445,10 @@
 
 /* section sos */
 .b32-sos {
+    overflow: hidden;
     position: relative;
     z-index: 1;
-    height: 760px;
+    height: 830px;
     padding-top: 0;
     padding-bottom: 0;
     &::before,
@@ -458,7 +456,7 @@
         position: absolute;
         z-index: -1;
         top: 0;
-        height: inherit;
+        height: calc(100% - 70px);
         content: '';
         animation: b32-sos-background-animation 8s ease infinite;
     }
@@ -513,7 +511,7 @@
         left: 0;
         right: 0;
         width: 100%;
-        height: inherit;
+        height: calc(100% - 70px);
         margin: auto;
         background: linear-gradient(
             -57deg,
