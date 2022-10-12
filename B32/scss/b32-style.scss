@@ -323,7 +323,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #0b0b0b;
-    &::before {
+    &::after {
         position: absolute;
         top: 0;
         left: 0;
@@ -337,6 +337,7 @@
     .b32-subtitle,
     .b32-description {
         position: absolute;
+        z-index: 1;
         left: 15px;
         right: 15px;
         color: inherit;
@@ -349,6 +350,7 @@
 
     .b32-media-figure {
         position: absolute;
+        z-index: 1;
         top: -30px;
         left: 15px;
         right: 15px;
@@ -361,6 +363,17 @@
             height: inherit;
         }
     }
+
+    .b32-speaker-background {
+        pointer-events: none;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+    }
 }
 /* section speaker end */
 
@@ -370,7 +383,7 @@
     height: 765px;
     padding-top: 0;
     padding-bottom: 0;
-    background: #d8d2d2;
+    background-color: #d8d2d2;
 
     .b32-title,
     .b32-subtitle,
@@ -406,7 +419,7 @@
     height: 770px;
     padding-top: 0;
     padding-bottom: 0;
-    background: #1e268f;
+    background-color: #1e268f;
     background-position: center bottom !important;
 
     .b32-title,

@@ -438,6 +438,7 @@
 
     /* section speaker */
     .b32-speaker {
+        overflow: hidden;
         height: 540px;
 
         .b32-title {
