@@ -11,6 +11,25 @@
             top: 105px;
             width: 560px;
             height: 417px;
+
+            .e8-media {
+                &.layer-1 {
+                    width: 148px;
+                    height: 250px;
+                }
+                &.layer-2 {
+                    width: 178px;
+                    height: 294px;
+                }
+                &.layer-3 {
+                    width: 220px;
+                    height: 350px;
+                }
+                &.layer-4 {
+                    width: 255px;
+                    height: 417px;
+                }
+            }
         }
     }
     /* section intro end */
@@ -103,12 +122,13 @@
             height: 595px;
 
             .e8-media {
-                &.layer-1 {
+                &.layer-1,
+                &.layer-2 {
                     width: 360px;
                     height: 315px;
                 }
 
-                &.layer-2 {
+                &.layer-3 {
                     width: 196px;
                     height: 274px;
                 }
@@ -141,8 +161,29 @@
 
         .e8-media-figure {
             top: 84px;
+            left: auto;
+            right: 0;
             width: 448px;
             height: 333px;
+
+            .e8-media {
+                &.layer-1 {
+                    width: 118px;
+                    height: 200px;
+                }
+                &.layer-2 {
+                    width: 142px;
+                    height: 234px;
+                }
+                &.layer-3 {
+                    width: 176px;
+                    height: 280px;
+                }
+                &.layer-4 {
+                    width: 204px;
+                    height: 333px;
+                }
+            }
         }
     }
     /* section intro end */

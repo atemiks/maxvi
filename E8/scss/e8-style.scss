@@ -163,8 +163,27 @@
         margin: auto;
 
         .e8-media {
-            width: inherit;
-            height: inherit;
+            position: absolute;
+            &.layer-1 {
+                width: 180px;
+                height: 305px;
+                margin: 14.9% 0 0 2.6%;
+            }
+            &.layer-2 {
+                width: 217px;
+                height: 358px;
+                margin: 11% 0 0 16.7%;
+            }
+            &.layer-3 {
+                width: 269px;
+                height: 428px;
+                margin: 5.3% 0 0 32.5%;
+            }
+            &.layer-4 {
+                width: 311px;
+                height: 511px;
+                margin: 0 0 0 53.5%;
+            }
         }
     }
 }
@@ -172,7 +191,6 @@
 
 /* section screen */
 .e8-screen {
-    overflow: hidden;
     height: 835px;
     padding-top: 0;
     padding-bottom: 0;
@@ -236,6 +254,7 @@
 /* section design */
 .e8-design {
     position: relative;
+    z-index: 1;
     height: 770px;
     padding-top: 0;
     padding-bottom: 0;
@@ -377,7 +396,8 @@
         .e8-media {
             position: absolute;
 
-            &.layer-1 {
+            &.layer-1,
+            &.layer-2 {
                 width: 451px;
                 height: 395px;
                 margin: 85% 0 0;
@@ -386,6 +406,10 @@
             }
 
             &.layer-2 {
+                z-index: 1;
+            }
+
+            &.layer-3 {
                 width: 246px;
                 height: 344px;
                 margin: 0 0 0 24%;
@@ -397,12 +421,13 @@
 
         &.aos-animate {
             .e8-media {
-                &.layer-1 {
+                &.layer-1,
+                &.layer-2 {
                     transform: translate(0, 0);
                 }
 
-                &.layer-2 {
-                    transform: translate(0, 74%);
+                &.layer-3 {
+                    transform: translate(0, 84%);
                 }
             }
         }
