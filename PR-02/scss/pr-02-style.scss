@@ -372,10 +372,8 @@
 
     &.aos-animate {
         ~ .pr-02-shape {
-            top: 1760px;
-            width: 1450px;
-            height: 805px;
-            transform: translateX(-56%) rotate(-10.5deg);
+            top: 1835px;
+            transform: scale(1.23) translateX(-46.6%) rotate(-10.5deg);
             transition: all 800ms ease;
             background-image: linear-gradient(
                 40deg,
