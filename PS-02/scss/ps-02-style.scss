@@ -1,0 +1,385 @@
+.ps-02-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #010101;
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .ps-02-title,
+    .section-dark .ps-02-subtitle,
+    .section-dark .ps-02-description {
+        color: #fff;
+    }
+}
+
+.ps-02-title {
+    margin: 0 0 20px;
+    color: #404040;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.ps-02-description {
+    margin: 0 0 45px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p + p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.ps-02-media-figure {
+    opacity: 1 !important;
+    margin: 0;
+
+    .ps-02-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section intro */
+.ps-02-intro {
+    height: 768px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #797a80;
+
+    .ps-02-title,
+    .ps-02-subtitle,
+    .ps-02-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        color: inherit;
+    }
+
+    .ps-02-title {
+        top: 140px;
+        font-size: 100px;
+        font-weight: 900;
+    }
+
+    .ps-02-subtitle {
+        top: 400px;
+        font-size: 92px;
+        font-weight: 900;
+    }
+
+    .ps-02-logo {
+        display: block;
+        width: 244px;
+        height: 40px;
+    }
+
+    .ps-02-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 40px;
+        left: 15px;
+        right: 15px;
+        width: 209px;
+        height: 659px;
+        margin: auto;
+
+        .ps-02-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    .pr-02-intro-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/* section intro end */
+
+/* section water protection */
+.ps-02-water-protection {
+    position: relative;
+    z-index: 1;
+    height: 760px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #0b0b0e;
+
+    .ps-02-title,
+    .ps-02-subtitle,
+    .ps-02-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        color: inherit;
+        text-align: right;
+    }
+
+    .ps-02-title {
+        top: 115px;
+        font-size: 90px;
+        font-weight: 900;
+        -webkit-text-stroke: 1px #000;
+    }
+
+    .ps-02-subtitle {
+        top: 575px;
+        font-size: 40px;
+        font-weight: normal;
+        -webkit-text-stroke: 1px #000;
+    }
+
+    .ps-02-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: auto;
+        right: -6.5%;
+        width: 825px;
+        height: 640px;
+        margin: auto;
+
+        .ps-02-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+/* section water protection end */
+
+/* section outside */
+.ps-02-outside {
+    position: relative;
+    z-index: 1;
+    height: 805px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f3dfc9;
+    background-position: center right !important;
+
+    .ps-02-title,
+    .ps-02-subtitle,
+    .ps-02-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: auto;
+        color: inherit;
+    }
+
+    .ps-02-title {
+        top: 95px;
+        padding: 0.07em 0.22em;
+        font-size: 68px;
+        font-weight: 900;
+        background-color: #fff;
+    }
+
+    .ps-02-subtitle {
+        top: 220px;
+        font-size: 46px;
+        line-height: 1.35;
+
+        span {
+            padding: 0.04em 0.21em;
+            background-color: #fff;
+        }
+    }
+}
+/* section outside end */
+
+/* section take */
+.ps-02-take {
+    position: relative;
+    z-index: 1;
+    height: 790px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f5f7fc;
+
+    .ps-02-title,
+    .ps-02-subtitle,
+    .ps-02-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        color: inherit;
+        text-align: right;
+    }
+
+    .ps-02-title {
+        top: 115px;
+        font-size: 72px;
+        font-weight: 900;
+    }
+
+    .ps-02-subtitle {
+        top: 300px;
+        font-size: 35px;
+    }
+
+    .ps-02-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 280px;
+        left: 15px;
+        right: 15px;
+        width: 151px;
+        height: 482px;
+        margin: auto;
+
+        .ps-02-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+/* section take end */
+
+/* section features */
+.ps-02-features {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .ps-02-title {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+.ps-02-feature-card {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #434343;
+}
+
+.ps-02-feature-media {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 15px;
+}
+
+.ps-02-feature-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.38;
+    color: inherit;
+}
+
+.ps-02-features-grid {
+    display: -ms-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px -10px -30px;
+
+    &::before,
+    &::after {
+        display: none;
+    }
+
+    .ps-02-feature-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* section features end */
