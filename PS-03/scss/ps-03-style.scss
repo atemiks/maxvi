@@ -1,0 +1,345 @@
+.ps-03-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #010101;
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .ps-03-title,
+    .section-dark .ps-03-subtitle,
+    .section-dark .ps-03-description {
+        color: #fff;
+    }
+}
+
+.ps-03-title {
+    margin: 0 0 20px;
+    color: #404040;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.ps-03-description {
+    margin: 0 0 45px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p + p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.ps-03-media-figure {
+    opacity: 1 !important;
+    margin: 0;
+
+    .ps-03-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section intro */
+.ps-03-intro {
+    position: relative;
+    height: 768px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #271f1a;
+
+    &::before {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        content: '';
+    }
+
+    .ps-03-title,
+    .ps-03-subtitle,
+    .ps-03-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        color: inherit;
+        text-align: right;
+    }
+
+    .ps-03-title {
+        top: 105px;
+        font-size: 102px;
+        font-weight: 900;
+    }
+
+    .ps-03-subtitle {
+        top: 370px;
+        font-size: 92px;
+        font-weight: 900;
+    }
+
+    .ps-03-description {
+        top: 650px;
+        font-size: 32px;
+    }
+
+    .ps-03-logo {
+        display: block;
+        margin: 0 0 0 auto;
+        width: 244px;
+        height: 40px;
+    }
+
+    .ps-03-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 390px;
+        left: 15px;
+        right: 15px;
+        width: 764px;
+        height: 369px;
+        margin: auto;
+
+        .ps-03-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    .ps-03-intro-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/* section intro end */
+
+/* section sound */
+.ps-03-sound {
+    position: relative;
+    height: 760px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-size: auto auto !important;
+    background-position: left bottom !important;
+
+    .ps-03-title,
+    .ps-03-subtitle,
+    .ps-03-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        color: inherit;
+        text-align: right;
+    }
+
+    .ps-03-title {
+        top: 35px;
+        font-size: 99px;
+        font-weight: 900;
+        text-shadow: 0.03em -0.035em #f56a30, -0.04em 0.05em #58c6f5;
+    }
+
+    .ps-03-subtitle {
+        top: 170px;
+        font-size: 45px;
+    }
+
+    .ps-03-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 320px;
+        left: 15px;
+        right: 15px;
+        width: 499px;
+        height: 359px;
+        margin: auto;
+
+        .ps-03-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+/* section sound end */
+
+/* section outside */
+.ps-03-outside {
+    position: relative;
+    height: 805px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #343123;
+    background-position: right bottom !important;
+
+    .ps-03-title,
+    .ps-03-subtitle,
+    .ps-03-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: auto;
+        color: inherit;
+    }
+
+    .ps-03-title {
+        top: 90px;
+        font-size: 78px;
+        font-weight: 900;
+    }
+
+    .ps-03-subtitle {
+        top: 290px;
+        font-size: 38px;
+        line-height: 1.35;
+    }
+}
+/* section outside end */
+
+/* section features */
+.ps-03-features {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .ps-03-title {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+.ps-03-feature-card {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #434343;
+}
+
+.ps-03-feature-media {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 15px;
+}
+
+.ps-03-feature-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.38;
+    color: inherit;
+}
+
+.ps-03-features-grid {
+    display: -ms-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px -10px -30px;
+
+    &::before,
+    &::after {
+        display: none;
+    }
+
+    .ps-03-feature-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* section features end */
