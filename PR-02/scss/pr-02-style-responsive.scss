@@ -431,7 +431,17 @@
         .pr-02-mood-background {
             top: 65px;
             width: 742px;
-            height: 412px;
+            height: 415px;
+        }
+
+        .pr-02-mood-video {
+            &.pr-02-mood-video-desktop {
+                display: none;
+            }
+
+            &.pr-02-mood-video-mobile {
+                display: block;
+            }
         }
     }
     /* section mood end */

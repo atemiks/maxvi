@@ -437,6 +437,10 @@
         border-radius: 0 0 0 0;
         object-fit: cover;
         transform: rotate(10.5deg);
+
+        &.pr-02-mood-video-mobile {
+            display: none;
+        }
     }
 }
 /* section mood end */

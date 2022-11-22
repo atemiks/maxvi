@@ -105,8 +105,15 @@
 
 		<section class="pr-02-mood section-dark" data-aos="fade-in" data-aos-anchor-placement="top-center">
 			<div class="pr-02-mood-background" data-aos="show-in" data-aos-duration="800" data-aos-delay="1000">
-				<video class="pr-02-mood-video" poster="images/section-mood/pr-02-mood-video-poster.jpg" autoplay muted
-					loop playsinline>
+				<!-- desktop video -->
+				<video class="pr-02-mood-video pr-02-mood-video-desktop"
+					poster="images/section-mood/pr-02-mood-video-poster.jpg" autoplay muted loop playsinline>
+					<source src="images/section-mood/pr-02-mood-video.mp4" type="video/mp4">
+				</video>
+
+				<!-- mobile video -->
+				<video class="pr-02-mood-video pr-02-mood-video-mobile"
+					poster="images/section-mood/pr-02-mood-video-poster.jpg" autoplay muted loop playsinline>
 					<source src="images/section-mood/pr-02-mood-video.mp4" type="video/mp4">
 				</video>
 			</div>
