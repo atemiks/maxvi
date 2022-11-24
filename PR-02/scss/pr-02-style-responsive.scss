@@ -113,13 +113,17 @@
 
         &.aos-animate {
             ~ .pr-02-shape {
-                top: 1470px;
+                top: 1480px;
             }
         }
 
         .pr-02-title {
-            top: 345px;
+            top: 400px;
             font-size: 32px;
+
+            span {
+                background-size: 300px auto;
+            }
         }
 
         .pr-02-media-figure {
@@ -129,7 +133,7 @@
         }
 
         .pr-02-mood-background {
-            top: 80px;
+            top: 90px;
             width: 1160px;
             height: 645px;
         }
@@ -250,7 +254,7 @@
         }
 
         .pr-02-title {
-            top: 275px;
+            top: 315px;
             font-size: 26px;
         }
 
@@ -422,6 +426,12 @@
 
         .pr-02-title {
             top: 40px;
+
+            span {
+                &::before {
+                    display: none;
+                }
+            }
         }
 
         .pr-02-media-figure {
