@@ -1,0 +1,400 @@
+@media (max-width: 1199px) {
+    /* section intro */
+    .R2-intro {
+        height: 640px;
+
+        .R2-title {
+            top: 85px;
+            font-size: 68px;
+        }
+
+        .R2-media-figure {
+            top: 40px;
+            width: 355px;
+            height: 565px;
+        }
+    }
+    /* section intro end */
+
+    /* section water resistant */
+    .R2-water-resistant {
+        height: 640px;
+
+        .R2-title {
+            font-size: 44px;
+        }
+
+        .R2-media-figure {
+            top: 40px;
+            width: 395px;
+            height: 560px;
+        }
+    }
+    /* section water resistant end */
+
+    /* section battery */
+    .R2-battery {
+        height: 640px;
+
+        .R2-title {
+            top: 90px;
+            font-size: 50px;
+        }
+
+        .R2-subtitle {
+            top: 80px;
+            font-size: 54px;
+        }
+
+        .R2-description {
+            top: 300px;
+            font-size: 30px;
+        }
+
+        .R2-media-figure {
+            top: 355px;
+            width: 654px;
+            height: 228px;
+        }
+    }
+    /* section battery end */
+
+    /* section screen */
+    .R2-screen {
+        height: 640px;
+
+        .R2-title {
+            top: 130px;
+            font-size: 68px;
+        }
+
+        .R2-description {
+            top: 210px;
+            font-size: 36px;
+        }
+
+        .R2-media-figure {
+            top: 45px;
+            width: 235px;
+            height: 555px;
+        }
+    }
+    /* section screen end */
+
+    /* section camera */
+    .R2-camera {
+        height: 640px;
+
+        .R2-title {
+            top: 230px;
+            font-size: 68px;
+        }
+
+        .R2-description {
+            top: 395px;
+            font-size: 20px;
+        }
+
+        .R2-media-figure {
+            top: 125px;
+            width: 560px;
+            height: 537px;
+        }
+    }
+    /* section camera end */
+}
+
+@media (max-width: 991px) {
+    .R2-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section intro */
+    .R2-intro {
+        height: 540px;
+
+        .R2-title {
+            top: 70px;
+            font-size: 54px;
+        }
+
+        .R2-media-figure {
+            top: 30px;
+            width: 300px;
+            height: 478px;
+        }
+    }
+    /* section intro end */
+
+    /* section water resistant */
+    .R2-water-resistant {
+        height: 540px;
+
+        .R2-title {
+            font-size: 34px;
+        }
+
+        .R2-media-figure {
+            top: 30px;
+            width: 336px;
+            height: 477px;
+        }
+    }
+    /* section water resistant end */
+
+    /* section battery */
+    .R2-battery {
+        height: 540px;
+
+        .R2-title {
+            top: 70px;
+            font-size: 40px;
+        }
+
+        .R2-subtitle {
+            top: 65px;
+            font-size: 42px;
+        }
+
+        .R2-description {
+            top: 260px;
+            font-size: 24px;
+        }
+
+        .R2-media-figure {
+            top: 305px;
+            width: 524px;
+            height: 183px;
+        }
+    }
+    /* section battery end */
+
+    /* section screen */
+    .R2-screen {
+        height: 540px;
+
+        .R2-title {
+            top: 105px;
+            font-size: 54px;
+        }
+
+        .R2-description {
+            top: 170px;
+            font-size: 26px;
+        }
+
+        .R2-media-figure {
+            top: 35px;
+            width: 200px;
+            height: 473px;
+        }
+    }
+    /* section screen end */
+
+    /* section camera */
+    .R2-camera {
+        height: 540px;
+
+        .R2-title {
+            top: 185px;
+            font-size: 48px;
+        }
+
+        .R2-description {
+            top: 310px;
+            font-size: 18px;
+        }
+
+        .R2-media-figure {
+            top: 95px;
+            width: 448px;
+            height: 430px;
+        }
+    }
+    /* section camera end */
+
+    /* section  features */
+    .R2-features-grid {
+        .R2-feature-item {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+    /* section  features end */
+}
+
+@media (max-width: 767px) {
+    .R2-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .R2-title {
+        margin: 0 0 15px;
+        font-size: 24px !important;
+        line-height: 1.35;
+    }
+
+    .R2-subtitle {
+        font-size: 20px !important;
+    }
+
+    .R2-description {
+        margin: 0 0 20px;
+        font-size: 18px !important;
+        line-height: 1.3;
+    }
+
+    .R2-title[data-aos],
+    .R2-subtitle[data-aos],
+    .R2-description[data-aos],
+    .R2-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .R2-title[data-aos].aos-animate,
+    .R2-subtitle[data-aos].aos-animate,
+    .R2-description[data-aos].aos-animate,
+    .R2-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section intro */
+    .R2-intro {
+        height: 670px;
+
+        .R2-title,
+        .R2-subtitle,
+        .R2-description {
+            text-align: left;
+        }
+
+        .R2-title {
+            top: 40px;
+        }
+
+        .R2-media-figure {
+            top: 150px;
+        }
+    }
+    /* section intro end */
+
+    /* section water resistant */
+    .R2-water-resistant {
+        height: 700px;
+
+        .R2-title {
+            top: 40px;
+        }
+
+        .R2-media-figure {
+            top: 180px;
+        }
+    }
+    /* section water resistant end */
+
+    /* section battery */
+    .R2-battery {
+        height: 540px;
+
+        .R2-title,
+        .R2-subtitle {
+            text-align: left;
+        }
+
+        .R2-title {
+            top: 40px;
+        }
+
+        .R2-subtitle {
+            top: 105px;
+        }
+
+        .R2-description {
+            top: 260px;
+            font-size: 24px;
+        }
+    }
+    /* section battery end */
+
+    /* section screen */
+    .R2-screen {
+        height: 700px;
+
+        .R2-title,
+        .R2-subtitle,
+        .R2-description {
+            text-align: left;
+        }
+
+        .R2-title {
+            top: 40px;
+        }
+
+        .R2-description {
+            top: 80px;
+        }
+
+        .R2-media-figure {
+            top: 175px;
+        }
+    }
+    /* section screen end */
+
+    /* section camera */
+    .R2-camera {
+        height: 540px;
+
+        .R2-title,
+        .R2-subtitle,
+        .R2-description {
+            left: 15px;
+            right: 15px;
+        }
+
+        .R2-title {
+            top: 40px;
+        }
+
+        .R2-description {
+            top: 110px;
+        }
+
+        .R2-media-figure {
+            top: 215px;
+            width: 340px;
+            height: 326px;
+        }
+    }
+    /* section camera end */
+
+    /* section features */
+    .R2-features-grid {
+        .R2-feature-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    /* section features end */
+}
+
+@media (max-width: 375px) {
+    /* section  features */
+    .R2-features-grid {
+        .R2-feature-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    /* section  features end */
+}
