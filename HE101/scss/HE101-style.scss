@@ -236,12 +236,22 @@
 .HE101-design {
     position: relative;
     z-index: 2;
-    height: 945px;
-    margin-top: -130px;
+    height: 815px;
     padding-top: 0;
     padding-bottom: 0;
     background-position: center top !important;
     color: #656461;
+
+    .HE101-design-textile-bg {
+        position: absolute;
+        top: -130px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-position: calc(100% + 9.5vw) top;
+        background-size: 100% auto;
+    }
 
     .HE101-title,
     .HE101-subtitle,
@@ -254,7 +264,7 @@
     }
 
     .HE101-title {
-        top: 240px;
+        top: 115px;
         font-size: 96px;
         font-weight: 900;
     }
@@ -262,7 +272,7 @@
     .HE101-media-figure {
         position: absolute;
         z-index: 1;
-        top: 300px;
+        top: 170px;
         left: 7.5%;
         right: 7.5%;
         width: 1397px;
