@@ -116,12 +116,19 @@
 }
 
 .HE111-media-figure {
+    position: relative;
     opacity: 1 !important;
     margin: 0;
 
     .HE111-media {
+        position: absolute;
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .HE111-media-active {
+        pointer-events: none;
+        filter: saturate(2);
     }
 }
 
