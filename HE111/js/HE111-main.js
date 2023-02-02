@@ -6,33 +6,29 @@ $(document).ready(function () {
         });
     }, 100);
 
-    const HE111IndicatiorAnimate = gsap.timeline({
+    gsap.timeline({
         scrollTrigger: {
             trigger: ".HE111-indicator",
-            startAnimation: "bottom bottom",
-            start: "0",
-            end: "50%",
             toggleActions: "restart none none none",
+            start: "50% 100%",
+            end: "75% 50%",
             scrub: 3,
+            // markers: true,
         },
-    });
-
-    const HE111ModeAnimate = gsap.timeline({
-        scrollTrigger: {
-            trigger: ".HE111-mode",
-            startAnimation: "bottom bottom",
-            start: "0",
-            end: "50%",
-            toggleActions: "restart none none none",
-            scrub: 3,
-        },
-    });
-
-    HE111IndicatiorAnimate.to(".HE111-indicator .HE111-media-active", {
+    }).to(".HE111-indicator .HE111-media-active", {
         opacity: 1,
     });
 
-    HE111IndicatiorAnimate.to(".HE111-mode .HE111-media-active", {
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".HE111-mode",
+            start: "25% 100%",
+            end: "50% 50%",
+            toggleActions: "restart none none none",
+            scrub: 3,
+            // markers: true,
+        },
+    }).to(".HE111-mode .HE111-media-active", {
         opacity: 1,
     });
 });
