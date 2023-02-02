@@ -157,7 +157,7 @@
     .HE111-media-figure {
         position: absolute;
         z-index: 1;
-        top: 380px;
+        top: 330px;
         left: 15px;
         right: 15px;
         width: 770px;
@@ -188,22 +188,24 @@
         left: 15px;
         right: 15px;
         color: inherit;
-        text-align: center;
     }
 
     .HE111-title {
-        top: 100px;
+        top: 95px;
         font-size: 84px;
         font-weight: 900;
+        line-height: 1.1;
+        text-align: center;
 
         .text-large {
             font-size: 142%;
+            font-weight: inherit;
         }
     }
 
     .HE111-description {
         top: 480px;
-        font-size: 40px;
+        font-size: 48px;
         font-weight: 700;
     }
 
@@ -211,8 +213,8 @@
         position: absolute;
         z-index: 1;
         top: 260px;
-        left: 10%;
-        right: 10%;
+        left: 0;
+        right: 0;
         width: 1072px;
         height: 421px;
         margin: auto;
@@ -228,7 +230,7 @@
 /* section design */
 .HE111-design {
     position: relative;
-    height: 720px;
+    height: 815px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #d2beb0;
@@ -244,15 +246,14 @@
     }
 
     .HE111-title {
-        top: 90px;
-        font-size: 92px;
-        font-weight: 900;
+        top: 50px;
+        font-size: 78px;
     }
 
     .HE111-media-figure {
         position: absolute;
         z-index: 1;
-        top: 300px;
+        top: 170px;
         left: 15px;
         right: 15px;
         width: 578px;
@@ -271,7 +272,7 @@
 .HE111-indicator {
     position: relative;
     z-index: 1;
-    height: 715px;
+    height: 720px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #9fb9c0;
@@ -288,15 +289,16 @@
     }
 
     .HE111-title {
-        top: 170px;
-        font-size: 75px;
+        top: 65px;
+        font-size: 92px;
         font-weight: 900;
+        line-height: 1.1;
     }
 
     .HE111-media-figure {
         position: absolute;
         z-index: 1;
-        top: 310px;
+        top: 295px;
         left: 15px;
         right: 15px;
         width: 946px;
@@ -333,9 +335,10 @@
     }
 
     .HE111-title {
-        top: 210px;
+        top: 215px;
         font-size: 122px;
         font-weight: 900;
+        line-height: 1;
     }
 
     .HE111-media-figure {
