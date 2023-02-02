@@ -249,14 +249,16 @@
 
     /* section intro */
     .HE211-intro {
-        height: 435px;
+        height: 480px;
 
         .HE211-title {
             top: 40px;
         }
 
         .HE211-media-figure {
-            top: 230px;
+            top: 250px;
+            left: 0;
+            right: 0;
             width: 524px;
             height: 167px;
         }
@@ -294,7 +296,7 @@
     /* section design */
     .HE211-design {
         overflow: hidden;
-        height: 490px;
+        height: 480px;
 
         .HE211-title {
             top: 40px;
@@ -310,15 +312,15 @@
 
     /* section indicator */
     .HE211-indicator {
-        height: 450px;
+        height: 480px;
 
         .HE211-title {
-            top: 215px;
+            top: 255px;
             max-width: none;
         }
 
         .HE211-media-figure {
-            top: 285px;
+            top: 325px;
             width: 425px;
             height: 119px;
         }
@@ -327,14 +329,14 @@
 
     /* section mode */
     .HE211-mode {
-        height: 475px;
+        height: 480px;
 
         .HE211-title {
             top: 38%;
         }
 
         .HE211-media-figure {
-            top: 135px;
+            top: 145px;
             left: 15px;
             right: 15px;
             width: 560px;
