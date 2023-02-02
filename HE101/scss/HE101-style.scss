@@ -126,9 +126,9 @@
         max-height: 100%;
     }
 
-    .HE111-media-active {
+    .HE101-media-active {
         pointer-events: none;
-        filter: saturate(2);
+        opacity: 0;
     }
 }
 
