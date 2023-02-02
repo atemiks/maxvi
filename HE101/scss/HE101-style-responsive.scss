@@ -273,14 +273,14 @@
 
     /* section intro */
     .HE101-intro {
-        height: 435px;
+        height: 480px;
 
         .HE101-title {
             top: 40px;
         }
 
         .HE101-media-figure {
-            top: 260px;
+            top: 280px;
             left: 0;
             right: 0;
             width: 350px;
@@ -324,7 +324,7 @@
 
     /* section design */
     .HE101-design {
-        height: 435px;
+        height: 480px;
 
         .HE101-design-textile-bg {
             top: -25px;
@@ -335,7 +335,7 @@
         }
 
         .HE101-media-figure {
-            top: 200px;
+            top: 240px;
             left: 0;
             right: 0;
             width: 505px;
@@ -346,15 +346,17 @@
 
     /* section indicator */
     .HE101-indicator {
-        height: 435px;
+        height: 480px;
 
         .HE101-title {
-            top: 230px;
+            top: 250px;
             max-width: none;
         }
 
         .HE101-media-figure {
-            top: 285px;
+            top: 310px;
+            left: -50px;
+            right: -50px;
             width: 350px;
             height: 136px;
         }
@@ -363,7 +365,7 @@
 
     /* section mode */
     .HE101-mode {
-        height: 600px;
+        height: 540px;
 
         .HE101-title {
             top: 40px;
@@ -372,10 +374,10 @@
 
         .HE101-media-figure {
             top: 155px;
-            right: 50%;
-            transform: translateX(25%);
-            width: 480px;
-            height: 436px;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 364px;
         }
     }
     /* section mode end */
