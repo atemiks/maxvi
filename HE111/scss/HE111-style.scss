@@ -132,6 +132,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #a55a5a;
+    background-position: center bottom !important;
 
     .HE111-title,
     .HE111-subtitle,
@@ -233,7 +234,9 @@
     height: 815px;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #d2beb0;
+    background-color: #f5f5f5;
+    background-position: left center !important;
+    background-size: auto 100% !important;
 
     .HE111-title,
     .HE111-subtitle,
@@ -344,11 +347,11 @@
     .HE111-media-figure {
         position: absolute;
         z-index: 1;
-        top: 25px;
+        top: -5px;
         left: auto;
-        right: 15px;
-        width: 488px;
-        height: 810px;
+        right: 0;
+        width: 896px;
+        height: 806px;
         margin: auto;
 
         .HE111-media {

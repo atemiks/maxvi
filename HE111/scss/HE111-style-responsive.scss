@@ -41,6 +41,8 @@
     /* section design */
     .HE111-design {
         height: 690px;
+        background-position: center !important;
+        background-size: cover !important;
 
         .HE111-title {
             top: 40px;
@@ -82,8 +84,8 @@
         }
 
         .HE111-media-figure {
-            width: 755px;
-            height: 686px;
+            width: 760px;
+            height: 684px;
         }
     }
     /* section mode end */
@@ -180,8 +182,9 @@
         }
 
         .HE111-media-figure {
+            top: 0;
             width: 640px;
-            height: auto;
+            height: 575px;
         }
     }
     /* section mode end */
@@ -298,14 +301,14 @@
 
     /* section design */
     .HE111-design {
-        height: 480px;
+        height: 500px;
 
         .HE111-title {
             top: 40px;
         }
 
         .HE111-media-figure {
-            top: 120px;
+            top: 140px;
             left: 0;
             right: 0;
             width: 330px;
@@ -335,7 +338,7 @@
 
     /* section mode */
     .HE111-mode {
-        height: 480px;
+        height: 540px;
 
         .HE111-title {
             top: 40px;
@@ -344,10 +347,10 @@
 
         .HE111-media-figure {
             top: 155px;
-            right: 50%;
-            transform: translateX(25%);
-            width: 480px;
-            height: 436px;
+            left: 0;
+            right: 0;
+            width: 400px;
+            height: 360px;
         }
     }
     /* section mode end */
