@@ -145,9 +145,9 @@
     }
 
     .HE201-title {
-        top: 70px;
+        top: 50px;
         font-size: 72px;
-        font-weight: 900;
+        line-height: 1.15;
 
         .text-lead {
             font-size: 169%;
@@ -158,7 +158,7 @@
     .HE201-media-figure {
         position: absolute;
         z-index: 1;
-        top: 460px;
+        top: 450px;
         left: 15px;
         right: 15px;
         width: 931px;
@@ -193,12 +193,14 @@
     }
 
     .HE201-title {
-        top: 200px;
+        top: 190px;
         font-size: 95px;
         font-weight: 900;
+        line-height: 1.1;
 
         .text-large {
             font-size: 136%;
+            font-weight: inherit;
         }
     }
 
@@ -211,7 +213,7 @@
     .HE201-media-figure {
         position: absolute;
         z-index: 1;
-        top: 0;
+        top: 10px;
         left: 10%;
         right: 10%;
         width: 435px;
@@ -233,6 +235,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #96dede;
+    background-position: 20% 50% !important;
 
     .HE201-title,
     .HE201-subtitle,
@@ -245,7 +248,7 @@
     }
 
     .HE201-title {
-        top: 120px;
+        top: 100px;
         font-size: 85px;
         font-weight: 900;
     }
@@ -272,7 +275,7 @@
     }
 
     .HE201-title {
-        top: 70px;
+        top: 60px;
         font-size: 85px;
         font-weight: 900;
         letter-spacing: 0.07em;
@@ -281,10 +284,10 @@
     .HE201-media-figure {
         position: absolute;
         z-index: 1;
-        top: 310px;
+        top: 240px;
         left: 15px;
         right: 15px;
-        width: 1043px;
+        width: 1269px;
         height: 668px;
         margin: auto;
 
@@ -299,7 +302,7 @@
 /* section mode */
 .HE201-mode {
     position: relative;
-    height: 800px;
+    height: 790px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #ecd1b4;
@@ -317,19 +320,20 @@
     }
 
     .HE201-title {
-        top: 90px;
+        top: 85px;
         font-size: 100px;
         font-weight: 900;
+        line-height: 1;
     }
 
     .HE201-media-figure {
         position: absolute;
         z-index: 1;
-        top: 400px;
-        left: 15px;
-        right: 15px;
-        width: 1490px;
-        height: 1211px;
+        top: 300px;
+        left: -70%;
+        right: -50%;
+        width: 1610px;
+        height: 1263px;
         margin: auto;
 
         .HE201-media {
