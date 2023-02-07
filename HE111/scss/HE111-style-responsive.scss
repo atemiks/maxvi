@@ -220,17 +220,17 @@
 
     .HE111-title {
         margin: 0 0 15px;
-        font-size: 24px !important;
-        line-height: 1.35;
+        font-size: 28px !important;
+        line-height: 1.25;
     }
 
     .HE111-subtitle {
-        font-size: 20px !important;
+        font-size: 24px !important;
     }
 
     .HE111-description {
         margin: 0 0 20px;
-        font-size: 18px !important;
+        font-size: 20px !important;
         line-height: 1.3;
     }
 
@@ -281,7 +281,7 @@
         }
 
         .HE111-description {
-            top: 115px;
+            top: 120px;
             font-size: 28px;
         }
 
@@ -322,8 +322,9 @@
         height: 480px;
 
         .HE111-title {
-            top: 210px;
+            top: 200px;
             max-width: none;
+            line-height: inherit;
         }
 
         .HE111-media-figure {
@@ -342,6 +343,7 @@
 
         .HE111-title {
             top: 40px;
+            line-height: inherit;
             text-align: left;
         }
 
