@@ -318,7 +318,7 @@
 
     /* section mode */
     .HD2001-mode {
-        height: 670px;
+        height: 550px;
         &::before {
             position: absolute;
             top: 0;
@@ -330,7 +330,7 @@
             content: '';
         }
 
-        #172a4e &::after {
+        &::after {
             width: 100%;
             clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 0% 100%);
         }
@@ -347,15 +347,21 @@
         }
 
         .HD2001-subtitle {
-            top: 550px;
+            top: 440px;
             margin: auto;
             text-align: center;
         }
 
         .HD2001-media-figure {
             .HD2001-media-layer {
-                background-size: auto 880px;
-                background-position: calc(50% - 50vw) 30%;
+                background-size: auto 640px;
+                background-position: calc(50% - 23vw) 30%;
+            }
+        }
+
+        @keyframes animateHairDryer {
+            to {
+                transform: translate(-17%, 2%);
             }
         }
     }

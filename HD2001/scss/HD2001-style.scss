@@ -418,12 +418,12 @@
                     animation: animateHairDryer 800ms 300ms ease forwards;
                 }
             }
+        }
+    }
 
-            @keyframes animateHairDryer {
-                to {
-                    transform: translate(-25%, 3%);
-                }
-            }
+    @keyframes animateHairDryer {
+        to {
+            transform: translate(-25%, 3%);
         }
     }
 }
