@@ -387,6 +387,7 @@
         right: 0;
         height: 710px;
         margin: auto;
+        transform: translate(0) !important;
 
         .HD2001-media-layer {
             position: absolute;
@@ -397,7 +398,6 @@
             background-repeat: no-repeat;
             background-position: 60px 55%;
             background-size: 100%;
-            transition: transform 800ms ease;
 
             &.layer-1 {
                 background-image: url('../images/section-mode/animation/HD2001-mode-media-static-01.png');
@@ -415,6 +415,12 @@
         &.aos-animate {
             .HD2001-media-layer {
                 &.layer-2 {
+                    animation: animateHairDryer 800ms 300ms ease forwards;
+                }
+            }
+
+            @keyframes animateHairDryer {
+                to {
                     transform: translate(-25%, 3%);
                 }
             }
