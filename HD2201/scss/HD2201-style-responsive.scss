@@ -189,6 +189,10 @@
     .HD2201-design {
         height: 510px;
 
+        &-bg {
+            background-position: 20% top;
+        }
+
         .HD2201-text-block {
             font-size: 24px;
 
@@ -283,6 +287,10 @@
     /* section intro */
     .HD2201-intro {
         height: 645px;
+
+        &-bg {
+            background-position: 60% center;
+        }
 
         .HD2201-title,
         .HD2201-subtitle,
@@ -380,15 +388,19 @@
     /* section design */
     .HD2201-design {
         height: 580px;
-        &::before {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: inherit;
-            filter: blur(2px);
-            content: '';
+
+        &-bg {
+            background-position: 40% top;
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: inherit;
+                filter: blur(2px);
+                content: '';
+            }
         }
 
         .HD2201-text-block {
