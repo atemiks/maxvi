@@ -286,10 +286,20 @@
 
     /* section intro */
     .HD2201-intro {
-        height: 645px;
+        height: 555px;
 
         &-bg {
             background-position: 60% center;
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: inherit;
+                filter: blur(2px);
+                content: '';
+            }
         }
 
         .HD2201-title,
@@ -311,8 +321,14 @@
 
         .HD2201-media-figure {
             .HD2201-media-layer {
-                background-position: 43% 110px;
-                background-size: auto 535px;
+                background-position: 54.5% 145px;
+                background-size: auto 415px;
+            }
+        }
+
+        @keyframes animateHairDryer {
+            to {
+                transform: translate(8%, -0.5%);
             }
         }
     }

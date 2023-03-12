@@ -227,11 +227,11 @@
                 }
             }
         }
+    }
 
-        @keyframes animateHairDryer {
-            to {
-                transform: translate(10%, -2.5%);
-            }
+    @keyframes animateHairDryer {
+        to {
+            transform: translate(10%, -2.5%);
         }
     }
 }
