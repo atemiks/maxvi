@@ -71,9 +71,12 @@
 
         .HD1801-media-figure {
             height: 600px;
-            .HD1801-media-layer {
-                background-position: 35% 20%;
-                background-size: auto 760px;
+
+            &-desktop {
+                .HD1801-media-layer {
+                    background-position: 35% 20%;
+                    background-size: auto 760px;
+                }
             }
         }
     }
@@ -161,9 +164,11 @@
         .HD1801-media-figure {
             height: 510px;
 
-            .HD1801-media-layer {
-                background-position: 35% 20%;
-                background-size: auto 610px;
+            &-desktop {
+                .HD1801-media-layer {
+                    background-position: 35% 20%;
+                    background-size: auto 610px;
+                }
             }
         }
     }
@@ -319,8 +324,9 @@
         }
 
         .HD1801-text-block {
-            top: 180px;
+            top: 310px;
             left: 38%;
+            width: 100%;
             font-size: 18px;
         }
 
@@ -329,9 +335,12 @@
             left: -5px;
             right: -5px;
 
-            .HD1801-media-layer {
-                background-position: 45% 90px;
-                background-size: auto 480px;
+            &-desktop {
+                display: none;
+            }
+
+            &-mobile {
+                display: block;
             }
         }
     }
