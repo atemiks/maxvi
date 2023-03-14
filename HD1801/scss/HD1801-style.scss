@@ -311,6 +311,8 @@
         line-height: 0.9;
 
         .HD1801-text-counter {
+            position: relative;
+            z-index: 9;
             align-self: end;
             font-size: 700%;
             font-weight: 900;

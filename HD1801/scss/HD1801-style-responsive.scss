@@ -217,14 +217,18 @@
     .HD1801-title[data-aos],
     .HD1801-subtitle[data-aos],
     .HD1801-description[data-aos],
-    .HD1801-text-block[data-aos] {
+    .HD1801-text-block[data-aos],
+    .HD1801-text-counter[data-aos],
+    .HD1801-text-content[data-aos] {
         transform: translate(0, 50px);
     }
 
     .HD1801-title[data-aos].aos-animate,
     .HD1801-subtitle[data-aos].aos-animate,
     .HD1801-description[data-aos].aos-animate,
-    .HD1801-text-block[data-aos].aos-animate {
+    .HD1801-text-block[data-aos].aos-animate,
+    .HD1801-text-counter[data-aos].aos-animate,
+    .HD1801-text-content[data-aos].aos-animate {
         transform: translate(0);
     }
 
