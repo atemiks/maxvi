@@ -47,7 +47,7 @@ $(document).ready(function () {
             });
         });
     
-        const myAnimation = gsap.timeline({
+        gsap.timeline({
             scrollTrigger: {
                 trigger: ".HD1801-design",
                 toggleActions: "restart none none none",
