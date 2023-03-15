@@ -6,6 +6,9 @@ $(document).ready(function () {
         });
     }, 100);
 
+    // parallax
+    const HB621SNozzleScene = $('#HB621S-nozzle-parallax').get(0);
+	const HB621SNozzleInstance = new Parallax(HB621SNozzleScene);
 
     // scroll animation
     const toggleActiveImages = (ctx, arrayOfImages) => {
