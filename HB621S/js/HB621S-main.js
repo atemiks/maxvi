@@ -10,15 +10,17 @@ $(document).ready(function () {
     const HB621SNozzleScene = $('#HB621S-nozzle-parallax').get(0);
 	const HB621SNozzleInstance = new Parallax(HB621SNozzleScene);
 
-    // scroll animation
-    const toggleActiveImages = (ctx, arrayOfImages) => {
-        arrayOfImages.forEach((image, index) => {
-            if(ctx !== index) {
+    /* scroll animations */ 
+    const toggleActiveImages = (image, index, arrayOfImages) => {
+        image.classList.add('active');
+        arrayOfImages.forEach((image, idx) => {
+            if(index !== idx) {
                 image.classList.remove('active');
             }
         })
     }
 
+    // scroll design section animation
     const HB621SDesignImages = document.querySelectorAll('.HB621S-intro .HB621S-media-figure .HB621S-media-layer');
     
     HB621SDesignImages.forEach((image, index, array) => {
@@ -30,12 +32,10 @@ $(document).ready(function () {
                 scrub: true,
                 markers: false,
                 onEnter: () => {
-                    image.classList.add('active');
-                    toggleActiveImages(index, array);
+                    toggleActiveImages(image, index, array);
                 },
                 onEnterBack: () => {
-                    image.classList.add('active');
-                    toggleActiveImages(index, array);
+                    toggleActiveImages(image, index, array);
                 },
             },
             opacity: '1',
@@ -43,16 +43,44 @@ $(document).ready(function () {
         });
     });
 
-    // const interval = 1000;
-    // const index = 0;
-
-    // const HB621ModeImages = document.querySelectorAll('.HB621S-mode .HB621S-media-figure .HB621S-media-layer');
-    // console.log(HB621ModeImages);
+    // scroll mode section animation
+    let HB621ModeImageIndex = 0;
+    let HB621ModeIsIntersecting = false;
+    const HB621ModeSection = document.querySelector('.HB621S-mode');
+    const HB621ModeImages = document.querySelectorAll('.HB621S-mode .HB621S-media-figure .HB621S-media-layer');
     
-    // const HB621ModeAnimation = () => {
-        
-    // }
+    const HB621ModeAnimation = () => {
+        if(HB621ModeIsIntersecting) {
+            HB621ModeImageIndex++;
+            if(HB621ModeImageIndex > HB621ModeImages.length - 1) {
+                HB621ModeImageIndex = 0;
+            }
+            
+            HB621ModeImages.forEach((image, _, array) => {
+                toggleActiveImages(image, HB621ModeImageIndex, array);
+            });
+    
+            setTimeout(HB621ModeAnimation, 100);
+        }
+    }
 
+    const HB621ModeObserver = new IntersectionObserver((entries, observe) => {
+        entries.forEach((entry) => {
+            if(entry.isIntersecting) {
+                HB621ModeIsIntersecting = true;
+                HB621ModeAnimation();
+            } else {
+                HB621ModeIsIntersecting = false;
+            }
+        });
+    }, {
+        rootMargin: '25% 0px -75%',
+    });
+
+    HB621ModeObserver.observe(HB621ModeSection);
+    
+
+    // scroll equipment section animation
     gsap.timeline({
         scrollTrigger: {
             trigger: '.HB621S-equipment',
