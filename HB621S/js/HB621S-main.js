@@ -20,10 +20,10 @@ $(document).ready(function () {
         })
     }
 
-    // scroll design section animation
-    const HB621SDesignImages = document.querySelectorAll('.HB621S-intro .HB621S-media-figure .HB621S-media-layer');
+    // scroll intro section animation
+    const HB621SIntroImages = document.querySelectorAll('.HB621S-intro .HB621S-media-figure .HB621S-media-layer');
     
-    HB621SDesignImages.forEach((image, index, array) => {
+    HB621SIntroImages.forEach((image, index, array) => {
         gsap.to(image, {
             scrollTrigger: {
                 trigger: '.HB621S-intro',
