@@ -60,8 +60,9 @@ $(document).ready(function () {
         KE1701PIntro.addEventListener('touchmove', (e) => {
             const pointerLocationX = e.changedTouches[0].clientX;
             
+            // step in px
             if((Math.floor(pointerLocationX - KE1701PIntroTouchStart) % 1) == 0) {
-
+                // swipe to right
                 if(pointerLocationX > KE1701PIntroTouchPrev && KE1701PIntroActiveIndex !== KE1701PIntroImages.length - 1) {
                     KE1701PIntroActiveIndex++;
                     toggleActiveImages(
@@ -69,7 +70,9 @@ $(document).ready(function () {
                         KE1701PIntroActiveIndex,
                         KE1701PIntroImages
                     );
-                }  
+                }
+
+                // swipe to left
                 if(pointerLocationX < KE1701PIntroTouchPrev && KE1701PIntroActiveIndex !== 0) {
                     KE1701PIntroActiveIndex--;
                     toggleActiveImages(
@@ -78,6 +81,7 @@ $(document).ready(function () {
                         KE1701PIntroImages
                     );
                 }
+
             }
 
             KE1701PIntroTouchPrev = pointerLocationX;
