@@ -21,44 +21,78 @@ $(document).ready(function () {
     };
 
     // hover intro section animation
+    const KE1701PIntro = document.querySelector('.KE1701P-intro');
     const KE1701PIntroImages = document.querySelectorAll(
         '.KE1701P-intro .KE1701P-media-layers .KE1701P-media-layer'
     );
     const KE1701PIntroPaginationItems = document.querySelectorAll(
         '.KE1701P-intro .KE1701P-media-pagination .KE1701P-media-layer'
     );
-    let KE1701PIntroActiveImage = undefined;
 
-    KE1701PIntroPaginationItems.forEach((paginationItem, index) => {
-        paginationItem.setAttribute('data-index', index);
-        paginationItem.addEventListener('mouseover', (e) => {
-            const currentIndex = Number(e.target.getAttribute('data-index'));
-            toggleActiveImages(
-                KE1701PIntroImages[currentIndex],
-                currentIndex,
-                KE1701PIntroImages
-            );
-        });
-        paginationItem.addEventListener('touchmove', (e) => {
-            const pointerLocation = e.changedTouches[0];
-            const realTarget = document.elementFromPoint(
-                pointerLocation.clientX,
-                pointerLocation.clientY
-            );
-
-            if (realTarget !== KE1701PIntroActiveImage) {
-                const realTargetIndex = Number(
-                    realTarget.getAttribute('data-index')
-                );
-                KE1701PIntroActiveImage = realTarget;
+    function isTouchDevice() {
+        return (('ontouchstart' in window) ||
+        (navigator.maxTouchPoints > 0) ||
+        (navigator.msMaxTouchPoints > 0));
+    }
+    
+    const KE1701PIntroInitDesktopAnimation = () => {
+        KE1701PIntroPaginationItems.forEach((paginationItem, index) => {
+            paginationItem.setAttribute('data-index', index);
+            paginationItem.addEventListener('mouseover', (e) => {
+                const currentIndex = Number(e.target.getAttribute('data-index'));
                 toggleActiveImages(
-                    KE1701PIntroImages[realTargetIndex],
-                    realTargetIndex,
+                    KE1701PIntroImages[currentIndex],
+                    currentIndex,
                     KE1701PIntroImages
                 );
-            }
+            });
         });
-    });
+    }
+
+    const KE1701PIntroInitMobileAnimation = () => {
+        let KE1701PIntroActiveIndex = 0;
+        let KE1701PIntroTouchStart, KE1701PIntroTouchPrev = undefined;
+        
+        KE1701PIntro.addEventListener('touchstart', (e) => {
+            KE1701PIntroTouchStart = KE1701PIntroTouchPrev = e.changedTouches[0].clientX;
+        });
+
+        KE1701PIntro.addEventListener('touchmove', (e) => {
+            const pointerLocationX = e.changedTouches[0].clientX;
+            
+            if((Math.floor(pointerLocationX - KE1701PIntroTouchStart) % 1) == 0) {
+
+                if(pointerLocationX > KE1701PIntroTouchPrev && KE1701PIntroActiveIndex !== KE1701PIntroImages.length - 1) {
+                    KE1701PIntroActiveIndex++;
+                    toggleActiveImages(
+                        KE1701PIntroImages[KE1701PIntroActiveIndex],
+                        KE1701PIntroActiveIndex,
+                        KE1701PIntroImages
+                    );
+                }  
+                if(pointerLocationX < KE1701PIntroTouchPrev && KE1701PIntroActiveIndex !== 0) {
+                    KE1701PIntroActiveIndex--;
+                    toggleActiveImages(
+                        KE1701PIntroImages[KE1701PIntroActiveIndex],
+                        KE1701PIntroActiveIndex,
+                        KE1701PIntroImages
+                    );
+                }
+            }
+
+            KE1701PIntroTouchPrev = pointerLocationX;
+        });
+
+        KE1701PIntro.addEventListener('touchend', (e) => {
+            KE1701PIntroTouchStart = undefined;
+        });
+    }
+
+    if(isTouchDevice()) {
+        KE1701PIntroInitMobileAnimation();
+    } else {
+        KE1701PIntroInitDesktopAnimation();
+    }
 
     // scroll design section animation
     const KE1701PDesignImages = document.querySelectorAll(
