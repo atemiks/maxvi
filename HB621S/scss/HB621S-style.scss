@@ -198,17 +198,37 @@
             max-width: none;
             height: auto;
             object-fit: cover;
-            animation: animateRotation 1s linear infinite;
+            animation: animateRotation 1s 600ms linear forwards;
         }
     }
 
-    .HB621S-logo {
+    .HB621S-logo-block {
         position: absolute;
+        z-index: 1;
         top: 50px;
         left: 15px;
         right: 15px;
         width: 158px;
         height: 27px;
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 90%;
+            margin: auto;
+            filter: blur(15px);
+            background: rgba(0,0,0,.5);
+            content: '';
+        }
+
+        .HB621S-logo {
+            width: inherit;
+            height: inherit;
+        }
     }
 
     .HB621S-media-figure {
@@ -322,6 +342,7 @@
         font-size: 68px;
         font-weight: 900;
         line-height: 1.1;
+        text-shadow: 0 0 50px black;
 
         &-thumbnail {
             display: flex;
@@ -352,6 +373,7 @@
             flex-shrink: 0;
             &::after {
                 position: absolute;
+                z-index: -1;
                 top: calc(var(--size) / 4 * -1);
                 left: calc(var(--size) / 1.3 * -1);
                 width: var(--size);
