@@ -51,15 +51,16 @@ $(document).ready(function () {
     
     const HB621ModeAnimation = () => {
         if(HB621ModeIsIntersecting) {
+            HB621ModeImages[HB621ModeImageIndex].classList.remove('active');
+            
             HB621ModeImageIndex++;
+            
             if(HB621ModeImageIndex > HB621ModeImages.length - 1) {
                 HB621ModeImageIndex = 0;
             }
+
+            HB621ModeImages[HB621ModeImageIndex].classList.add('active');
             
-            HB621ModeImages.forEach((image, _, array) => {
-                toggleActiveImages(image, HB621ModeImageIndex, array);
-            });
-    
             setTimeout(HB621ModeAnimation, 100);
         }
     }
