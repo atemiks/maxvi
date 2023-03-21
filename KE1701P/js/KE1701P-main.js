@@ -28,6 +28,27 @@ $(document).ready(function () {
     const KE1701PIntroPaginationItems = document.querySelectorAll(
         '.KE1701P-intro .KE1701P-media-pagination .KE1701P-media-layer'
     );
+    let KE1701PIntroActiveIndex = KE1701PIntroTargetIndex = 0;
+
+    const KE1701PIntroToggleActiveImage = () => {
+        if (KE1701PIntroTargetIndex > KE1701PIntroActiveIndex) {
+            KE1701PIntroImages[KE1701PIntroActiveIndex].classList.remove(
+                'active'
+            );
+            KE1701PIntroActiveIndex++;
+            KE1701PIntroImages[KE1701PIntroActiveIndex].classList.add('active');
+            setTimeout(KE1701PIntroToggleActiveImage, 30);
+        }
+
+        if (KE1701PIntroTargetIndex < KE1701PIntroActiveIndex) {
+            KE1701PIntroImages[KE1701PIntroActiveIndex].classList.remove(
+                'active'
+            );
+            KE1701PIntroActiveIndex--;
+            KE1701PIntroImages[KE1701PIntroActiveIndex].classList.add('active');
+            setTimeout(KE1701PIntroToggleActiveImage, 30);
+        }
+    };
 
     function isTouchDevice() {
         return (('ontouchstart' in window) ||
@@ -39,12 +60,8 @@ $(document).ready(function () {
         KE1701PIntroPaginationItems.forEach((paginationItem, index) => {
             paginationItem.setAttribute('data-index', index);
             paginationItem.addEventListener('mouseover', (e) => {
-                const currentIndex = Number(e.target.getAttribute('data-index'));
-                toggleActiveImages(
-                    KE1701PIntroImages[currentIndex],
-                    currentIndex,
-                    KE1701PIntroImages
-                );
+                KE1701PIntroTargetIndex = Number(e.target.getAttribute('data-index'));
+                KE1701PIntroToggleActiveImage();
             });
         });
     }
