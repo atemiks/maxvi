@@ -138,7 +138,8 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #998674;
-    background-position: right calc(100% + 70px) !important;
+    // background-position: right calc(100% + 70px) !important;
+    background-position: right 65% !important;
 
     .HB621S-title,
     .HB621S-subtitle,
@@ -246,8 +247,8 @@
             width: 100%;
             height: 100%;
             background-repeat: no-repeat;
-            background-position: calc(100% + 15px) 10%;
-            background-size: auto 860px;
+            background-position: calc(50% + 10px) 30%;
+            background-size: auto 960px;
         }
 
         .HB621S-media-layer {
@@ -303,6 +304,54 @@
             }
             &.layer-15 {
                 background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-15.png');
+            }
+            &.layer-16 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-16.png');
+            }
+            &.layer-17 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-17.png');
+            }
+            &.layer-18 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-18.png');
+            }
+            &.layer-19 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-19.png');
+            }
+            &.layer-20 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-20.png');
+            }
+            &.layer-21 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-21.png');
+            }
+            &.layer-22 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-22.png');
+            }
+            &.layer-23 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-23.png');
+            }
+            &.layer-24 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-24.png');
+            }
+            &.layer-25 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-25.png');
+            }
+            &.layer-26 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-26.png');
+            }
+            &.layer-27 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-27.png');
+            }
+            &.layer-28 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-28.png');
+            }
+            &.layer-29 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-29.png');
+            }
+            &.layer-30 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-30.png');
+            }
+            &.layer-31 {
+                background-image: url('../images/section-intro/animation/HB621S-intro-media-slide-31.png');
             }
         }
 
@@ -401,10 +450,6 @@
                 &::before {
                     width: var(--size);
                 }
-
-                .HB621S-text-media {
-                    animation: animateRotation 1s linear infinite;
-                }
             }
         }
 
@@ -418,7 +463,7 @@
 
     .HB621S-media-figure {
         position: absolute;
-        top: 50px;
+        top: 62px;
         left: 0;
         right: 0;
         height: 970px;
