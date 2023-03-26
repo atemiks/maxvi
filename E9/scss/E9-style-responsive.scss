@@ -21,10 +21,8 @@
 
     #E9-intro-parallax {
         .parallax-layer {
-            &.layer-1 {
-                width: 734px;
-                height: 520px;
-            }
+            width: 734px;
+            height: 520px;
         }
     }
     /* section intro end */
@@ -47,8 +45,8 @@
             top: 400px;
         }
 
-        .E9-text-figure {
-            gap: 30px;
+        .E9-indication-figure {
+            gap: 25px;
         }
 
         .E9-media-figure {
@@ -130,10 +128,8 @@
 
     #E9-intro-parallax {
         .parallax-layer {
-            &.layer-1 {
-                width: 624px;
-                height: 438px;
-            }
+            width: 624px;
+            height: 438px;
         }
     }
     /* section intro end */
@@ -156,8 +152,8 @@
             top: 340px;
         }
 
-        .E9-text-figure {
-            gap: 25px;
+        .E9-indication-figure {
+            gap: 20px;
         }
 
         .E9-media-figure {
@@ -288,10 +284,8 @@
 
     #E9-intro-parallax {
         .parallax-layer {
-            &.layer-1 {
-                width: 530px;
-                height: 372px;
-            }
+            width: 530px;
+            height: 372px;
         }
     }
     /* section intro end */
@@ -313,7 +307,7 @@
             top: 220px;
         }
 
-        .E9-text-figure {
+        .E9-indication-figure {
             gap: 15px;
         }
 

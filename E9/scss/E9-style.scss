@@ -178,16 +178,20 @@
 #E9-intro-parallax {
     .parallax-layer {
         position: absolute;
+        margin-top: -20%;
+        margin-left: -85%;
+        width: 863px;
+        height: 607px;
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: contain;
 
         &.layer-1 {
-            margin-top: -20%;
-            margin-left: -85%;
-            width: 863px;
-            height: 607px;
-            background-image: url('../images/section-intro/E9-intro-leaves.png');
+            background-image: url('../images/section-intro/E9-intro-leaves-01.png');
+        }
+
+        &.layer-2 {
+            background-image: url('../images/section-intro/E9-intro-leaves-02.png');
         }
     }
 }
@@ -240,14 +244,20 @@
         }
     }
 
-    .E9-text-figure {
+    .E9-indication-figure {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 35px;
-        height: 30px;
+        gap: 30px;
         margin: 0;
         text-align: center;
+    }
+
+    .E9-indication-thumbnail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 25px;
     }
 
     .E9-media-figure {
