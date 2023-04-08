@@ -1,0 +1,507 @@
+@media (max-width: 1199px) {
+    /* section intro */
+    .B110-intro {
+        height: 660px;
+
+        .B110-title {
+            top: 260px;
+            font-size: 56px;
+        }
+
+        .B110-subtitle {
+            top: 385px;
+            font-size: 46px;
+        }
+
+        .B110-media-figure {
+            top: 60px;
+            width: 588px;
+            height: 558px;
+
+            .B110-media {
+                &.layer-1 {
+                    width: 458px;
+                    height: 555px;
+                }
+    
+                &.layer-2 {
+                    width: 460px;
+                    height: 558px;
+                }
+            }
+        }
+    }
+    /* section intro end */
+
+    /* section hotkeys */
+    .B110-hotkeys {
+        height: 730px;
+
+        .B110-title {
+            top: 160px;
+            font-size: 42px;
+        }
+
+        .B110-description {
+            top: 245px;
+            font-size: 36px;
+        }
+
+        .B110-media-figure {
+            top: -60px;
+            width: 415px;
+            height: 830px;
+
+            .B110-media-backdrop {
+                width: 286px;
+                height: 796px;
+            }
+        }
+
+        .B110-phone {
+            top: 60px;
+            width: 350px;
+            height: 760px;
+
+            &-keys {
+                top: 140px;
+                right: 75px;
+                width: 252px;
+                height: 272px;
+                background-size: 251px auto;
+
+                &.aos-animate {
+                    width: 560px;
+                    height: 378px;
+                    background-position: left bottom, 5px 100%;
+                    background-size: 251px auto, 612px auto;
+                }
+            }
+        }
+    }
+    /* section hotkeys end */
+
+    /* section keyboard */
+    .B110-keyboard {
+        height: 560px;
+
+        &-backdrop {
+            clip-path: polygon(0% 0%, calc(100% - 145px) 0%, 100% 50%, calc(100% - 145px) 100%, 0% 100%);
+        }
+
+
+        .B110-title {
+            top: 175px;
+            font-size: 42px;
+        }
+
+        .B110-description {
+            top: 290px;
+            font-size: 36px;
+        }
+
+        .B110-media-figure {
+            top: -135px;
+            width: 392px;
+            height: 715px;
+        }
+    }
+    /* section keyboard end */
+
+    /* section camera */
+    .B110-camera {
+        height: 610px;
+
+        &-backdrop {
+            top: 90px;
+            height: 390px;
+            clip-path: polygon(0% 45.5%, 145px 0, 100% 0, 100% 100%, 145px 100%);
+        }
+
+        .B110-title {
+            top: 215px;
+            font-size: 42px;
+        }
+
+        .B110-description {
+            top: 265px;
+            font-size: 36px;
+        }
+
+        .B110-media-figure {
+            top: 90px;
+            width: 335px;
+            height: 692px;
+        }
+    }
+    /* section camera end */
+}
+
+@media (max-width: 991px) {
+    .B110-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section intro */
+    .B110-intro {
+        height: 560px;
+
+        .B110-title {
+            top: 240px;
+            font-size: 46px;
+        }
+
+        .B110-subtitle {
+            top: 345px;
+            font-size: 38px;
+        }
+
+        .B110-media-figure {
+            top: 50px;
+            width: 465px;
+            height: 472px;
+
+            .B110-media {
+                &.layer-1,
+                &.layer-2 {
+                    width: 390px;
+                    height: 472px;
+                }
+            }
+        }
+    }
+    /* section intro end */
+
+    /* section hotkeys */
+    .B110-hotkeys {
+        height: 620px;
+
+        .B110-title {
+            top: 135px;
+            font-size: 34px;
+        }
+
+        .B110-description {
+            top: 210px;
+            font-size: 30px;
+        }
+
+        .B110-media-figure {
+            top: -50px;
+            width: 350px;
+            height: 700px;
+
+            .B110-media-backdrop {
+                width: 244px;
+                height: 680px;
+            }
+        }
+
+        .B110-phone {
+            top: 50px;
+            width: 298px;
+            height: 647px;
+
+            &-keys {
+                top: 120px;
+                right: 65px;
+                width: 214px;
+                height: 230px;
+                background-size: 214px auto;
+
+                &.aos-animate {
+                    width: 476px;
+                    height: 320px;
+                    background-position: left bottom, 5px 100%;
+                    background-size: 214px auto, 520px auto;
+                }
+            }
+        }
+    }
+    /* section hotkeys end */
+
+    /* section keyboard */
+    .B110-keyboard {
+        height: 480px;
+
+        &-backdrop {
+            right: calc(50% - 50px);
+            clip-path: polygon(0% 0%, calc(100% - 120px) 0%, 100% 50%, calc(100% - 120px) 100%, 0% 100%);
+        }
+
+
+        .B110-title {
+            top: 150px;
+            font-size: 34px;
+        }
+
+        .B110-description {
+            top: 245px;
+            font-size: 30px;
+        }
+
+        .B110-media-figure {
+            top: -115px;
+            width: 330px;
+            height: 602px;
+        }
+    }
+    /* section keyboard end */
+
+    /* section camera */
+    .B110-camera {
+        height: 520px;
+
+        &-backdrop {
+            top: 75px;
+            height: 330px;
+            clip-path: polygon(0% 45.5%, 120px 0, 100% 0, 100% 100%, 120px 100%);
+        }
+
+        .B110-title {
+            top: 180px;
+            font-size: 34px;
+        }
+
+        .B110-description {
+            top: 225px;
+            font-size: 30px;
+        }
+
+        .B110-media-figure {
+            top: 75px;
+            width: 285px;
+            height: 588px;
+        }
+    }
+    /* section camera end */
+
+    /* section  features */
+    .B110-features-grid {
+        .B110-feature-item {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+    /* section  features end */
+}
+
+@media (max-width: 767px) {
+    .B110-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .B110-title,
+    .B110-subtitle,
+    .B110-description {
+        max-width: 280px;
+    }
+
+    .B110-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .B110-subtitle {
+        font-size: 24px !important;
+    }
+
+    .B110-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .B110-title[data-aos],
+    .B110-subtitle[data-aos],
+    .B110-description[data-aos],
+    .B110-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .B110-title[data-aos].aos-animate,
+    .B110-subtitle[data-aos].aos-animate,
+    .B110-description[data-aos].aos-animate,
+    .B110-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section intro */
+    .B110-intro {
+        height: 640px;
+
+        .B110-title {
+            top: 40px;
+            font-size: 40px !important;
+        }
+
+        .B110-subtitle {
+            top: 130px;
+        }
+
+        .B110-media-figure {
+            top: 220px;
+            width: 330px;
+            height: 400px;
+
+            .B110-media {
+                &.layer-1,
+                &.layer-2 {
+                    width: 312px;
+                    height: 378px;
+                }
+
+                &.layer-1 {
+                    margin-left: -6.5%;
+                }
+
+                &.layer-2 {
+                    margin-top: 5%;
+                    margin-left: 15%;
+                }
+            }
+        }
+    }
+    /* section intro end */
+
+    /* section hotkeys */
+    .B110-hotkeys {
+        height: 650px;
+
+        .B110-title {
+            top: 40px;
+        }
+
+        .B110-description {
+            top: 85px;
+        }
+
+        .B110-media-figure {
+            top: 160px;
+            left: 0;
+            right: 0;
+            width: 360px;
+            height: 490px;
+
+            .B110-media-backdrop {
+                right: -25px;
+                width: 170px;
+                height: 474px;
+            }
+        }
+
+        .B110-phone {
+            top: 40px;
+            left: auto;
+            right: -10px;
+            width: 208px;
+            height: 452px;
+
+            &-keys {
+                top: 82px;
+                right: 45px;
+                width: 150px;
+                height: 162px;
+                background-size: 150px auto;
+
+                &.aos-animate {
+                    width: 320px;
+                    height: 215px;
+                    background-position: left bottom, 5px 100%;
+                    background-size: 150px auto, 364px auto;
+                }
+            }
+        }
+    }
+    /* section hotkeys end */
+
+    /* section keyboard */
+    .B110-keyboard {
+        height: 700px;
+
+        &-backdrop {
+            top: 300px;
+            height: 400px;
+            right: calc(50% - 170px);
+            clip-path: polygon(0% 0%, calc(100% - 100px) 0%, 100% 50%, calc(100% - 100px) 100%, 0% 100%);
+        }
+
+
+        .B110-title {
+            top: 40px;
+        }
+
+        .B110-description {
+            top: 120px;
+        }
+
+        .B110-media-figure {
+            top: 210px;
+            width: 280px;
+            height: 510px;
+        }
+    }
+    /* section keyboard end */
+
+    /* section camera */
+    .B110-camera {
+        height: 520px;
+
+        &-backdrop {
+            display: none;
+        }
+
+        .B110-title,
+        .B110-subtitle,
+        .B110-description {
+            color: rgba(0,6,255,1) !important;
+        }
+
+        .B110-title {
+            top: 40px;
+        }
+
+        .B110-description {
+            top: 85px;
+        }
+
+        .B110-media-figure {
+            top: 180px;
+            width: 240px;
+            height: 495px;
+        }
+    }
+    /* section camera end */
+    
+    /* section features */
+    .B110-features-grid {
+        .B110-feature-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    /* section features end */
+}
+
+@media (max-width: 375px) {
+    /* section  features */
+    .B110-features-grid {
+        .B110-feature-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    /* section  features end */
+}
