@@ -7,6 +7,6 @@ $(document).ready(function () {
     }, 100);
 
     // parallax
-    // const B110IntroScene = document.getElementById('B110-intro-parallax');
-    // const B110IntroInstance = new Parallax(B110IntroScene);
+    const B110IntroScene = document.getElementById('B110-intro-parallax');
+    const B110IntroInstance = new Parallax(B110IntroScene);
 });
