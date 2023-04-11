@@ -13,7 +13,7 @@ $(document).ready(function () {
         frame: 0,
         stopFrame: 30,
         source: SpriteSpin.sourceArray(
-        '/images/section-ergonomics/animation/KE1821S-ergonomics-media-0_{frame}.png',
+        './images/section-ergonomics/animation/KE1821S-ergonomics-media-0_{frame}.png',
         {
             frame: [0, 30],
             digits: 1
@@ -28,7 +28,7 @@ $(document).ready(function () {
         loop: true,
         frame: 0,
         source: SpriteSpin.sourceArray(
-        '/images/section-stand/animation/KE1821S-stand-media-0_{frame}.png',
+        './images/section-stand/animation/KE1821S-stand-media-0_{frame}.png',
         {
             frame: [0, 59],
             digits: 1
