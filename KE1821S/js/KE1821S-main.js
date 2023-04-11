@@ -12,6 +12,7 @@ $(document).ready(function () {
         loop: false,
         frame: 0,
         stopFrame: 30,
+        sense: -1,
         source: SpriteSpin.sourceArray(
         './images/section-ergonomics/animation/KE1821S-ergonomics-media-0_{frame}.png',
         {
@@ -27,12 +28,17 @@ $(document).ready(function () {
         animate: false,
         loop: true,
         frame: 0,
+        sense: -1,
         source: SpriteSpin.sourceArray(
         './images/section-stand/animation/KE1821S-stand-media-0_{frame}.png',
         {
             frame: [0, 59],
             digits: 1
         }),
+        plugins: [
+            '360',
+            'drag'
+        ]
     }
 
     $(KE1821SStandAnimationBlock).spritespin(KE1821SStandAnimationOptions);
