@@ -44,7 +44,13 @@ $(document).ready(function () {
     $(KE1821SStandAnimationBlock).spritespin(KE1821SStandAnimationOptions);
 
     KE1821SStandAnimationBlock.addEventListener('mouseleave', (event) => {
-        $(event.target).spritespin('api').startAnimation();
+        const target = event.target.closest('#KE1821S-stand-animation');
+        $(target).spritespin('api').startAnimation();
+    });
+
+    KE1821SStandAnimationBlock.addEventListener('touchend', (event) => {
+        const target = event.target.closest('#KE1821S-stand-animation');
+        $(target).spritespin('api').startAnimation();
     });
 
 
