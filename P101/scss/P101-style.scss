@@ -79,7 +79,6 @@
 
 .P101-title {
     margin: 0 0 20px;
-    color: #404040;
     font-size: 35px;
     font-weight: 700;
     line-height: normal;
@@ -208,12 +207,25 @@
 
     .P101-media-figure {
         position: absolute;
-        top: -50px;
+        top: 90px;
         left: auto;
-        right: -120px;
-        width: 1400px;
-        height: 1491px;
+        right: 55px;
+        width: 987px;
+        height: 987px;
         margin: auto;
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 5%;
+            left: 30%;
+            right: 30%;
+            bottom: 0;
+            box-shadow: 0 0 140px #000;
+            transform: rotate(45deg);
+            transform-origin: center;
+            content: '';
+        }
 
         .P101-media {
             width: inherit;
