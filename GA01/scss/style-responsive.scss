@@ -243,12 +243,16 @@
 
     /* section intro */
     .GA01-intro {
+        position: relative;
         height: 730px;
-
-        .GA01-title,
-        .GA01-subtitle,
-        .GA01-description {
-            backdrop-filter: blur(1px);
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(2px);
+            content: '';
         }
 
         .GA01-title {
