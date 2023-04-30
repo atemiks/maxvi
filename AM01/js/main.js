@@ -42,8 +42,8 @@ $(document).ready(function () {
             transform: 'translateY(-50%)',
         }).to(presentationDock, {
             // animation dock
-            delay: 2.5,
-            duration: 1,
+            delay: 0,
+            duration: 3.5,
             transform: 'translateY(-73.75%)',
         }).to(presentationFigure, {
             // final transition
