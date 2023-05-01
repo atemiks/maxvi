@@ -37,7 +37,7 @@ $(document).ready(function () {
                     scrub: true,
                     start: '0% 0%',
                     end: '+=400%',
-                    markers: true,
+                    markers: false,
                     pin: presentationSection,
                 },
             })
@@ -82,7 +82,7 @@ $(document).ready(function () {
                     scrub: true,
                     start: '0% 0%',
                     end: '+=400%',
-                    markers: true,
+                    markers: false,
                     pin: presentationSection,
                 },
             })
@@ -119,8 +119,8 @@ $(document).ready(function () {
                 // animation dock
                 delay: 0.5,
                 duration: 3,
-                scale: 0.65,
-                transform: 'translateY(-12.5%)',
+                scale: 0.55,
+                transform: 'translateY(-20%)',
                 onUpdate() {
                     const progress = this.totalProgress();
 
