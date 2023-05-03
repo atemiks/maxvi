@@ -43,7 +43,7 @@ $(document).ready(function () {
             })
             .fromTo(
                 [presentationContactsBlock, presentationKeyboardBlock],
-                { tra: '140px', opacity: 0 },
+                { top: '140px', opacity: 0 },
                 { top: '140px', opacity: 0 }
             )
             .to(presentationScreenBlock, {
@@ -53,7 +53,7 @@ $(document).ready(function () {
                 duration: 1,
             })
             .to(presentationContactsBlock, {
-                top: '40px',
+                top: '90px',
                 opacity: 1,
                 duration: 1,
             })
@@ -64,12 +64,12 @@ $(document).ready(function () {
                 duration: 1,
             })
             .to(presentationKeyboardBlock, {
-                top: '40px',
+                top: '90px',
                 opacity: 1,
                 duration: 1,
             })
             .to(presentationKeyboardBlock, {
-                top: '40px',
+                top: '90px',
                 opacity: 1,
                 duration: 6,
             });
