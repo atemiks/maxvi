@@ -1,0 +1,336 @@
+@media (max-width: 1199px) {
+
+    /* section power */
+    .KE1741G-power {
+        height: 585px;
+
+        &::before {
+            height: 60px;
+        }
+
+        .KE1741G-title {
+            top: 200px;
+            font-size: 46px;
+        }
+
+        .KE1741G-model {
+            top: 95px;
+            font-size: 72px;
+        }
+
+        .KE1741G-media-figure {
+            top: 120px;
+            width: 780px;
+            height: 405px;
+        }
+    }
+
+    /* section power end */
+
+    /* section size */
+    .KE1741G-size {
+        height: 655px;
+
+        .KE1741G-title {
+            top: 180px;
+            font-size: 38px;
+        }
+
+        .KE1741G-media-figure {
+            top: -90px;
+            left: -60px;
+            width: 880px;
+            height: 1324px;
+        }
+    }
+
+    /* section size end */
+
+    /* section led */
+    .KE1741G-led {
+        height: 700px;
+
+        .KE1741G-title {
+            top: 255px;
+            font-size: 46px;
+        }
+
+        .KE1741G-media-figure {
+            top: -105px;
+            left: -210px;
+            right: -210px;
+            width: 1010px;
+            height: 1110px;
+        }
+    }
+
+    /* section led end */
+
+    /* section glass */
+    .KE1741G-glass {
+        height: 1050px;
+
+        .KE1741G-title {
+            top: 300px;
+            font-size: 46px;
+        }
+
+        .KE1741G-media-figure {
+            left: 40px;
+            right: 40px;
+            width: 720px;
+            height: 969px;
+        }
+    }
+
+    /* section glass end */
+}
+
+@media (max-width: 991px) {
+    .KE1741G-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section power */
+    .KE1741G-power {
+        height: 500px;
+
+        &::before {
+            height: 50px;
+        }
+
+        .KE1741G-title {
+            top: 170px;
+            font-size: 38px;
+        }
+
+        .KE1741G-model {
+            top: 80px;
+            font-size: 60px;
+        }
+
+        .KE1741G-media-figure {
+            top: 110px;
+            width: 660px;
+            height: 342px;
+        }
+    }
+
+    /* section power end */
+
+    /* section size */
+    .KE1741G-size {
+        height: 555px;
+
+        .KE1741G-title {
+            top: 135px;
+            font-size: 32px;
+        }
+
+        .KE1741G-media-figure {
+            top: -70px;
+            left: -55px;
+            width: 704px;
+            height: 1059px;
+        }
+    }
+
+    /* section size end */
+
+    /* section led */
+    .KE1741G-led {
+        height: 595px;
+
+        .KE1741G-title {
+            top: 215px;
+            font-size: 38px;
+        }
+
+        .KE1741G-media-figure {
+            top: -90px;
+            left: -245px;
+            right: -245px;
+            width: 860px;
+            height: 945px;
+        }
+    }
+
+    /* section led end */
+
+    /* section glass */
+    .KE1741G-glass {
+        height: 890px;
+
+        .KE1741G-title {
+            top: 255px;
+            font-size: 36px;
+        }
+
+        .KE1741G-media-figure {
+            left: 35px;
+            right: 35px;
+            width: 610px;
+            height: 820px;
+        }
+    }
+
+    /* section glass end */
+}
+
+@media (max-width: 767px) {
+    .KE1741G-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .KE1741G-title,
+    .KE1741G-subtitle,
+    .KE1741G-description {
+        max-width: 280px;
+    }
+
+    .KE1741G-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .KE1741G-subtitle {
+        font-size: 24px !important;
+    }
+
+    .KE1741G-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .KE1741G-title[data-aos],
+    .KE1741G-subtitle[data-aos],
+    .KE1741G-description[data-aos],
+    .KE1741G-media-figure[data-aos] {
+        transform: translate(0, 50px) !important;
+    }
+
+    .KE1741G-title[data-aos].aos-animate,
+    .KE1741G-subtitle[data-aos].aos-animate,
+    .KE1741G-description[data-aos].aos-animate,
+    .KE1741G-media-figure[data-aos].aos-animate {
+        transform: translate(0) !important;
+    }
+
+    /* section power */
+    .KE1741G-power {
+        height: 630px;
+
+        &::before {
+            height: 60px;
+        }
+
+        .KE1741G-title {
+            top: 110px;
+        }
+
+        .KE1741G-model {
+            top: 40px;
+            font-size: 40px;
+        }
+
+        .KE1741G-media-figure {
+            top: 280px;
+            left: -20px;
+            right: -20px;
+            width: 560px;
+            height: 290px;
+        }
+    }
+
+    /* section power end */
+
+    /* section size */
+    .KE1741G-size {
+        height: 385px;
+
+        .KE1741G-title,
+        .KE1741G-subtitle,
+        .KE1741G-description {
+            max-width: none;
+            left: 70px;
+        }
+
+        .KE1741G-title {
+            top: 75px;
+
+            .text-lead {
+                font-size: 480%;
+            }
+        }
+
+        .KE1741G-media-figure {
+            top: -50px;
+            left: -125px;
+            width: 490px;
+            height: 737px;
+        }
+    }
+
+    /* section size end */
+
+    /* section led */
+    .KE1741G-led {
+        height: 745px;
+
+        .KE1741G-title {
+            top: 40px;
+        }
+
+        .KE1741G-media-figure {
+            top: 150px;
+            left: -245px;
+            right: -245px;
+            width: 730px;
+            height: 802px;
+        }
+    }
+
+    /* section led end */
+
+    /* section glass */
+    .KE1741G-glass {
+        height: 880px;
+        background-size: auto 320px !important;
+        background-position: calc(50% - 47.5vw) -40px !important;
+
+        .KE1741G-title,
+        .KE1741G-subtitle,
+        .KE1741G-description {
+            left: 60px;
+            right: 60px;
+        }
+
+        .KE1741G-title {
+            top: 40px;
+        }
+
+        .KE1741G-media-figure {
+            top: 210px;
+            left: 15px;
+            right: 15px;
+            width: 460px;
+            height: auto;
+        }
+    }
+
+    /* section glass end */
+
+}
