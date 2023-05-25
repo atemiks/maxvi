@@ -93,8 +93,8 @@ $this->addExternalJS($folder . 'js/main.js');
 
                 <div class="KE2041G-media-container col-xs-12 col-sm-11 col-md-10 col-sm-offset-1 col-md-offset-2">
                     <figure class="KE2041G-media-figure" data-aos="fade-left" data-aos-duration="800">
-                        <img loading="lazy" src="<?= $folder ?>images/section-led/KE2041G-led-kettle-front.png" width="1202"
-                            height="1232" alt="Электрочайник Maxvi KE2041G" class="KE2041G-media">
+                        <img loading="lazy" src="<?= $folder ?>images/section-led/KE2041G-led-kettle-front.png" width="1133"
+                                height="1167" alt="Электрочайник Maxvi KE2041G" class="KE2041G-media">
                     </figure>
                 </div>
             </div>
