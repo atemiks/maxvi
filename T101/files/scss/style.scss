@@ -276,17 +276,14 @@
             var(--c-success) 57.5%,
             var(--c-success) 100%);
 
-
     &::before {
-        display: none;
         pointer-events: none;
         position: absolute;
-        z-index: 1;
         top: 0;
         left: 0;
         right: 0;
         height: 100%;
-        background: url("../images/section-battery/T101-battery-bg.png") no-repeat right center / auto 100%;
+        background: url("../images/section-battery/T101-battery-bg-with-battery.png") no-repeat center center / cover;
         content: '';
     }
 
