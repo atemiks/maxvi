@@ -1,0 +1,407 @@
+:root {
+    --w-wrapper: 2160px;
+    --w-container: 1220px;
+    --c-default: #010101;
+    --c-dark: #000;
+    --c-light: #fff;
+    --c-success: #019175;
+    --c-magenta: #800193;
+    --c-dark-magenta: #65137b;
+    --c-dark-cyan: #009da5;
+    --c-strong-cyan: #00a5d0;
+    --c-blue: #00adfa;
+    --c-dark-blue: #383254;
+}
+
+.T101-landing {
+    overflow: hidden;
+    max-width: var(--w-wrapper);
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: var(--w-container);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .T101-title,
+    .section-dark .T101-subtitle,
+    .section-dark .T101-description {
+        color: #fff;
+    }
+}
+
+.T101-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 400;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.T101-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.T101-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .T101-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section screen */
+.T101-screen {
+    height: 735px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #a9b654;
+
+    &-background {
+        pointer-events: none;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .T101-title,
+    .T101-subtitle,
+    .T101-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        text-shadow: 3px 0 1px rgba(0, 0, 0, 0.65);
+    }
+
+    .T101-title {
+        top: 170px;
+        font-size: 60px;
+        font-weight: 400;
+
+        .text-lead {
+            font-size: 124%;
+            font-weight: 900;
+            line-height: 0.9;
+        }
+    }
+
+    .T101-subtitle {
+        top: 380px;
+        font-size: 42px;
+        font-weight: 400;
+    }
+
+    .T101-media-figure {
+        position: absolute;
+        z-index: 1;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        width: 490px;
+        height: 1214px;
+        margin: auto;
+
+        .T101-media-video {
+            pointer-events: none;
+            position: absolute;
+            z-index: -1;
+            top: 120px;
+            left: 0;
+            right: 0;
+            width: 330px;
+            height: 432px;
+            margin: auto;
+            object-fit: cover;
+        }
+
+        .T101-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+
+/* section screen end */
+
+/* section powerbank */
+.T101-powerbank {
+    height: 735px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--c-magenta);
+    background-image: linear-gradient(90deg,
+            var(--c-magenta) 0%,
+            var(--c-dark-magenta) 100%);
+
+    &::before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 43%;
+        background: linear-gradient(90deg,
+                var(--c-dark-blue) 0%,
+                var(--c-dark-magenta) 70%,
+                var(--c-dark-magenta) 100%);
+        content: '';
+    }
+
+    .T101-title,
+    .T101-subtitle,
+    .T101-description {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        text-align: right;
+    }
+
+    .T101-title {
+        top: 370px;
+        font-size: 42px;
+
+        .text-lead {
+            font-size: 142%;
+            font-weight: 900;
+        }
+    }
+}
+
+/* section powerbank end */
+
+/* section battery */
+.T101-battery {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #3f2049;
+    background-image: linear-gradient(180deg,
+            rgba(63, 32, 73, 1) 0%,
+            rgba(63, 32, 73, 1) 57.5%,
+            var(--c-success) 57.5%,
+            var(--c-success) 100%);
+
+
+    &::before {
+        display: none;
+        pointer-events: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: url("../images/section-battery/T101-battery-bg.png") no-repeat right center / auto 100%;
+        content: '';
+    }
+
+    .T101-title,
+    .T101-subtitle,
+    .T101-description {
+        position: absolute;
+        z-index: 9;
+        left: 15px;
+        right: 15px;
+        text-align: center;
+    }
+
+    .T101-title {
+        top: 300px;
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 1.05;
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 5%;
+            left: 5%;
+            right: 5%;
+            bottom: 5%;
+            background-image: linear-gradient(180deg,
+                    rgba(0, 30, 255, 0.25) 0%,
+                    rgba(0, 30, 255, 1) 50%,
+                    rgba(0, 30, 255, 0.25) 100%);
+            filter: blur(50px);
+            content: '';
+        }
+
+        .text-lead {
+            font-size: 260%;
+            line-height: 1;
+        }
+    }
+
+    .T101-media-figure {
+        position: absolute;
+        top: 265px;
+        left: 70px;
+        right: 70px;
+        width: 492px;
+        height: 291px;
+        margin: auto;
+
+        .T101-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+
+/* section battery end */
+
+/* section sim */
+.T101-sim {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--c-success);
+    background-image: linear-gradient(90deg,
+            var(--c-success) 0%,
+            var(--c-success) 60%,
+            var(--c-dark-cyan) 100%);
+
+    &::before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        background-image: linear-gradient(90deg,
+                var(--c-blue) 0%,
+                var(--c-blue) 60%,
+                var(--c-strong-cyan) 100%);
+        content: '';
+    }
+
+    .T101-title,
+    .T101-subtitle,
+    .T101-description {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    .T101-title {
+        top: 310px;
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .T101-subtitle {
+        top: 375px;
+        font-size: 42px;
+    }
+
+    .T101-media-figure {
+        position: absolute;
+        top: 130px;
+        left: 0;
+        right: 0;
+        width: 1316px;
+        height: 486px;
+        margin: auto;
+
+        .T101-media {
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+
+/* section sim end */
