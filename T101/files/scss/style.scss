@@ -302,7 +302,19 @@
         font-size: 55px;
         font-weight: 900;
         line-height: 1.05;
-        text-shadow: 0 0 64px rgba(0, 30, 255, 1);
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 15%;
+            left: 5%;
+            right: 5%;
+            bottom: 15%;
+            background: rgba(0, 30, 255, 0.7);
+            border-radius: 50%;
+            filter: blur(30px);
+            content: '';
+        }
 
         .text-lead {
             font-size: 260%;
