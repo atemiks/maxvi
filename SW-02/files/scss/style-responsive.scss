@@ -1,0 +1,333 @@
+@media (max-width: 1199px) {
+    .SW02-description {
+        font-size: 34px;
+    }
+
+    /* section resistant */
+    .SW02-resistant {
+        height: 590px;
+
+        .SW02-title {
+            top: 90px;
+            font-size: 56px;
+        }
+
+        .SW02-description {
+            top: 425px;
+        }
+
+        .SW02-media-figure {
+            top: 70px;
+            width: 430px;
+            height: 502px;
+        }
+    }
+
+    /* section resistant end */
+
+    /* section screen */
+    .SW02-screen {
+        height: 655px;
+
+        .SW02-title {
+            top: 130px;
+            font-size: 50px;
+        }
+
+        .SW02-media-figure {
+            top: -150px;
+            width: 1210px;
+            height: 1212px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section colors */
+    .SW02-colors {
+        height: 650px;
+
+        .SW02-title {
+            top: 50px;
+            font-size: 60px;
+        }
+
+        .SW02-media-figure {
+            top: 125px;
+            left: -410px;
+            right: -340px;
+            width: 1570px;
+            height: 668px;
+        }
+    }
+
+    /* section colors end */
+
+    /* section fitness */
+    .SW02-fitness {
+        height: 655px;
+
+        .SW02-title {
+            top: 415px;
+            font-size: 85px;
+        }
+
+        .SW02-description {
+            top: 520px;
+            line-height: 1.65;
+        }
+
+        .SW02-media-figure {
+            top: 105px;
+            width: 425px;
+            height: 499px;
+        }
+    }
+
+    /* section fitness end */
+}
+
+@media (max-width: 991px) {
+    .SW02-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    .SW02-description {
+        font-size: 28px;
+    }
+
+    /* section resistant */
+    .SW02-resistant {
+        height: 500px;
+
+        .SW02-title {
+            top: 75px;
+            font-size: 48px;
+        }
+
+        .SW02-description {
+            top: 360px;
+        }
+
+        .SW02-media-figure {
+            top: 60px;
+            width: 345px;
+            height: 402px;
+        }
+    }
+
+    /* section resistant end */
+
+    /* section screen */
+    .SW02-screen {
+        height: 555px;
+
+        .SW02-title {
+            top: 110px;
+            font-size: 42px;
+        }
+
+        .SW02-media-figure {
+            top: -130px;
+            left: 15px;
+            right: 15px;
+            width: 1030px;
+            height: 1032px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section colors */
+    .SW02-colors {
+        height: 550px;
+
+        .SW02-title {
+            top: 40px;
+            font-size: 50px;
+        }
+
+        .SW02-media-figure {
+            top: 105px;
+            left: -350px;
+            right: -290px;
+            width: 1335px;
+            height: 568px;
+        }
+    }
+
+    /* section colors end */
+
+    /* section fitness */
+    .SW02-fitness {
+        height: 555px;
+
+        .SW02-title {
+            top: 350px;
+            font-size: 72px;
+        }
+
+        .SW02-description {
+            top: 440px;
+        }
+
+        .SW02-media-figure {
+            top: 90px;
+            width: 360px;
+            height: 423px;
+        }
+    }
+
+    /* section fitness end */
+}
+
+@media (max-width: 767px) {
+    .SW02-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .SW02-title,
+    .SW02-subtitle,
+    .SW02-description {
+        max-width: 280px;
+    }
+
+    .SW02-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .SW02-subtitle {
+        font-size: 24px !important;
+    }
+
+    .SW02-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .SW02-title[data-aos],
+    .SW02-subtitle[data-aos],
+    .SW02-description[data-aos],
+    .SW02-media-figure[data-aos] {
+        transform: translate(0, 50px) !important;
+    }
+
+    .SW02-title[data-aos].aos-animate,
+    .SW02-subtitle[data-aos].aos-animate,
+    .SW02-description[data-aos].aos-animate,
+    .SW02-media-figure[data-aos].aos-animate {
+        transform: translate(0) !important;
+    }
+
+    /* section resistant */
+    .SW02-resistant {
+        height: 690px;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(32, 54, 105, 1) 0%, rgba(32, 54, 105, 0) 65%);
+            content: '';
+        }
+
+        .SW02-title {
+            top: 40px;
+        }
+
+        .SW02-description {
+            top: 220px;
+        }
+
+        .SW02-media-figure {
+            top: 310px;
+            width: 290px;
+            height: 338px;
+        }
+    }
+
+    /* section resistant end */
+
+    /* section screen */
+    .SW02-screen {
+        height: 555px;
+
+        .SW02-title {
+            top: 40px;
+        }
+
+        .SW02-media-figure {
+            top: -30px;
+            left: -260px;
+            right: -250px;
+            width: 875px;
+            height: 877px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section colors */
+    .SW02-colors {
+        height: 450px;
+
+        .SW02-title {
+            top: 80px;
+            max-width: none;
+        }
+
+        .SW02-media-figure {
+            top: 220px;
+            left: -350px;
+            right: -290px;
+            width: 668px;
+            height: 284px;
+        }
+    }
+
+    /* section colors end */
+
+    /* section fitness */
+    .SW02-fitness {
+        height: 570px;
+
+        .SW02-title,
+        .SW02-subtitle,
+        .SW02-description {
+            text-align: left;
+        }
+
+        .SW02-title {
+            top: 40px;
+        }
+
+        .SW02-description {
+            top: 80px;
+            line-height: 1.5;
+        }
+
+        .SW02-media-figure {
+            top: 170px;
+            width: 305px;
+            height: 358px;
+        }
+    }
+
+    /* section fitness end */
+}
