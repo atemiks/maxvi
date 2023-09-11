@@ -92,7 +92,7 @@ $(document).ready(function () {
                 pin: PR03ControlsSection,
                 snap: {
                     // snapTo: "labels", // snap to the closest label in the timeline
-                    snapTo: [0.3, 0.5, 1], // snap to the progress in the timeline
+                    snapTo: [0.5, 1], // snap to the progress in the timeline
                     duration: {min: 0.1, max: 2}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
                     ease: "power3.easeOut" // the ease of the snap animation ("power3" by default)
                 },
@@ -106,9 +106,6 @@ $(document).ready(function () {
         })
         .to(PR03ControlsFigure, {
             delay: 20,
-            duration: 5,
-            opacity: 0,
-            transform: 'translate(-50%, 0)',
         });
 
     const PR03ControlsTextTl = gsap
@@ -130,9 +127,6 @@ $(document).ready(function () {
             transform: 'translateY(0)',
         })
         .to(PR03ControlsBlock, {
-            delay: 15,
-            duration: 5,
-            opacity: 0,
-            transform: 'translate(50%, 0)',
+            delay: 20,
         });
 });
