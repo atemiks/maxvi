@@ -18,7 +18,7 @@ $(document).ready(function () {
                 trigger: PR03IntroSection,
                 scrub: true,
                 start: '0% 0%',
-                end: '200% 100%',
+                end: '300% 100%',
                 pin: PR03IntroSection,
                 // markers: true,
             },
@@ -44,7 +44,7 @@ $(document).ready(function () {
                 scrub: true,
                 start: '0% 0%',
                 // markers: true,
-                end: '200% 100%',
+                end: '300% 100%',
                 pin: PR03IntroSection,
             },
         })
