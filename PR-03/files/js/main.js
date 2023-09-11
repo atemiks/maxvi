@@ -4,6 +4,7 @@ $(document).ready(function () {
         anchorPlacement: 'bottom-bottom',
     });
 
+    const PR03TimelineSection = document.querySelector('.PR03-timeline');
     const PR03IntroSection = document.querySelector('.PR03-intro');
     const PR03IntroFigure =
         PR03IntroSection.querySelector('.PR03-intro-figure');
@@ -11,6 +12,31 @@ $(document).ready(function () {
     const PR03IntroAntennaBlock = PR03IntroSection.querySelector(
         '.PR03-intro-antenna'
     );
+
+    const PR03ControlsSection = document.querySelector('.PR03-controls');
+    const PR03ControlsFigure = PR03ControlsSection.querySelector(
+        '.PR03-controls-figure'
+    );
+    const PR03ControlsBlock = PR03ControlsSection.querySelector(
+        '.PR03-controls-block'
+    );
+
+    const PR03Timeline = gsap.timeline({
+        scrollTrigger: {
+            id: 'PR03TimelineTrigger',
+            trigger: PR03TimelineSection,
+            scrub: true,
+            start: '0% 0%',
+            end: '400% 100%',
+            snap: {
+                snapTo: [0, 0.1, 0.5, 0.8, 1], // snap to the progress in the timeline
+                duration: { min: 0.1, max: 2 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+                ease: 'power3.easeOut', // the ease of the snap animation ("power3" by default)
+            },
+            // markers: true,
+        },
+    });
+
     const PR03IntroFigureTl = gsap
         .timeline({
             scrollTrigger: {
@@ -20,12 +46,6 @@ $(document).ready(function () {
                 start: '0% 0%',
                 end: '300% 100%',
                 pin: PR03IntroSection,
-                snap: {
-                    // snapTo: "labels", // snap to the closest label in the timeline
-                    snapTo: [0, 0.1, 0.8], // snap to the progress in the timeline
-                    duration: {min: 0.1, max: 2}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-                    ease: "power3.easeOut" // the ease of the snap animation ("power3" by default)
-                },
                 // markers: true,
             },
         })
@@ -40,7 +60,7 @@ $(document).ready(function () {
             delay: 7,
             duration: 3,
             left: '100vw',
-        })
+        });
 
     const PR03IntroTextTl = gsap
         .timeline({
@@ -71,15 +91,7 @@ $(document).ready(function () {
             duration: 5,
             opacity: 0,
             transform: 'translateY(-200px)',
-        })
-
-    const PR03ControlsSection = document.querySelector('.PR03-controls');
-    const PR03ControlsFigure = PR03ControlsSection.querySelector(
-        '.PR03-controls-figure'
-    );
-    const PR03ControlsBlock = PR03ControlsSection.querySelector(
-        '.PR03-controls-block'
-    );
+        });
 
     const PR03ControlsFigureTl = gsap
         .timeline({
@@ -90,12 +102,6 @@ $(document).ready(function () {
                 start: '0% 0%',
                 end: '200% 100%',
                 pin: PR03ControlsSection,
-                snap: {
-                    // snapTo: "labels", // snap to the closest label in the timeline
-                    snapTo: [0.5, 1], // snap to the progress in the timeline
-                    duration: {min: 0.1, max: 2}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
-                    ease: "power3.easeOut" // the ease of the snap animation ("power3" by default)
-                },
                 // markers: true,
             },
         })
