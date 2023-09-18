@@ -166,7 +166,7 @@
 
     &-figure {
         position: absolute;
-        top: 25px;
+        top: 85px;
         left: 15px;
         right: 15px;
         width: 612px;
@@ -191,12 +191,12 @@
     }
 
     &-fm {
-        top: 25vh;
+        top: 30vh;
     }
 
     &-antenna {
         opacity: 0;
-        top: 75px;
+        top: 135px;
         transform: translateY(100px);
     }
 }
@@ -232,7 +232,7 @@
     &-figure {
         opacity: 0;
         position: absolute;
-        top: 12.5vh;
+        top: 17.5vh;
         left: auto;
         right: 15px;
         width: 1058px;
@@ -249,7 +249,7 @@
     &-block {
         opacity: 0;
         position: absolute;
-        top: 30vh;
+        top: 35vh;
         left: 0;
         right: 0;
         transform: translateY(100px);
