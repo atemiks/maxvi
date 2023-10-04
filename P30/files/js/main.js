@@ -12,6 +12,8 @@ $(document).ready(function () {
     /* GSAP */
     const P30SpeakerSection =  document.querySelector('.P30-speaker');
     const P30SpeakerPhone = P30SpeakerSection.querySelector('.P30-speaker-figure');
+    const P30CameraSection = document.querySelector('.P30-camera');
+    const P30CameraTitle = P30CameraSection.querySelector('.P30-camera-title');
     const gsapMatchMedia = gsap.matchMedia();
 
     gsapMatchMedia.add({
@@ -39,8 +41,22 @@ $(document).ready(function () {
                 },
                 markers: false,
             },
+        });
+
+        gsap.fromTo(P30CameraTitle, {
+            opacity: 0,
+            x: isPhone ? '-100px' : '100px',
+        }, {
+            opacity: 1,
+            x: 0,
+            scrollTrigger: {
+                id: 'P30CameraTitleTrigger',
+                trigger: P30CameraSection,
+                scrub: true,
+                start: '25% 50%',
+                end: '50% 50%',
+                markers: false,
+            },
         })
     });
-
-    
 });

@@ -219,7 +219,6 @@
         width: 430px;
         height: 1019px;
         margin: auto;
-        // transform-origin: left top;
         transform-origin: -5% 5%;
     }
 
@@ -250,10 +249,6 @@
 
 /* section camera end */
 
-/* section video */
-.P30-video {
-    height: 770px;
-    background-color: #000;
+.P30-features {
+    min-height: 100vh;
 }
-
-/* section video end */
