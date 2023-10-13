@@ -1,0 +1,269 @@
+@media (max-width: 1199px) {
+
+    /* section design */
+    .PS05-design {
+        height: 480px;
+        margin-top: 130px;
+
+        &-title {
+            top: 40px;
+            font-size: 68px;
+        }
+
+        &-model {
+            top: 270px;
+            font-size: 78px;
+        }
+
+        &-logo {
+            width: 220px;
+            height: 38px;
+        }
+
+        &-figure {
+            top: -130px;
+            width: 634px;
+            height: 658px;
+        }
+    }
+
+    /* section design  end */
+
+    /* section speakers */
+    .PS05-speakers {
+        height: 645px;
+        margin-top: 40px;
+
+        &-title {
+            top: 20px;
+            font-size: 85px;
+        }
+
+        &-figure {
+            top: 230px;
+            width: 820px;
+            height: 410px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section controls */
+    .PS05-controls {
+        min-height: 650px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+
+        &-list {
+            row-gap: 20px;
+            font-size: 32px;
+        }
+
+        &-figure {
+            width: 520px;
+            height: 478px;
+        }
+    }
+
+    /* section controls end */
+}
+
+@media (max-width: 991px) {
+    .PS05-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section design */
+    .PS05-design {
+        height: 410px;
+        margin-top: 110px;
+
+        &-title {
+            top: 35px;
+            font-size: 58px;
+        }
+
+        &-model {
+            top: 230px;
+            font-size: 64px;
+        }
+
+        &-logo {
+            width: 182px;
+            height: 32px;
+        }
+
+        &-figure {
+            top: -110px;
+            width: 538px;
+            height: 559px;
+        }
+    }
+
+    /* section design  end */
+
+    /* section speakers */
+    .PS05-speakers {
+        height: 550px;
+        margin-top: 35px;
+
+        &-title {
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 195px;
+            width: 696px;
+            height: 348px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section controls */
+    .PS05-controls {
+        min-height: 550px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        &-list {
+            row-gap: 16px;
+            font-size: 26px;
+        }
+
+        &-figure {
+            width: 440px;
+            height: 404px;
+        }
+    }
+
+    /* section controls end */
+}
+
+@media (max-width: 767px) {
+    .PS05-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .PS05-title,
+    .PS05-subtitle,
+    .PS05-description {
+        max-width: 280px;
+    }
+
+    .PS05-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .PS05-subtitle {
+        font-size: 24px !important;
+    }
+
+    .PS05-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .PS05-title[data-aos],
+    .PS05-subtitle[data-aos],
+    .PS05-description[data-aos],
+    .PS05-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .PS05-title[data-aos].aos-animate,
+    .PS05-subtitle[data-aos].aos-animate,
+    .PS05-description[data-aos].aos-animate,
+    .PS05-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section design */
+    .PS05-design {
+        height: 500px;
+        margin-top: 0;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-model {
+            top: 110px;
+            font-size: 50px;
+            line-height: 0.95;
+        }
+
+        &-logo {
+            width: 142px;
+            height: 24px;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 400px;
+            height: 416px;
+        }
+    }
+
+    /* section design  end */
+
+    /* section speakers */
+    .PS05-speakers {
+        height: 355px;
+        margin-top: 35px;
+
+        &-title {
+            top: 80px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 160px;
+            width: 320px;
+            height: 160px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section controls */
+    .PS05-controls {
+        min-height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .content-wrapper {
+            flex-direction: column-reverse;
+        }
+
+        &-list {
+            margin-left: 15px;
+            margin-right: 15px;
+            row-gap: 10px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            margin-top: 40px;
+            width: 320px;
+            height: 294px;
+        }
+    }
+
+    /* section controls end */
+}

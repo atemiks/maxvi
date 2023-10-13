@@ -1,0 +1,256 @@
+:root {
+    --c-default: #010101;
+}
+
+.PS05-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+    -webkit-overflow-scrolling: touch;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .PS05-title,
+    .section-dark .PS05-subtitle,
+    .section-dark .PS05-description {
+        color: #fff;
+    }
+}
+
+.PS05-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.PS05-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.PS05-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .PS05-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section design */
+.PS05-design {
+    height: 565px;
+    margin-top: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #4760ff;
+    background: radial-gradient(circle, rgba(15, 200, 255, 1) 0%, rgba(71, 96, 255, 1) 50%);
+
+    &-title,
+    &-model {
+        position: absolute;
+        z-index: 2;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 45px;
+        font-size: 80px;
+        font-weight: 900;
+    }
+
+    &-model {
+        top: 315px;
+        font-size: 92px;
+        font-weight: 900;
+        line-height: 0.825;
+    }
+
+    &-logo {
+        width: 250px;
+        height: 40px;
+    }
+
+    &-figure {
+        position: absolute;
+        z-index: 1;
+        top: -150px;
+        left: 15px;
+        right: 15px;
+        width: 746px;
+        height: 775px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section design end */
+
+/* section speakers */
+.PS05-speakers {
+    height: 760px;
+    margin-top: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #4e5ef9;
+    background: linear-gradient(180deg, rgba(73, 95, 253, 1) 0%, rgba(108, 84, 226, 1) 30%, rgba(196, 56, 158, 1) 86%);
+
+    &-title {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+        right: 15px;
+        font-size: 100px;
+        font-weight: 900;
+        text-align: center;
+        line-height: normal;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 275px;
+        left: 15px;
+        right: 15px;
+        width: 963px;
+        height: 482px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section speaker end */
+
+/* section controls */
+.PS05-controls {
+    min-height: 770px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #4eeefa;
+    background: linear-gradient(180deg, rgba(196, 56, 158, 1) 0%, rgba(146, 135, 197, 1) 35%, rgba(88, 223, 242, 1) 70%);
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        font-size: 38px;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+    }
+
+    &-figure {
+        width: 613px;
+        height: 563px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section controls end */
