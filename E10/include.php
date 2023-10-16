@@ -188,14 +188,20 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-delay="600"
                         data-aos-duration="800"
                     >
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-colors/E10-colors-phone-red-back.png"
-                            class="E10-colors-media"
-                            width="428"
-                            height="581"
-                            alt="Мобильный телефон Maxvi E10 красного цвета"
-                        />
+                        <a
+                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-red-back-vertical.png"
+                            class="E10-colors-link"
+                            data-fancybox="E10-gallery"
+                        >
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-colors/E10-colors-phone-red-back.png"
+                                class="E10-colors-media"
+                                width="428"
+                                height="581"
+                                alt="Мобильный телефон Maxvi E10 красного цвета"
+                            />
+                        </a>
 
                         <figcaption>КРАСНЫЙ</figcaption>
                     </figure>
@@ -205,14 +211,21 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos="fade-left"
                         data-aos-duration="800"
                     >
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-colors/E10-colors-phone-black-back.png"
-                            class="E10-colors-media"
-                            width="428"
-                            height="581"
-                            alt="Мобильный телефон Maxvi E10 черного цвета"
-                        />
+                        <a
+                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-black-back-vertical.png"
+                            class="E10-colors-link"
+                            data-fancybox="E10-gallery"
+                        >
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-colors/E10-colors-phone-black-back.png"
+                                class="E10-colors-media"
+                                width="428"
+                                height="581"
+                                alt="Мобильный телефон Maxvi E10 черного цвета"
+                            />
+                        </a>
+
                         <figcaption>ЧЕРНЫЙ</figcaption>
                     </figure>
 
@@ -223,14 +236,21 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-delay="600"
                         data-aos-duration="800"
                     >
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-colors/E10-colors-phone-orange-back.png"
-                            class="E10-colors-media"
-                            width="428"
-                            height="581"
-                            alt="Мобильный телефон Maxvi E10 оранжевого цвета"
-                        />
+                        <a
+                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-orange-back-vertical.png"
+                            class="E10-colors-link"
+                            data-fancybox="E10-gallery"
+                        >
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-colors/E10-colors-phone-orange-back.png"
+                                class="E10-colors-media"
+                                width="428"
+                                height="581"
+                                alt="Мобильный телефон Maxvi E10 оранжевого цвета"
+                            />
+                        </a>
+
                         <figcaption>ОРАНЖЕВЫЙ</figcaption>
                     </figure>
                 </div>
