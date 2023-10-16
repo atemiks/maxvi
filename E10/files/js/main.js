@@ -13,16 +13,6 @@ $(document).ready(function () {
     const E10ScreenFigure = E10ScreenSection.querySelector('.E10-screen-figure');
     new Parallax(E10ScreenFigure);
 
-    /* Fancybox */
-    Fancybox.bind("[data-fancybox]", {
-        Toolbar: {
-            display: {
-                right: ['close']
-            }
-        },
-        Thumbs: false
-    });
-
     /* GSAP */
     const gsapMatchMedia = gsap.matchMedia();
 
@@ -55,5 +45,47 @@ $(document).ready(function () {
             rotate: 8
         })
         .addLabel('end');
+    });
+
+    /* Colors gallery */
+    const E10ColorsSection = document.querySelector('.E10-colors');
+    const E10ColorsGalleryLinks = E10ColorsSection.querySelectorAll('.E10-colors-link');
+
+    const E10ColorsBindGallery = () => {
+        E10ColorsGalleryLinks.forEach(link => {
+            link.setAttribute('href', link.dataset.href);
+        });
+
+        Fancybox.bind("[data-fancybox='E10-gallery']", {
+            Toolbar: {
+                display: {
+                    right: ['close']
+                }
+            },
+            Thumbs: false
+        });
+    };
+
+    const E10ColorsUnbindGallery = () => {
+        Fancybox.unbind("[data-fancybox='E10-gallery']");
+
+        E10ColorsGalleryLinks.forEach(link => {
+            link.removeAttribute('href');
+        });
+    };
+
+    const isMobile = window.matchMedia("(max-width: 991px)");
+
+    if(isMobile.matches) {
+        E10ColorsBindGallery();
+    }
+
+    isMobile.addEventListener('change', () => {
+        if(isMobile.matches) {
+            E10ColorsBindGallery();
+            return;
+        }
+
+        E10ColorsUnbindGallery();
     });
 });

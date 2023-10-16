@@ -189,9 +189,9 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-duration="800"
                     >
                         <a
-                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-red-back-vertical.png"
                             class="E10-colors-link"
                             data-fancybox="E10-gallery"
+                            data-href="<?= $folder ?>/images/section-colors/E10-colors-phone-red-back-vertical.png"
                         >
                             <img
                                 loading="lazy"
@@ -212,9 +212,9 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-duration="800"
                     >
                         <a
-                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-black-back-vertical.png"
                             class="E10-colors-link"
                             data-fancybox="E10-gallery"
+                            data-href="<?= $folder ?>/images/section-colors/E10-colors-phone-black-back-vertical.png"
                         >
                             <img
                                 loading="lazy"
@@ -237,9 +237,9 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-duration="800"
                     >
                         <a
-                            href="<?= $folder ?>/images/section-colors/E10-colors-phone-orange-back-vertical.png"
                             class="E10-colors-link"
                             data-fancybox="E10-gallery"
+                            data-href="<?= $folder ?>/images/section-colors/E10-colors-phone-orange-back-vertical.png"
                         >
                             <img
                                 loading="lazy"
