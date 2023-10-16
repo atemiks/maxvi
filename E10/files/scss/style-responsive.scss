@@ -262,16 +262,15 @@
 
     /* section screen */
     .E10-screen {
-        height: 785px;
+        height: 975px;
 
         &-title {
-            top: 40px;
-            font-size: 24px;
-            text-align: left;
+            top: 230px;
+            font-size: 30px;
         }
 
         &-figure {
-            top: 125px;
+            top: 325px;
             left: 15px;
             right: 15px;
             width: 350px;
@@ -318,11 +317,15 @@
             }
 
             &--red {
-                transform: translateX(-65%);
+                &[data-aos^=fade][data-aos^=fade].aos-animate {
+                    transform: translateX(-65%);
+                }
             }
 
             &--orange {
-                transform: translateX(65%);
+                &[data-aos^=fade][data-aos^=fade].aos-animate {
+                    transform: translateX(65%);
+                }
             }
         }
     }
