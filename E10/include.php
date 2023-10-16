@@ -85,7 +85,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             width="304"
                             height="601"
                             alt="Мобильный телефон Maxvi E10 оранжевого цвета"
-                            data-depth="0.1"
+                            data-depth="0.2"
                         />
                     </figure>
                 </div>
@@ -105,7 +105,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             width="575"
                             height="1223"
                             alt="Мобильный телефон Maxvi E10"
-                            data-depth="0.1"
+                            data-depth="0.2"
                         />
                     </figure>
                 </div>
