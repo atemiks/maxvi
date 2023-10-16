@@ -309,22 +309,37 @@
 
         &-figure {
             top: 105px;
-            width: 260px;
-            height: 353px;
+            width: 240px;
+            height: 326px;
+            // width: 260px;
+            // height: 353px;
 
             figcaption {
-                font-size: 18px;
+                // font-size: 18px;
+                left: -12%;
+                bottom: 5%;
+                width: 110px;
+                transform: rotate(30deg);
+                font-size: 14px;
+                text-align: center;
+            }
+
+            &--black {
+                &[data-aos^=fade][data-aos^=fade].aos-animate {
+                    transform: rotate(-29.5deg);
+                }
             }
 
             &--red {
                 &[data-aos^=fade][data-aos^=fade].aos-animate {
-                    transform: translateX(-65%);
+                    transform: translateX(-50%) rotate(-29.5deg);
                 }
             }
 
             &--orange {
                 &[data-aos^=fade][data-aos^=fade].aos-animate {
-                    transform: translateX(65%);
+                    // transform: translateX(65%);
+                    transform: translateX(50%) rotate(-29.5deg);
                 }
             }
         }
