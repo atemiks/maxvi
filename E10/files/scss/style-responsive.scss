@@ -311,11 +311,8 @@
             top: 105px;
             width: 240px;
             height: 326px;
-            // width: 260px;
-            // height: 353px;
 
             figcaption {
-                // font-size: 18px;
                 left: -12%;
                 bottom: 5%;
                 width: 110px;
@@ -338,7 +335,6 @@
 
             &--orange {
                 &[data-aos^=fade][data-aos^=fade].aos-animate {
-                    // transform: translateX(65%);
                     transform: translateX(50%) rotate(-29.5deg);
                 }
             }

@@ -13,6 +13,16 @@ $(document).ready(function () {
     const E10ScreenFigure = E10ScreenSection.querySelector('.E10-screen-figure');
     new Parallax(E10ScreenFigure);
 
+    /* Fancybox */
+    Fancybox.bind("[data-fancybox]", {
+        Toolbar: {
+            display: {
+                right: ['close']
+            }
+        },
+        Thumbs: false
+    });
+
     /* GSAP */
     const gsapMatchMedia = gsap.matchMedia();
 
