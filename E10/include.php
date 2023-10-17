@@ -226,7 +226,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             />
                         </a>
 
-                        <figcaption>ЧЕРНЫЙ</figcaption>
+                        <figcaption>ЧЁРНЫЙ</figcaption>
                     </figure>
 
                     <figure
