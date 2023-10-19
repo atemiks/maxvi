@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    const isMobile = window.matchMedia("(max-width: 991px)");
+
     /* Animation */
     AOS.init({
         anchorPlacement: 'bottom-bottom',
@@ -50,42 +52,25 @@ $(document).ready(function () {
     /* Colors gallery */
     const E10ColorsSection = document.querySelector('.E10-colors');
     const E10ColorsGalleryLinks = E10ColorsSection.querySelectorAll('.E10-colors-link');
+    E10ColorsGalleryLinks.forEach((link, index) => {
+        link.href = link.dataset.href;
 
-    const E10ColorsBindGallery = () => {
-        E10ColorsGalleryLinks.forEach(link => {
-            link.setAttribute('href', link.dataset.href);
-        });
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
 
-        Fancybox.bind("[data-fancybox='E10-gallery']", {
-            Toolbar: {
-                display: {
-                    right: ['close']
-                }
-            },
-            Thumbs: false
-        });
-    };
-
-    const E10ColorsUnbindGallery = () => {
-        Fancybox.unbind("[data-fancybox='E10-gallery']");
-
-        E10ColorsGalleryLinks.forEach(link => {
-            link.removeAttribute('href');
-        });
-    };
-
-    const isMobile = window.matchMedia("(max-width: 991px)");
-
-    if(isMobile.matches) {
-        E10ColorsBindGallery();
-    }
-
-    isMobile.addEventListener('change', () => {
-        if(isMobile.matches) {
-            E10ColorsBindGallery();
-            return;
-        }
-
-        E10ColorsUnbindGallery();
+            if(isMobile.matches) {
+                E10ColorsOpenGallery(index)
+            }
+        })
     });
+
+    const E10ColorsOpenGallery = (initialIndex = 0) => {
+        $.fancybox.open( E10ColorsGalleryLinks, {
+            loop: true,
+            buttons: [
+                'close'
+            ],
+            thumbs : false,
+        }, initialIndex);
+    }
 });
