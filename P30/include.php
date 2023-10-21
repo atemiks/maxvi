@@ -149,11 +149,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 <div
                     class="P30-typography-container col-xs-12 col-sm-4 col-sm-offset-8"
                 >
-                    <div
-                        class="P30-camera-title"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                    >
+                    <div class="P30-camera-title">
                         КАМЕРА
                         <br />
                         0.3&nbsp;mPx
@@ -162,6 +158,4 @@ $this->addExternalJS($folder . 'js/main.js');
             </div>
         </div>
     </section>
-
-    <section class="P30-video section-dark">Видео</section>
 </div>
