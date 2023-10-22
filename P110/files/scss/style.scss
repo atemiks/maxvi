@@ -1,0 +1,474 @@
+:root {
+    --c-default: #010101;
+}
+
+.P110-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+    -webkit-overflow-scrolling: touch;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .P110-title,
+    .section-dark .P110-subtitle,
+    .section-dark .P110-description {
+        color: #fff;
+    }
+}
+
+.P110-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.P110-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.P110-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .P110-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section screen */
+.P110-screen {
+    overflow: hidden;
+    z-index: 1;
+    height: 770px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #04476a;
+
+    &::before,
+    &::after {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+    }
+
+    &::before {
+        background: url('../images/section-screen/P110-screen-bg-spot-top.png') no-repeat right top / contain;
+    }
+
+    &::after {
+        background: url('../images/section-screen/P110-screen-bg-spot-bottom.png') no-repeat left bottom / contain;
+    }
+
+    &-title {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 185px;
+        font-size: 90px;
+        font-weight: 500;
+        line-height: 1.35;
+    }
+
+    &-figure {
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        right: 15px;
+        width: 530px;
+        height: 755px;
+        margin: auto;
+    }
+
+    &-layer {
+        position: absolute;
+
+        &.layer-1 {
+            top: 0;
+            right: 0;
+            width: 286px;
+            height: 720px;
+        }
+
+        &.layer-2 {
+            top: 4%;
+            left: 5%;
+            width: 286px;
+            height: 720px;
+        }
+
+        &[data-aos="P110-screen-out"] {
+            opacity: 1;
+
+            &.aos-animate {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+        }
+
+        &[data-aos="P110-screen-zoom"] {
+            transform-origin: left top;
+
+            &.aos-animate {
+                transform: scale(1.6);
+            }
+        }
+    }
+
+    &-screen {
+        overflow: hidden;
+        position: absolute;
+        top: 11%;
+        left: 7%;
+        right: 23%;
+        height: 42.5%;
+        transform: skewY(9deg);
+        content: '';
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 180%;
+            height: 30%;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: translate(-50%, 0%) rotate(-45deg);
+            transform-origin: center top;
+            transition: top 600ms linear, left 600ms linear;
+            transition-delay: 1600ms;
+            content: '';
+        }
+
+        &[data-aos="P110-screen-animation"] {
+            opacity: 0;
+
+            &.aos-animate {
+                opacity: 1;
+
+                &::before {
+                    top: 100%;
+                    left: 100%;
+                }
+            }
+        }
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section screen end */
+
+/* section speaker */
+.P110-speaker {
+    overflow: hidden;
+    height: 765px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url('../images/section-speaker/P110-speaker-bg-spot-top-left.png') no-repeat left top / 337px 500px,
+        url('../images/section-speaker/P110-speaker-bg-spot-top-right.png') no-repeat right top / 595px 642px,
+        url('../images/section-speaker/P110-speaker-bg-spot-bottom-right.png') no-repeat right bottom/ 409px 115px !important;
+    background-color: #020000 !important;
+
+    &-sounds {
+        pointer-events: none;
+        position: absolute !important;
+        z-index: 9;
+        top: 50%;
+        width: 100%;
+        height: inherit;
+        transform: translate(5%, -50%);
+    }
+
+    &-title {
+        position: absolute;
+        top: 450px;
+        left: 15px;
+        right: 15px;
+        color: #7ddffb;
+        font-size: 90px;
+        font-weight: 300;
+        line-height: 1.45;
+        text-align: right;
+    }
+
+    &-figure {
+        position: absolute;
+        z-index: 1;
+        top: 60px;
+        left: 60px;
+        right: 60px;
+        width: 500px;
+        height: 1593px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section speaker end */
+
+/* section battery */
+.P110-battery {
+    overflow: hidden;
+    height: 770px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #7039ea;
+
+    &-title {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        right: 15px;
+        font-size: 120px;
+        font-weight: 300;
+        line-height: 1.2;
+        text-align: right;
+
+        .text-small {
+            display: block;
+            margin-top: 0.2em;
+            font-size: 67%;
+            font-weight: 300;
+        }
+    }
+
+    &-icon {
+        position: absolute;
+        top: 525px;
+        left: auto;
+        right: 15px;
+        width: 360px;
+        height: 165px;
+        color: #00cffb;
+
+        svg {
+            filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+        }
+
+        &[data-aos="P110-battery-animation"] {
+
+            &.aos-animate {
+                color: #fff;
+
+                svg {
+                    filter: drop-shadow(3px 3px 10px rgba(255, 255, 255, 1));
+                }
+            }
+        }
+    }
+
+    &-figure {
+        position: absolute;
+        top: 175px;
+        left: 15px;
+        right: 15px;
+        width: 323px;
+        height: 523px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section battery end */
+
+/* section powerbank */
+.P110-powerbank {
+    overflow: hidden;
+    height: 760px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000000;
+
+    &-title {
+        position: absolute;
+        top: 455px;
+        left: 15px;
+        right: 15px;
+        color: #2cbdf9;
+        font-size: 145px;
+        font-weight: 500;
+        text-align: center;
+
+        &[data-aos="P110-powerbank-blow-up"] {
+            &.aos-animate {
+                color: #fff;
+                text-shadow: 0 0 20px #2cbdf9;
+            }
+        }
+    }
+
+    &-figure {
+        position: absolute;
+        top: 95px;
+        left: -15px;
+        right: -15px;
+        width: 1160px;
+        height: 419px;
+        margin: auto;
+
+        &::before {
+            position: absolute;
+            top: 120%;
+            left: 0;
+            right: 0;
+            height: 113px;
+            background: url('../images/section-powerbank/P110-powerbank-shadow.png') no-repeat center / contain;
+            content: '';
+        }
+    }
+
+    &-indicator {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24%;
+        height: 30%;
+        transform: translate(-50%, -52%);
+        border: 10px solid #2ebef9;
+        border-radius: 26px;
+
+        &[data-aos] {
+            transform: translate(-50%, -52%);
+            box-shadow: 0 0 0 #fff;
+
+            &.aos-animate {
+                transform: translate(-50%, -52%);
+                box-shadow: 0 0 20px #fff;
+            }
+        }
+
+        span {
+            display: block;
+            width: 20%;
+            height: 80%;
+            margin: 0 5%;
+            border-radius: 18px;
+            background-color: #2ebef9;
+            box-shadow: 0 0 14px #fff;
+        }
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section powerbank end */
