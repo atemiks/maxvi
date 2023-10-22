@@ -23,7 +23,7 @@ $this->addExternalCss($folder . "css/style.css");
 $this->addExternalCss($folder . "css/style-responsive.css");
 
 //parallax
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
 // $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap.min.js');
