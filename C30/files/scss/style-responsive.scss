@@ -1,0 +1,307 @@
+@media (max-width: 1199px) {
+
+    /* section screen */
+    .C30-screen {
+        height: 640px;
+
+        &-title {
+            top: 105px;
+            font-size: 100px;
+        }
+
+        &-figure {
+            width: 378px;
+            height: 870px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section sim */
+    .C30-sim {
+        height: 640px;
+
+        &-title {
+            top: 155px;
+            font-size: 100px;
+        }
+
+        &-subtitle {
+            top: 350px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            width: 450px;
+            height: 600px;
+        }
+
+        &-media {
+            &.layer-1 {
+                width: 238px;
+                height: 548px;
+            }
+
+            &.layer-2 {
+                width: 242px;
+                height: 556px;
+            }
+        }
+
+        &-cards {
+            width: 280px;
+            height: 255px;
+        }
+
+        &-card {
+            width: 128px;
+            height: 78px;
+        }
+
+        &-sd-card {
+            width: 110px;
+            height: 150px;
+        }
+    }
+
+    /* section sim end */
+
+    /* section keyboard */
+    .C30-keyboard {
+        height: 640px;
+
+        &-title {
+            top: 350px;
+            font-size: 85px;
+        }
+
+        &-figure {
+            top: -235px;
+            width: 1350px;
+            height: 746px;
+        }
+    }
+
+    /* section keyboard end */
+
+}
+
+@media (max-width: 991px) {
+    .C30-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section screen */
+    .C30-screen {
+        height: 520px;
+
+        &-title {
+            top: 90px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            width: 300px;
+            height: 690px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section sim */
+    .C30-sim {
+        height: 545px;
+
+        &-title {
+            top: 130px;
+            font-size: 85px;
+        }
+
+        &-subtitle {
+            top: 300px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            width: 360px;
+            height: 510px;
+        }
+
+        &-media {
+            &.layer-1 {
+                width: 200px;
+                height: 460px;
+            }
+
+            &.layer-2 {
+                width: 206px;
+                height: 473px;
+            }
+        }
+
+        &-cards {
+            width: 195px;
+            height: 215px;
+        }
+
+        &-card {
+            width: 90px;
+            height: 55px;
+        }
+
+        &-sd-card {
+            width: 78px;
+            height: 106px;
+        }
+    }
+
+    /* section sim end */
+
+    /* section keyboard */
+    .C30-keyboard {
+        height: 545px;
+
+        &-title {
+            top: 300px;
+            font-size: 72px;
+        }
+
+        &-figure {
+            top: -200px;
+            width: 1148px;
+            height: 634px;
+        }
+    }
+
+    /* section keyboard end */
+}
+
+@media (max-width: 767px) {
+    .C30-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .C30-title,
+    .C30-subtitle,
+    .C30-description {
+        max-width: 280px;
+    }
+
+    .C30-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .C30-subtitle {
+        font-size: 24px !important;
+    }
+
+    .C30-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .C30-title[data-aos],
+    .C30-subtitle[data-aos],
+    .C30-description[data-aos],
+    .C30-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .C30-title[data-aos].aos-animate,
+    .C30-subtitle[data-aos].aos-animate,
+    .C30-description[data-aos].aos-animate,
+    .C30-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section screen */
+    .C30-screen {
+        height: 620px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 160px;
+            width: 300px;
+            height: 690px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section sim */
+    .C30-sim {
+        height: 745px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 230px;
+            width: 330px;
+            height: 485px;
+        }
+
+        &-media {
+            &.layer-1 {
+                width: 190px;
+                height: auto;
+            }
+
+            &.layer-2 {
+                width: 196px;
+                height: auto;
+            }
+        }
+
+        &-cards {
+            display: none;
+        }
+    }
+
+    /* section sim end */
+
+    /* section keyboard */
+    .C30-keyboard {
+        height: 495px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            text-align: left;
+            text-shadow: none;
+        }
+
+        &-figure {
+            top: -60px;
+            width: 976px;
+            height: auto;
+        }
+    }
+
+    /* section keyboard end */
+}
