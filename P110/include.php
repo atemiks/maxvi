@@ -270,12 +270,13 @@ $this->addExternalJS($folder . 'js/main.js');
                     </figure>
                 </div>
 
+                
+
                 <div class="P110-typography-container col-xs-12">
                     <div
                         class="P110-powerbank-title"
-                        data-aos="P110-powerbank-blow-up"
+                        data-aos="P110-powerbank-title"
                         data-aos-anchor=".P110-powerbank-indicator"
-                        data-aos-delay="1300"
                         data-aos-duration="800"
                     >
                         POWER BANK
