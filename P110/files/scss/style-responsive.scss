@@ -24,6 +24,13 @@
                 width: 244px;
                 height: 614px;
             }
+
+            &[data-aos="P110-screen-zoom"] {
+                &.aos-animate {
+                    left: 0;
+                    transform: scale(1.6);
+                }
+            }
         }
     }
 
