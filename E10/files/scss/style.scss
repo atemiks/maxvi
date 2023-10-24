@@ -349,6 +349,12 @@
             outline: none;
         }
     }
+
+    &-fancybox-slide {
+        .fancybox-image-wrap {
+            background: transparent;
+        }
+    }
 }
 
 /* section colors end */

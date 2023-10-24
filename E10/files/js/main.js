@@ -66,6 +66,7 @@ $(document).ready(function () {
 
     const E10ColorsOpenGallery = (initialIndex = 0) => {
         $.fancybox.open( E10ColorsGalleryLinks, {
+            slideClass: 'E10-colors-fancybox-slide',
             loop: true,
             buttons: [
                 'close'
