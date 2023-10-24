@@ -137,11 +137,7 @@ $this->addExternalJS($folder . 'js/main.js');
     </section>
 
     <section
-        class="P110-battery section-dark"
-        style="
-            background-image: url('<?= $folder ?>/images/section-battery/P110-battery-bg.jpg');
-        "
-    >
+        class="P110-battery section-dark">
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
