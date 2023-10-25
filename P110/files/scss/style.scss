@@ -374,14 +374,15 @@
         top: 175px;
         left: 15px;
         right: 15px;
-        width: 323px;
-        height: 523px;
+        width: 224px;
+        height: 512px;
         margin: auto;
     }
 
     &-media {
         width: inherit;
         height: inherit;
+        transform: rotate(-15.5deg);
     }
 }
 
