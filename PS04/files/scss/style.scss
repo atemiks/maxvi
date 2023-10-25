@@ -1,0 +1,278 @@
+:root {
+    --c-default: #010101;
+}
+
+.PS04-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+    -webkit-overflow-scrolling: touch;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .PS04-title,
+    .section-dark .PS04-subtitle,
+    .section-dark .PS04-description {
+        color: #fff;
+    }
+}
+
+.PS04-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.PS04-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.PS04-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .PS04-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section intro */
+.PS04-intro {
+    height: 760px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000;
+    background-size: contain !important;
+    background-position: center top;
+    text-align: center;
+
+    &-title,
+    &-model {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 35px;
+        font-size: 82px;
+        font-weight: 900;
+    }
+
+    &-model {
+        top: 135px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.5em;
+        font-size: 92px;
+        font-weight: 900;
+    }
+
+    &-logo {
+        width: 244px;
+        height: 40px;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 255px;
+        left: 15px;
+        right: 15px;
+        width: 1036px;
+        height: 515px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section intro end */
+
+/* section sound */
+.PS04-sound {
+    height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000;
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 35px;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+
+    &-subtitle {
+        top: 420px;
+        font-size: 36px;
+        line-height: 1.45;
+    }
+
+    &-figure {
+        pointer-events: none;
+        position: absolute;
+        top: 250px;
+        left: -15px;
+        right: -15px;
+        width: 794px;
+        height: 513px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section sound end */
+
+/* section controller */
+.PS04-controller {
+    overflow: hidden;
+    height: 800px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &-title,
+    &-description {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 380px;
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
+    &-description {
+        top: 555px;
+        font-size: 36px;
+    }
+
+    &-figure {
+        position: absolute;
+        top: -230px;
+        left: -485px;
+        right: 0;
+        width: 1171px;
+        height: 1080px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section controller end */
