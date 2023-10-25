@@ -152,8 +152,8 @@ $this->addExternalJS($folder . 'js/main.js');
                             loading="lazy"
                             src="<?= $folder ?>/images/section-battery/P110-battery-phone-front.png"
                             class="P110-battery-media"
-                            width="323"
-                            height="523"
+                            width="224"
+                            height="512"
                             alt="Мобильный телефон Maxvi P110"
                         />
                     </figure>
