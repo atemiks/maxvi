@@ -174,9 +174,12 @@
     height: 750px;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fff;
-    background-position: center left !important;
-    background-size: contain !important;
+    background:
+        url('../images/section-sim/C30-sim-bg-top-left.jpg') no-repeat left top / 845px auto,
+        url('../images/section-sim/C30-sim-bg-top-right.jpg') no-repeat right top / 430px auto,
+        url('../images/section-sim/C30-sim-bg-bottom-left.jpg') no-repeat left bottom / 650px auto,
+        url('../images/section-sim/C30-sim-bg-bottom-right.jpg') no-repeat right bottom / 405px auto !important;
+    background-color: #fff !important;
     box-shadow: 0 0 45px #072333;
     color: #41568a;
 
@@ -230,9 +233,8 @@
     &-cards {
         position: absolute;
         z-index: -1;
-        top: 46%;
-        left: 0;
-        transform: translateX(-115%);
+        top: 350px;
+        right: 20px;
         width: 328px;
         height: 300px;
     }
@@ -288,10 +290,10 @@
     &-figure {
         position: absolute;
         top: -275px;
-        left: 15px;
-        right: 15px;
-        width: 1588px;
-        height: 877px;
+        left: -5px;
+        right: -5px;
+        width: 1668px;
+        height: 886px;
         margin: auto;
     }
 

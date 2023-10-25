@@ -34,7 +34,12 @@ $this->addExternalJS($folder . 'js/main.js');
 
 ?>
 <div class="C30-landing">
-    <section class="C30-screen">
+    <section
+        class="C30-screen"
+        style="
+            background-image: url('<?= $folder ?>/images/section-screen/C30-screen-bg.jpg');
+        "
+    >
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
@@ -71,12 +76,7 @@ $this->addExternalJS($folder . 'js/main.js');
         </div>
     </section>
 
-    <section
-        class="C30-sim"
-        style="
-            background-image: url('<?= $folder ?>/images/section-sim/C30-sim-bg.jpg');
-        "
-    >
+    <section class="C30-sim">
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
@@ -92,8 +92,8 @@ $this->addExternalJS($folder . 'js/main.js');
 
                     <div
                         class="C30-sim-subtitle"
+                        data-aos-anchor=".C30-sim-title"
                         data-aos="fade-right"
-                        data-aos-delay="100"
                         data-aos-duration="500"
                     >
                         СЛОТ
@@ -101,6 +101,44 @@ $this->addExternalJS($folder . 'js/main.js');
                         ДЛЯ КАРТЫ
                         <br />
                         ПАМЯТИ
+                    </div>
+
+                    <div class="C30-sim-cards">
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-sim/C30-sim-icon.svg"
+                            class="C30-sim-card layer-1"
+                            width="150"
+                            height="90"
+                            alt="SIM карта"
+                            data-aos="fade-left"
+                            data-aos-anchor=".C30-sim-title"
+                            data-aos-duration="500"
+                        />
+
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-sim/C30-sim-icon.svg"
+                            class="C30-sim-card layer-2"
+                            width="150"
+                            height="90"
+                            alt="SIM карта"
+                            data-aos="fade-left"
+                            data-aos-anchor=".C30-sim-title"
+                            data-aos-duration="500"
+                        />
+
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-sim/C30-sim-sd-card.svg"
+                            class="C30-sim-sd-card"
+                            width="132"
+                            height="172"
+                            alt="microSD карта"
+                            data-aos="fade-left"
+                            data-aos-anchor=".C30-sim-title"
+                            data-aos-duration="500"
+                        />
                     </div>
                 </div>
 
@@ -123,43 +161,6 @@ $this->addExternalJS($folder . 'js/main.js');
                             height="1022"
                             alt="Мобильный телефон Maxvi C30"
                         />
-
-                        <div class="C30-sim-cards">
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>/images/section-sim/C30-sim-icon.svg"
-                                class="C30-sim-card layer-1"
-                                width="150"
-                                height="90"
-                                alt="SIM карта"
-                                data-aos="fade-left"
-                                data-aos-duration="500"
-                            />
-
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>/images/section-sim/C30-sim-icon.svg"
-                                class="C30-sim-card layer-2"
-                                width="150"
-                                height="90"
-                                alt="SIM карта"
-                                data-aos="fade-left"
-                                data-aos-delay="100"
-                                data-aos-duration="500"
-                            />
-
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>/images/section-sim/C30-sim-sd-card.svg"
-                                class="C30-sim-sd-card"
-                                width="132"
-                                height="172"
-                                alt="microSD карта"
-                                data-aos="fade-left"
-                                data-aos-duration="500"
-                                data-aos-delay="200"
-                            />
-                        </div>
                     </figure>
                 </div>
             </div>
@@ -177,8 +178,8 @@ $this->addExternalJS($folder . 'js/main.js');
                             loading="lazy"
                             src="<?= $folder ?>/images/section-keyboard/C30-keyboard-phone-front.png"
                             class="C30-keyboard-media"
-                            width="1588"
-                            height="877"
+                            width="1668"
+                            height="886"
                             alt="Мобильный телефон Maxvi C30"
                         />
                     </figure>
