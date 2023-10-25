@@ -49,6 +49,7 @@
         }
 
         &-cards {
+            top: 300px;
             width: 280px;
             height: 255px;
         }
@@ -77,8 +78,8 @@
 
         &-figure {
             top: -235px;
-            width: 1350px;
-            height: 746px;
+            width: 1418px;
+            height: 754px;
         }
     }
 
@@ -143,8 +144,9 @@
         }
 
         &-cards {
+            top: 275px;
             width: 195px;
-            height: 215px;
+            height: 195px;
         }
 
         &-card {
@@ -171,8 +173,8 @@
 
         &-figure {
             top: -200px;
-            width: 1148px;
-            height: 634px;
+            width: 1206px;
+            height: 640px;
         }
     }
 
@@ -279,7 +281,20 @@
         }
 
         &-cards {
-            display: none;
+            top: 75px;
+            left: 100px;
+            width: 105px;
+            height: 100px;
+        }
+
+        &-card {
+            width: 45px;
+            height: 28px;
+        }
+
+        &-sd-card {
+            width: 40px;
+            height: 55px;
         }
     }
 
@@ -290,16 +305,13 @@
         height: 495px;
 
         &-title {
-            top: 40px;
             font-size: 28px;
-            text-align: left;
-            text-shadow: none;
         }
 
         &-figure {
-            top: -60px;
-            width: 976px;
-            height: auto;
+            top: -170px;
+            width: 1025px;
+            height: 545px;
         }
     }
 
