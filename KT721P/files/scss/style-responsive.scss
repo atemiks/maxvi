@@ -1,110 +1,95 @@
 @media (max-width: 1199px) {
 
-    /* section screen */
-    .KT721P-screen {
-        height: 665px;
+    /* section power */
+    .KT721P-power {
+        height: 640px;
 
-        &-title {
-            top: 160px;
-            font-size: 76px;
+        &::before {
+            background-size: 340px auto, 390px auto;
         }
-
-        &-figure {
-            width: 450px;
-            height: 640px;
-        }
-
-        &-layer {
-            &.layer-1 {
-                width: 244px;
-                height: 615px;
-            }
-
-            &.layer-2 {
-                width: 244px;
-                height: 614px;
-            }
-
-            &[data-aos="KT721P-screen-zoom"] {
-                &.aos-animate {
-                    left: 0;
-                    transform: scale(1.6);
-                }
-            }
-        }
-    }
-
-    /* section screen end */
-
-    /* section speaker */
-    .KT721P-speaker {
-        height: 650px;
-
-        &-title {
-            top: 380px;
-            font-size: 76px;
-        }
-
-        &-figure {
-            top: 50px;
-            left: 50px;
-            right: 50px;
-            width: 425px;
-            height: 1354px;
-        }
-    }
-
-    /* section speaker end */
-
-    /* section battery */
-    .KT721P-battery {
-        height: 655px;
-        background-image: url('../images/section-battery/KT721P-battery-bg-1200.jpg');
 
         &-title {
             font-size: 100px;
         }
 
-        &-icon {
-            top: 445px;
-            width: 305px;
-            height: 140px;
-        }
-
         &-figure {
             top: 150px;
-            width: 190px;
-            height: 434px;
+            width: 500px;
+            height: 495px;
         }
     }
 
-    /* section battery end */
+    /* section power end */
 
-    /* section powerbank */
-    .KT721P-powerbank {
-        height: 610px;
+    /* section mode */
+    .KT721P-mode {
+        height: 640px;
 
         &-title {
-            top: 365px;
-            font-size: 124px;
+            top: 95px;
+            font-size: 100px;
         }
 
         &-figure {
-            top: 80px;
-            width: 930px;
-            height: 336px;
-
-            &::before {
-                height: 90px;
-            }
-        }
-
-        &-indicator {
-            border-width: 8px;
+            top: 30px;
+            width: 436px;
+            height: 502px;
         }
     }
 
-    /* section powerbank end */
+    /* section mode end */
+
+    /* section pallet */
+    .KT721P-pallet {
+        height: 640px;
+
+        &-title {
+            font-size: 100px;
+        }
+
+        &-subtitle {
+            top: 300px;
+            font-size: 76px;
+        }
+    }
+
+    /* section pallet end */
+
+    /* section design */
+    .KT721P-design {
+        height: 640px;
+        margin-bottom: 85px;
+
+        &::before {
+            background-position: calc(50% - 420px) 40%, left bottom;
+            background-size: auto 600px, auto 285px;
+        }
+
+        &-title {
+            top: 40px;
+            font-size: 76px;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 774px;
+            height: 605px;
+        }
+
+        &-media {
+            &.layer-1 {
+                width: 500px;
+                height: 488px;
+            }
+
+            &.layer-2 {
+                width: 542px;
+                height: 529px;
+            }
+        }
+    }
+
+    /* section design end */
 }
 
 @media (max-width: 991px) {
@@ -115,105 +100,97 @@
         }
     }
 
-    /* section screen */
-    .KT721P-screen {
-        height: 565px;
+    /* section power */
+    .KT721P-power {
+        height: 545px;
+
+        &::before {
+            background-size: 290px auto, 330px auto;
+        }
 
         &-title {
-            top: 135px;
+            font-size: 85px;
+        }
+
+        &-figure {
+            top: 130px;
+            width: 425px;
+            height: 420px;
+        }
+    }
+
+    /* section power end */
+
+    /* section mode */
+    .KT721P-mode {
+        height: 545px;
+
+        &-title {
+            top: 80px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: 20px;
+            left: 15px;
+            right: 15px;
+            width: 370px;
+            height: 426px;
+        }
+    }
+
+    /* section mode end */
+
+    /* section pallet */
+    .KT721P-pallet {
+        height: 545px;
+
+        &-title {
+            font-size: 85px;
+        }
+
+        &-subtitle {
+            top: 255px;
+            font-size: 64px;
+        }
+    }
+
+    /* section pallet end */
+
+    /* section design */
+    .KT721P-design {
+        height: 545px;
+
+        &::before {
+            background-position: calc(50% - 350px) 80%, left bottom;
+            background-size: auto 450px, auto 215px;
+        }
+
+        &-title {
+            top: 30px;
             font-size: 64px;
         }
 
         &-figure {
-            width: 380px;
-            height: 550px;
+            top: 120px;
+            width: 660px;
+            height: 510px;
         }
 
-        &-layer {
+        &-media {
             &.layer-1 {
-                width: 208px;
-                height: 525px;
+                width: 425px;
+                height: 415px;
             }
 
             &.layer-2 {
-                width: 208px;
-                height: 525px;
+                width: 460px;
+                height: 449px;
             }
         }
     }
 
-    /* section screen end */
-
-    /* section speaker */
-    .KT721P-speaker {
-        height: 550px;
-
-        &-title {
-            top: 320px;
-            font-size: 64px;
-        }
-
-        &-figure {
-            top: 40px;
-            left: 15px;
-            right: 15px;
-            width: 340px;
-            height: 1084px;
-        }
-    }
-
-    /* section speaker end */
-
-    /* section battery */
-    .KT721P-battery {
-        height: 555px;
-
-        &-title {
-            font-size: 70px;
-        }
-
-        &-icon {
-            top: 370px;
-            width: 260px;
-            height: 120px;
-        }
-
-        &-figure {
-            top: 60px;
-        }
-    }
-
-    /* section battery end */
-
-    /* section powerbank */
-    .KT721P-powerbank {
-        height: 490px;
-
-        &-title {
-            top: 290px;
-            font-size: 100px;
-        }
-
-        &-figure {
-            top: 65px;
-            width: 744px;
-            height: 268px;
-
-            &::before {
-                height: 70px;
-            }
-        }
-
-        &-indicator {
-            border-width: 6px;
-
-            span {
-                border-radius: 14px;
-            }
-        }
-    }
-
-    /* section powerbank end */
+    /* section design end */
 }
 
 @media (max-width: 767px) {
@@ -265,121 +242,107 @@
         transform: translate(0);
     }
 
-    /* section screen */
-    .KT721P-screen {
+    /* section power */
+    .KT721P-power {
+        height: 545px;
+
+        &::before {
+            background-position: calc(50% - 200px) 105%, calc(50% - 190px) 112%;
+            background-size: 230px auto, 264px auto;
+        }
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-figure {
+            top: 155px;
+            left: 0;
+            right: 0;
+            width: 340px;
+            height: 336px;
+        }
+    }
+
+    /* section power end */
+
+    /* section mode */
+    .KT721P-mode {
         height: 635px;
 
         &-title {
             top: 40px;
             font-size: 28px;
+            line-height: 1.25;
         }
 
         &-figure {
-            top: 145px;
-            width: 320px;
-            height: 465px;
+            top: 160px;
+            left: 0;
+            right: 0;
+            width: 340px;
+            height: 392px;
+        }
+    }
+
+    /* section mode end */
+
+    /* section pallet */
+    .KT721P-pallet {
+        height: 545px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.15;
         }
 
-        &-layer {
+        &-subtitle {
+            top: 110px;
+            font-size: 20px;
+        }
+    }
+
+    /* section pallet end */
+
+    /* section design */
+    .KT721P-design {
+        height: 440px;
+        margin-bottom: 50px;
+
+        &::before {
+            background:
+                url("../images/section-design/KT721P-design-table.jpg") repeat-x left bottom/auto 180px;
+        }
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.15;
+        }
+
+        &-figure {
+            top: 100px;
+            left: 0;
+            right: 0;
+            width: 495px;
+            height: 385px;
+        }
+
+        &-media {
             &.layer-1 {
-                width: 176px;
-                height: 444px;
+                width: 320px;
+                height: 312px;
             }
 
             &.layer-2 {
-                width: 176px;
-                height: 444px;
+                width: 345px;
+                height: 337px;
             }
         }
     }
 
-    /* section screen end */
-
-    /* section speaker */
-    .KT721P-speaker {
-        height: 580px;
-
-        &-sounds {
-            top: 65%;
-            left: 30%;
-        }
-
-        &-title {
-            top: 40px;
-            color: #fff;
-            font-size: 28px;
-            text-align: left;
-        }
-
-        &-figure {
-            top: 170px;
-            left: 15px;
-            right: 15px;
-            width: 300px;
-            height: 956px;
-        }
-    }
-
-    /* section speaker end */
-
-    /* section battery */
-    .KT721P-battery {
-        height: 670px;
-
-        &-title {
-            top: 40px;
-            font-size: 28px;
-            text-align: left;
-
-            .text-small {
-                margin-top: 0.5em;
-            }
-        }
-
-        &-icon {
-            top: 115px;
-            left: 110px;
-            right: 15px;
-            width: 50px;
-            height: 23px;
-        }
-
-        &-figure {
-            top: 180px;
-        }
-    }
-
-    /* section battery end */
-
-    /* section powerbank */
-    .KT721P-powerbank {
-        height: 380px;
-
-        &-title {
-            top: 40px;
-            font-size: 28px;
-            text-align: left;
-        }
-
-        &-figure {
-            top: 130px;
-            width: 340px;
-            height: 123px;
-
-            &::before {
-                height: 40px;
-            }
-        }
-
-        &-indicator {
-            border-width: 4px;
-            border-radius: 10px;
-
-            span {
-                border-radius: 10px;
-            }
-        }
-    }
-
-    /* section powerbank end */
+    /* section design end */
 }

@@ -131,372 +131,227 @@
     }
 }
 
-/* section screen */
-.KT721P-screen {
-    overflow: hidden;
-    z-index: 1;
-    height: 770px;
+/* section power */
+.KT721P-power {
+    height: 750px;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #04476a;
+    background-color: #e1e1e1;
+    color: #554030;
 
-    &::before,
-    &::after {
+    &::before {
         position: absolute;
-        z-index: -1;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
+        background: url("../images/section-power/KT721P-power-bread.png") no-repeat calc(50% - 440px) 83%/400px auto,
+            url("../images/section-power/KT721P-power-plate.png") no-repeat calc(50% - 440px) 90%/460px auto;
         content: '';
     }
 
-    &::before {
-        background: url('../images/section-screen/KT721P-screen-bg-spot-top.png') no-repeat right top / contain;
-    }
-
-    &::after {
-        background: url('../images/section-screen/KT721P-screen-bg-spot-bottom.png') no-repeat left bottom / contain;
-    }
-
     &-title {
         position: absolute;
+        z-index: 1;
+        top: 30px;
         left: 15px;
         right: 15px;
+        font-size: 120px;
+        font-weight: 500;
+        line-height: 1.1;
     }
 
-    &-title {
-        top: 185px;
-        font-size: 90px;
-        font-weight: 500;
-        line-height: 1.35;
+    &-value {
+        color: #cf0505;
+        font-weight: 700;
     }
 
     &-figure {
-        z-index: 1;
         position: absolute;
-        top: 10px;
+        top: 180px;
+        left: -30px;
+        right: 15px;
+        width: 585px;
+        height: 579px;
+        margin: auto;
+
+        &::after {
+            position: absolute;
+            top: -10%;
+            left: -5%;
+            right: 5%;
+            height: 44%;
+            background: url(../images/section-power/KT721P-power-toaster-heat.png) no-repeat center/contain;
+            transition: inherit;
+            content: '';
+        }
+
+        &[data-aos="KT721P-power-head"] {
+            &::after {
+                opacity: 0;
+            }
+
+            &.aos-animate {
+                &::after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section power end */
+
+/* section mode */
+.KT721P-mode {
+    height: 755px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #d7bda8;
+    color: #554030;
+
+    &-title {
+        position: absolute;
+        z-index: 1;
+        top: 110px;
         left: 15px;
         right: 15px;
-        width: 530px;
-        height: 755px;
+        font-size: 120px;
+        font-weight: 500;
+
+        .text-mark {
+            color: #cf0505;
+            font-weight: 700;
+        }
+    }
+
+    &-figure {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        right: 30px;
+        width: 514px;
+        height: 592px;
         margin: auto;
     }
 
-    &-layer {
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section mode end */
+
+/* section pallet */
+.KT721P-pallet {
+    z-index: 1;
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #422e19;
+    background: linear-gradient(180deg, rgba(66, 47, 25, 1) 0%, rgba(230, 203, 174, 1) 100%);
+    text-align: right;
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 30px;
+        font-size: 120px;
+        font-weight: 500;
+    }
+
+    &-subtitle {
+        top: 355px;
+        font-size: 90px;
+        font-weight: 500;
+    }
+
+    // &-figure {
+    //     position: absolute;
+    //     top: 175px;
+    //     left: 15px;
+    //     right: 15px;
+    //     width: 224px;
+    //     height: 512px;
+    //     margin: auto;
+    // }
+
+    // &-media {
+    //     width: inherit;
+    //     height: inherit;
+    // }
+}
+
+/* section pallet end */
+
+/* section design */
+.KT721P-design {
+    height: 750px;
+    margin-bottom: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f0d6cc;
+    color: #74675c;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+            url("../images/section-design/KT721P-design-art.png") no-repeat calc(50% - 490px) 152%/auto 800px,
+            url("../images/section-design/KT721P-design-table.jpg") repeat-x left bottom/auto 335px;
+        content: '';
+    }
+
+    &-title {
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        right: 15px;
+        font-size: 90px;
+        font-weight: 400;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 140px;
+        left: -15px;
+        right: -15px;
+        width: 910px;
+        height: 710px;
+        margin: auto;
+    }
+
+    &-media {
         position: absolute;
 
         &.layer-1 {
             top: 0;
-            right: 0;
-            width: 286px;
-            height: 720px;
+            left: 33.5%;
+            width: 588px;
+            height: 574px;
         }
 
         &.layer-2 {
-            top: 4%;
-            left: 5%;
-            width: 286px;
-            height: 720px;
-        }
-
-        &[data-aos="KT721P-screen-out"] {
-            opacity: 1;
-
-            &.aos-animate {
-                opacity: 0;
-                transform: translateY(100px);
-            }
-        }
-
-        &[data-aos="KT721P-screen-zoom"] {
-            transform-origin: left top;
-
-            &.aos-animate {
-                left: 50%;
-                transform: translateX(-60%) scale(1.6);
-            }
-        }
-    }
-
-    &-screen {
-        overflow: hidden;
-        position: absolute;
-        top: 11%;
-        left: 7%;
-        right: 23%;
-        height: 42.5%;
-        transform: skewY(9deg);
-        content: '';
-
-        &::before {
-            position: absolute;
-            top: 0;
+            top: 12.5%;
             left: 0;
-            width: 180%;
-            height: 30%;
-            background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
-            transform: translate(-50%, 0%) rotate(-45deg);
-            transform-origin: center top;
-            transition: top 600ms linear, left 600ms linear;
-            transition-delay: 1600ms;
-            content: '';
+            width: 638px;
+            height: 622px;
         }
-
-        &[data-aos="KT721P-screen-animation"] {
-            opacity: 0;
-
-            &.aos-animate {
-                opacity: 1;
-
-                &::before {
-                    top: 100%;
-                    left: 100%;
-                }
-            }
-        }
-    }
-
-    &-media {
-        width: inherit;
-        height: inherit;
     }
 }
 
-/* section screen end */
-
-/* section speaker */
-.KT721P-speaker {
-    overflow: hidden;
-    height: 765px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background: url('../images/section-speaker/KT721P-speaker-bg-spot-top-left.png') no-repeat left top / 337px 500px,
-        url('../images/section-speaker/KT721P-speaker-bg-spot-top-right.png') no-repeat right top / 595px 642px,
-        url('../images/section-speaker/KT721P-speaker-bg-spot-bottom-right.png') no-repeat right bottom/ 409px 115px !important;
-    background-color: #020000 !important;
-
-    &-sounds {
-        pointer-events: none;
-        position: absolute !important;
-        z-index: 9;
-        top: 50%;
-        width: 100%;
-        height: inherit;
-        transform: translate(5%, -50%);
-    }
-
-    &-title {
-        position: absolute;
-        top: 450px;
-        left: 15px;
-        right: 15px;
-        color: #7ddffb;
-        font-size: 90px;
-        font-weight: 300;
-        line-height: 1.45;
-        text-align: right;
-    }
-
-    &-figure {
-        position: absolute;
-        z-index: 1;
-        top: 60px;
-        left: 60px;
-        right: 60px;
-        width: 500px;
-        height: 1593px;
-        margin: auto;
-    }
-
-    &-media {
-        width: inherit;
-        height: inherit;
-    }
-}
-
-/* section speaker end */
-
-/* section battery */
-.KT721P-battery {
-    overflow: hidden;
-    height: 770px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #7039ea;
-    background-image: url('../images/section-battery/KT721P-battery-bg-2160.jpg');
-
-    &-title {
-        position: absolute;
-        top: 10px;
-        left: 15px;
-        right: 15px;
-        font-size: 120px;
-        font-weight: 300;
-        line-height: 1.2;
-        text-align: right;
-
-        .text-small {
-            display: block;
-            margin-top: 0.2em;
-            font-size: 67%;
-            font-weight: 300;
-        }
-    }
-
-    &-icon {
-        position: absolute;
-        top: 525px;
-        left: auto;
-        right: 15px;
-        width: 360px;
-        height: 165px;
-        color: #00cffb;
-
-        svg {
-            filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
-        }
-
-        &[data-aos="KT721P-battery-animation"] {
-
-            &.aos-animate {
-                color: #fff;
-
-                svg {
-                    filter: drop-shadow(3px 3px 10px rgba(255, 255, 255, 1));
-                }
-            }
-        }
-    }
-
-    &-figure {
-        position: absolute;
-        top: 175px;
-        left: 15px;
-        right: 15px;
-        width: 224px;
-        height: 512px;
-        margin: auto;
-    }
-
-    &-media {
-        width: inherit;
-        height: inherit;
-        transform: rotate(-15.5deg);
-    }
-}
-
-/* section battery end */
-
-/* section powerbank */
-.KT721P-powerbank {
-    overflow: hidden;
-    height: 760px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #000000;
-
-    &-title {
-        position: absolute;
-        top: 455px;
-        left: 15px;
-        right: 15px;
-        color: #2cbdf9;
-        font-size: 145px;
-        font-weight: 500;
-        text-align: center;
-
-        &[data-aos="KT721P-powerbank-title"] {
-            &.aos-animate {
-                animation-name: KT721PPowerbankTitleAnimation;
-                animation-timing-function: ease-in;
-                animation-fill-mode: forwards;
-                animation-duration: 2000ms;
-            }
-        }
-    }
-
-    @keyframes KT721PPowerbankTitleAnimation {
-        0% {
-            opacity: 0;
-            transform: translateY(100px);
-        }
-
-        25% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        75%,
-        100% {
-            color: #fff;
-            text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #2cbdf9, 0 0 10px #2cbdf9, 0 0 10px #2cbdf9;
-        }
-    }
-
-    &-figure {
-        position: absolute;
-        top: 95px;
-        left: -15px;
-        right: -15px;
-        width: 1160px;
-        height: 419px;
-        margin: auto;
-
-        &::before {
-            position: absolute;
-            top: 120%;
-            left: 0;
-            right: 0;
-            height: 113px;
-            background: url('../images/section-powerbank/KT721P-powerbank-shadow.png') no-repeat center / contain;
-            content: '';
-        }
-    }
-
-    &-indicator {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 24%;
-        height: 30%;
-        transform: translate(-50%, -52%);
-        border: 10px solid #2cbdf9;
-        border-radius: 26px;
-
-        &[data-aos] {
-            transform: translate(-50%, -52%);
-            box-shadow: 0 0 0 #fff;
-
-            &.aos-animate {
-                transform: translate(-50%, -52%);
-                box-shadow: 0 0 10px #fff,
-                    0 0 10px #fff,
-                    0 0 10px #fff,
-                    inset 0 0 10px #fff,
-                    inset 0 0 10px #fff,
-                    inset 0 0 10px #fff;
-            }
-        }
-
-        span {
-            display: block;
-            width: 18%;
-            height: 75%;
-            margin: 0 5%;
-            border-radius: 10px;
-            background-color: #2cbdf9;
-            box-shadow: -2px -2px 10px #fff, 2px -2px 10px #fff, 2px 2px 10px #fff, -2px 2px 10px #fff;
-        }
-    }
-
-    &-media {
-        width: inherit;
-        height: inherit;
-    }
-}
-
-/* section powerbank end */
+/* section design end */
