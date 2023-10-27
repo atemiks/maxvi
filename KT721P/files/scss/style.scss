@@ -1,0 +1,352 @@
+:root {
+    --c-default: #010101;
+}
+
+.KT721P-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+    -webkit-overflow-scrolling: touch;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .KT721P-title,
+    .section-dark .KT721P-subtitle,
+    .section-dark .KT721P-description {
+        color: #fff;
+    }
+}
+
+.KT721P-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.KT721P-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.KT721P-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .KT721P-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section power */
+.KT721P-power {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #e1e1e1;
+    color: #554030;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("../images/section-power/KT721P-power-bread.png") no-repeat calc(50% - 440px) 83%/400px auto,
+            url("../images/section-power/KT721P-power-plate.png") no-repeat calc(50% - 440px) 90%/460px auto;
+        content: '';
+    }
+
+    &-title {
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        left: 15px;
+        right: 15px;
+        font-size: 120px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    &-value {
+        color: #cf0505;
+        font-weight: 700;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 180px;
+        left: -30px;
+        right: 15px;
+        width: 585px;
+        height: 579px;
+        margin: auto;
+
+        &::after {
+            position: absolute;
+            top: -10%;
+            left: -5%;
+            right: 5%;
+            height: 44%;
+            background: url(../images/section-power/KT721P-power-toaster-heat.png) no-repeat center/contain;
+            transition: inherit;
+            content: '';
+        }
+
+        &[data-aos="KT721P-power-head"] {
+            &::after {
+                opacity: 0;
+            }
+
+            &.aos-animate {
+                &::after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section power end */
+
+/* section mode */
+.KT721P-mode {
+    height: 755px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #d7bda8;
+    color: #554030;
+
+    &-title {
+        position: absolute;
+        z-index: 1;
+        top: 110px;
+        left: 15px;
+        right: 15px;
+        font-size: 120px;
+        font-weight: 500;
+
+        .text-mark {
+            color: #cf0505;
+            font-weight: 700;
+        }
+    }
+
+    &-figure {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        right: 30px;
+        width: 514px;
+        height: 592px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section mode end */
+
+/* section pallet */
+.KT721P-pallet {
+    z-index: 1;
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #422e19;
+    background: linear-gradient(180deg, rgba(66, 47, 25, 1) 0%, rgba(230, 203, 174, 1) 100%);
+    text-align: right;
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 30px;
+        font-size: 120px;
+        font-weight: 500;
+    }
+
+    &-subtitle {
+        top: 355px;
+        color: #fef4d5;
+        font-size: 90px;
+        font-weight: 500;
+    }
+
+    &-figure {
+        position: absolute !important;
+        top: -100px;
+        left: -390px;
+        width: 980px;
+        height: 724px;
+        transform: scale(1.225);
+    }
+}
+
+/* section pallet end */
+
+/* section design */
+.KT721P-design {
+    height: 750px;
+    margin-bottom: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f0d6cc;
+    color: #74675c;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+            url("../images/section-design/KT721P-design-art.png") no-repeat calc(50% - 490px) 152%/auto 800px,
+            url("../images/section-design/KT721P-design-table.jpg") repeat-x left bottom/auto 335px;
+        content: '';
+    }
+
+    &-title {
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        right: 15px;
+        font-size: 90px;
+        font-weight: 400;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 140px;
+        left: -15px;
+        right: -15px;
+        width: 910px;
+        height: 710px;
+        margin: auto;
+    }
+
+    &-media {
+        position: absolute;
+
+        &.layer-1 {
+            top: 0;
+            left: 33.5%;
+            width: 588px;
+            height: 574px;
+        }
+
+        &.layer-2 {
+            top: 12.5%;
+            left: 0;
+            width: 638px;
+            height: 622px;
+        }
+    }
+}
+
+/* section design end */
