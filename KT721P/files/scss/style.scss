@@ -273,24 +273,19 @@
 
     &-subtitle {
         top: 355px;
+        color: #fef4d5;
         font-size: 90px;
         font-weight: 500;
     }
 
-    // &-figure {
-    //     position: absolute;
-    //     top: 175px;
-    //     left: 15px;
-    //     right: 15px;
-    //     width: 224px;
-    //     height: 512px;
-    //     margin: auto;
-    // }
-
-    // &-media {
-    //     width: inherit;
-    //     height: inherit;
-    // }
+    &-figure {
+        position: absolute !important;
+        top: -100px;
+        left: -390px;
+        width: 980px;
+        height: 724px;
+        transform: scale(1.225);
+    }
 }
 
 /* section pallet end */

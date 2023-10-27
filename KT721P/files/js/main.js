@@ -4,19 +4,20 @@ $(document).ready(function () {
         anchorPlacement: 'bottom-bottom',
     });
 
-    /* Sounds animation */
-    const KT721PSpeakerSection = document.querySelector('.KT721P-speaker');
-    const KT721PSpeakerSounds = KT721PSpeakerSection.querySelector('.KT721P-speaker-sounds');
-    const KT721PSpeakerSoundsOptions = {
+    /* Pallet animation */
+    const KT721pPalletSection = document.querySelector('.KT721P-pallet');
+    const KT721pPalletFigure = KT721pPalletSection.querySelector('.KT721P-pallet-figure');
+    const KT721pPalletFigureOptions = {
+        loop: false,
         animate: false,
-        loop: true,
-        frame: 0,
+        frame: 1,
+        stopFrame: 47,
         sizeMode: 'fit',
         responsive: true,
         source: SpriteSpin.sourceArray(
-        './files/images/section-speaker/sounds-resized-1000/01_000{frame}.png',
+        './files/images/section-pallet/animation/KT721P-pallet-animation-920-{frame}.png',
         {
-            frame: [0, 90],
+            frame: [1, 48],
             digits: 1
         }),
         plugins: [
@@ -24,7 +25,7 @@ $(document).ready(function () {
         ]
     };
 
-    $(KT721PSpeakerSounds).spritespin(KT721PSpeakerSoundsOptions);
+    $(KT721pPalletFigure).spritespin(KT721pPalletFigureOptions);
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -34,10 +35,10 @@ $(document).ready(function () {
             }
 
             $(entry.target).spritespin('api').stopAnimation();
-        }, {
-            threshold: 0.5,
+        },{
+            rootMargin: '-50% 0px 0px 0px',
         });
     })
 
-    observer.observe(KT721PSpeakerSounds);
+    observer.observe(KT721pPalletFigure);
 });

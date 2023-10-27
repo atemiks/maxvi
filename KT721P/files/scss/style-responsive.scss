@@ -51,6 +51,13 @@
             top: 300px;
             font-size: 76px;
         }
+
+        &-figure {
+            top: -85px;
+            left: -330px;
+            width: 830px;
+            height: 613px;
+        }
     }
 
     /* section pallet end */
@@ -143,15 +150,22 @@
 
     /* section pallet */
     .KT721P-pallet {
-        height: 545px;
+        height: 530px;
 
         &-title {
-            font-size: 85px;
+            font-size: 76px;
         }
 
         &-subtitle {
             top: 255px;
-            font-size: 64px;
+            font-size: 58px;
+        }
+
+        &-figure {
+            top: -70px;
+            left: -280px;
+            width: 700px;
+            height: 517px;
         }
     }
 
@@ -291,17 +305,24 @@
 
     /* section pallet */
     .KT721P-pallet {
-        height: 545px;
+        height: 395px;
 
         &-title {
-            top: 40px;
+            top: 120px;
             font-size: 28px;
             line-height: 1.15;
         }
 
         &-subtitle {
-            top: 110px;
+            top: 200px;
             font-size: 20px;
+        }
+
+        &-figure {
+            top: 0;
+            left: -160px;
+            width: 450px;
+            height: 332px;
         }
     }
 
