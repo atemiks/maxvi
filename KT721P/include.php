@@ -45,11 +45,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 <div
                     class="KT721P-typography-container col-xs-12 col-sm-10"
                 >
-                    <div
-                        class="KT721P-power-title"
-                        data-aos="fade-right"
-                        data-aos-duration="500"
-                    >
+                    <div class="KT721P-power-title">
                         МОЩНОСТЬ
                         <br />
                         <span class="KT721P-power-value">
@@ -93,7 +89,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 >
                     <div
                         class="KT721P-mode-title"
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         data-aos-duration="500"
                     >
                         6 УРОВНЕЙ
@@ -132,19 +128,13 @@ $this->addExternalJS($folder . 'js/main.js');
                 <div
                     class="KT721P-typography-container col-xs-12 col-sm-10 col-sm-offset-2"
                 >
-                    <div
-                        class="KT721P-pallet-title"
-                        data-aos="fade-left"
-                    >
+                    <div class="KT721P-pallet-title">
                         ВЫДВИЖНОЙ
                         <br />
                         ПОДДОН
                     </div>
 
-                    <div
-                        class="KT721P-pallet-subtitle"
-                        data-aos="fade-left"
-                    >
+                    <div class="KT721P-pallet-subtitle">
                         ДЛЯ СБОРА
                         <br />
                         КРОШЕК
