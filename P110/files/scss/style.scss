@@ -275,37 +275,39 @@
         url('../images/section-speaker/P110-speaker-bg-spot-top-right.png') no-repeat right top / 595px 642px,
         url('../images/section-speaker/P110-speaker-bg-spot-bottom-right.png') no-repeat right bottom/ 409px 115px !important;
     background-color: #020000 !important;
+    text-align: center;
 
     &-sounds {
         pointer-events: none;
         position: absolute !important;
         z-index: 9;
-        top: 50%;
-        width: 100%;
-        height: inherit;
-        transform: translate(5%, -50%);
+        top: 440px;
+        left: 15px;
+        right: 15px;
+        width: 492px;
+        height: 270px;
+        margin: auto;
     }
 
     &-title {
         position: absolute;
-        top: 450px;
+        top: 215px;
         left: 15px;
         right: 15px;
         color: #7ddffb;
         font-size: 90px;
         font-weight: 300;
         line-height: 1.45;
-        text-align: right;
     }
 
     &-figure {
         position: absolute;
         z-index: 1;
-        top: 60px;
-        left: 60px;
-        right: 60px;
-        width: 500px;
-        height: 1593px;
+        top: 220px;
+        left: auto;
+        right: 15px;
+        width: 280px;
+        height: 892px;
         margin: auto;
     }
 

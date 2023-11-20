@@ -40,17 +40,21 @@
     .P110-speaker {
         height: 650px;
 
+        &-sounds {
+            top: 375px;
+            width: 418px;
+            height: 230px;
+        }
+
         &-title {
-            top: 380px;
+            top: 180px;
             font-size: 76px;
         }
 
         &-figure {
-            top: 50px;
-            left: 50px;
-            right: 50px;
-            width: 425px;
-            height: 1354px;
+            top: 190px;
+            width: 238px;
+            height: 758px;
         }
     }
 
@@ -148,17 +152,23 @@
     .P110-speaker {
         height: 550px;
 
-        &-title {
+        &-sounds {
             top: 320px;
+            width: 355px;
+            height: 194px;
+        }
+
+        &-title {
+            top: 150px;
             font-size: 64px;
         }
 
         &-figure {
-            top: 40px;
+            top: 160px;
             left: 15px;
             right: 15px;
-            width: 340px;
-            height: 1084px;
+            width: 202px;
+            height: 644px;
         }
     }
 
@@ -300,8 +310,11 @@
         height: 580px;
 
         &-sounds {
-            top: 65%;
-            left: 30%;
+            top: 25px;
+            left: 165px;
+            right: auto;
+            width: 200px;
+            height: 110px;
         }
 
         &-title {
