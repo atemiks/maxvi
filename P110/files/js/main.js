@@ -14,9 +14,9 @@ $(document).ready(function () {
         sizeMode: 'fit',
         responsive: true,
         source: SpriteSpin.sourceArray(
-        './files/images/section-speaker/sounds-resized-1000/01_000{frame}.png',
+        './files/images/section-speaker/animation/orig_0000{frame}.png',
         {
-            frame: [0, 90],
+            frame: [0, 8],
             digits: 1
         }),
         plugins: [

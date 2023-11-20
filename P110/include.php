@@ -102,17 +102,16 @@ $this->addExternalJS($folder . 'js/main.js');
     </section>
 
     <section class="P110-speaker section-dark">
-        <div class="P110-speaker-sounds"></div>
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="P110-media-container col-xs-12 col-sm-6">
+                <div class="P110-media-container col-xs-12 col-sm-6 col-md-5">
                     <figure class="P110-speaker-figure">
                         <img
                             loading="lazy"
                             src="<?= $folder ?>/images/section-speaker/P110-speaker-phone-back.png"
                             class="P110-speaker-media"
-                            width="500px"
-                            height="1593"
+                            width="280"
+                            height="892"
                             alt="Мобильный телефон Maxvi P110"
                             data-depth="0.2"
                         />
@@ -120,7 +119,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="P110-typography-container col-xs-12 col-sm-6"
+                    class="P110-typography-container col-xs-12 col-sm-6 col-md-7"
                 >
                     <div
                         class="P110-speaker-title"
@@ -131,6 +130,8 @@ $this->addExternalJS($folder . 'js/main.js');
                         <br />
                         <strong>ДИНАМИК</strong>
                     </div>
+
+                    <div class="P110-speaker-sounds"></div>
                 </div>
             </div>
         </div>
