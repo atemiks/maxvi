@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    const isTabletOrDesktop = window.matchMedia('(min-width: 768px)').matches;
+
     /* Animation */
     AOS.init({
         anchorPlacement: 'bottom-bottom',
@@ -24,20 +26,22 @@ $(document).ready(function () {
         ]
     };
 
-    $(P110SpeakerSounds).spritespin(P110SpeakerSoundsOptions);
+    if(isTabletOrDesktop) {
+        $(P110SpeakerSounds).spritespin(P110SpeakerSoundsOptions);
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if(entry.isIntersecting) {
-                $(entry.target).spritespin('api').startAnimation();
-                return;
-            }
-
-            $(entry.target).spritespin('api').stopAnimation();
-        }, {
-            threshold: 0.5,
-        });
-    })
-
-    observer.observe(P110SpeakerSounds);
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if(entry.isIntersecting) {
+                    $(entry.target).spritespin('api').startAnimation();
+                    return;
+                }
+    
+                $(entry.target).spritespin('api').stopAnimation();
+            }, {
+                threshold: 0.5,
+            });
+        })
+    
+        observer.observe(P110SpeakerSounds);
+    }
 });
