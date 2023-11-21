@@ -1,51 +1,62 @@
-let megamenuToggle = $( ".header-megamenu-toggle" ),
-    megamenuContainer = $( ".megamenu-wrapper" ),
-    megamenuNavContainer = $('.megamenu-nav-list'),
-    megamenuNavChildren = $(megamenuNavContainer).find('.megamenu-nav-item'),
-    megamenuPaneContainers = $(megamenuContainer).find('.megamenu-tab-pane');
-
-    console.log(megamenuPaneContainers);
+const megamenuToggle = document.querySelector('.header-megamenu-toggle'),
+    megamenuContainer = document.querySelector('.megamenu-wrapper'),
+    megamenuNavContainer = document.querySelector('.megamenu-nav-list'),
+    megamenuNavChildren =
+        megamenuNavContainer.querySelectorAll('.megamenu-nav-item'),
+    megamenuNavLinks =
+        megamenuNavContainer.querySelectorAll('.megamenu-nav-link'),
+    megamenuPaneContainers =
+        megamenuContainer.querySelectorAll('.megamenu-tab-pane');
 
 function openMegamenu() {
-    $(megamenuToggle).addClass('active');
-    $(megamenuContainer).addClass('open');
+    megamenuToggle.classList.add('active');
+    megamenuContainer.classList.add('open');
 }
 
 function closeMegamenu() {
-    $(megamenuToggle).removeClass('active');
-    $(megamenuContainer).removeClass('open');
+    megamenuToggle.classList.remove('active');
+    megamenuContainer.classList.remove('open');
 }
 
-
-
-$(megamenuToggle).on('click', function() {
-    $(this).hasClass('active') ? closeMegamenu() : openMegamenu();
+megamenuToggle.addEventListener('click', ({ target }) => {
+    target.classList.contains('active') ? closeMegamenu() : openMegamenu();
 });
 
-$(document).on('click', function(e) {
-    let megamenuContentContainer = $(megamenuContainer).find('.megamenu-inner');
+megamenuNavLinks.forEach((navLink) => {
+    navLink.addEventListener('mouseover', ({ target }) => {
+        const targetNavItem = target.closest('.megamenu-nav-item');
+        const targetPane = target.getAttribute('aria-controls');
+        const targetPaneEl = document.getElementById(targetPane);
 
-    if ( !megamenuToggle.is(e.target) && megamenuToggle.has(e.target).length === 0 && !megamenuContentContainer.is(e.target) && megamenuContentContainer.has(e.target).length === 0 ) {
-        closeMegamenu();
-    }
+        megamenuNavChildren.forEach((item) => {
+            item.classList.remove('active');
+        });
+        megamenuPaneContainers.forEach((pane) => {
+            pane.classList.remove('active');
+        });
+
+        if (targetPaneEl) {
+            targetNavItem.classList.add('active');
+            targetPaneEl.classList.add('active');
+        }
+    });
 });
 
-
-$('.megamenu-nav-list .megamenu-nav-link').hover(function(e) {
-    let target = $(this);
-
-    if(!($(target)[0].hasAttribute('data-toggle'))) {
-        $(megamenuNavChildren).removeClass('active');
-        $(megamenuPaneContainers).removeClass('active');
-    } else {
-        $(target).tab('show');
-    }
-});
-
-
-$('.megamenu-pane-toggle').on('click', function() {
-    let target = $(this);
+$('.megamenu-pane-toggle').on('click', function () {
+    const target = $(this);
 
     $(target).toggleClass('active');
     $(target).next().slideToggle('fast');
-})
+});
+
+document.addEventListener('click', ({ target }) => {
+    const megamenuContentContainer =
+        megamenuContainer.querySelector('.megamenu-inner');
+
+    if (
+        !megamenuToggle.contains(target) &&
+        !megamenuContentContainer.contains(target)
+    ) {
+        closeMegamenu();
+    }
+});
