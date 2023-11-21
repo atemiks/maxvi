@@ -126,9 +126,9 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos="fade-left"
                         data-aos-duration="500"
                     >
-                        ГРОМКИЙ
+                        <strong class="text-lead">ГРОМКИЙ</strong>
                         <br />
-                        <strong>ДИНАМИК</strong>
+                        ДИНАМИК
                     </div>
 
                     <div class="P110-speaker-sounds"></div>
