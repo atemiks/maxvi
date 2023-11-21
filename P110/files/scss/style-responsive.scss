@@ -52,9 +52,9 @@
         }
 
         &-figure {
-            top: 190px;
-            width: 238px;
-            height: 758px;
+            top: 50px;
+            width: 375px;
+            height: 1195px;
         }
     }
 
@@ -164,11 +164,9 @@
         }
 
         &-figure {
-            top: 160px;
-            left: 15px;
-            right: 15px;
-            width: 202px;
-            height: 644px;
+            top: 40px;
+            width: 320px;
+            height: 1020px;
         }
     }
 
@@ -318,13 +316,14 @@
             color: #fff;
             font-size: 28px;
             text-align: left;
-            animation: none;
+
+            &-text {
+                animation: none;
+            }
         }
 
         &-figure {
             top: 170px;
-            left: 15px;
-            right: 15px;
             width: 300px;
             height: 956px;
         }
