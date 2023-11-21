@@ -18,7 +18,7 @@ $(document).ready(function () {
         source: SpriteSpin.sourceArray(
         './files/images/section-speaker/animation/orig_0000{frame}.png',
         {
-            frame: [0, 8],
+            frame: [1, 9],
             digits: 1
         }),
         plugins: [
