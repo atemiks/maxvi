@@ -312,7 +312,7 @@
 
         &-text {
             display: block;
-            animation: shake 1200ms infinite;
+            animation: shake 1000ms infinite;
         }
 
         .text-lead {
@@ -325,23 +325,19 @@
             transform: scale(1);
         }
 
+        17.85% {
+            transform: scale(1.16);
+        }
+
+        35.71% {
+            transform: scale(1);
+        }
+
         50% {
-            transform: scale(1.1);
-        }
-
-        60% {
-            transform: scale(1);
-        }
-
-        65% {
-            transform: scale(1);
-        }
-
-        75% {
             transform: scale(1.05);
         }
 
-        90% {
+        67.85% {
             transform: scale(1);
         }
     }
