@@ -18,9 +18,8 @@ function closeMegamenu() {
     megamenuContainer.classList.remove('open');
 }
 
-megamenuToggle.addEventListener('click', ({ target }) => {
-    target.classList.contains('active') ? closeMegamenu() : openMegamenu();
-});
+megamenuToggle.addEventListener('mouseenter', openMegamenu);
+megamenuContainer.addEventListener('mouseleave', closeMegamenu);
 
 megamenuNavLinks.forEach((navLink) => {
     navLink.addEventListener('mouseover', ({ target }) => {

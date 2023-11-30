@@ -5,8 +5,14 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background: rgb(50,11,78);
-    background: linear-gradient(45deg, rgba(50,11,78,1) 25%, rgba(6,24,62,1) 50%, #ee7752 75%, #e73c7e 100%);
+    background: rgb(50, 11, 78);
+    background: linear-gradient(
+        45deg,
+        rgba(50, 11, 78, 1) 25%,
+        rgba(6, 24, 62, 1) 50%,
+        #ee7752 75%,
+        #e73c7e 100%
+    );
     background-position: 0 50%;
     transition: background 600ms ease;
     background-size: 400% 400%;
@@ -27,7 +33,7 @@
     top: 100%;
     left: 15px;
     right: 15px;
-    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
     transform: translateY(20px);
     transition: opacity 100ms ease, transform 100ms ease;
 }
@@ -47,7 +53,7 @@
 }
 
 .megamenu-wrapper::-webkit-scrollbar-thumb {
-    background: rgba(50, 50, 50, 1); 
+    background: rgba(50, 50, 50, 1);
     border-radius: 10px;
 }
 
@@ -98,7 +104,7 @@
     transform: translateY(-50%);
     font-family: 'FontAwesome';
     font-size: 120%;
-    content: "\f105";
+    content: '\f105';
 }
 
 /* megamenu subnav */
@@ -130,7 +136,6 @@
     list-style-type: none;
 }
 
-
 .megamenu-pane-list .megamenu-pane-list {
     display: none;
     padding-left: 20px;
@@ -144,7 +149,7 @@
 }
 
 .megamenu-pane-link:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .megamenu-pane-toggle {
@@ -166,13 +171,39 @@
     height: 12px;
     margin: auto;
     background: #fff;
-    clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+    clip-path: polygon(
+        0 45%,
+        45% 45%,
+        45% 0,
+        55% 0,
+        55% 45%,
+        100% 45%,
+        100% 55%,
+        55% 55%,
+        55% 100%,
+        45% 100%,
+        45% 55%,
+        0 55%
+    );
     transition: clip-path 200ms;
     content: '';
 }
 
 .megamenu-pane-toggle.active::after {
-    clip-path: polygon(0 45%, 45% 45%, 45% 45%, 55% 45%, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 55%, 45% 55%, 45% 55%, 0 55%);
+    clip-path: polygon(
+        0 45%,
+        45% 45%,
+        45% 45%,
+        55% 45%,
+        55% 45%,
+        100% 45%,
+        100% 55%,
+        55% 55%,
+        55% 55%,
+        45% 55%,
+        45% 55%,
+        0 55%
+    );
 }
 
 @media screen and (max-width: 1024px) {
