@@ -55,8 +55,8 @@ $this->addExternalJS($folder . 'js/main.js');
                             loading="lazy"
                             src="<?= $folder ?>/images/section-power/KT822S-power-toaster-front.png"
                             class="KT822S-power-media layer-1"
-                            width="670"
-                            height="658"
+                            width="700"
+                            height="712"
                             alt="Тостер Maxvi KT822S"
                         />
 
