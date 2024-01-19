@@ -1,0 +1,347 @@
+:root {
+    --c-default: #010101;
+}
+
+.SW03-landing {
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .SW03-title,
+    .section-dark .SW03-subtitle,
+    .section-dark .SW03-description {
+        color: #fff;
+    }
+}
+
+.SW03-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.SW03-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.SW03-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .SW03-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section intro */
+.SW03-intro {
+    overflow: hidden;
+    height: 690px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #61a3ac;
+    background-size: 540px auto !important;
+    background-position: left 7% !important;
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 195px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.125;
+
+        .text-lead {
+            font-size: 140%;
+        }
+    }
+
+    &-subtitle {
+        top: 390px;
+        font-size: 38px;
+    }
+
+    &-logo {
+        width: 246px;
+        height: 42px;
+    }
+
+    &-figure {
+        position: absolute;
+        top: -180px;
+        left: 15px;
+        right: 15px;
+        width: 301px;
+        height: 1119px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section intro end */
+
+/* section screen */
+.SW03-screen {
+    overflow: hidden;
+    height: 730px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #eeeeee;
+
+    &-title {
+        position: absolute;
+        top: 345px;
+        left: 15px;
+        right: 15px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.125;
+
+        .text-lead {
+            font-size: 120%;
+            font-weight: 400;
+            line-height: 1.25;
+        }
+    }
+
+    &-figure {
+        position: absolute;
+        top: 60px;
+        left: 35px;
+        right: 35px;
+        width: 615px;
+        height: 664px;
+        margin: auto;
+    }
+
+    &-media {
+        display: block;
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section screen end */
+
+/* section pedometer */
+.SW03-pedometer {
+    overflow: hidden;
+    height: 815px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #c7b0aa;
+
+    &-title {
+        position: absolute;
+        top: 335px;
+        left: 15px;
+        right: 15px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.125;
+
+        .text-lead {
+            font-size: 125%;
+        }
+    }
+}
+
+/* section pedometer end */
+
+/* section sync */
+.SW03-sync {
+    overflow: hidden;
+    height: 765px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+
+    .container {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 622px 728px;
+    }
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 35px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 270px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+
+    &-subtitle {
+        top: 470px;
+        font-size: 40px;
+    }
+}
+
+/* section sync end */
+
+/* section case */
+.SW03-case {
+    overflow: hidden;
+    height: 770px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: linear-gradient(to top, #bebebe, #eee, #d2d2d2);
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 220px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &-subtitle {
+        top: 415px;
+        font-size: 40px;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        right: 40px;
+        width: 647px;
+        height: 702px;
+        margin: auto;
+    }
+
+    &-media {
+        display: block;
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section case end */
