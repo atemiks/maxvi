@@ -157,7 +157,7 @@
             width: 200%;
             height: 200%;
             background-color: #fff;
-            transform: translate(-50%, -50%);
+            transform: translate3d(-50%, -50%, 0);
             filter: blur(100px);
             content: '';
         }
