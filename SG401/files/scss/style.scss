@@ -355,6 +355,10 @@
             animation: ease rotate-blades infinite 3000ms;
         }
 
+        .layer-cap {
+            background-image: url('../images/section-rotation/SG401-rotation-juicer-cap.png');
+        }
+
         @keyframes rotate-blades {
             0% {
                 transform: rotate(0deg);
