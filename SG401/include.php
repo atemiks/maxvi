@@ -87,6 +87,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     <figure class="SG401-rotation-figure">
                         <div class="layer layer-juicer"></div>
                         <div class="layer layer-blades"></div>
+                        <div class="layer layer-cap"></div>
                     </figure>
                 </div>
 
