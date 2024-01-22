@@ -284,11 +284,11 @@
     &::before {
         position: absolute;
         top: 0;
-        left: 50%;
+        left: 45%;
         right: 0;
         bottom: 0;
         background-color: #323232;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 85% 100%);
         content: '';
     }
 
@@ -304,11 +304,11 @@
 
     &-figure {
         position: absolute;
-        top: 80px;
+        top: -50px;
         left: 15px;
         right: 15px;
-        width: 546px;
-        height: 423px;
+        width: 660px;
+        height: 660px;
         margin: auto;
 
         &::before,
@@ -316,10 +316,10 @@
             pointer-events: none;
             position: absolute;
             z-index: 1;
-            top: -45%;
-            left: -45%;
-            right: -45%;
-            bottom: -45%;
+            top: -6.5%;
+            left: -22.5%;
+            right: -22.5%;
+            bottom: -6.5%;
             background-repeat: no-repeat;
             background-size: 50% auto;
             background-image: url('../images/section-rotation/SG401-rotation-arrow.png');
@@ -327,12 +327,12 @@
         }
 
         &::before {
-            background-position: 28% top;
+            background-position: 35% top;
         }
 
         &::after {
             transform: scale(-1);
-            background-position: 46.5% top;
+            background-position: 37.5% top;
         }
 
         .layer {
@@ -343,10 +343,30 @@
             height: 100%;
             background-size: contain;
             background-position: center;
+            background-repeat: no-repeat;
         }
 
         .layer-juicer {
             background-image: url('../images/section-rotation/SG401-rotation-juicer.png');
+        }
+
+        .layer-blades {
+            background-image: url('../images/section-rotation/SG401-rotation-juicer-blades.png');
+            animation: ease rotate-blades infinite 3000ms;
+        }
+
+        @keyframes rotate-blades {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(1080deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
         }
     }
 }
