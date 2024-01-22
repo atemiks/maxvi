@@ -83,9 +83,10 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="SG401-rotation">
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="SG401-media-container col-xs-12 col-sm-7 col-sm-offset-3">
+                <div class="SG401-media-container col-xs-12 col-sm-8 col-sm-offset-2">
                     <figure class="SG401-rotation-figure">
                         <div class="layer layer-juicer"></div>
+                        <div class="layer layer-blades"></div>
                     </figure>
                 </div>
 
