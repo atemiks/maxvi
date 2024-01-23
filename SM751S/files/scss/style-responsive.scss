@@ -271,6 +271,14 @@
 
         &-title {
             top: 40px;
+
+            .text-highlight {
+                -webkit-text-stroke-width: 0;
+
+                &[data-aos="change"].aos-animate {
+                    -webkit-text-stroke-width: 0;
+                }
+            }
         }
 
         &-subtitle {

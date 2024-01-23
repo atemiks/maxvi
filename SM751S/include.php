@@ -78,7 +78,7 @@ $this->addExternalJS($folder . 'js/main.js');
         </div>
     </section>
 
-    <section class="SM751S-indicator">
+    <section class="SM751S-indicator section-dark">
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div class="SM751S-media-container col-xs-8 col-sm-7">
@@ -86,15 +86,17 @@ $this->addExternalJS($folder . 'js/main.js');
                         <img loading="lazy" class="SM751S-indicator-media" src="<?= $folder ?>/images/section-indicator/SM751S-indicator-sandwichmaker-front.png" width="744" height="748" alt="Сэндвичница Maxvi SM751S" />
 
                         <div class="layer layer-indicator">
-                            <span class="led led--danger" data-aos="fade-out" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="2000"></span>
-                            <span class="led led--success" data-aos="fade-in" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="2000"></span>
+                            <span class="led led--danger" data-aos="fade-out" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="1600"></span>
+                            <span class="led led--success" data-aos="fade-in" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="1600"></span>
                         </div>
                     </figure>
                 </div>
 
                 <div class="SM751S-typography-container col-xs-12 col-sm-10 col-sm-offset-2">
                     <div class="SM751S-indicator-title" data-aos="fade-left">
-                        <span class="text-danger">ИНДИКАТОР</span>
+                        <span class="text-highlight" data-aos="change" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="1600">
+                            ИНДИКАТОР
+                        </span>
                         <br />
                         РАБОТЫ
                     </div>

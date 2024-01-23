@@ -238,7 +238,6 @@
         width: 755px !important;
         height: 705px !important;
         margin: auto;
-        // transform: rotate(-15deg);
     }
 
     &-media {
@@ -254,7 +253,7 @@
     height: 755px;
     padding-top: 0;
     padding-bottom: 0;
-    background: linear-gradient(to bottom, #fff, #222222);
+    background: linear-gradient(to bottom, #181717, #010001);
     text-align: right;
 
     &-title,
@@ -270,14 +269,20 @@
     &-title {
         top: 40px;
 
-        .text-danger {
-            color: #d50505;
+        .text-highlight {
+            -webkit-text-stroke: 3px #f31d0d;
+            text-shadow: 0 0 10px #f31d0d, 0 0 10px #f31d0d, 0 0 40px #f31d0d, 0 0 40px #f31d0d;
+            transition-property: color, text-shadow, -webkit-text-stroke;
+
+            &[data-aos="change"].aos-animate {
+                -webkit-text-stroke: 3px #04fa66;
+                text-shadow: 0 0 10px #04fa66, 0 0 10px #04fa66, 0 0 40px #04fa66, 0 0 40px #04fa66;
+            }
         }
     }
 
     &-subtitle {
         top: 370px;
-        color: #fff;
         line-height: 1.125;
     }
 
@@ -296,17 +301,17 @@
         }
 
         &::before {
-            opacity: 0.35;
+            opacity: 1;
             position: absolute;
             z-index: -1;
             left: 0;
             right: 0;
             bottom: 0;
-            height: 20%;
+            height: 25%;
             border-radius: 30%;
             background-color: #fff;
-            transform: translate3d(0, 0, 0);
-            filter: blur(30px);
+            transform: translate3d(0, 35%, 0);
+            filter: blur(130px);
             content: '';
         }
 
@@ -316,7 +321,7 @@
         }
 
         &[data-aos].aos-animate::before {
-            opacity: 0.35;
+            opacity: 1;
         }
 
         .layer-indicator {
@@ -331,17 +336,39 @@
         }
 
         .led {
+            position: relative;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
             transition: opacity 300ms ease;
 
+            &::after {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 250%;
+                padding-top: 250%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                transform: translate(-50%, -50%);
+                content: '';
+            }
+
             &--danger {
                 background-image: url('../images/section-indicator/SM751S-indicator-red-LED.png');
+
+                &::after {
+                    background-image: url('../images/section-indicator/SM751S-indicator-red-LED-ray.png');
+                }
             }
 
             &--success {
                 background-image: url('../images/section-indicator/SM751S-indicator-green-LED.png');
+
+                &::after {
+                    background-image: url('../images/section-indicator/SM751S-indicator-green-LED-ray.png');
+                }
             }
         }
     }
