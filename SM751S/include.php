@@ -88,8 +88,8 @@ $this->addExternalJS($folder . 'js/main.js');
                         <img loading="lazy" class="SM751S-indicator-media" src="<?= $folder ?>/images/section-indicator/SM751S-indicator-sandwichmaker-front.png" width="744" height="748" alt="Сэндвичница Maxvi SM751S" />
 
                         <div class="layer layer-indicator">
-                            <span class="led led--danger"></span>
-                            <span class="led led--success"></span>
+                            <span class="led led--danger" data-aos="fade-out" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="2000"></span>
+                            <span class="led led--success" data-aos="fade-in" data-aos-anchor=".SM751S-indicator-figure" data-aos-delay="2000"></span>
                         </div>
                     </figure>
                 </div>

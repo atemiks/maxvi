@@ -13,6 +13,22 @@
     color: var(--c-default);
     line-height: 1.25;
 
+    [data-aos="fade-in"] {
+        opacity: 0;
+    }
+
+    [data-aos="fade-in"].aos-animate {
+        opacity: 1;
+    }
+
+    [data-aos="fade-out"] {
+        opacity: 1;
+    }
+
+    [data-aos="fade-out"].aos-animate {
+        opacity: 0;
+    }
+
     section {
         position: relative;
         background-position: center center;
@@ -201,6 +217,7 @@
     height: 750px;
     padding-top: 0;
     padding-bottom: 0;
+    background-position: center bottom !important;
     text-align: right;
 
     &-title {
@@ -317,25 +334,14 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            transition: opacity 300ms ease;
 
             &--danger {
                 background-image: url('../images/section-indicator/SM751S-indicator-red-LED.png');
-                animation: 500ms flash linear infinite;
             }
 
             &--success {
                 background-image: url('../images/section-indicator/SM751S-indicator-green-LED.png');
-                animation: 500ms flash linear 250ms infinite;
-            }
-        }
-
-        @keyframes flash {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
             }
         }
     }
