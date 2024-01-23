@@ -26,8 +26,8 @@ $this->addExternalCss($folder . "css/style-responsive.css");
 // $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap.min.js');
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
 
 //Scripts
 $this->addExternalJS($folder . 'js/main.js');
@@ -64,9 +64,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div class="SM751S-media-container col-xs-12 col-sm-10">
-                    <figure class="SM751S-material-figure">
-                        <img loading="lazy" class="SM751S-material-media" src="<?= $folder ?>/images/section-material/SM751S-material-sandwichmaker-front.png" width="755" height="705" alt="Сэндвичница Maxvi SM751S" />
-                    </figure>
+                    <figure class="SM751S-material-figure"></figure>
                 </div>
 
                 <div class="SM751S-typography-container col-xs-12 col-sm-10 col-sm-offset-2">

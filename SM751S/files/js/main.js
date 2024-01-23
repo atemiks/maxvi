@@ -4,27 +4,42 @@ $(document).ready(function () {
         anchorPlacement: 'bottom-bottom',
     });
 
-    /* ScrollTrigger */
+    /* SpriteSpin animation */
     const materialSection = document.querySelector('.SM751S-material');
-    const sizeJuicerFigure = materialSection.querySelector('.SM751S-material-figure');
+    const materialFigure = materialSection.querySelector('.SM751S-material-figure')
+    const materialAnimationOptions = {
+        animate: false,
+        loop: false,
+        frame: 1,
+        stopFrame: 30,
+        sense: -1,
+        source: SpriteSpin.sourceArray(
+        './files/images/section-material/animation/SM751S-material-sandwichmaker-{frame}.png',
+        {
+            frame: [1, 31],
+            digits: 1
+        }),
+    }
 
-    const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: materialSection,
-          markers: false,
-          start: "0 50%",
-          end: "50% 50%",
-          scrub: 0.1,
-          snap: {
-            snapTo: "labels",
-            duration: { min: 0.2, max: 1 },
-            delay: 0.2,
-            ease: "power1.inOut",
-          },
-        },
-      });
+    $(materialFigure).spritespin(materialAnimationOptions)
 
-      tl.addLabel("start")
-        .to(sizeJuicerFigure, {rotate: '0deg'})
-        .addLabel("end")
+
+    const bootSpriteSpin = (selector) => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if(entry.isIntersecting) {
+                    $(entry.target).spritespin('api').startAnimation();
+                } else {
+                    $(entry.target).spritespin('api').stopAnimation();
+                    $(entry.target).spritespin('api');
+                }
+            });
+        }, {
+            threshold: 0.5,
+        });
+
+        observer.observe(selector);
+    }
+
+    bootSpriteSpin(materialFigure);
 });

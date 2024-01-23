@@ -231,14 +231,14 @@
     }
 
     &-figure {
-        position: absolute;
+        position: absolute !important;
         top: -80px;
         left: 15px;
         right: 15px;
-        width: 755px;
-        height: 705px;
+        width: 755px !important;
+        height: 705px !important;
         margin: auto;
-        transform: rotate(-15deg);
+        // transform: rotate(-15deg);
     }
 
     &-media {
