@@ -231,6 +231,7 @@
     }
 
     &-figure {
+        pointer-events: none;
         position: absolute !important;
         top: -80px;
         left: 15px;
@@ -261,29 +262,44 @@
         position: absolute;
         left: 15px;
         right: 15px;
-        font-size: 78px;
         font-weight: 500;
         line-height: 1.25;
     }
 
     &-title {
         top: 40px;
+        font-size: 78px;
 
         .text-highlight {
-            -webkit-text-stroke: 3px #f31d0d;
-            text-shadow: 0 0 10px #f31d0d, 0 0 10px #f31d0d, 0 0 40px #f31d0d, 0 0 40px #f31d0d;
+            -webkit-text-stroke: 1px #f91d0c;
+            text-shadow:
+                -1px -1px 0.2564em #f91d0c,
+                1px -1px 0.2564em #f91d0c,
+                -1px 1px 0.2564em #f91d0c,
+                1px -1px 0.2564em #f91d0c,
+                0 0 0.6410em #f91d0c,
+                0 0 0.6410em #f91d0c,
+                0 0 0.6410em #f91d0c;
             transition-property: color, text-shadow, -webkit-text-stroke;
+            color: rgba(#fff, .85);
 
             &[data-aos="change"].aos-animate {
-                -webkit-text-stroke: 3px #04fa66;
-                text-shadow: 0 0 10px #04fa66, 0 0 10px #04fa66, 0 0 40px #04fa66, 0 0 40px #04fa66;
+                -webkit-text-stroke: 1px #04fc67;
+                text-shadow:
+                    -1px -1px 0.2564em #04fc67,
+                    1px -1px 0.2564em #04fc67,
+                    -1px 1px 0.2564em #04fc67,
+                    1px -1px 0.2564em #04fc67,
+                    0 0 0.6410em #04fc67,
+                    0 0 0.6410em #04fc67,
+                    0 0 0.6410em #04fc67;
             }
         }
     }
 
     &-subtitle {
-        top: 370px;
-        line-height: 1.125;
+        top: 450px;
+        font-size: 54px;
     }
 
     &-figure {

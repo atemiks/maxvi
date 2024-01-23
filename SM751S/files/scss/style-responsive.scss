@@ -49,17 +49,14 @@
     .SM751S-indicator {
         height: 640px;
 
-        &-title,
-        &-subtitle {
+        &-title {
+            top: 40px;
             font-size: 66px;
         }
 
-        &-title {
-            top: 40px;
-        }
-
         &-subtitle {
-            top: 315px;
+            top: 380px;
+            font-size: 44px;
         }
 
         &-figure {
@@ -130,17 +127,14 @@
     .SM751S-indicator {
         height: 545px;
 
-        &-title,
-        &-subtitle {
+        &-title {
+            top: 40px;
             font-size: 56px;
         }
 
-        &-title {
-            top: 40px;
-        }
-
         &-subtitle {
-            top: 315px;
+            top: 340px;
+            font-size: 34px;
         }
 
         &-figure {
@@ -264,25 +258,14 @@
     .SM751S-indicator {
         height: 445px;
 
-        &-title,
-        &-subtitle {
-            font-size: 28px;
-        }
-
         &-title {
             top: 40px;
-
-            .text-highlight {
-                -webkit-text-stroke-width: 0;
-
-                &[data-aos="change"].aos-animate {
-                    -webkit-text-stroke-width: 0;
-                }
-            }
+            font-size: 28px;
         }
 
         &-subtitle {
             top: 315px;
+            font-size: 24px;
             text-align: left;
         }
 
