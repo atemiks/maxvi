@@ -80,6 +80,11 @@
     .GSP01-battery {
         height: 660px;
 
+        &-title,
+        &-subtitle {
+            max-width: 600px;
+        }
+
         &-title {
             top: 250px;
             font-size: 60px;
@@ -182,6 +187,11 @@
     .GSP01-battery {
         height: 560px;
 
+        &-title,
+        &-subtitle {
+            max-width: 570px;
+        }
+
         &-title {
             top: 210px;
             font-size: 50px;
@@ -253,6 +263,11 @@
         &-cloud {
             width: 120px;
             height: 62px;
+
+            &:nth-child(3) {
+                top: 40% !important;
+                left: 80% !important;
+            }
         }
 
         &-title {
@@ -328,13 +343,18 @@
     .GSP01-battery {
         height: 450px;
 
+        &-title,
+        &-subtitle {
+            max-width: 315px;
+        }
+
         &-title {
-            top: 100px;
+            top: 60px;
             font-size: 28px;
         }
 
         &-subtitle {
-            top: 135px;
+            top: 95px;
             font-size: 20px;
         }
     }

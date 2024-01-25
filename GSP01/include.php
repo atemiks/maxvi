@@ -83,7 +83,7 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="GSP01-kit section-dark">
         <div class="container">
             <div class="GSP01-kit-clouds">
-                <div class="GSP01-kit-cloud" data-depth="0.25"></div>
+                <div class="GSP01-kit-cloud" data-depth="0.3"></div>
                 <div class="GSP01-kit-cloud" data-depth="0.2"></div>
                 <div class="GSP01-kit-cloud" data-depth="0.1"></div>
                 <div class="GSP01-kit-cloud" data-depth="0.3"></div>
@@ -128,15 +128,13 @@ $this->addExternalJS($folder . 'js/main.js');
         ">
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="GSP01-typography-container col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-                    <div class="GSP01-battery-title" data-aos="fade-up" data-aos-duration="500">
+                <div class="GSP01-typography-container col-xs-12 col-sm-10 col-lg-8 col-sm-offset-1 col-lg-offset-2">
+                    <div class="GSP01-battery-title" data-aos="fade-up" data-aos-duration="500" data-text="АВТОНОМНОСТЬ">
                         АВТОНОМНОСТЬ
                     </div>
 
-                    <div class="GSP01-battery-subtitle" data-aos="fade-up" data-aos-duration="500">
-                        НАСЛАЖДАЙТЕСЬ ИГРАМИ
-                        <br />
-                        В ЛЮБОМ МЕСТЕ
+                    <div class="GSP01-battery-subtitle" data-aos="fade-up" data-aos-duration="500" data-text="НАСЛАЖДАЙТЕСЬ ИГРАМИ В&nbsp;ЛЮБОМ МЕСТЕ">
+                        НАСЛАЖДАЙТЕСЬ ИГРАМИ В&nbsp;ЛЮБОМ МЕСТЕ
                     </div>
                 </div>
             </div>
