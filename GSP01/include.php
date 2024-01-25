@@ -9,7 +9,7 @@
  * @var CUser $USER
  */
 
-$folder = substr(DIR, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
+$folder = substr(__DIR__, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
 
 // Bootstrap 3.4.1
 $this->addExternalCss("https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
