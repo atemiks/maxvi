@@ -37,9 +37,9 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="GSP01-intro section-dark">
         <div class="container">
             <div class="GSP01-intro-clouds">
-                <div class="GSP01-intro-cloud" data-depth="0.125"></div>
-                <div class="GSP01-intro-cloud" data-depth="0.05"></div>
-                <div class="GSP01-intro-cloud" data-depth="0.15"></div>
+                <div class="GSP01-intro-cloud" data-depth="0.25"></div>
+                <div class="GSP01-intro-cloud" data-depth="0.1"></div>
+                <div class="GSP01-intro-cloud" data-depth="0.3"></div>
             </div>
 
             <div class="content-wrapper row d-flex">
@@ -83,14 +83,14 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="GSP01-kit section-dark">
         <div class="container">
             <div class="GSP01-kit-clouds">
-                <div class="GSP01-kit-cloud" data-depth="0.125"></div>
+                <div class="GSP01-kit-cloud" data-depth="0.25"></div>
+                <div class="GSP01-kit-cloud" data-depth="0.2"></div>
                 <div class="GSP01-kit-cloud" data-depth="0.1"></div>
-                <div class="GSP01-kit-cloud" data-depth="0.05"></div>
-                <div class="GSP01-kit-cloud" data-depth="0.15"></div>
+                <div class="GSP01-kit-cloud" data-depth="0.3"></div>
             </div>
 
             <div class="GSP01-kit-islands">
-                <div class="content-wrapper row d-flex" data-depth="0.125">
+                <div class="content-wrapper row d-flex" data-depth="0.25">
                     <div class="GSP01-typography-container col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
                         <div class="GSP01-kit-island">
                             <div class="GSP01-kit-island-title">
@@ -102,7 +102,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     </div>
                 </div>
 
-                <div class="content-wrapper row d-flex" data-depth="0.1">
+                <div class="content-wrapper row d-flex" data-depth="0.2">
                     <div class="GSP01-media-container col-xs-12">
                         <figure class="GSP01-kit-figure">
                             <img loading="lazy" src="<?= $folder ?>/images/section-kit/GSP01-kit-joystick-front.png" class="GSP01-kit-media" width="1004" height="625" alt="Портативная игровая консоль Maxvi GSP01" />
