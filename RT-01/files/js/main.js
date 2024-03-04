@@ -39,9 +39,7 @@ $(document).ready(function () {
             { left: 15, opacity: 1, duration: 7.5 },
             2.5
         ); // delay 2.5sec
-    tl.addLabel('end')
-        .to(introFigure, { x: window.innerWidth, duration: 5 }, 'end')
-        .to(screenTitle, { y: '-100%', opacity: 0, duration: 5 }, 'end');
+    tl.addLabel('end');
 
     /* Parallax */
     const simFigure = document.querySelector('.RT01-sim-parallax');
