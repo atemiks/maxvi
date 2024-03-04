@@ -58,9 +58,9 @@ $this->addExternalJS($folder . 'js/main.js');
                     </div>
                 </div>
 
-                <div class="RT01-media-container col-xs-12 col-sm-6">
+                <div class="RT01-media-container col-xs-12 col-sm-offset-5 col-sm-7">
                     <figure class="RT01-intro-figure">
-                        <img loading="lazy" src="<?= $folder ?>/images/section-intro/RT01-intro-phone-front.png" class="RT01-intro-media" width="582" height="652" alt="Стационарный сотовый телефон Maxvi RT01" />
+                        <img loading="lazy" src="<?= $folder ?>/images/section-intro/RT01-intro-phone-front.png" class="RT01-intro-media" width="650" height="728" alt="Стационарный сотовый телефон Maxvi RT01" />
                     </figure>
                 </div>
             </div>
