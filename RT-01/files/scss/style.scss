@@ -306,13 +306,13 @@
         z-index: 1;
         top: 20px;
         left: auto;
-        right: 15px;
-        width: 1130px;
+        right: 30px;
+        width: 1760px;
         margin: auto;
 
         &::before {
             display: block;
-            padding-top: 89%;
+            padding-top: 57%;
             content: '';
         }
     }
@@ -353,7 +353,7 @@
     &-back {
         z-index: -1;
         top: 36%;
-        left: 68%;
+        left: 80%;
         width: 117px;
 
         &::before {
@@ -365,7 +365,7 @@
 
     &-front {
         top: 37%;
-        left: 42%;
+        left: 64%;
         width: 139px;
 
         &::before {

@@ -115,7 +115,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 <div class="RT01-media-container col-xs-12">
                     <figure class="RT01-sim-figure" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-anchor=".RT01-sim-subtitle">
                         <div class="RT01-sim-parallax">
-                            <div class="RT01-sim-layer" data-depth="0.15">
+                            <div class="RT01-sim-layer" data-depth="0.1">
                                 <div class="RT01-sim-back" style="
                                         background-image: url('<?= $folder ?>/images/section-sim/sim-back.png');
                                     "></div>
@@ -123,7 +123,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
                             <img loading="lazy" src="<?= $folder ?>/images/section-sim/RT01-sim-phone-front.png" class="RT01-sim-media" width="1130" height="1006" alt="Стационарный сотовый телефон Maxvi RT01" />
 
-                            <div class="RT01-sim-layer" data-depth="0.3">
+                            <div class="RT01-sim-layer" data-depth="0.2">
                                 <div class="RT01-sim-front" style="
                                         background-image: url('<?= $folder ?>/images/section-sim/sim-front.png');
                                     "></div>
