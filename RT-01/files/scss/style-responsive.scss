@@ -231,7 +231,12 @@
 
     .RT01-title,
     .RT01-subtitle,
-    .RT01-description {
+    .RT01-description,
+    .RT01-antenna-title,
+    .RT01-antenna-subtitle,
+    .RT01-screen-title,
+    .RT01-sim-title,
+    .RT01-sim-subtitle {
         max-width: 280px;
     }
 
@@ -329,18 +334,22 @@
 
         &-title {
             top: 40px;
+            margin-left: auto;
+            margin-right: auto;
             font-size: 28px;
         }
 
         &-subtitle {
             top: 80px;
+            margin-left: auto;
+            margin-right: auto;
             font-size: 20px;
         }
 
         &-figure {
             top: 40px;
             left: auto;
-            right: 0;
+            right: 10px;
             width: 570px;
         }
 
