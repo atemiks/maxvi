@@ -1,0 +1,283 @@
+@media (max-width: 1199px) {
+
+    /* section design */
+    .C40-design {
+        height: 640px;
+
+        &-title {
+            top: 170px;
+            font-size: 72px;
+        }
+
+        &-figure {
+            top: 30px;
+            left: 40px;
+            right: 40px;
+            width: 504px;
+            height: 606px;
+        }
+
+        &-media {
+            &-front {
+                width: 246px;
+                height: 598px;
+            }
+
+            &-back {
+                width: 220px;
+                height: 606px;
+            }
+        }
+    }
+
+    /* section design end */
+
+    /* section case */
+    .C40-case {
+        height: 640px;
+
+        &-title {
+            top: 180px;
+            font-size: 64px;
+        }
+    }
+
+    /* section case end */
+
+    /* section keyboard */
+    .C40-keyboard {
+        height: 640px;
+
+        &-title {
+            top: 340px;
+            font-size: 72px;
+        }
+    }
+
+    /* section keyboard end */
+
+    /* section camera */
+    .C40-camera {
+        height: 640px;
+
+        &-title {
+            top: 230px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: 50px;
+            width: 386px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 991px) {
+    .C40-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section design */
+    .C40-design {
+        height: 545px;
+
+        &-title {
+            top: 145px;
+            font-size: 54px;
+        }
+
+        &-figure {
+            top: 20px;
+            width: 425px;
+            height: 512px;
+        }
+
+        &-media {
+            &-front {
+                width: 208px;
+                height: 505px;
+            }
+
+            &-back {
+                width: 186px;
+                height: 512px;
+            }
+        }
+    }
+
+    /* section design end */
+
+    /* section case */
+    .C40-case {
+        height: 545px;
+
+        &-title {
+            top: 150px;
+            font-size: 50px;
+        }
+    }
+
+    /* section case end */
+
+    /* section keyboard */
+    .C40-keyboard {
+        height: 545px;
+
+        &-title {
+            top: 290px;
+            font-size: 60px;
+        }
+    }
+
+    /* section keyboard end */
+
+    /* section camera */
+    .C40-camera {
+        height: 545px;
+
+        &-title {
+            top: 195px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 328px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 767px) {
+    .C40-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .C40-title,
+    .C40-subtitle,
+    .C40-description,
+    .C40-design-title,
+    .C40-case-title,
+    .C40-keyboard-title,
+    .C40-camera-title {
+        max-width: 280px;
+    }
+
+    .C40-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .C40-subtitle {
+        font-size: 24px !important;
+    }
+
+    .C40-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .C40-title[data-aos],
+    .C40-subtitle[data-aos],
+    .C40-description[data-aos],
+    .C40-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .C40-title[data-aos].aos-animate,
+    .C40-subtitle[data-aos].aos-animate,
+    .C40-description[data-aos].aos-animate,
+    .C40-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section design */
+    .C40-design {
+        height: 585px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 140px;
+            left: 15px;
+            right: 15px;
+            width: 335px;
+            height: 435px;
+        }
+
+        &-media {
+            &-front {
+                width: 176px;
+                height: 428px;
+            }
+
+            &-back {
+                width: 158px;
+                height: 435px;
+            }
+        }
+    }
+
+    /* section design end */
+
+    /* section case */
+    .C40-case {
+        height: 655px;
+        text-align: left;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+    }
+
+    /* section case end */
+
+    /* section keyboard */
+    .C40-keyboard {
+        height: 655px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+    }
+
+    /* section keyboard end */
+
+    /* section camera */
+    .C40-camera {
+        height: 545px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 140px;
+            width: 278px;
+        }
+    }
+
+    /* section camera end */
+}

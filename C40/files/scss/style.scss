@@ -1,0 +1,275 @@
+:root {
+    --c-default: #010101;
+}
+
+.C40-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .C40-title,
+    .section-dark .C40-subtitle,
+    .section-dark .C40-description {
+        color: #fff;
+    }
+}
+
+.C40-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.C40-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.C40-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .C40-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section design */
+.C40-design {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #535766;
+
+    &-title {
+        position: absolute;
+        top: 200px;
+        left: 15px;
+        right: 15px;
+        font-size: 86px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    &-figure {
+        pointer-events: none;
+        position: absolute;
+        z-index: 10;
+        top: 30px;
+        left: 15px;
+        right: 15px;
+        width: 584px;
+        height: 711px;
+        margin: auto;
+        transform-origin: top center;
+    }
+
+    &-media {
+        position: absolute;
+        top: 0;
+
+        &-front {
+            width: 290px;
+            height: 705px;
+        }
+
+        &-back {
+            left: 50%;
+            width: 258px;
+            height: 711px;
+            transform: rotate(5deg);
+            transform-origin: center;
+        }
+    }
+}
+
+/* section design end */
+
+/* section case */
+.C40-case {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 8%, rgba(241, 249, 252, 1) 75%);
+    color: #514570;
+    text-align: center;
+
+    &-title {
+        position: absolute;
+        top: 210px;
+        left: 15px;
+        right: 15px;
+        font-size: 76px;
+        line-height: 1.25;
+    }
+}
+
+/* section case end */
+
+/* section keyboard */
+.C40-keyboard {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    background-position: center top !important;
+    color: #535766;
+
+    &-title {
+        position: absolute;
+        top: 400px;
+        left: 15px;
+        right: 15px;
+        font-size: 86px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+}
+
+/* section keyboard end */
+
+/* section camera */
+.C40-camera {
+    height: 750px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #535766;
+
+    .text-primary {
+        color: #514570;
+    }
+
+    &-title {
+        position: absolute;
+        top: 275px;
+        left: 15px;
+        right: 15px;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+
+    &-figure {
+        pointer-events: none;
+        position: absolute;
+        top: 60px;
+        left: 15px;
+        right: 15px;
+        width: 455px;
+        margin: auto;
+
+        &::before {
+            display: block;
+            padding-top: 240%;
+            content: '';
+        }
+    }
+
+    &-media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* section camera end */
