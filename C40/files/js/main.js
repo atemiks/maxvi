@@ -66,7 +66,7 @@ $(document).ready(function () {
                 top: designMediaFrontKeyboardOffset,
                 xPercent: 0,
                 rotation: -30,
-                duration: isPhone ? 6 : 8,
+                duration: isPhone ? 6 : 7,
             },
             'case'
         );

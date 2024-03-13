@@ -65,8 +65,8 @@ $this->addExternalJS($folder . 'js/main.js');
                                 loading="lazy"
                                 src="<?= $folder ?>/images/section-design/C40-design-phone-back.png"
                                 class="C40-design-media C40-design-media-back"
-                                width="650"
-                                height="728"
+                                width="258"
+                                height="711"
                                 alt="Мобильный телефон Maxvi C40"
                             />
 
@@ -74,8 +74,8 @@ $this->addExternalJS($folder . 'js/main.js');
                                 loading="lazy"
                                 src="<?= $folder ?>/images/section-design/C40-design-phone-front.png"
                                 class="C40-design-media C40-design-media-front"
-                                width="650"
-                                height="728"
+                                width="290"
+                                height="705"
                                 alt="Мобильный телефон Maxvi C40"
                             />
                         </figure>
@@ -165,7 +165,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             src="<?= $folder ?>/images/section-camera/C40-camera-phone-back.png"
                             class="C40-camera-media"
                             width="455"
-                            height=""
+                            height="1092"
                             alt="Мобильный телефон Maxvi C40"
                         />
                     </figure>
