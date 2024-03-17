@@ -1,0 +1,818 @@
+@media (max-width: 1920px) {
+
+    /* section dock */
+    .B21ds-dock {
+        height: 1150px;
+
+        &-title,
+        &-subtitle {
+            left: 15px;
+            right: 15px;
+            max-width: 100%;
+        }
+
+        &-title {
+            top: 280px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 560px;
+            font-size: 38px;
+        }
+
+        &-figure {
+            top: 85px;
+            height: 984px;
+        }
+
+        &-media {
+            width: 370px;
+            height: 866px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 1150px;
+
+        &-title {
+            top: 515px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 940px;
+            font-size: 38px;
+        }
+
+        &-figure {
+            width: 986px;
+            height: 1110px;
+        }
+
+        &-media {
+            width: 615px;
+            height: 1432px;
+            margin-top: 130px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 1150px;
+
+        &-title {
+            top: 265px;
+            column-gap: 40px;
+            font-size: 94px;
+        }
+
+        &-icon {
+            width: 256px;
+            height: 560px;
+        }
+
+        &-figure {
+            top: 145px;
+            width: 535px;
+            height: 795px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 1150px;
+
+        &-title {
+            top: 690px;
+            font-size: 94px;
+        }
+
+        &-figure {
+            top: 70px;
+            height: 994px;
+        }
+
+        &-media {
+            width: 520px;
+            height: 1184px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 1150px;
+
+        &-title {
+            top: 740px;
+            font-size: 96px;
+        }
+
+        &-figure {
+            top: 165px;
+            width: 765px;
+            height: 1782px;
+        }
+    }
+
+    /* section speaker end */
+}
+
+@media (max-width: 1680px) {
+
+    /* section dock */
+    .B21ds-dock {
+        height: 980px;
+
+        &-title {
+            top: 240px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 475px;
+            font-size: 32px;
+        }
+
+        &-figure {
+            top: 60px;
+            height: 860px;
+        }
+
+        &-media {
+            width: 314px;
+            height: 735px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 980px;
+
+        &-title {
+            top: 440px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 800px;
+            font-size: 32px;
+        }
+
+        &-figure {
+            width: 838px;
+            height: 944px;
+        }
+
+        &-media {
+            width: 520px;
+            height: 1210px;
+            margin-top: 110px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 980px;
+
+        &-title {
+            top: 225px;
+            column-gap: 35px;
+            font-size: 80px;
+        }
+
+        &-icon {
+            width: 216px;
+            height: 472px;
+        }
+
+        &-figure {
+            top: 125px;
+            width: 454px;
+            height: 675px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 980px;
+
+        &-title {
+            top: 585px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: 55px;
+            height: 870px;
+        }
+
+        &-media {
+            width: 440px;
+            height: 1002px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 980px;
+
+        &-title {
+            top: 630px;
+            font-size: 82px;
+        }
+
+        &-figure {
+            top: 140px;
+            width: 650px;
+            height: 1514px;
+        }
+    }
+
+    /* section speaker end */
+}
+
+@media (max-width: 1440px) {
+
+    /* section dock */
+    .B21ds-dock {
+        height: 835px;
+
+        &-title {
+            top: 205px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 405px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 40px;
+            height: 755px;
+        }
+
+        &-media {
+            width: 268px;
+            height: 628px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 835px;
+
+        &-title {
+            top: 375px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 680px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            width: 712px;
+            height: 802px;
+        }
+
+        &-media {
+            width: 440px;
+            height: 1025px;
+            margin-top: 95px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 835px;
+
+        &-title {
+            top: 190px;
+            column-gap: 30px;
+            font-size: 68px;
+        }
+
+        &-icon {
+            width: 184px;
+            height: 402px;
+        }
+
+        &-figure {
+            top: 105px;
+            width: 386px;
+            height: 574px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 835px;
+
+        &-title {
+            top: 500px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 40px;
+            height: 758px;
+        }
+
+        &-media {
+            width: 375px;
+            height: 854px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 835px;
+
+        &-title {
+            top: 535px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 550px;
+            height: 1282px;
+        }
+    }
+
+    /* section speaker end */
+}
+
+@media (max-width: 1199px) {
+
+    /* section dock */
+    .B21ds-dock {
+        height: 710px;
+
+        &-title {
+            top: 175px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 345px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 35px;
+            height: 640px;
+        }
+
+        &-media {
+            width: 228px;
+            height: 534px;
+            margin: 0 25% 0 auto;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 670px;
+
+        &-title {
+            top: 300px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 545px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            width: 560px;
+            height: 630px;
+        }
+
+        &-media {
+            width: 350px;
+            height: 815px;
+            margin-top: 75px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 710px;
+
+        &-title {
+            top: 180px;
+            column-gap: 25px;
+            font-size: 54px;
+        }
+
+        &-icon {
+            width: 156px;
+            height: 340px;
+        }
+
+        &-figure {
+            top: 90px;
+            width: 328px;
+            height: 488px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 710px;
+
+        &-title {
+            top: 425px;
+            font-size: 58px;
+        }
+
+        &-figure {
+            top: 30px;
+            height: 648px;
+        }
+
+        &-media {
+            width: 318px;
+            height: 725px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 710px;
+
+        &-title {
+            top: 455px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 100px;
+            width: 468px;
+            height: 1090px;
+        }
+    }
+
+    /* section speaker end */
+}
+
+@media (max-width: 991px) {
+    .B21ds-landing {
+        --container-padding-x: 40px;
+    }
+
+    /* section dock */
+    .B21ds-dock {
+        height: 605px;
+
+        &-title {
+            top: 150px;
+            font-size: 48px;
+        }
+
+        &-subtitle {
+            top: 295px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            top: 35px;
+            height: 538px;
+        }
+
+        &-media {
+            width: 194px;
+            height: 454px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 535px;
+
+        &-title {
+            top: 240px;
+            font-size: 48px;
+        }
+
+        &-subtitle {
+            top: 435px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            width: 448px;
+            height: 505px;
+            margin: auto;
+        }
+
+        &-media {
+            width: 280px;
+            height: 652px;
+            margin-top: 60px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 570px;
+
+        &-title {
+            top: 185px;
+            column-gap: 20px;
+            font-size: 44px;
+        }
+
+        &-icon {
+            width: 100px;
+            height: 218px;
+        }
+
+        &-figure {
+            top: 70px;
+            width: 278px;
+            height: 414px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 605px;
+
+        &-title {
+            top: 360px;
+            font-size: 48px;
+        }
+
+        &-figure {
+            top: 25px;
+            height: 555px;
+        }
+
+        &-media {
+            width: 270px;
+            height: 615px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 605px;
+
+        &-title {
+            top: 385px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 85px;
+            width: 400px;
+            height: 932px;
+        }
+    }
+
+    /* section speaker end */
+}
+
+@media (max-width: 767px) {
+    .B21ds-landing {
+        --container-padding-x: 20px;
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .B21ds-title,
+    .B21ds-subtitle,
+    .B21ds-description,
+    .B21ds-dock-title,
+    .B21ds-dock-subtitle,
+    .B21ds-screen-title,
+    .B21ds-screen-subtitle,
+    .B21ds-battery-title,
+    .B21ds-sos-title,
+    .B21ds-speaker-title {
+        max-width: 280px;
+    }
+
+    .B21ds-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .B21ds-subtitle {
+        font-size: 24px !important;
+    }
+
+    .B21ds-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .B21ds-title[data-aos],
+    .B21ds-subtitle[data-aos],
+    .B21ds-description[data-aos],
+    .B21ds-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .B21ds-title[data-aos].aos-animate,
+    .B21ds-subtitle[data-aos].aos-animate,
+    .B21ds-description[data-aos].aos-animate,
+    .B21ds-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section dock */
+    .B21ds-dock {
+        height: 725px;
+        text-align: left;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-subtitle {
+            top: 115px;
+            padding: 0.65em 0.5em 0.65em 0;
+            font-size: 18px;
+
+            &::before {
+                left: auto;
+                right: 0;
+                border-radius: 0 9999px 9999px 0;
+            }
+        }
+
+        &-figure {
+            top: 260px;
+            height: 440px;
+        }
+
+        &-media {
+            width: 164px;
+            height: 384px;
+            margin: auto;
+        }
+    }
+
+    /* section dock end */
+
+    /* section screen */
+    .B21ds-screen {
+        height: 595px;
+
+        &-title {
+            top: 420px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-subtitle {
+            top: 495px;
+            font-size: 18px;
+        }
+
+        &-figure {
+            width: 335px;
+            height: 380px;
+        }
+
+        &-media {
+            width: 210px;
+            height: 490px;
+            margin-top: 45px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .B21ds-battery {
+        height: 670px;
+
+        &::before {
+            top: 0;
+            right: 0;
+            width: 100%;
+            padding-top: 190px;
+            border-radius: 0 0 9999px 0;
+            transform: translate(0);
+        }
+
+        &-title {
+            top: 40px;
+            column-gap: 20px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-icon {
+            width: 50px;
+            height: 110px;
+        }
+
+        &-figure {
+            top: 220px;
+            width: 278px;
+            height: 414px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section sos */
+    .B21ds-sos {
+        height: 625px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-figure {
+            top: 125px;
+            height: 470px;
+        }
+
+        &-media {
+            width: 230px;
+            height: 524px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section speaker */
+    .B21ds-speaker {
+        height: 560px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+
+        &-figure {
+            top: 150px;
+            width: 340px;
+            height: 792px;
+        }
+    }
+
+    /* section speaker end */
+
+}
