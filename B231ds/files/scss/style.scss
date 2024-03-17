@@ -283,7 +283,6 @@
     }
 
     &-media {
-        // top: -10%;
         object-fit: contain;
         object-position: center;
     }
@@ -356,7 +355,7 @@
         position: absolute;
         border-radius: 50%;
         background-size: 400% 400%;
-        // animation: sosAnimation 1s ease infinite;
+        animation: sosAnimation 1s ease infinite;
         filter: blur(150px);
 
         &::before {
