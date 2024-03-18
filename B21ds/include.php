@@ -9,7 +9,7 @@
  * @var CUser $USER
  */
 
-$folder = substr(DIR, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
+$folder = substr(__DIR__, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
 
 // Bootstrap 3.4.1
 $this->addExternalCss("https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
@@ -26,7 +26,7 @@ $this->addExternalCss($folder . "css/style-responsive.css");
 $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap.min.js');
+$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
 $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
 
 //Scripts
@@ -38,7 +38,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="B21ds-media-container col-xs-12 col-sm-6 col-lg-7"
+                    class="B21ds-media-container col-xs-12 col-sm-6 col-lg-8"
                 >
                     <figure
                         class="B21ds-dock-figure"
@@ -58,7 +58,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="B21ds-typography-container col-xs-12 col-sm-6 col-lg-5"
+                    class="B21ds-typography-container col-xs-12 col-sm-6 col-lg-5 col-lg-offset-7"
                 >
                     <div
                         class="B21ds-dock-title"
