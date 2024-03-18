@@ -246,6 +246,7 @@
     /* section screen */
     .B231ds-screen {
         height: 600px;
+        color: #fff;
 
         &-title {
             top: 40px;
@@ -322,23 +323,23 @@
 
     /* section keyboard */
     .B231ds-keyboard {
-        height: 520px;
-        text-align: left;
+        height: 400px;
 
         &-title,
         &-subtitle {
-            left: 15px;
+            left: auto;
             right: 15px;
         }
 
         &-title {
-            top: 365px;
+            top: 245px;
+            ;
             font-size: 28px;
             line-height: 1.25;
         }
 
         &-subtitle {
-            top: 440px;
+            top: 320px;
             font-size: 18px;
         }
 
@@ -347,6 +348,10 @@
             right: 15px;
             bottom: -325px;
             width: 320px;
+        }
+
+        &-media {
+            transform: translate(-70%, 0) rotate(-45deg);
         }
     }
 
