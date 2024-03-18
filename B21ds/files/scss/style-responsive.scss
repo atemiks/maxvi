@@ -4,13 +4,6 @@
     .B21ds-dock {
         height: 1150px;
 
-        &-title,
-        &-subtitle {
-            left: 15px;
-            right: 15px;
-            max-width: 100%;
-        }
-
         &-title {
             top: 280px;
             font-size: 94px;
@@ -257,11 +250,12 @@
 
         &-title {
             top: 205px;
-            font-size: 68px;
+            font-size: 64px;
         }
 
         &-subtitle {
             top: 405px;
+            padding-left: 1em;
             font-size: 28px;
         }
 
@@ -389,6 +383,7 @@
 
         &-figure {
             top: 35px;
+            right: 15px;
             height: 640px;
         }
 
@@ -678,6 +673,12 @@
         height: 725px;
         text-align: left;
 
+        &-title,
+        &-subtitle {
+            left: 15px;
+            right: 15px;
+        }
+
         &-title {
             top: 40px;
             font-size: 28px;
@@ -745,10 +746,16 @@
 
         &::before {
             top: 0;
-            right: 0;
-            width: 100%;
-            padding-top: 190px;
-            border-radius: 0 0 9999px 0;
+            left: 0;
+            right: auto;
+            width: 400px;
+            padding-top: 400px;
+            border-radius: 0 9999px 9999px 9999px;
+            transform: translate(-30%, -40%);
+        }
+
+        &-video {
+            left: 0;
             transform: translate(0);
         }
 
