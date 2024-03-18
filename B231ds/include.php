@@ -204,7 +204,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="B231ds-media-container col-xs-12 col-sm-6 col-md-7"
+                    class="B231ds-media-container col-xs-6 col-md-7"
                 >
                     <figure
                         class="B231ds-keyboard-figure"
@@ -224,7 +224,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="B231ds-typography-container col-xs-12 col-sm-6 col-md-5"
+                    class="B231ds-typography-container col-xs-7 col-xs-offset-5 col-sm-6 col-md-5"
                 >
                     <div
                         class="B231ds-keyboard-title"
