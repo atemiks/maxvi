@@ -29,27 +29,27 @@
 
     /* section screen */
     .B21ds-screen {
-        height: 1150px;
+        height: 1080px;
 
         &-title {
-            top: 515px;
+            top: 485px;
             font-size: 94px;
         }
 
         &-subtitle {
-            top: 940px;
+            top: 885px;
             font-size: 38px;
         }
 
         &-figure {
-            width: 986px;
-            height: 1110px;
+            width: 928px;
+            height: 1044px;
         }
 
         &-media {
-            width: 615px;
-            height: 1432px;
-            margin-top: 130px;
+            width: 580px;
+            height: 1350px;
+            margin-top: 120px;
         }
     }
 
@@ -151,27 +151,27 @@
 
     /* section screen */
     .B21ds-screen {
-        height: 980px;
+        height: 865px;
 
         &-title {
-            top: 440px;
+            top: 390px;
             font-size: 80px;
         }
 
         &-subtitle {
-            top: 800px;
+            top: 710px;
             font-size: 32px;
         }
 
         &-figure {
-            width: 838px;
-            height: 944px;
+            width: 740px;
+            height: 834px;
         }
 
         &-media {
-            width: 520px;
-            height: 1210px;
-            margin-top: 110px;
+            width: 464px;
+            height: 1080px;
+            margin-top: 95px;
         }
     }
 
@@ -364,6 +364,38 @@
 
     /* section speaker end */
 }
+
+@media (max-width: 1280px) {
+
+    /* section screen */
+    .B21ds-screen {
+        height: 710px;
+
+        &-title {
+            top: 320px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 580px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            width: 605px;
+            height: 680px;
+        }
+
+        &-media {
+            width: 374px;
+            height: 870px;
+            margin-top: 80px;
+        }
+    }
+
+    /* section screen end */
+}
+
 
 @media (max-width: 1199px) {
 
