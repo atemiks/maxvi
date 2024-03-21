@@ -102,6 +102,10 @@
             top: 320px;
             font-size: 26px;
         }
+
+        &-figure {
+            width: 268px;
+        }
     }
 
     /* section case end */
@@ -215,6 +219,10 @@
         &-subtitle {
             top: 270px;
             font-size: 22px;
+        }
+
+        &-figure {
+            width: 228px;
         }
     }
 
@@ -368,7 +376,7 @@
 
     /* section case */
     .T20-case {
-        height: 420px;
+        height: 440px;
 
         &-title {
             top: 40px;
@@ -378,6 +386,13 @@
         &-subtitle {
             top: 140px;
             font-size: 18px;
+        }
+
+        &-figure {
+            top: 20px;
+            left: 0;
+            right: 0;
+            width: 194px;
         }
     }
 

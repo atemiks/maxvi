@@ -9,7 +9,7 @@
  * @var CUser $USER
  */
 
-$folder = substr(DIR, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
+$folder = substr(__DIR__, strlen($_SERVER['DOCUMENT_ROOT'])) . '/files/';
 
 // Bootstrap 3.4.1
 $this->addExternalCss("https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
@@ -26,7 +26,7 @@ $this->addExternalCss($folder . "css/style-responsive.css");
 $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
-// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
 // $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
 
 //Scripts
@@ -37,7 +37,7 @@ $this->addExternalJS($folder . 'js/main.js');
     <section
         class="T20-intro section-dark"
         style="
-            background-image: url('<?= $folder ?>/images/section-intro/T20-intro-bg.jpg');
+            background-image: url('files/images/section-intro/T20-intro-bg.jpg');
         "
     >
         <div class="container">
@@ -240,13 +240,13 @@ $this->addExternalJS($folder . 'js/main.js');
     <section
         class="T20-case section-dark"
         style="
-            background-image: url('<?= $folder ?>/images/section-case/T20-case-bg.jpeg');
+            background-image: url('<?= $folder ?>/images/section-case/T20-case-bg.jpg');
         "
     >
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="T20-typography-container col-xs-12 col-sm-6"
+                    class="T20-typography-container col-xs-7 col-sm-6 col-md-5 col-md-offset-1"
                 >
                     <div
                         class="T20-case-title"
@@ -271,7 +271,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="T20-media-container col-xs-12 col-sm-6 col-md-5"
+                    class="T20-media-container col-xs-5 col-sm-6 col-md-5 col-xs-offset-5 col-sm-offset-0"
                 >
                     <figure
                         class="T20-case-figure"
@@ -280,9 +280,9 @@ $this->addExternalJS($folder . 'js/main.js');
                     >
                         <img
                             loading="lazy"
-                            src=""
+                            src="<?= $folder ?>/images/section-case/T20-case-phone-side.png"
                             class="T20-case-media"
-                            width="455"
+                            width="314"
                             height=""
                             alt="Мобильный телефон Maxvi T20"
                         />
