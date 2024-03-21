@@ -342,6 +342,7 @@
 
 /* section case */
 .T20-case {
+    overflow: hidden;
     height: 640px;
     padding-top: 0;
     padding-bottom: 0;
@@ -374,18 +375,17 @@
     }
 
     &-figure {
-        display: none;
         pointer-events: none;
         position: absolute;
-        top: 60px;
+        top: -20px;
         left: 15px;
         right: 15px;
-        width: 455px;
+        width: 314px;
         margin: auto;
 
         &::before {
             display: block;
-            padding-top: 240%;
+            padding-top: 208%;
             content: '';
         }
     }
