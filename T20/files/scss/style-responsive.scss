@@ -362,6 +362,10 @@
         &-subtitle {
             top: 135px;
             font-size: 18px;
+
+            br {
+                display: none;
+            }
         }
 
         &-figure {
