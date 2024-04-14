@@ -759,7 +759,7 @@
             font-size: 20px;
 
             &--left {
-                top: 640px;
+                top: 450px;
             }
 
             &--right {
@@ -767,8 +767,6 @@
             }
 
             &-line {
-                // display: none;
-
                 #{$subtitle}--left & {
                     width: calc(170% - 4em);
                 }
