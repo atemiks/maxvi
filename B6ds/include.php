@@ -53,7 +53,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         БОЛЬШОЙ
                         <br />
                         ЭКРАН
-                        <b class="text-lead">2.22"</b>
+                        <b class="text-lead">2.2"</b>
                     </div>
                 </div>
 
