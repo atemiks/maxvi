@@ -10,7 +10,7 @@ $(document).ready(function () {
          '.B6ds-dock-animation'
      );
      const dockAnimationFirstFrame = 1;
-     const dockAnimationLastFrame = 24;
+     const dockAnimationLastFrame = 28;
      const dockAnimationOptions = {
          animate: false,
          loop: false,
@@ -22,7 +22,7 @@ $(document).ready(function () {
          source: SpriteSpin.sourceArray(
              './files/images/section-dock/animation/B6ds-dock-animation-media-{frame}.png',
              {
-                 frame: [1, 25],
+                 frame: [1, 29],
                  digits: 1,
              }
          ),
