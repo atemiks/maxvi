@@ -1,0 +1,445 @@
+:root {
+    --c-default: #010101;
+}
+
+.X900c-landing {
+    overflow: hidden;
+    max-width: 2160px;
+    margin: auto;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-default);
+    line-height: 1.25;
+
+    section {
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1220px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .d-flex {
+        -webkit-display: flex;
+        -ms-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .d-flex.row:before,
+    .d-flex.row:after {
+        display: none;
+    }
+
+    .flex-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-start {
+        align-items: start;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .align-self-center {
+        align-self: center;
+    }
+
+    .align-self-end {
+        align-self: flex-end;
+    }
+
+    .section-dark,
+    .section-dark .X900c-title,
+    .section-dark .X900c-subtitle,
+    .section-dark .X900c-description {
+        color: #fff;
+    }
+}
+
+.X900c-title {
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+
+    span {
+        font-weight: 300;
+    }
+
+    .text-lead {
+        font-size: 180%;
+        font-weight: 900;
+        line-height: normal;
+    }
+}
+
+.X900c-description {
+    margin: 0 0 45px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+
+    p {
+        margin: 0;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0 0 0 15px;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.X900c-media-figure {
+    position: relative;
+    opacity: 1 !important;
+    margin: 0;
+
+    .X900c-media {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* section intro */
+.X900c-intro {
+    height: 770px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #555555;
+
+    &-model,
+    &-title {
+        position: absolute;
+        left: 65px;
+        right: 15px;
+    }
+
+    &-model {
+        top: 250px;
+        font-size: 90px;
+        font-weight: 300;
+        color: #000000;
+    }
+
+    &-title {
+        top: 410px;
+        font-size: 78px;
+        font-weight: 300;
+        line-height: 0.92;
+    }
+
+    &-logo {
+        display: block;
+        width: 205px;
+        height: 35px;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        right: 15px;
+        width: 399px;
+        height: 742px;
+        margin: 0;
+    }
+
+    &-parallax {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section intro end */
+
+/* section contacts */
+.X900c-contacts {
+    height: 760px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #555555;
+    background: linear-gradient(90deg, #fafafa 30%, #f9f9f9 35%);
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 155px;
+        font-size: 60px;
+        font-weight: 300;
+        color: #000000;
+        line-height: normal;
+    }
+
+    &-subtitle {
+        top: 450px;
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 45px;
+        left: 90px;
+        right: 90px;
+        width: 293px;
+        height: 707px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+
+    &-woman {
+        position: absolute;
+        top: 65px;
+        left: -80px;
+        right: 15px;
+        width: 547px;
+        height: 717px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+    }
+}
+
+/* section contacts end */
+
+/* section screen */
+.X900c-screen {
+    height: 785px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #555555;
+    text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
+    background-color: #282a25;
+
+    &-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 160px;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &-subtitle {
+        top: 400px;
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    &-figure {
+        position: absolute;
+        z-index: 1;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        width: 344px;
+        height: 765px;
+        margin: auto;
+    }
+
+    &-aos,
+    &-parallax {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+/* section screen end */
+
+/* section case */
+.X900c-case {
+    height: 765px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #cdcdcd;
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 195px;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: normal;
+        text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
+    }
+
+    &-subtitle {
+        top: 465px;
+        font-size: 40px;
+        line-height: normal;
+        text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
+    }
+}
+
+/* section case end */
+
+/* section battery */
+.X900c-battery-and-powerbank-presentation {
+    overflow: hidden;
+}
+
+.X900c-battery {
+    height: 780px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000;
+    text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 70px;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &-subtitle {
+        top: 225px;
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    &-figure {
+        position: absolute;
+        top: 230px;
+        left: 15px;
+        right: 15px;
+        width: 856px;
+        height: 459px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+
+    &-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        // height: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+/* section battery end */
+
+/* section powerbank */
+.X900c-powerbank {
+    height: 780px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
+
+    &-title,
+    &-subtitle {
+        position: absolute;
+        left: 50px;
+        right: 15px;
+    }
+
+    &-title {
+        top: 500px;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &-subtitle {
+        top: 655px;
+        font-size: 40px;
+        font-weight: normal;
+    }
+}
+
+/* section powerbank end */
