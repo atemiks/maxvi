@@ -57,7 +57,7 @@ $(document).ready(function () {
         const batteryAndPowerbankTl = gsap.timeline({
             scrollTrigger: {
                 trigger: batteryAndPowerbankSection,
-                markers: true,
+                markers: false,
                 start: '0 0%',
                 end: '100% 100%',
                 scrub: 0.1,
