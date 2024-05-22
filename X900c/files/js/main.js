@@ -14,6 +14,9 @@ $(document).ready(function () {
     // /* ScrollTrigger */
     const screenAndCaseSection = document.querySelector('.X900c-screen-and-case-presentation');
     const screenFigure = document.querySelector('.X900c-screen-figure');
+    const batterySection = document.querySelector('.X900c-battery')
+    const batteryVideo = document.querySelector('.X900c-battery-video');
+    const batteryFigure = document.querySelector('.X900c-battery-figure');
     const mm = gsap.matchMedia();
 
     mm.add({
@@ -48,34 +51,32 @@ $(document).ready(function () {
                 rotate: -15,
             });
         screenAndCaseTl.addLabel('end');
-    
-        const batteryAndPowerbankSection = document.querySelector('.X900c-battery-and-powerbank-presentation');
-        const batterySection = document.querySelector('.X900c-battery')
-        const batteryVideo = document.querySelector('.X900c-battery-video');
-        const batteryFigure = document.querySelector('.X900c-battery-figure');
+
     
         const batteryAndPowerbankTl = gsap.timeline({
             scrollTrigger: {
-                trigger: batteryAndPowerbankSection,
+                trigger: batterySection,
                 markers: false,
-                start: '0 0%',
-                end: '100% 100%',
+                start: '0 0',
+                end: isPhone ? '100% 400px' :  '100% 100%',
                 scrub: 0.1,
                 pin: batteryVideo,
                 pinSpacing: false,
                 snap: {
-                    snapTo: 'labels',
+                    snapTo: [0, 1],
                     duration: { min: 0.2, max: 1 },
                     delay: 0.2,
                     ease: 'power1.inOut',
                 },
             },
         });
-    
-        batteryAndPowerbankTl.addLabel('start')
-            .to(batteryFigure, {
-                top: batterySection.clientHeight
-            });
-        batteryAndPowerbankTl.addLabel('end');
+
+        if(!isPhone) {
+            batteryAndPowerbankTl.addLabel('start')
+                .to(batteryFigure, {
+                    top: batterySection.clientHeight / 2
+                });
+            batteryAndPowerbankTl.addLabel('end');
+        }
     });
 });

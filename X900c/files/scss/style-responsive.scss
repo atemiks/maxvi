@@ -105,7 +105,7 @@
 
     /* section battery */
     .X900c-battery {
-        height: 665px;
+        height: 1330px;
 
         &-title {
             top: 60px;
@@ -128,7 +128,10 @@
 
     /* section powerbank */
     .X900c-powerbank {
-        height: 665px;
+
+        &-trigger {
+            top: 100%;
+        }
 
         &-title,
         &-subtitle {
@@ -136,12 +139,12 @@
         }
 
         &-title {
-            top: 425px;
+            top: 1090px;
             font-size: 50px;
         }
 
         &-subtitle {
-            top: 555px;
+            top: 1220px;
             font-size: 34px;
         }
     }
@@ -262,7 +265,7 @@
 
     /* section battery */
     .X900c-battery {
-        height: 555px;
+        height: 1130px;
 
         &-title {
             top: 50px;
@@ -285,7 +288,6 @@
 
     /* section powerbank */
     .X900c-powerbank {
-        height: 565px;
 
         &-title,
         &-subtitle {
@@ -294,12 +296,12 @@
         }
 
         &-title {
-            top: 360px;
+            top: 925px;
             font-size: 42px;
         }
 
         &-subtitle {
-            top: 470px;
+            top: 1040px;
             font-size: 28px;
         }
     }
@@ -466,7 +468,7 @@
 
     /* section battery */
     .X900c-battery {
-        height: 550px;
+        height: 555px;
 
         &-title {
             top: 40px;
@@ -485,21 +487,24 @@
             width: 350px;
             height: 188px;
         }
+
+        &-video {
+            height: 400px;
+        }
     }
 
     /* section battery end */
 
     /* section powerbank */
     .X900c-powerbank {
-        height: 335px;
+        text-shadow: 13px -1.1px 28.9px rgba(63, 63, 63, 0.36);
 
         &-title {
-            top: 220px;
+            top: 400px;
             font-size: 24px;
         }
 
         &-subtitle {
-            top: 285px;
             font-size: 20px;
         }
     }
