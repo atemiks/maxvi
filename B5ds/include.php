@@ -163,7 +163,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         <div
                             class="B5ds-dock-animation-layer"
                             style="
-                                background-image: url(/<?= $folder ?>/images/section-dock/animation/B5ds-dock-back.png);
+                                background-image: url('<?= $folder ?>/images/section-dock/animation/B5ds-dock-back.png');
                             "
                         ></div>
 
@@ -185,7 +185,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         <div
                             class="B5ds-dock-animation-layer"
                             style="
-                                background-image: url(/<?= $folder ?>/images/section-dock/animation/B5ds-dock-front.png);
+                                background-image: url('<?= $folder ?>/images/section-dock/animation/B5ds-dock-front.png');
                             "
                         ></div>
                     </figure>
