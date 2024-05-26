@@ -483,6 +483,32 @@
         width: inherit;
         height: inherit;
     }
+
+    &-lightning {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        animation: 2s lightning infinite;
+    }
+
+    @keyframes lightning {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
 }
 
 /* section battery end */

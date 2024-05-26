@@ -268,6 +268,14 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos="fade-right"
                         data-aos-duration="800"
                     >
+                        <div
+                            class="B5ds-battery-lightning"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-battery/B5ds-battery-lightning.png');
+                            "
+                        ></div>
+
+
                         <img
                             loading="lazy"
                             src="<?= $folder ?>/images/section-battery/B5ds-battery-phone-back.png"
