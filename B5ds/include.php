@@ -150,7 +150,9 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="B5ds-dock">
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="B5ds-media-container col-xs-12 col-sm-7">
+                <div
+                    class="B5ds-media-container col-xs-12 col-sm-6 col-md-7"
+                >
                     <figure
                         class="B5ds-dock-animation"
                         data-aos="fade-in"
@@ -210,7 +212,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="B5ds-media-container col-xs-12 col-sm-5 col-sm-offset-6"
+                    class="B5ds-media-container col-xs-12 col-sm-7 col-md-6 col-sm-offset-5 col-md-offset-6"
                 >
                     <figure class="B5ds-dock-figure">
                         <img
@@ -270,7 +272,6 @@ $this->addExternalJS($folder . 'js/main.js');
                                 background-image: url('<?= $folder ?>/images/section-battery/B5ds-battery-lightning.png');
                             "
                         ></div>
-
 
                         <img
                             loading="lazy"
@@ -357,7 +358,7 @@ $this->addExternalJS($folder . 'js/main.js');
     <section
         class="B5ds-sos section-dark"
         style="
-            background-image: url('/<?= $folder ?>/images/section-sos/B5ds-sos-bg.jpg');
+            background-image: url('<?= $folder ?>/images/section-sos/B5ds-sos-bg.jpg');
         "
     >
         <div class="container">
@@ -411,7 +412,7 @@ $this->addExternalJS($folder . 'js/main.js');
     <section
         class="B5ds-camera"
         style="
-            background-image: url('/<?= $folder ?>/images/section-camera/B5ds-camera-bg.jpg');
+            background-image: url('<?= $folder ?>/images/section-camera/B5ds-camera-bg.jpg');
         "
     >
         <div class="container">

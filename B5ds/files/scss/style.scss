@@ -316,8 +316,8 @@
 
     &-figcaption {
         position: absolute;
-        top: 152.5%;
-        left: 22%;
+        top: calc(100% + 4.75em);
+        left: 22.5%;
         font-size: 50px;
         font-weight: 500;
         line-height: normal;
@@ -327,7 +327,7 @@
             left: 1.5%;
             bottom: calc(100% + 0.15em);
             width: 0.085em;
-            height: 5.70em;
+            height: 160%;
             background-color: #00a7f8;
 
             &::after {
