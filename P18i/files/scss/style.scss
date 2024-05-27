@@ -252,16 +252,35 @@
     }
 
     &-media {
+        position: relative;
+        z-index: 2;
         width: inherit;
         height: inherit;
     }
 
     &-layer-sim {
+        position: absolute;
+
         width: 256px;
         height: 157px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+
+        &:nth-of-type(1) {
+            top: 43.5%;
+            left: 5%;
+        }
+
+        &:nth-of-type(2) {
+            top: 43.5%;
+            left: 50%;
+        }
+
+        &:nth-of-type(3) {
+            top: 57.5%;
+            left: 25%;
+        }
     }
 }
 
@@ -291,10 +310,23 @@
     }
 
     &-subtitle {
-        top: 870px;
+        top: 830px;
+        display: flex;
+        align-items: center;
+        column-gap: 0.7em;
         font-size: 120px;
         font-weight: 500;
         line-height: normal;
+
+        &-icon {
+            flex-shrink: 0;
+            display: block;
+            width: 224px;
+            height: 297px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
     }
 
     &-capacity {
@@ -329,10 +361,16 @@
 
 /* section flashlight */
 .P18i-flashlight {
+    overflow: hidden;
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
+
+    .container {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
 
     &-title,
     &-subtitle {
@@ -343,15 +381,39 @@
 
     &-title {
         top: 855px;
-        font-size: 132px;
+        font-size: 112px;
         font-weight: 500;
         line-height: normal;
     }
 
     &-subtitle {
-        top: 955px;
-        font-size: 62px;
+        top: 1050px;
+        font-size: 60px;
         line-height: normal;
+
+        &-line {
+            position: absolute;
+            right: calc(100% + 0.25em);
+            bottom: 0.55em;
+            width: 2.8em;
+            height: 2em;
+            border: solid #258edd;
+            border-width: 0 0 0.08333em 0.08333em;
+            content: '';
+
+            &::after {
+                position: absolute;
+                left: 0;
+                bottom: 100%;
+                width: 0.85em;
+                height: 0.85em;
+                border: 0.08333em solid #258edd;
+                border-radius: 50%;
+                box-shadow: inset 0 0 0 0.08333em #fff;
+                transform: translateX(-50%);
+                content: '';
+            }
+        }
     }
 
     &-figure {
@@ -369,12 +431,12 @@
         height: inherit;
     }
 
-    &-layer {
+    &-layer-flashlight {
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        left: 68%;
+        bottom: 83%;
+        width: 68%;
+        height: 50%;
         background-repeat: no-repeat;
         background-position: right top;
         background-size: contain;
