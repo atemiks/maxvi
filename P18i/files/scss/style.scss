@@ -31,8 +31,10 @@
         position: relative;
         width: 100%;
         max-width: 2160px;
-        padding-left: 50px;
-        padding-right: 50px;
+        // padding-left: 50px;
+        // padding-right: 50px;
+        padding-left: 220px;
+        padding-right: 210px;
     }
 
     .d-flex {
@@ -146,23 +148,24 @@
     }
 
     &-title {
-        top: 270px;
+        top: 290px;
         font-size: 132px;
         font-weight: 500;
         line-height: normal;
     }
 
     &-subtitle {
-        top: 805px;
+        top: 795px;
         font-size: 60px;
         line-height: normal;
     }
 
     &-figure {
         position: absolute;
+        z-index: 1;
         top: 80px;
-        left: 15px;
-        right: 15px;
+        left: 0;
+        right: 0;
         width: 592px;
         height: 1542px;
         margin: auto;
@@ -182,6 +185,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
+    text-align: right;
 
     &-title,
     &-subtitle {
@@ -191,14 +195,14 @@
     }
 
     &-title {
-        top: 345px;
+        top: 320px;
         font-size: 132px;
         font-weight: 500;
         line-height: normal;
     }
 
     &-subtitle {
-        top: 920px;
+        top: 910px;
         font-size: 60px;
         line-height: normal;
     }
@@ -222,7 +226,7 @@
     }
 
     &-title {
-        top: 285px;
+        top: 260px;
         color: #505050;
         font-size: 132px;
         font-weight: 500;
@@ -230,15 +234,16 @@
     }
 
     &-subtitle {
-        top: 285px;
+        top: 275px;
         font-size: 46px;
-        line-height: normal;
+        line-height: 1.25;
         text-align: center;
     }
 
     &-figure {
         position: absolute;
-        top: 240px;
+        z-index: 1;
+        top: 90px;
         left: 15px;
         right: 15px;
         width: 577px;
@@ -271,7 +276,8 @@
     color: #035883;
 
     &-title,
-    &-subtitle {
+    &-subtitle,
+    &-capacity {
         position: absolute;
         left: 15px;
         right: 15px;
@@ -281,26 +287,34 @@
         top: 200px;
         font-size: 120px;
         font-weight: 500;
-        line-height: normal;
-
-        .text-lead {
-            color: #313131;
-            font-size: 125%;
-        }
+        line-height: 1;
     }
 
     &-subtitle {
-        top: 900px;
+        top: 870px;
         font-size: 120px;
         font-weight: 500;
         line-height: normal;
     }
 
+    &-capacity {
+        top: 460px;
+        color: #313131;
+        font-size: 132px;
+        font-weight: 700;
+        line-height: normal;
+
+        .text-lead {
+            font-size: 113.5%;
+        }
+    }
+
     &-figure {
+        position: absolute;
         top: 180px;
-        left: 15px;
-        right: 15px;
-        width: 1191px;
+        left: 35px;
+        right: 35px;
+        width: 1500px;
         height: 644px;
         margin: auto;
     }
