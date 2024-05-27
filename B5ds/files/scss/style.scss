@@ -252,17 +252,17 @@
         }
 
         &-side.aos-animate+&-front {
-            animation: 600ms fade-out 1000ms forwards;
+            animation: 1200ms fade-out 1000ms forwards;
         }
     }
 
     @keyframes fade-out {
         0% {
-            transform: scale(1);
+            opacity: 1;
         }
 
         100% {
-            transform: scale(0);
+            opacity: 0;
         }
     }
 }
@@ -540,6 +540,7 @@
     &-title,
     &-subtitle {
         position: absolute;
+        z-index: 1;
         left: 15px;
         right: 15px;
     }
