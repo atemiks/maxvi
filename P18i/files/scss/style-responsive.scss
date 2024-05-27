@@ -1,0 +1,1111 @@
+@media (max-width: 1920px) {
+
+    /* section design */
+    .P18i-design {
+        height: 1150px;
+
+        .container {
+            padding-left: 2.5%;
+            padding-right: 2.5%;
+        }
+
+        &-model {
+            top: 185px;
+            font-size: 128px;
+        }
+
+        &-title {
+            top: 405px;
+            font-size: 86px;
+        }
+
+        &-block {
+            font-size: 60px;
+
+            &:nth-child(1) {
+                top: 120px;
+            }
+
+            &:nth-child(2) {
+                top: 475px;
+            }
+
+            &:nth-child(3) {
+                top: 710px;
+            }
+        }
+
+        &-figure {
+            top: 120px;
+            width: 664px;
+            height: 898px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 1150px;
+
+        &-title {
+            top: 60px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 210px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 350px;
+            width: 976px;
+            height: 384px;
+        }
+
+        &-figcaption {
+            left: 15%;
+            font-size: 42px;
+
+            &-line {
+                left: 15%;
+            }
+        }
+
+        &-animation {
+            top: -70px;
+            width: 600px;
+            height: 1272px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 1150px;
+
+        &-title {
+            top: 210px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 375px;
+            font-size: 112px;
+        }
+
+        &-figure {
+            top: 140px;
+            width: 670px;
+            height: 1120px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 1150px;
+
+        &-title {
+            top: 170px;
+            font-size: 140px;
+        }
+
+        &-figure {
+            top: 205px;
+            width: 850px;
+            height: 944px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 1150px;
+
+        &-title {
+            top: 270px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 720px;
+            font-size: 58px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 520px;
+            height: 1070px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 1150px;
+
+        &-title {
+            top: 425px;
+            font-size: 110px;
+        }
+
+        &-subtitle {
+            top: 560px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 950px;
+            height: 1302px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1680px) {
+
+    /* section design */
+    .P18i-design {
+        height: 980px;
+
+        &-model {
+            top: 160px;
+            font-size: 108px;
+        }
+
+        &-title {
+            top: 345px;
+            font-size: 72px;
+        }
+
+        &-block {
+            font-size: 50px;
+
+            &:nth-child(1) {
+                top: 100px;
+            }
+
+            &:nth-child(2) {
+                top: 400px;
+            }
+
+            &:nth-child(3) {
+                top: 600px;
+            }
+        }
+
+        &-figure {
+            top: 100px;
+            width: 564px;
+            height: 762px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 980px;
+
+        &-title {
+            top: 50px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 180px;
+            font-size: 36px;
+        }
+
+        &-figure {
+            top: 300px;
+            width: 830px;
+            height: 326px;
+        }
+
+        &-figcaption {
+            font-size: 36px;
+        }
+
+        &-animation {
+            top: -60px;
+            width: 510px;
+            height: 1082px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 980px;
+
+        &-title {
+            top: 180px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 320px;
+            font-size: 96px;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 570px;
+            height: 952px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 980px;
+
+        &-title {
+            top: 145px;
+            font-size: 120px;
+        }
+
+        &-figure {
+            top: 185px;
+            width: 720px;
+            height: 799px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 980px;
+
+        &-title {
+            top: 230px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 610px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 35px;
+            width: 442px;
+            height: 910px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 980px;
+
+        &-title {
+            top: 360px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 475px;
+            font-size: 58px;
+        }
+
+        &-figure {
+            top: 35px;
+            width: 808px;
+            height: 1107px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1440px) {
+
+    /* section design */
+    .P18i-design {
+        height: 835px;
+
+        &-model {
+            top: 135px;
+            font-size: 92px;
+        }
+
+        &-title {
+            top: 290px;
+            font-size: 62px;
+        }
+
+        &-block {
+            font-size: 42px;
+
+            &:nth-child(1) {
+                top: 85px;
+            }
+
+            &:nth-child(2) {
+                top: 340px;
+            }
+
+            &:nth-child(3) {
+                top: 510px;
+            }
+        }
+
+        &-figure {
+            top: 85px;
+            width: 480px;
+            height: 649px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 835px;
+
+        &-title {
+            top: 40px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 150px;
+            font-size: 30px;
+        }
+
+        &-figure {
+            top: 255px;
+            width: 704px;
+            height: 277px;
+        }
+
+        &-figcaption {
+            font-size: 30px;
+        }
+
+        &-animation {
+            top: -50px;
+            width: 434px;
+            height: 920px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 835px;
+
+        &-title {
+            top: 150px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 270px;
+            font-size: 82px;
+        }
+
+        &-figure {
+            top: 100px;
+            width: 484px;
+            height: 808px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 835px;
+
+        &-title {
+            top: 125px;
+            font-size: 100px;
+        }
+
+        &-figure {
+            top: 160px;
+            width: 612px;
+            height: 680px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 835px;
+
+        &-title {
+            top: 195px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 520px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 30px;
+            width: 376px;
+            height: 774px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 835px;
+
+        &-title {
+            top: 305px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 405px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 30px;
+            width: 684px;
+            height: 937px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1199px) {
+
+    /* section design */
+    .P18i-design {
+        height: 710px;
+
+        &-model {
+            top: 115px;
+            font-size: 78px;
+        }
+
+        &-title {
+            top: 245px;
+            font-size: 50px;
+        }
+
+        &-block {
+            font-size: 36px;
+
+            &:nth-child(1) {
+                top: 70px;
+            }
+
+            &:nth-child(2) {
+                top: 290px;
+            }
+
+            &:nth-child(3) {
+                top: 430px;
+            }
+        }
+
+        &-figure {
+            top: 70px;
+            width: 408px;
+            height: 552px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 710px;
+
+        &-title {
+            top: 35px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 130px;
+            font-size: 26px;
+        }
+
+        &-figure {
+            top: 215px;
+            width: 600px;
+            height: 236px;
+        }
+
+        &-figcaption {
+            font-size: 26px;
+        }
+
+        &-animation {
+            top: -40px;
+            width: 368px;
+            height: 780px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 710px;
+
+        &-title {
+            top: 130px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 230px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: 85px;
+            width: 410px;
+            height: 685px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 710px;
+
+        &-title {
+            top: 105px;
+            font-size: 85px;
+        }
+
+        &-figure {
+            top: 135px;
+            width: 520px;
+            height: 577px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 710px;
+
+        &-title {
+            top: 165px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 440px;
+            font-size: 36px;
+        }
+
+        &-figure {
+            top: 25px;
+            width: 320px;
+            height: 659px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 710px;
+
+        &-title {
+            top: 260px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 345px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 25px;
+            width: 580px;
+            height: 795px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 991px) {
+    .P18i-landing {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    /* section design */
+    .P18i-design {
+        height: 650px;
+
+        &-model {
+            top: 40px;
+            font-size: 64px;
+        }
+
+        &-title {
+            top: 120px;
+            font-size: 40px;
+        }
+
+        &-block {
+            font-size: 28px;
+
+            &:nth-child(1) {
+                top: 60px;
+            }
+
+            &:nth-child(2) {
+                top: 245px;
+            }
+
+            &:nth-child(3) {
+                top: 365px;
+            }
+        }
+
+        &-figure {
+            top: 60px;
+            width: 346px;
+            height: 468px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 605px;
+
+        &-title {
+            top: 30px;
+            font-size: 50px;
+        }
+
+        &-subtitle {
+            top: 110px;
+            font-size: 22px;
+        }
+
+        &-figure {
+            top: 180px;
+            width: 510px;
+            height: 200px;
+        }
+
+        &-figcaption {
+            left: 5%;
+            font-size: 22px;
+
+            &-line {
+                left: 32.5%;
+            }
+        }
+
+        &-animation {
+            top: -35px;
+            width: 312px;
+            height: 662px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 605px;
+
+        &-title {
+            top: 110px;
+            font-size: 50px;
+        }
+
+        &-subtitle {
+            top: 195px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 70px;
+            width: 348px;
+            height: 582px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 605px;
+
+        &-title {
+            top: 90px;
+            font-size: 72px;
+        }
+
+        &-figure {
+            top: 115px;
+            width: 442px;
+            height: 490px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 580px;
+
+        &-title {
+            top: 140px;
+            font-size: 44px;
+        }
+
+        &-subtitle {
+            top: 375px;
+            font-size: 26px;
+        }
+
+        &-figure {
+            top: 25px;
+            width: 256px;
+            height: 527px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 605px;
+
+        &-title {
+            top: 220px;
+            font-size: 58px;
+        }
+
+        &-subtitle {
+            top: 295px;
+            font-size: 36px;
+        }
+
+        &-figure {
+            top: 25px;
+            width: 490px;
+            height: 672px;
+        }
+    }
+
+    /* section camera end */
+
+}
+
+@media (max-width: 767px) {
+    .P18i-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .P18i-title,
+    .P18i-subtitle,
+    .P18i-description,
+    .P18i-design-title,
+    .P18i-design-model,
+    .P18i-dock-title,
+    .P18i-dock-subtitle,
+    .P18i-dock-figcaption,
+    .P18i-battery-title,
+    .P18i-battery-subtitle,
+    .P18i-speaker-title,
+    .P18i-sos-title,
+    .P18i-sos-subtitle,
+    .P18i-camera-title,
+    .P18i-camera-subtitle {
+        max-width: 280px;
+    }
+
+    .P18i-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .P18i-subtitle {
+        font-size: 24px !important;
+    }
+
+    .P18i-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .P18i-title[data-aos],
+    .P18i-subtitle[data-aos],
+    .P18i-description[data-aos],
+    .P18i-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .P18i-title[data-aos].aos-animate,
+    .P18i-subtitle[data-aos].aos-animate,
+    .P18i-description[data-aos].aos-animate,
+    .P18i-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section design */
+    .P18i-design {
+        height: 645px;
+
+        &-model {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-title {
+            top: 80px;
+            font-size: 24px;
+        }
+
+        &-block {
+            $block: &;
+
+            flex-direction: row;
+            font-size: 18px;
+
+            #{$block}-line {
+                &::after {
+                    left: 100%;
+                    right: auto;
+                }
+            }
+
+            &:nth-child(1) {
+                top: 190px;
+
+                #{$block}-line {
+                    margin-left: 0;
+                    margin-right: 40%;
+                }
+            }
+
+            &:nth-child(2) {
+                top: 305px;
+
+                #{$block}-line {
+                    margin-left: 0;
+                    margin-right: 45%;
+                }
+            }
+
+            &:nth-child(3) {
+                top: 365px;
+
+                #{$block}-line {
+                    margin-left: 0;
+                    margin-right: 55%;
+                }
+            }
+        }
+
+        &-figure {
+            top: 170px;
+            width: 346px;
+            height: 468px;
+        }
+    }
+
+    /* section design end */
+
+    /* section dock */
+    .P18i-dock {
+        height: 1165px;
+
+        &-title {
+            top: 40px;
+            font-size: 24px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            top: 880px;
+            left: 15px;
+            right: 15px;
+            width: 434px;
+            height: 170px;
+        }
+
+        &-figcaption {
+            top: calc(100% + 1.25em);
+            left: 15px;
+            right: 15px;
+            font-size: 18px;
+
+            &-line {
+                height: 2.25em;
+            }
+        }
+
+        &-animation {
+            top: 285px;
+            width: 265px;
+            height: 562px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section battery */
+    .P18i-battery {
+        height: 580px;
+        text-align: left;
+
+        &-title {
+            top: 40px;
+            font-size: 24px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            top: 145px;
+            width: 296px;
+            height: 495px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section speaker */
+    .P18i-speaker {
+        height: 605px;
+
+        &-title {
+            top: 120px;
+            font-size: 24px;
+
+            &::before {
+                top: 50%;
+                left: 0;
+                width: 210px;
+                transform: translate(0, -50%);
+                background-position: left center;
+            }
+        }
+
+        &-figure {
+            top: 215px;
+            width: 374px;
+            height: 415px;
+        }
+    }
+
+    /* section speaker end */
+
+    /* section sos */
+    .P18i-sos {
+        height: 780px;
+        text-align: left;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(200px);
+            content: '';
+        }
+
+        &-title {
+            top: 40px;
+            font-size: 24px;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &-subtitle {
+            top: 120px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            top: 230px;
+            width: 256px;
+            height: 527px;
+        }
+    }
+
+    /* section sos end */
+
+    /* section camera */
+    .P18i-camera {
+        height: 635px;
+
+        &-title {
+            top: 40px;
+            font-size: 24px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 20px;
+        }
+
+        &-figure {
+            top: 160px;
+            width: 414px;
+            height: 568px;
+        }
+    }
+
+    /* section camera end */
+
+}
