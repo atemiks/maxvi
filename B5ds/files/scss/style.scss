@@ -132,39 +132,15 @@
 
 /* section design */
 .B5ds-design {
-    position: relative;
-    z-index: 1;
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #bdf6f9;
-
-    &::before {
-        pointer-events: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to bottom, transparent, #fff);
-        content: '';
-    }
+    background-image: linear-gradient(to bottom, #bdf6f9, #fff);
 
     .container {
         padding-left: 8%;
         padding-right: 5.5%;
-    }
-
-    &-gradient {
-        pointer-events: none;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(to bottom, #bdf6f9, #98aef0 100%);
-        background-size: 100% 200%;
     }
 
     &-model,
@@ -276,17 +252,17 @@
         }
 
         &-side.aos-animate+&-front {
-            animation: 300ms fade-out 1000ms forwards;
+            animation: 600ms fade-out 1000ms forwards;
         }
     }
 
     @keyframes fade-out {
         0% {
-            opacity: 1;
+            transform: scale(1);
         }
 
         100% {
-            opacity: 0;
+            transform: scale(0);
         }
     }
 }
@@ -295,35 +271,11 @@
 
 /* section dock */
 .B5ds-dock {
-    position: relative;
-    z-index: 1;
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
     background-color: #98aef0;
-
-    &::before {
-        pointer-events: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to bottom, #fff, transparent);
-        content: '';
-    }
-
-    &-gradient {
-        pointer-events: none;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(to bottom, #98aef0, #bdf6f9 100%);
-        background-size: 100% 200%;
-    }
+    background-image: linear-gradient(to top, #98aef0, #fff);
 
     &-title,
     &-subtitle {
@@ -493,7 +445,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        animation: 2s lightning infinite;
+        animation: 3s lightning infinite;
     }
 
     @keyframes lightning {
@@ -501,7 +453,11 @@
             opacity: 0;
         }
 
-        50% {
+        33.333% {
+            opacity: 100%;
+        }
+
+        66.666% {
             opacity: 100%;
         }
 
@@ -620,12 +576,27 @@
 
     &-figure {
         position: absolute;
+        z-index: 1;
         top: 50px;
         left: 15px;
         right: 15px;
         width: 612px;
         height: 1262px;
         margin: auto;
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 5%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #fff;
+            filter: blur(120px);
+            content: '';
+        }
     }
 
     &-media {

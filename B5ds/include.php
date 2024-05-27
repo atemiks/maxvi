@@ -26,8 +26,8 @@ $this->addExternalCss($folder . "css/style-responsive.css");
 $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
 
 //Scripts
 $this->addExternalJS($folder . 'js/main.js');
@@ -35,8 +35,6 @@ $this->addExternalJS($folder . 'js/main.js');
 ?>
 <div class="B5ds-landing">
     <section class="B5ds-design">
-        <div class="B5ds-design-gradient"></div>
-
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
@@ -150,8 +148,6 @@ $this->addExternalJS($folder . 'js/main.js');
     </section>
 
     <section class="B5ds-dock">
-        <div class="B5ds-dock-gradient"></div>
-
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div class="B5ds-media-container col-xs-12 col-sm-7">

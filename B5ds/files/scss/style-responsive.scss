@@ -465,6 +465,10 @@
             top: 30px;
             width: 376px;
             height: 774px;
+
+            &::before {
+                filter: blur(80px);
+            }
         }
     }
 
@@ -910,6 +914,7 @@
 
             flex-direction: row;
             font-size: 18px;
+            text-align: left;
 
             #{$block}-line {
                 &::after {
@@ -937,7 +942,7 @@
             }
 
             &:nth-child(3) {
-                top: 365px;
+                top: 385px;
 
                 #{$block}-line {
                     margin-left: 0;
@@ -966,6 +971,7 @@
 
         &-subtitle {
             top: 80px;
+            max-width: 200px;
             font-size: 20px;
         }
 
@@ -1026,13 +1032,13 @@
         height: 605px;
 
         &-title {
-            top: 120px;
-            font-size: 24px;
+            top: 115px;
+            font-size: 28px;
 
             &::before {
                 top: 50%;
-                left: 0;
-                width: 210px;
+                left: -0.25em;
+                width: 100%;
                 transform: translate(0, -50%);
                 background-position: left center;
             }
@@ -1052,16 +1058,6 @@
         height: 780px;
         text-align: left;
 
-        &::before {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            backdrop-filter: blur(200px);
-            content: '';
-        }
-
         &-title {
             top: 40px;
             font-size: 24px;
@@ -1080,6 +1076,10 @@
             top: 230px;
             width: 256px;
             height: 527px;
+
+            &::before {
+                filter: blur(50px);
+            }
         }
     }
 
