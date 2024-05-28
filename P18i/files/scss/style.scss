@@ -4,8 +4,7 @@
 
 .P18i-landing {
     overflow: hidden;
-    // max-width: 2160px;
-    width: 2160px;
+    max-width: 2160px;
     margin: auto;
     background: #fff;
     font-family: 'Roboto', sans-serif;
@@ -31,10 +30,8 @@
         position: relative;
         width: 100%;
         max-width: 2160px;
-        // padding-left: 50px;
-        // padding-right: 50px;
-        padding-left: 220px;
-        padding-right: 210px;
+        padding-left: 10.185%; // 220
+        padding-right: 9.722%; // 210
     }
 
     .d-flex {
@@ -139,6 +136,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
+    background-position: left center !important;
 
     &-title,
     &-subtitle {
@@ -169,6 +167,7 @@
         width: 592px;
         height: 1542px;
         margin: auto;
+        transform-origin: center top;
     }
 
     &-media {
@@ -260,7 +259,6 @@
 
     &-layer-sim {
         position: absolute;
-
         width: 256px;
         height: 157px;
         background-repeat: no-repeat;
@@ -278,8 +276,8 @@
         }
 
         &:nth-of-type(3) {
-            top: 57.5%;
-            left: 25%;
+            top: 58.5%;
+            left: 50%;
         }
     }
 }
@@ -326,6 +324,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+            animation: fade-in-and-out 3000ms infinite;
         }
     }
 
@@ -355,6 +354,24 @@
         width: inherit;
         height: inherit;
     }
+
+    @keyframes fade-in-and-out {
+        0% {
+            opacity: 0%;
+        }
+
+        33% {
+            opacity: 100%;
+        }
+
+        66% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 0%;
+        }
+    }
 }
 
 /* section battery end */
@@ -368,8 +385,8 @@
     background-color: #000;
 
     .container {
-        padding-left: 120px;
-        padding-right: 120px;
+        padding-left: 5.555%; // 120
+        padding-right: 5.555%; // 120
     }
 
     &-title,

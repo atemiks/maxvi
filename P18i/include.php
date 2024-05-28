@@ -34,219 +34,163 @@ $this->addExternalJS($folder . 'js/main.js');
 
 ?>
 <div class="P18i-landing">
-    <section class="P18i-design">
-        <div class="P18i-design-gradient"></div>
-
+    <section
+        class="P18i-screen section-dark"
+        style="
+            background-image: url('<?= $folder ?>/images/section-screen/P18i-screen-bg.jpg');
+        "
+    >
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="P18i-media-container col-xs-10 col-sm-6 col-xs-offset-2 col-sm-offset-3"
+                    class="P18i-typography-container col-xs-12 col-sm-7"
                 >
-                    <figure class="P18i-design-figure">
-                        <img
-                            loading="lazy"
-                            data-aos="fade-in"
-                            data-aos-delay="800"
-                            data-aos-anchor=".P18i-design-phone-front"
-                            src="<?= $folder ?>/images/section-design/P18i-design-phone-side.png"
-                            class="P18i-design-media P18i-design-phone-side"
-                            width="399"
-                            height="742"
-                            alt="Мобильный телефон Maxvi P18i"
-                        />
+                    <div
+                        class="P18i-screen-title"
+                        data-aos="fade-right"
+                        data-aos-duration="500"
+                    >
+                        БОЛЬШОЙ
+                        <br />
+                        ЭКРАН 2.8"
+                    </div>
 
+                    <div
+                        class="P18i-screen-subtitle"
+                        data-aos="fade-right"
+                        data-aos-duration="500"
+                    >
+                        Просматривайте изображения
+                        <br />
+                        и видео с комфортом
+                    </div>
+                </div>
+
+                <div
+                    class="P18i-media-container col-xs-12 col-sm-5 col-md-4 col-md-offset-1"
+                >
+                    <figure class="P18i-screen-figure">
                         <img
                             loading="lazy"
-                            data-aos="zoom-in"
-                            data-aos-duration="800"
-                            src="<?= $folder ?>/images/section-design/P18i-design-phone-front.png"
-                            class="P18i-design-media P18i-design-phone-front"
-                            width="399"
-                            height="742"
+                            src="<?= $folder ?>/images/section-screen/P18i-screen-phone-side.png"
+                            class="P18i-screen-media"
+                            width="592"
+                            height="1542"
                             alt="Мобильный телефон Maxvi P18i"
                         />
                     </figure>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <section
+        class="P18i-case section-dark"
+        style="
+            background-image: url('<?= $folder ?>/images/section-case/P18i-case-bg.jpg');
+        "
+    >
+        <div class="container">
+            <div class="content-wrapper row d-flex">
                 <div
-                    class="P18i-typography-container col-xs-12 col-sm-6"
+                    class="P18i-typography-container col-xs-12 col-sm-8 col-sm-offset-4"
                 >
                     <div
-                        class="P18i-design-model"
-                        data-aos="fade-right"
-                        data-aos-duration="500"
-                    >
-                        P18i UP
-                    </div>
-
-                    <div
-                        class="P18i-design-title"
-                        data-aos="fade-right"
-                        data-aos-duration="500"
-                    >
-                        УДОБНЫЙ
-                        <br />
-                        И СТИЛЬНЫЙ
-                    </div>
-                </div>
-
-                <div
-                    class="P18i-typography-container col-xs-12 col-sm-6 col-sm-offset-6"
-                >
-                    <div
-                        class="P18i-design-block"
+                        class="P18i-case-title"
                         data-aos="fade-left"
                         data-aos-duration="500"
-                        data-aos-anchor=".P18i-design-figure"
                     >
-                        ЭРГОНОМИЧНЫЙ
+                        КОРПУС
                         <br />
-                        ДИЗАЙН
-
-                        <div
-                            class="P18i-design-block-line"
-                            data-aos="fade-in"
-                            data-aos-duration="300"
-                            data-aos-delay="500"
-                        ></div>
+                        ПОВЫШЕННОЙ
+                        <br />
+                        ПРОЧНОСТИ
                     </div>
 
                     <div
-                        class="P18i-design-block"
+                        class="P18i-case-subtitle"
                         data-aos="fade-left"
                         data-aos-duration="500"
-                        data-aos-anchor=".P18i-design-figure"
                     >
-                        ДИСПЛЕЙ 2.0"
-
-                        <div
-                            class="P18i-design-block-line"
-                            data-aos="fade-in"
-                            data-aos-duration="300"
-                            data-aos-delay="500"
-                        ></div>
-                    </div>
-
-                    <div
-                        class="P18i-design-block"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                        data-aos-anchor=".P18i-design-figure"
-                    >
-                        БОЛЬШАЯ
+                        Металлическая рамка обеспечит
                         <br />
-                        КЛАВИАТУРА
-
-                        <div
-                            class="P18i-design-block-line"
-                            data-aos="fade-in"
-                            data-aos-duration="300"
-                            data-aos-delay="500"
-                        ></div>
+                        дополнительную защиту
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="P18i-dock">
-        <div class="P18i-dock-gradient"></div>
-
+    <section
+        class="P18i-sim"
+        style="
+            background-image: url('<?= $folder ?>/images/section-sim/P18i-sim-bg.jpg');
+        "
+    >
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="P18i-media-container col-xs-12 col-sm-7">
-                    <figure
-                        class="P18i-dock-animation"
-                        data-aos="fade-in"
-                        data-aos-duration="0"
-                    >
-                        <div
-                            class="P18i-dock-animation-layer"
-                            style="
-                                background-image: url('<?= $folder ?>/images/section-dock/animation/P18i-dock-back.png');
-                            "
-                        ></div>
-
+                <div class="P18i-media-container col-xs-8 col-sm-12">
+                    <figure class="P18i-sim-figure">
                         <img
                             loading="lazy"
-                            data-aos="fade-down"
-                            data-aos-easing="linear"
-                            data-aos-duration="800"
-                            data-aos-delay="300"
-                            data-aos-anchor=".P18i-dock-animation"
-                            data-aos-anchor-placement="top-center"
-                            src="<?= $folder ?>/images/section-dock/animation/P18i-dock-phone.png"
-                            class="P18i-dock-animation-layer P18i-dock-animation-phone"
-                            width="708"
-                            height="1502"
+                            src="<?= $folder ?>/images/section-sim/P18i-sim-phone-front.png"
+                            class="P18i-sim-media"
+                            width="577"
+                            height="1378"
                             alt="Мобильный телефон Maxvi P18i"
                         />
 
                         <div
-                            class="P18i-dock-animation-layer"
+                            class="P18i-sim-layer-sim"
                             style="
-                                background-image: url('<?= $folder ?>/images/section-dock/animation/P18i-dock-front.png');
+                                background-image: url('<?= $folder ?>/images/section-sim/P18i-sim.svg');
+                            "
+                        ></div>
+                        <div
+                            class="P18i-sim-layer-sim"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-sim/P18i-sim.svg');
+                            "
+                        ></div>
+                        <div
+                            class="P18i-sim-layer-sim"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-sim/P18i-sim.svg');
                             "
                         ></div>
                     </figure>
                 </div>
 
                 <div
-                    class="P18i-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
+                    class="P18i-typography-container col-xs-12 col-sm-4"
                 >
                     <div
-                        class="P18i-dock-title"
-                        data-aos="fade-in"
+                        class="P18i-sim-title"
+                        data-aos="fade-right"
                         data-aos-duration="500"
                     >
-                        ДОК-СТАНЦИЯ
-                    </div>
-
-                    <div
-                        class="P18i-dock-subtitle"
-                        data-aos="fade-in"
-                        data-aos-duration="500"
-                    >
-                        СТАВЬТЕ ТЕЛЕФОН НА ЗАРЯДКУ
+                        3 SIM
                         <br />
-                        БЕЗ МАЛЕЙШИХ ЗАТРУДНЕНИЙ
+                        КАРТЫ
                     </div>
                 </div>
 
                 <div
-                    class="P18i-media-container col-xs-12 col-sm-5 col-sm-offset-6"
+                    class="P18i-typography-container col-xs-12 col-sm-4 col-sm-offset-4"
                 >
-                    <figure class="P18i-dock-figure">
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-dock/P18i-dock-phone-side.png"
-                            class="P18i-dock-media"
-                            width="1148"
-                            height="451"
-                            alt="Мобильный телефон Maxvi P18i"
-                        />
-
-                        <figcaption
-                            class="P18i-dock-figcaption"
-                            data-aos="fade-left"
-                            data-aos-duration="500"
-                            data-aos-anchor=".P18i-dock-figure"
-                        >
-                            <div
-                                class="P18i-dock-figcaption-line"
-                                data-aos="fade-in"
-                                data-aos-duration="300"
-                                data-aos-delay="500"
-                                data-aos-anchor=".P18i-dock-figcaption"
-                            ></div>
-
-                            ТОКОСЪЁМНЫЕ ЭЛЕМЕНТЫ
-                            <br />
-                            ДЛЯ НАДЁЖНОЙ СТЫКОВКИ
-                            <br />
-                            И УСТОЙЧИВОСТИ
-                        </figcaption>
-                    </figure>
+                    <div
+                        class="P18i-sim-subtitle"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                    >
+                        Уменьшайте расходы,
+                        <br />
+                        управляя тарифными
+                        <br />
+                        планами различных
+                        <br />
+                        мобильных операторов
+                    </div>
                 </div>
             </div>
         </div>
@@ -261,184 +205,40 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="P18i-media-container col-xs-12 col-sm-6 col-md-8"
-                >
-                    <figure
-                        class="P18i-battery-figure"
-                        data-aos="fade-right"
-                        data-aos-duration="800"
-                    >
-                        <div
-                            class="P18i-battery-lightning"
-                            style="
-                                background-image: url('<?= $folder ?>/images/section-battery/P18i-battery-lightning.png');
-                            "
-                        ></div>
-
-
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-battery/P18i-battery-phone-back.png"
-                            class="P18i-battery-media"
-                            width="790"
-                            height="1320"
-                            alt="Мобильный телефон Maxvi P18i"
-                        />
-                    </figure>
-                </div>
-
-                <div
-                    class="P18i-typography-container col-xs-12 col-sm-8 col-sm-offset-4"
+                    class="P18i-typography-container col-xs-12 col-sm-6"
                 >
                     <div
                         class="P18i-battery-title"
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         data-aos-duration="500"
                     >
-                        ЁМКАЯ БАТАРЕЯ
+                        ЁМКАЯ
+                        <br />
+                        БАТАРЕЯ
+                    </div>
+
+                    <div
+                        class="P18i-battery-capacity"
+                        data-aos="fade-right"
+                        data-aos-duration="500"
+                    >
+                        <span class="text-lead">3200</span>
+                        mAh
                     </div>
 
                     <div
                         class="P18i-battery-subtitle"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                    >
-                        <span class="text-lead">1600</span>
-                        mAh
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="P18i-speaker section-dark">
-        <video
-            class="P18i-speaker-video"
-            poster="<?= $folder ?>/images/section-speaker/P18i-speaker-video-poster.jpg"
-            autoplay
-            muted
-            playsinline
-            loop
-        >
-            <source
-                src="<?= $folder ?>/images/section-speaker/P18i-speaker-video.mp4"
-                type="video/mp4"
-            />
-        </video>
-
-        <div class="container">
-            <div class="content-wrapper row d-flex">
-                <div class="P18i-media-container col-xs-12 col-sm-11">
-                    <figure class="P18i-speaker-figure">
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-speaker/P18i-speaker-phone-back.png"
-                            class="P18i-speaker-media"
-                            width="1003"
-                            height="1113"
-                            alt="Мобильный телефон Maxvi P18i"
-                        />
-                    </figure>
-                </div>
-
-                <div
-                    class="P18i-typography-container col-xs-12 col-sm-5 col-sm-offset-7"
-                >
-                    <div
-                        class="P18i-speaker-title"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                    >
-                        ГРОМКИЙ
-                        <br />
-                        ДИНАМИК
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="P18i-sos section-dark"
-        style="
-            background-image: url('/<?= $folder ?>/images/section-sos/P18i-sos-bg.jpg');
-        "
-    >
-        <div class="container">
-            <div class="content-wrapper row d-flex">
-                <div class="P18i-media-container col-xs-12">
-                    <figure class="P18i-sos-figure">
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-sos/P18i-sos-phone-front.png"
-                            class="P18i-sos-media"
-                            width="612"
-                            height="1262"
-                            alt="Мобильный телефон Maxvi P18i"
-                        />
-                    </figure>
-                </div>
-
-                <div
-                    class="P18i-typography-container col-xs-9 col-sm-4"
-                >
-                    <div
-                        class="P18i-sos-title"
                         data-aos="fade-right"
                         data-aos-duration="500"
                     >
-                        ФУНКЦИЯ
-                        <br />
-                        <span class="text-lead">SOS</span>
-                    </div>
-                </div>
+                        POWERBANK
 
-                <div
-                    class="P18i-typography-container col-xs-9 col-sm-4 col-sm-offset-8"
-                >
-                    <div
-                        class="P18i-sos-subtitle"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
-                    >
-                        ПОМОЖЕТ
-                        <br />
-                        В ЭКСТРЕННЫХ
-                        <br />
-                        СИТУАЦИЯХ
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="P18i-camera"
-        style="
-            background-image: url('/<?= $folder ?>/images/section-camera/P18i-camera-bg.jpg');
-        "
-    >
-        <div class="container">
-            <div class="content-wrapper row d-flex">
-                <div
-                    class="P18i-typography-container col-xs-9 col-sm-5 col-md-offset-1"
-                >
-                    <div
-                        class="P18i-camera-title"
-                        data-aos="fade-right"
-                        data-aos-duration="500"
-                    >
-                        КАМЕРА
-                    </div>
-
-                    <div
-                        class="P18i-camera-subtitle"
-                        data-aos="fade-right"
-                        data-aos-duration="500"
-                    >
-                        Снимайте лучшие
-                        <br />
-                        моменты
+                        <span
+                            class="P18i-battery-subtitle-icon"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-battery/P18i-battery-icon-power.svg');
+                            "
+                        ></span>
                     </div>
                 </div>
 
@@ -446,19 +246,82 @@ $this->addExternalJS($folder . 'js/main.js');
                     class="P18i-media-container col-xs-12 col-sm-7 col-sm-offset-5"
                 >
                     <figure
-                        class="P18i-camera-figure"
+                        class="P18i-battery-figure"
                         data-aos="fade-left"
                         data-aos-duration="800"
                     >
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>/images/section-camera/P18i-camera-phone-back.png"
-                            class="P18i-camera-media"
-                            width="1119"
-                            height="1533"
+                            src="<?= $folder ?>/images/section-battery/P18i-battery-phone-side.png"
+                            class="P18i-battery-media"
+                            width="1500"
+                            height="644"
                             alt="Мобильный телефон Maxvi P18i"
                         />
                     </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="P18i-flashlight section-dark"
+        style="
+            background-image: url('<?= $folder ?>/images/section-flashlight/P18i-flashlight-bg.jpg');
+        "
+    >
+        <div class="container">
+            <div class="content-wrapper row d-flex">
+                <div class="P18i-media-container col-xs-12 col-sm-9">
+                    <figure class="P18i-flashlight-figure">
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-flashlight/P18i-flashlight-phone-side.png"
+                            class="P18i-flashlight-media"
+                            width="1012"
+                            height="1047"
+                            alt="Мобильный телефон Maxvi P18i"
+                        />
+
+                        <div
+                            data-aos="fade-in"
+                            data-aos-duration="800"
+                            data-aos-anchor=".P18i-flashlight-figure"
+                            class="P18i-flashlight-layer-flashlight"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-flashlight/P18i-flashlight.png');
+                            "
+                        ></div>
+                    </figure>
+                </div>
+
+                <div
+                    class="P18i-typography-container col-xs-12 col-sm-6 col-sm-offset-6"
+                >
+                    <div
+                        class="P18i-flashlight-title"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                    >
+                        ЯРКИЙ ФОНАРИК
+                    </div>
+
+                    <div
+                        class="P18i-flashlight-subtitle"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                    >
+                        <div
+                            data-aos="fade-in"
+                            data-aos-duration="500"
+                            data-aos-delay="500"
+                            data-aos-anchor=".P18i-flashlight-subtitle"
+                            data-aos-anchor-placement="bottom-bottom"
+                            class="P18i-flashlight-subtitle-line"
+                        ></div>
+
+                        С УДОБНЫМ ПЕРЕКЛЮЧАТЕЛЕМ
+                    </div>
                 </div>
             </div>
         </div>

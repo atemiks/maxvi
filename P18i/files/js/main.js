@@ -5,11 +5,10 @@ $(document).ready(function () {
     });
 
     // /* ScrollTrigger */
-    const designSection = document.querySelector('.P18i-design');
-    const designGradient = designSection.querySelector('.P18i-design-gradient');
-    
-    const dockSection = document.querySelector('.P18i-dock');
-    const dockGradient = dockSection.querySelector('.P18i-dock-gradient')
+    const screenSection = document.querySelector('.P18i-screen');
+    const screenFigure = screenSection.querySelector('.P18i-screen-figure');
+    const simSection = document.querySelector('.P18i-sim');
+    const simFigures = simSection.querySelectorAll('.P18i-sim-layer-sim');
     const mm = gsap.matchMedia();
 
     mm.add({
@@ -17,37 +16,61 @@ $(document).ready(function () {
         isLaptop: '(min-width: 992px) and (max-width: 1199.98px)',
         isTablet: '(min-width: 768px) and (max-width: 991.98px)',
         isPhone: '(max-width: 767.98px)'
-    }, (context) => {
-        const designTl = gsap.timeline({
+    }, ({conditions}) => {
+        const {isPhone} = conditions;
+
+        const screenTl = gsap.timeline({
             scrollTrigger: {
-                trigger: designSection,
+                trigger: screenSection,
                 markers: false,
-                start: '0 0',
-                end: '100% 100%',
+                start: isPhone ? '0 0' : '0 0',
+                end: isPhone ? '100% 0' : '107.5% 0',
                 scrub: 0.1,
-                pin: false,
+                pin: screenFigure,
                 pinSpacing: false,
+                snap: {
+                    snapTo:  [0, 1],
+                    duration: { min: 0.2, max: 1 }, 
+                    delay: 0.2, 
+                    ease: 'power1.inOut'
+                }
             },
         });
     
-        designTl.to(designGradient, {
-            'background-position': '0 100%'
-        });
+        screenTl
+        .addLabel('start')
+        .to(screenFigure, {
+            xPercent: isPhone ? 0 : -200,
+            scale: 0.7,
+        })
+        .addLabel('end');
 
-        const dockTl = gsap.timeline({
+        const simTl = gsap.timeline({
             scrollTrigger: {
-                trigger: dockSection,
+                trigger: simSection,
                 markers: false,
-                start: '0 25%',
-                end: '100% 100%',
+                start: '35% 50%',
+                end: `75% 50%`,
                 scrub: 0.1,
                 pin: false,
                 pinSpacing: false,
             },
         });
 
-        dockTl.to(dockGradient, {
-            'background-position': '0 100%'
-        });
+        simTl
+        .addLabel('start')
+        .to(simFigures[0], {
+            xPercent: isPhone ? 160 : 235,
+            duration: 9,
+        }, 'start')
+        .to(simFigures[1], {
+            xPercent: isPhone ? 160 : 250,
+            duration: 10,
+        }, 'start')
+        .to(simFigures[2], {
+            xPercent: isPhone ? 160 : 195,
+            duration: 8,
+        }, 'start')
+        .addLabel('end');
     });
 });
