@@ -30,8 +30,8 @@ $(document).ready(function () {
                 pinSpacing: false,
                 snap: {
                     snapTo:  [0, 1],
-                    duration: { min: 0.2, max: 1 }, 
-                    delay: 0.2, 
+                    duration: { min: 0.1, max: 0.8 }, 
+                    delay: 0.1, 
                     ease: 'power1.inOut'
                 }
             },
