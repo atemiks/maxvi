@@ -9,6 +9,26 @@ $(document).ready(function () {
     const screenFigure = screenSection.querySelector('.P18i-screen-figure');
     const simSection = document.querySelector('.P18i-sim');
     const simFigures = simSection.querySelectorAll('.P18i-sim-layer-sim');
+
+    const screenFigureCoords = {
+        desktop: {
+            xPercent: -200,
+            scale: 0.7,
+        },
+        laptop: {
+            xPercent: -200,
+            scale: 0.7,
+        },
+        tablet: {
+            xPercent: -180,
+            scale: 0.7,
+        },
+        phone: {
+            xPercent: 0,
+            scale: 0.7,
+        }
+    }
+
     const mm = gsap.matchMedia();
 
     mm.add({
@@ -17,7 +37,8 @@ $(document).ready(function () {
         isTablet: '(min-width: 768px) and (max-width: 991.98px)',
         isPhone: '(max-width: 767.98px)'
     }, ({conditions}) => {
-        const {isPhone} = conditions;
+        const {isDesktop, isLaptop, isTablet, isPhone} = conditions;
+        const currentMode = isDesktop ? 'desktop' : isLaptop ? 'laptop' : isTablet ? 'tablet' : 'phone';
 
         const screenTl = gsap.timeline({
             scrollTrigger: {
@@ -39,10 +60,7 @@ $(document).ready(function () {
     
         screenTl
         .addLabel('start')
-        .to(screenFigure, {
-            xPercent: isPhone ? 0 : -200,
-            scale: 0.7,
-        })
+        .to(screenFigure, screenFigureCoords[currentMode])
         .addLabel('end');
 
         const simTl = gsap.timeline({

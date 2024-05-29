@@ -1,9 +1,9 @@
-@media (max-width: 1920px) {
+@media (max-width: 1980px) {
 
     .P18i-landing {
         .container {
-            padding-left: 9.375%; // 180
-            padding-right: 9.375%; // 180
+            padding-left: 9.375%;
+            padding-right: 9.375%;
         }
     }
 
@@ -69,7 +69,7 @@
 
         &-layer-sim {
             width: 218px;
-            height: 134px; // 1,6305732484
+            height: 134px;
         }
     }
 
@@ -90,7 +90,7 @@
 
             &-icon {
                 width: 190px;
-                height: 252px; // 0,7542087542
+                height: 252px;
             }
         }
 
@@ -201,7 +201,7 @@
 
         &-layer-sim {
             width: 184px;
-            height: 112px; // 1,6305732484
+            height: 112px;
         }
     }
 
@@ -222,7 +222,7 @@
 
             &-icon {
                 width: 160px;
-                height: 212px; // 0,7542087542
+                height: 212px;
             }
         }
 
@@ -328,7 +328,7 @@
 
         &-layer-sim {
             width: 156px;
-            height: 96px; // 1,6305732484
+            height: 96px;
         }
     }
 
@@ -349,7 +349,7 @@
 
             &-icon {
                 width: 136px;
-                height: 180px; // 0,7542087542
+                height: 180px;
             }
         }
 
@@ -461,7 +461,7 @@
 
         &-layer-sim {
             width: 132px;
-            height: 80px; // 1,6305732484
+            height: 80px;
         }
     }
 
@@ -482,7 +482,7 @@
 
             &-icon {
                 width: 115px;
-                height: 152px; // 0,7542087542
+                height: 152px;
             }
         }
 
@@ -588,7 +588,7 @@
 
         &-layer-sim {
             width: 112px;
-            height: 68px; // 1,6305732484
+            height: 68px;
         }
     }
 
@@ -609,7 +609,7 @@
 
             &-icon {
                 width: 95px;
-                height: 126px; // 0,7542087542
+                height: 126px;
             }
         }
 
@@ -726,6 +726,7 @@
         }
 
         &-figure {
+            z-index: 9;
             top: 235px;
             width: 260px;
             height: 678px;
@@ -739,9 +740,20 @@
         height: 740px;
         text-align: left;
 
+        &-title,
+        &-subtitle {
+            &[data-aos^=fade] {
+                transform: translate(-100px);
+            }
+        }
+
         &-title {
             top: 40px;
             font-size: 28px;
+
+            &-line {
+                display: none;
+            }
         }
 
         &-subtitle {
@@ -800,7 +812,7 @@
 
     /* section battery */
     .P18i-battery {
-        height: 485px;
+        height: 500px;
 
         &-title {
             top: 100px;
@@ -808,12 +820,12 @@
         }
 
         &-subtitle {
-            top: 395px;
-            font-size: 20px;
+            top: 405px;
+            font-size: 28px;
 
             &-icon {
-                width: 40px;
-                height: 54px; // 0,7542087542
+                width: 50px;
+                height: 66px;
             }
         }
 
@@ -845,6 +857,10 @@
             top: 430px;
             left: 50%;
             font-size: 18px;
+
+            &-line {
+                width: 1.75em;
+            }
         }
 
         &-figure {
