@@ -434,6 +434,10 @@
         &-subtitle {
             top: 475px;
             font-size: 30px;
+
+            &-line {
+                width: 31.5%;
+            }
         }
     }
 
@@ -561,6 +565,10 @@
         &-subtitle {
             top: 400px;
             font-size: 26px;
+
+            &-line {
+                width: 23.5%;
+            }
         }
     }
 
@@ -750,15 +758,15 @@
         &-title {
             top: 40px;
             font-size: 28px;
-
-            &-line {
-                display: none;
-            }
         }
 
         &-subtitle {
             top: 145px;
             font-size: 20px;
+
+            &-line {
+                display: none;
+            }
         }
     }
 
