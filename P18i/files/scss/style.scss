@@ -199,34 +199,34 @@
         font-size: 132px;
         font-weight: 500;
         line-height: normal;
-
-        &-line {
-            position: absolute;
-            top: 0.5em;
-            right: 4em;
-            width: 65%;
-            height: 0.0378em;
-            background-color: #258edd;
-
-            &::after {
-                position: absolute;
-                top: 50%;
-                right: 100%;
-                width: 0.4em;
-                height: 0.4em;
-                border: 0.0378em solid #258edd;
-                border-radius: 50%;
-                box-shadow: inset 0 0 0 0.038em #fff;
-                transform: translateY(-50%);
-                content: '';
-            }
-        }
     }
 
     &-subtitle {
         top: 910px;
         font-size: 60px;
         line-height: normal;
+
+        &-line {
+            position: absolute;
+            top: 0.5em;
+            right: 16em;
+            width: 28%;
+            height: 0.08333em;
+            background-color: #258edd;
+
+            &::after {
+                position: absolute;
+                top: 50%;
+                right: 100%;
+                width: 0.86666em;
+                height: 0.86666em;
+                border: 0.08333em solid #258edd;
+                border-radius: 50%;
+                box-shadow: inset 0 0 0 0.08333em #fff;
+                transform: translateY(-50%);
+                content: '';
+            }
+        }
     }
 }
 
