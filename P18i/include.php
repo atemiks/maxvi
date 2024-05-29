@@ -99,7 +99,10 @@ $this->addExternalJS($folder . 'js/main.js');
                         class="P18i-case-title"
                         data-aos="fade-left"
                         data-aos-duration="500"
+                        data-aos-anchor-placement="top-center"
                     >
+                        <div class="P18i-case-title-line"></div>
+
                         КОРПУС
                         <br />
                         ПОВЫШЕННОЙ
@@ -111,6 +114,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         class="P18i-case-subtitle"
                         data-aos="fade-left"
                         data-aos-duration="500"
+                        data-aos-anchor-placement="top-center"
                     >
                         Металлическая рамка обеспечит
                         <br />
