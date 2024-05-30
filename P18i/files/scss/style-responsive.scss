@@ -721,7 +721,7 @@
 
     /* section screen */
     .P18i-screen {
-        height: 1000px;
+        height: 940px;
 
         &-title {
             top: 40px;
@@ -745,7 +745,7 @@
 
     /* section case */
     .P18i-case {
-        height: 740px;
+        height: 965px;
         text-align: left;
 
         &-title,
@@ -767,6 +767,11 @@
             &-line {
                 display: none;
             }
+        }
+
+        &-figure {
+            display: block;
+
         }
     }
 

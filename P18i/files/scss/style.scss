@@ -194,16 +194,6 @@
         right: 15px;
         transition-property: opacity, transform;
         transition-duration: 0.5s;
-
-        &.aos-init {
-            opacity: 0;
-            transform: translate(100px);
-
-            &.aos-animate {
-                opacity: 1;
-                transform: translate(0);
-            }
-        }
     }
 
     &-title {
@@ -240,6 +230,24 @@
                 content: '';
             }
         }
+    }
+
+    &-figure {
+        display: none;
+        position: absolute;
+        top: 255px;
+        left: 15px;
+        right: 15px;
+        width: 260px;
+        height: 678px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+        object-position: center;
+        object-fit: contain;
     }
 }
 
