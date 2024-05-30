@@ -97,6 +97,8 @@ $this->addExternalJS($folder . 'js/main.js');
                 >
                     <div
                         class="P18i-case-title"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
                     >
                         КОРПУС
                         <br />
@@ -107,13 +109,29 @@ $this->addExternalJS($folder . 'js/main.js');
 
                     <div
                         class="P18i-case-subtitle"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
                     >
                         <div class="P18i-case-subtitle-line"></div>
-
                         Металлическая рамка обеспечит
                         <br />
                         дополнительную защиту
                     </div>
+                </div>
+
+                <div
+                    class="P18i-media-container col-xs-12 col-sm-5 col-md-4 col-md-offset-1"
+                >
+                    <figure class="P18i-case-figure">
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-case/P18i-case-phone-side.png"
+                            class="P18i-case-media"
+                            width="260"
+                            height="678"
+                            alt="Мобильный телефон Maxvi P18i"
+                        />
+                    </figure>
                 </div>
             </div>
         </div>
