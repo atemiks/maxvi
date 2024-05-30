@@ -7,8 +7,14 @@ $(document).ready(function () {
     // /* ScrollTrigger */
     const screenSection = document.querySelector('.P18i-screen');
     const screenFigure = screenSection.querySelector('.P18i-screen-figure');
+    const caseTitle = document.querySelector('.P18i-case-title');
+    const caseSubtitle = document.querySelector('.P18i-case-subtitle');
     const simSection = document.querySelector('.P18i-sim');
     const simFigures = simSection.querySelectorAll('.P18i-sim-layer-sim');
+
+
+    caseTitle.classList.add('aos-init');
+    caseSubtitle.classList.add('aos-init');
 
     const screenFigureCoords = {
         desktop: {
@@ -54,6 +60,18 @@ $(document).ready(function () {
                     duration: { min: 0.1, max: 0.8 }, 
                     delay: 0.1, 
                     ease: 'power1.inOut'
+                },
+                onUpdate: ({progress}) => {
+                    const triggerValue = isPhone ? 0.95 : 0.85;
+
+                    if(progress.toFixed(2) > triggerValue) {
+                        caseTitle.classList.add('aos-animate');
+                        caseSubtitle.classList.add('aos-animate');
+                        return;
+                    }
+
+                    caseTitle.classList.remove('aos-animate');
+                    caseSubtitle.classList.remove('aos-animate');
                 }
             },
         });

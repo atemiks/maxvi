@@ -192,6 +192,18 @@
         z-index: 1;
         left: 15px;
         right: 15px;
+        transition-property: opacity, transform;
+        transition-duration: 0.5s;
+
+        &.aos-init {
+            opacity: 0;
+            transform: translate(100px);
+
+            &.aos-animate {
+                opacity: 1;
+                transform: translate(0);
+            }
+        }
     }
 
     &-title {
@@ -205,6 +217,7 @@
         top: 910px;
         font-size: 60px;
         line-height: normal;
+        transition-delay: 100ms;
 
         &-line {
             position: absolute;

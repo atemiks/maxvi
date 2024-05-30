@@ -97,8 +97,6 @@ $this->addExternalJS($folder . 'js/main.js');
                 >
                     <div
                         class="P18i-case-title"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
                     >
                         КОРПУС
                         <br />
@@ -109,8 +107,6 @@ $this->addExternalJS($folder . 'js/main.js');
 
                     <div
                         class="P18i-case-subtitle"
-                        data-aos="fade-left"
-                        data-aos-duration="500"
                     >
                         <div class="P18i-case-subtitle-line"></div>
 

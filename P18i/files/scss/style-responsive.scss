@@ -750,7 +750,7 @@
 
         &-title,
         &-subtitle {
-            &[data-aos^=fade] {
+            &.aos-init {
                 transform: translate(-100px);
             }
         }
