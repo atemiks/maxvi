@@ -27,9 +27,9 @@ $(document).ready(function () {
         const screenTl = gsap.timeline({
             scrollTrigger: {
                 trigger: screenSection,
-                markers: true,
-                start: isPhone ? '0 0' : '0 0',
-                end: isPhone ? '100% 0' : '100% 0',
+                markers: false,
+                start: '0 0',
+                end: '100% 0',
                 scrub: 0.1,
                 pin: screenFigure,
                 pinSpacing: false,
@@ -67,9 +67,9 @@ $(document).ready(function () {
         const batteryTl = gsap.timeline({
             scrollTrigger: {
                 trigger: batterySection,
-                markers: true,
-                start: isPhone ? '0 0' : '0 0',
-                    end: isPhone ? '100% 0' : '100% 0',
+                markers: false,
+                start: '0 0',
+                end: '100% 0',
                 scrub: 0.1,
                 pin: batteryFigure,
                 pinSpacing: false,
