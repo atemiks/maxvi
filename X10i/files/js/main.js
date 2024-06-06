@@ -28,7 +28,7 @@ $(document).ready(function () {
             scrollTrigger: {
                 trigger: screenSection,
                 markers: false,
-                start: '0 0',
+                start: '0 30px',
                 end: '100% 0',
                 scrub: 0.1,
                 pin: screenFigure,
