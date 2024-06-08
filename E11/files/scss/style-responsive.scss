@@ -1,0 +1,1224 @@
+@media (max-width: 1980px) {
+
+    .E11-landing {
+        .container {
+            padding-left: 7.65%;
+            padding-right: 3.75%;
+        }
+    }
+
+    /* section intro */
+    .E11-intro {
+        height: 1075px;
+
+        &-logo {
+            top: 305px;
+            left: 20px;
+            width: 64px;
+            height: 376px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 120px;
+        }
+
+        &-title {
+            top: 285px;
+            font-size: 196px;
+        }
+
+        &-subtitle {
+            top: 490px;
+            font-size: 90px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 660px;
+            height: 1045px;
+        }
+
+        &-layer {
+            &.layer-1 {
+                width: 322px;
+                height: 1037px;
+            }
+
+            &.layer-2 {
+                width: 320px;
+                height: 1002px;
+            }
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 1850px;
+        margin-top: -630px;
+
+        &-title {
+            top: 1265px;
+            right: 11.475%;
+            font-size: 134px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 1460px;
+        margin-top: -280px;
+
+        &-title {
+            top: 755px;
+            font-size: 114px;
+        }
+
+        &-figure {
+            top: 360px;
+            width: 416px;
+            height: 1035px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        height: 1115px;
+        margin-top: -160px;
+
+        &-block {
+            row-gap: 24px;
+
+            &--left {
+                top: 520px;
+            }
+
+            &--right {
+                top: 140px;
+            }
+        }
+
+        &-title {
+            font-size: 72px;
+        }
+
+        &-subtitle {
+            font-size: 54px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 1315px;
+        margin-top: -105px;
+
+        &-title {
+            top: 315px;
+            font-size: 134px;
+        }
+
+        &-subtitle {
+            top: 495px;
+            font-size: 72px;
+        }
+
+        &-figure {
+            width: 448px;
+            height: 1588px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 1110px;
+
+        &-title {
+            top: 155px;
+            font-size: 114px;
+        }
+
+        &-figure {
+            top: 475px;
+            width: 950px;
+            height: 380px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 1275px;
+
+        &-title {
+            top: 105px;
+            font-size: 114px;
+        }
+
+        &-subtitle {
+            top: 515px;
+            font-size: 114px;
+        }
+
+        &-figure {
+            top: 70px;
+            width: 598px;
+            height: 1130px;
+        }
+
+        &-layers {
+            width: 572px;
+            height: 286px;
+        }
+
+        &-SIM {
+            width: 220px;
+            height: 134px;
+        }
+
+        &-SD {
+            width: 238px;
+            height: 270px;
+        }
+    }
+
+    /* section slots end */
+}
+
+@media (max-width: 1680px) {
+
+    /* section intro */
+    .E11-intro {
+        height: 915px;
+
+        &-logo {
+            top: 260px;
+            left: 15px;
+            width: 54px;
+            height: 317px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 100px;
+        }
+
+        &-title {
+            top: 240px;
+            font-size: 164px;
+        }
+
+        &-subtitle {
+            top: 415px;
+            font-size: 76px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 560px;
+            height: 886px;
+        }
+
+        &-layer {
+            &.layer-1 {
+                width: 274px;
+                height: 883px;
+            }
+
+            &.layer-2 {
+                width: 272px;
+                height: 852px;
+            }
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 1570px;
+        margin-top: -535px;
+
+        &-title {
+            top: 1075px;
+            font-size: 112px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 1240px;
+        margin-top: -240px;
+
+        &-title {
+            top: 640px;
+            font-size: 96px;
+        }
+
+        &-figure {
+            top: 305px;
+            width: 354px;
+            height: 880px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        height: 945px;
+        margin-top: -135px;
+
+        &-block {
+            row-gap: 20px;
+
+            &--left {
+                top: 440px;
+            }
+
+            &--right {
+                top: 120px;
+            }
+        }
+
+        &-title {
+            font-size: 62px;
+        }
+
+        &-subtitle {
+            font-size: 44px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 1115px;
+        margin-top: -90px;
+
+        &-title {
+            top: 265px;
+            font-size: 112px;
+        }
+
+        &-subtitle {
+            top: 420px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            width: 380px;
+            height: 1347px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 945px;
+
+        &-title {
+            top: 95px;
+            font-size: 96px;
+        }
+
+        &-figure {
+            top: 405px;
+            width: 808px;
+            height: 324px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 1085px;
+
+        &-title {
+            top: 90px;
+            font-size: 96px;
+        }
+
+        &-subtitle {
+            top: 435px;
+            font-size: 96px;
+        }
+
+        &-figure {
+            top: 60px;
+            width: 508px;
+            height: 960px;
+        }
+
+        &-layers {
+            width: 486px;
+            height: 244px;
+        }
+
+        &-SIM {
+            width: 186px;
+            height: 114px;
+        }
+
+        &-SD {
+            width: 202px;
+            height: 228px;
+        }
+    }
+
+    /* section slots end */
+}
+
+@media (max-width: 1440px) {
+
+    /* section intro */
+    .E11-intro {
+        height: 780px;
+
+        &-logo {
+            top: 220px;
+            width: 45px;
+            height: 264px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 90px;
+        }
+
+        &-title {
+            top: 205px;
+            font-size: 138px;
+        }
+
+        &-subtitle {
+            top: 350px;
+            font-size: 64px;
+        }
+
+        &-figure {
+            width: 476px;
+            height: 754px;
+        }
+
+        &-layer {
+            &.layer-1 {
+                width: 232px;
+                height: 748px;
+            }
+
+            &.layer-2 {
+                width: 230px;
+                height: 720px;
+            }
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 1335px;
+        margin-top: -455px;
+
+        &-title {
+            top: 915px;
+            font-size: 94px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 1055px;
+        margin-top: -205px;
+
+        &-title {
+            top: 545px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: 260px;
+            width: 300px;
+            height: 746px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        height: 805px;
+        margin-top: -115px;
+
+        &-block {
+            row-gap: 18px;
+
+            &--left {
+                top: 375px;
+            }
+
+            &--right {
+                top: 100px;
+            }
+        }
+
+        &-title {
+            font-size: 52px;
+        }
+
+        &-subtitle {
+            font-size: 36px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 945px;
+        margin-top: -75px;
+
+        &-title {
+            top: 225px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 355px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            width: 320px;
+            height: 1135px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 800px;
+
+        &-title {
+            top: 80px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: 345px;
+            width: 686px;
+            height: 275px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 920px;
+
+        &-title {
+            top: 75px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 370px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: 50px;
+            width: 430px;
+            height: 812px;
+        }
+
+        &-layers {
+            width: 414px;
+            height: 208px;
+        }
+
+        &-SIM {
+            width: 158px;
+            height: 96px;
+        }
+
+        &-SD {
+            width: 172px;
+            height: 195px;
+        }
+    }
+
+    /* section slots end */
+}
+
+@media (max-width: 1199px) {
+    .E11-landing {
+        .container {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+
+    /* section intro */
+    .E11-intro {
+        height: 665px;
+
+        &-logo {
+            top: 190px;
+            width: 38px;
+            height: 224px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 80px;
+        }
+
+        &-title {
+            top: 175px;
+            font-size: 116px;
+        }
+
+        &-subtitle {
+            top: 300px;
+            font-size: 54px;
+        }
+
+        &-figure {
+            width: 404px;
+            height: 640px;
+        }
+
+        &-layer {
+            &.layer-1 {
+                width: 196px;
+                height: 632px;
+            }
+
+            &.layer-2 {
+                width: 196px;
+                height: 614px;
+            }
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 1135px;
+        margin-top: -385px;
+
+        &-title {
+            top: 775px;
+            font-size: 78px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 895px;
+        margin-top: -175px;
+
+        &-title {
+            top: 465px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 220px;
+            width: 255px;
+            height: 635px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        height: 685px;
+        margin-top: -95px;
+
+        &-block {
+            row-gap: 16px;
+
+            &--left {
+                top: 320px;
+            }
+
+            &--right {
+                top: 85px;
+            }
+        }
+
+        &-title {
+            font-size: 44px;
+        }
+
+        &-subtitle {
+            font-size: 30px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 805px;
+        margin-top: -65px;
+
+        &-title {
+            top: 190px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 285px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            width: 270px;
+            height: 957px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 680px;
+
+        &-title {
+            top: 70px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 295px;
+            width: 582px;
+            height: 233px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 780px;
+
+        &-title {
+            top: 65px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 315px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 364px;
+            height: 688px;
+        }
+
+        &-layers {
+            width: 350px;
+            height: 176px;
+        }
+
+        &-SIM {
+            width: 134px;
+            height: 82px;
+        }
+
+        &-SD {
+            width: 146px;
+            height: 165px;
+        }
+    }
+
+    /* section slots end */
+}
+
+@media (max-width: 991px) {
+
+    .E11-landing {
+        .container {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
+    /* section intro */
+    .E11-intro {
+        height: 565px;
+
+        &-logo {
+            top: 160px;
+            width: 32px;
+            height: 188px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 75px;
+        }
+
+        &-title {
+            top: 150px;
+            font-size: 98px;
+        }
+
+        &-subtitle {
+            top: 255px;
+            font-size: 44px;
+        }
+
+        &-figure {
+            width: 344px;
+            height: 544px;
+        }
+
+        &-layer {
+            &.layer-1 {
+                width: 164px;
+                height: 528px;
+            }
+
+            &.layer-2 {
+                width: 164px;
+                height: 514px;
+            }
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 965px;
+        margin-top: -325px;
+
+        &-title {
+            top: 660px;
+            font-size: 60px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 760px;
+        margin-top: -150px;
+
+        &-title {
+            top: 395px;
+            font-size: 54px;
+        }
+
+        &-figure {
+            top: 185px;
+            width: 216px;
+            height: 537px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        height: 580px;
+        margin-top: -80px;
+
+        &-block {
+            row-gap: 14px;
+
+            &--left {
+                top: 270px;
+            }
+
+            &--right {
+                top: 70px;
+            }
+        }
+
+        &-title {
+            font-size: 36px;
+        }
+
+        &-subtitle {
+            font-size: 26px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 685px;
+        margin-top: -55px;
+
+        &-title {
+            top: 160px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 240px;
+            font-size: 34px;
+        }
+
+        &-figure {
+            width: 230px;
+            height: 816px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 580px;
+
+        &-title {
+            top: 60px;
+            font-size: 56px;
+        }
+
+        &-figure {
+            top: 250px;
+            width: 494px;
+            height: 198px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 665px;
+
+        &-title {
+            top: 55px;
+            font-size: 56px;
+        }
+
+        &-subtitle {
+            top: 265px;
+            font-size: 56px;
+        }
+
+        &-figure {
+            top: 35px;
+            width: 310px;
+            height: 586px;
+        }
+
+        &-layers {
+            width: 280px;
+            height: 150px;
+        }
+
+        &-SIM {
+            width: 114px;
+            height: 70px;
+        }
+
+        &-SD {
+            width: 124px;
+            height: 140px;
+        }
+    }
+
+    /* section slots end */
+}
+
+@media (max-width: 767px) {
+    .E11-landing {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .E11-title,
+    .E11-subtitle,
+    .E11-description,
+    .E11-design-title,
+    .E11-design-subtitle,
+    .E11-screen-title,
+    .E11-screen-subtitle,
+    .E11-case-title,
+    .E11-case-block,
+    .E11-battery-title,
+    .E11-battery-subtitle,
+    .E11-connector-title {
+        max-width: 280px;
+    }
+
+    .E11-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .E11-subtitle {
+        font-size: 24px !important;
+    }
+
+    .E11-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .E11-title[data-aos],
+    .E11-subtitle[data-aos],
+    .E11-description[data-aos],
+    .E11-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .E11-title[data-aos].aos-animate,
+    .E11-subtitle[data-aos].aos-animate,
+    .E11-description[data-aos].aos-animate,
+    .E11-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section intro */
+    .E11-intro {
+        height: 725px;
+
+        &-logo {
+            top: 40px;
+            width: 24px;
+            height: 142px;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 60px;
+        }
+
+        &-title {
+            top: 30px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 120px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 240px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11-screen {
+        height: 915px;
+        margin-top: -325px;
+
+        &-title {
+            top: 690px;
+            right: 15px;
+            margin: 0 0 0 auto;
+            font-size: 28px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section case */
+    .E11-case {
+        height: 720px;
+        margin-top: -150px;
+
+        &-title {
+            top: 160px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 250px;
+            width: 184px;
+            height: 458px;
+        }
+    }
+
+    /* section case end */
+
+    /* section material */
+    .E11-material {
+        $this: &;
+
+        height: 540px;
+        margin-top: -80px;
+
+        &-block {
+            &--left {
+                top: 330px;
+
+                #{$this}-line {
+                    width: 0;
+
+                    &::after {
+                        top: auto;
+                        bottom: 100%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+
+            &--right {
+                top: 60px;
+
+                #{$this}-line {
+                    top: 1.65em;
+                    right: 6.55em;
+                    width: 0;
+                    height: 1.5em;
+                    border-width: 0 0 0 0.0625em;
+
+                    &::after {
+                        top: 100%;
+                        transform: translateX(50%);
+                    }
+                }
+            }
+        }
+
+        &-title {
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            font-size: 20px;
+        }
+    }
+
+    /* section material end */
+
+    /* section camera */
+    .E11-camera {
+        height: 735px;
+        margin-top: -55px;
+
+        &-title {
+            top: 40px;
+            color: currentColor;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 145px;
+            width: 195px;
+            height: 692px;
+        }
+    }
+
+    /* section camera end */
+
+    /* section connector */
+    .E11-connector {
+        height: 420px;
+
+        &-title {
+            top: 160px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 250px;
+            left: 0;
+            right: 0;
+            width: 345px;
+            height: 138px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .E11-slots {
+        height: 750px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 140px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 210px;
+            width: 264px;
+            height: 498px;
+        }
+
+        &-layers {
+            right: 105%;
+            width: 50px;
+            height: 158px;
+        }
+
+        &-SIM {
+            width: 96px;
+            height: 30px;
+
+            &:nth-of-type(2) {
+                top: 45px;
+            }
+        }
+
+        &-SD {
+            top: 100px;
+            width: 105px;
+            height: 56px;
+        }
+    }
+
+    /* section slots end */
+}
