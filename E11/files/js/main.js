@@ -72,8 +72,10 @@ $(document).ready(function () {
                     delay: 0.1, 
                     ease: 'power1.inOut'
                 },
-                onToggle: ({progress}) => {
-                    if(progress === 1) {
+                onUpdate: ({progress}) => {
+                    const targetProgress = isPhone ? 0.85 : 0.95;
+
+                    if(progress >= targetProgress) {
                         materialBlocks.forEach(block => {
                             block.classList.add('aos-animate');
                         });
