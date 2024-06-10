@@ -1,5 +1,6 @@
 :root {
     --c-default: #313131;
+    --case-figure-height: 1219px;
 }
 
 .E11-landing {
@@ -132,11 +133,29 @@
 
 /* section intro */
 .E11-intro {
+    z-index: 1;
     height: 1265px;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #eaeaea;
     color: #535766;
+
+    &-shadow,
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &-shadow {
+        filter: drop-shadow(0 0px 120px #011439) drop-shadow(0 0px 120px #011439);
+    }
+
+    &-bg {
+        background-color: #eaeaea;
+        clip-path: polygon(0 0, 100% 0, 100% 42%, 0% 100%);
+    }
 
     &-logo {
         position: absolute;
@@ -230,20 +249,8 @@
     margin-top: -740px;
     padding-top: 0;
     padding-bottom: 0;
+    background-color: #002260;
     text-align: right;
-
-    &-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #002260;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        clip-path: polygon(0 33.5%, 100% 0, 100% 100%, 0 85%);
-    }
 
     &-title {
         position: absolute;
@@ -273,17 +280,17 @@
     padding-bottom: 0;
     color: #404040;
 
+    &-shadow,
     &-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #eaeaea;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
+    }
+
+    &-shadow {
+        filter: drop-shadow(0 0px 120px #011439) drop-shadow(0 0px 120px #011439);
 
         &::after {
             position: absolute;
@@ -294,6 +301,14 @@
             background: linear-gradient(to bottom, rgba(#eaeaea, 0) 0%, rgba(#eaeaea, 1) 75%);
             content: '';
         }
+    }
+
+    &-bg {
+        background-color: #eaeaea;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
     }
 
     &-title {
@@ -390,8 +405,8 @@
                 position: absolute;
                 left: 0.1em;
                 bottom: 100%;
-                width: 27.5%;
-                height: 2.75em;
+                width: calc(100% - (var(--case-figure-height) * 0.9 / 1.55));
+                height: 3.35em;
                 border-width: 0.0625em 0 0 0.0625em;
 
                 &::after {
@@ -576,13 +591,13 @@
 
     &-usb {
         position: absolute;
-        top: 51.5%;
-        left: 42.3%;
-        width: 16.2%;
-        height: 14%;
-        border: 6px solid #fff;
-        border-radius: 30px;
-        filter: drop-shadow(0 0 20px #0c7ff5) drop-shadow(0 0 20px #0c7ff5);
+        top: 46.25%;
+        left: 40.3%;
+        width: 20.1359%;
+        height: 25.05%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         animation: fade-in-and-out 3.2s infinite;
     }
 

@@ -35,6 +35,10 @@ $this->addExternalJS($folder . 'js/main.js');
 ?>
 <div class="E11-landing">
     <section class="E11-intro">
+        <div class="E11-intro-shadow">
+            <div class="E11-intro-bg"></div>
+        </div>
+
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
@@ -100,7 +104,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="E11-typography-container col-xs-12 col-sm-7"
+                    class="E11-typography-container col-xs-12 col-sm-6"
                 >
                     <img
                         class="E11-intro-logo"
@@ -135,18 +139,16 @@ $this->addExternalJS($folder . 'js/main.js');
         </div>
     </section>
 
-    <section class="E11-screen section-dark">
-        <div
-            class="E11-screen-bg"
-            style="
-                background-image: url('<?= $folder ?>/images/section-screen/E11-screen-bg.jpg');
-            "
-        ></div>
-
+    <section
+        class="E11-screen section-dark"
+        style="
+            background-image: url('<?= $folder ?>/images/section-screen/E11-screen-bg.jpg');
+        "
+    >
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="E11-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
+                    class="E11-typography-container col-xs-12 col-sm-6 col-sm-offset-6"
                 >
                     <div
                         class="E11-screen-title"
@@ -163,12 +165,14 @@ $this->addExternalJS($folder . 'js/main.js');
     </section>
 
     <section class="E11-case">
-        <div
-            class="E11-case-bg"
-            style="
-                background-image: url('<?= $folder ?>/images/section-case/E11-case-bg.jpg');
-            "
-        ></div>
+        <div class="E11-case-shadow">
+            <div
+                class="E11-case-bg"
+                style="
+                    background-image: url('<?= $folder ?>/images/section-case/E11-case-bg.jpg');
+                "
+            ></div>
+        </div>
 
         <div class="container">
             <div class="content-wrapper row d-flex">
@@ -337,7 +341,12 @@ $this->addExternalJS($folder . 'js/main.js');
                             alt="Мобильный телефон Maxvi E11"
                         />
 
-                        <div class="E11-connector-usb"></div>
+                        <div
+                            class="E11-connector-usb"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-connector/E11-connector-usb.png');
+                            "
+                        ></div>
                     </figure>
                 </div>
 

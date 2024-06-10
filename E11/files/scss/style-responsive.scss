@@ -1,4 +1,7 @@
 @media (max-width: 1980px) {
+    :root {
+        --case-figure-height: 1035px;
+    }
 
     .E11-landing {
         .container {
@@ -196,6 +199,9 @@
 }
 
 @media (max-width: 1680px) {
+    :root {
+        --case-figure-height: 880px;
+    }
 
     /* section intro */
     .E11-intro {
@@ -385,6 +391,9 @@
 }
 
 @media (max-width: 1440px) {
+    :root {
+        --case-figure-height: 746px;
+    }
 
     /* section intro */
     .E11-intro {
@@ -572,6 +581,10 @@
 }
 
 @media (max-width: 1199px) {
+    :root {
+        --case-figure-height: 635px;
+    }
+
     .E11-landing {
         .container {
             padding-left: 50px;
@@ -765,6 +778,9 @@
 }
 
 @media (max-width: 991px) {
+    :root {
+        --case-figure-height: 538px;
+    }
 
     .E11-landing {
         .container {
@@ -1050,14 +1066,14 @@
 
     /* section screen */
     .E11-screen {
-        height: 915px;
-        margin-top: -325px;
+        height: 1040px;
+        margin-top: -450px;
 
         &-title {
-            top: 690px;
+            top: 815px;
             right: 15px;
             margin: 0 0 0 auto;
-            font-size: 28px;
+            font-size: 34px;
         }
     }
 
@@ -1135,22 +1151,22 @@
 
     /* section camera */
     .E11-camera {
-        height: 735px;
+        height: 740px;
         margin-top: -55px;
 
         &-title {
             top: 40px;
             color: currentColor;
-            font-size: 28px;
+            font-size: 34px;
         }
 
         &-subtitle {
-            top: 80px;
+            top: 85px;
             font-size: 24px;
         }
 
         &-figure {
-            top: 145px;
+            top: 150px;
             width: 195px;
             height: 692px;
         }
@@ -1181,6 +1197,7 @@
     /* section slots */
     .E11-slots {
         height: 750px;
+        background: linear-gradient(to bottom, rgba(#eaeaea, 1) 0%, rgba(#051739, 1) 30%);
 
         &-title {
             top: 40px;
