@@ -34,7 +34,7 @@ $(document).ready(function () {
     const phoneFlipTl = gsap.timeline({
         scrollTrigger: {
             trigger: screenSection,
-            markers: true,
+            markers: false,
             start: '50% 0',
             end: '100% 0',
             scrub: true, // important!
@@ -106,7 +106,7 @@ $(document).ready(function () {
         const animationTl = gsap.timeline({
             scrollTrigger: {
                 trigger: animationSection,
-                markers: true,
+                markers: false,
                 start: () => {
                     const offsetTop = screenSection.offsetHeight;
                     return `${offsetTop} 0`;
@@ -124,7 +124,7 @@ $(document).ready(function () {
         const screenTl = gsap.timeline({
             scrollTrigger: {
                 trigger: screenSection,
-                markers: true,
+                markers: false,
                 start: '0 0',
                 end: '100% 0',
                 scrub: 0.1,
