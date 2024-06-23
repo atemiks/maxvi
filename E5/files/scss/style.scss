@@ -131,6 +131,231 @@
     }
 }
 
+
+.E5-animation {
+    position: relative;
+}
+
+.E5-phone {
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 15px;
+    right: 15px;
+    width: 788px;
+    height: 2492px;
+    margin: auto;
+
+    @media (max-width: 1980px) {
+        top: 70px;
+        width: 630px;
+        height: 2156px;
+    }
+
+    @media (max-width: 1680px) {
+        top: 60px;
+        width: 536px;
+        height: 1836px;
+    }
+
+    @media (max-width: 1440px) {
+        top: 50px;
+        width: 456px;
+        height: 1528px;
+    }
+
+    @media (max-width: 1199px) {
+        top: 50px;
+        width: 410px;
+        height: 1412px;
+    }
+
+    @media (max-width: 991px) {
+        top: 40px;
+        width: 348px;
+        height: 1198px;
+    }
+
+    @media (max-width: 767px) {
+        top: 230px;
+        width: 296px;
+        height: 1020px;
+    }
+
+    &-layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &-block {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 604px;
+        height: 1917px;
+        margin: auto;
+
+        @media (max-width: 1980px) {
+            width: 484px;
+            height: 1536px;
+        }
+
+        @media (max-width: 1680px) {
+            width: 412px;
+            height: 1308px;
+        }
+
+        @media (max-width: 1440px) {
+            width: 350px;
+            height: 1112px;
+        }
+
+        @media (max-width: 1199px) {
+            width: 314px;
+            height: 996px;
+        }
+
+        @media (max-width: 991px) {
+            width: 266px;
+            height: 844px;
+        }
+
+        @media (max-width: 767px) {
+            width: 226px;
+            height: 718px;
+        }
+    }
+
+    &-canvas {
+        width: inherit;
+        height: inherit;
+    }
+
+    &-buttons {
+        position: absolute;
+        z-index: 1;
+        top: 62.85%;
+        left: 32%;
+        width: 36%;
+        height: 24.65%;
+
+        &-sos,
+        &-fm,
+        &-call {
+            opacity: 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        &-sos {
+            position: absolute;
+            top: -14%;
+            right: -24.5%;
+            left: -24.5%;
+            height: 58.5%;
+        }
+
+        &-fm {
+            position: absolute;
+            top: 20%;
+            right: -20.5%;
+            left: -20.5%;
+            height: 57.5%;
+        }
+
+        &-call {
+            position: absolute;
+            top: 51%;
+            right: -20.5%;
+            left: -20.5%;
+            height: 57.5%;
+        }
+    }
+
+    &-indicators {
+        position: absolute;
+        z-index: 1;
+        top: 70.25%;
+        left: 33.35%;
+        width: 33.75%;
+        height: 11.25%;
+
+        &-layer {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+
+    &-dock {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 788px;
+        height: 775px;
+        margin: auto;
+
+        @media (max-width: 1980px) {
+            width: 630px;
+            height: 620px;
+        }
+
+        @media (max-width: 1680px) {
+            width: 536px;
+            height: 528px;
+        }
+
+        @media (max-width: 1440px) {
+            width: 456px;
+            height: 448px;
+        }
+
+        @media (max-width: 1199px) {
+            width: 410px;
+            height: 416px;
+        }
+
+        @media (max-width: 991px) {
+            width: 348px;
+            height: 354px;
+        }
+
+        @media (max-width: 767px) {
+            width: 296px;
+            height: 302px;
+        }
+
+        &-layer {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            &.layer-1 {
+                z-index: -1;
+            }
+        }
+    }
+}
+
 /* section intro */
 .E5-intro {
     height: 1350px;
@@ -222,7 +447,7 @@
             height: 100%;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: contain;
         }
     }
 
@@ -239,104 +464,6 @@
             font-weight: 500;
         }
     }
-
-    &-figure {
-        position: absolute;
-        z-index: 10;
-        top: 85px;
-        left: 15px;
-        right: 15px;
-        width: 788px;
-        height: 2492px;
-        margin: auto;
-    }
-
-    &-scene {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    &-phone {
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 604px;
-        height: 1917px;
-        margin: auto;
-    }
-
-    &-dock {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 788px;
-        height: 775px;
-        margin: auto;
-
-        &-layer {
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-
-            &.layer-1 {
-                z-index: -1;
-            }
-        }
-    }
-
-    &-buttons {
-        position: absolute;
-        z-index: 1;
-        top: 65.85%;
-        left: 35%;
-        width: 30%;
-        height: 19.65%;
-
-        &-sos,
-        &-fm,
-        &-call {
-            opacity: 0;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-        }
-
-        &-sos {
-            position: absolute;
-            top: -10%;
-            right: -20.5%;
-            left: -20.5%;
-            height: 55.5%;
-        }
-
-        &-fm {
-            position: absolute;
-            top: 22%;
-            right: -20.5%;
-            left: -20.5%;
-            height: 57.5%;
-        }
-
-        &-call {
-            position: absolute;
-            top: 51%;
-            right: -20.5%;
-            left: -20.5%;
-            height: 57.5%;
-        }
-    }
 }
 
 /* section screen end */
@@ -351,7 +478,8 @@
     text-align: right;
 
     &-title,
-    &-subtitle {
+    &-subtitle,
+    &-sketch {
         position: absolute;
         left: 15px;
         right: 15px;
@@ -371,17 +499,35 @@
     }
 
     &-sketch {
-        overflow: hidden;
-        position: absolute;
         top: 670px;
-        left: 15px;
-        right: 15px;
         width: 532px;
         height: 532px;
+        padding: 6px;
         border-radius: 50%;
-        background-color: #fff;
+        background: linear-gradient(to bottom, black, white);
         margin: 0 0 0 auto;
         text-align: center;
+
+        &::after {
+            position: absolute;
+            top: 100%;
+            right: calc(50% - 5px);
+            width: 150%;
+            height: 30px;
+            border-style: solid;
+            border-width: 0 6px 6px 0;
+            content: '';
+        }
+
+        &-inner {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            background-color: #fff;
+        }
+
+
 
         &-media {
             position: relative;
@@ -428,7 +574,6 @@
         z-index: 1;
         left: 15px;
         right: 15px;
-
     }
 
     &-title {
@@ -547,6 +692,7 @@
 
 /* section material */
 .E5-material {
+    z-index: 1;
     height: 1280px;
     padding-top: 0;
     padding-bottom: 0;
@@ -561,6 +707,7 @@
     &-title,
     &-subtitle {
         position: absolute;
+        z-index: 1;
         left: 15px;
         right: 15px;
     }

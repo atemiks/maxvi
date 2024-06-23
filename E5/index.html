@@ -25,17 +25,6 @@
     </head>
 
     <body>
-        <header
-            style="
-                position: fixed;
-                z-index: 100;
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 60px;
-                background: black;
-            "
-        ></header>
         <div class="E5-landing">
             <section class="E5-intro section-dark">
                 <div class="container">
@@ -121,36 +110,6 @@
                                 background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-04.png');
                             "
                         ></div>
-                        <div
-                            class="E5-screen-bg-layer"
-                            style="
-                                background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-05.png');
-                            "
-                        ></div>
-                        <div
-                            class="E5-screen-bg-layer"
-                            style="
-                                background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-06.png');
-                            "
-                        ></div>
-                        <div
-                            class="E5-screen-bg-layer"
-                            style="
-                                background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-07.png');
-                            "
-                        ></div>
-                        <div
-                            class="E5-screen-bg-layer"
-                            style="
-                                background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-08.png');
-                            "
-                        ></div>
-                        <div
-                            class="E5-screen-bg-layer"
-                            style="
-                                background-image: url('files/images/section-screen/bg/E5-screen-bg-layer-09.png');
-                            "
-                        ></div>
                     </div>
 
                     <div class="container">
@@ -158,48 +117,65 @@
                             <div
                                 class="E5-media-container col-xs-12 col-sm-6 col-md-5 col-md-offset-1"
                             >
-                                <figure class="E5-screen-figure">
-                                    <div class="E5-screen-scene">
-                                        <canvas
-                                            class="E5-screen-phone"
-                                            width="602"
-                                            height="1911"
-                                        ></canvas>
+                                <figure class="E5-phone">
+                                    <div class="E5-phone-layer">
+                                        <div class="E5-phone-block">
+                                            <canvas
+                                                class="E5-phone-canvas"
+                                                width="602"
+                                                height="1911"
+                                            ></canvas>
 
-                                        <div class="E5-screen-buttons">
-                                            <div
-                                                class="E5-screen-buttons-sos"
-                                                style="
-                                                    background-image: url('files/images/section-screen/buttons/E5-phone-button-sos.png');
-                                                "
-                                            ></div>
-                                            <div
-                                                class="E5-screen-buttons-fm"
-                                                style="
-                                                    background-image: url('files/images/section-screen/buttons/E5-phone-button-fm.png');
-                                                "
-                                            ></div>
-                                            <div
-                                                class="E5-screen-buttons-call"
-                                                style="
-                                                    background-image: url('files/images/section-screen/buttons/E5-phone-button-call.png');
-                                                "
-                                            ></div>
+                                            <div class="E5-phone-buttons">
+                                                <div
+                                                    class="E5-phone-buttons-sos aos-init"
+                                                    style="
+                                                        background-image: url('files/images/phone/buttons/E5-phone-button-sos.png');
+                                                    "
+                                                ></div>
+                                                <div
+                                                    class="E5-phone-buttons-fm aos-init"
+                                                    style="
+                                                        background-image: url('files/images/phone/buttons/E5-phone-button-fm.png');
+                                                    "
+                                                ></div>
+                                                <div
+                                                    class="E5-phone-buttons-call aos-init"
+                                                    style="
+                                                        background-image: url('files/images/phone/buttons/E5-phone-button-call.png');
+                                                    "
+                                                ></div>
+                                            </div>
                                         </div>
 
-                                        <div class="E5-screen-dock">
+                                        <div class="E5-phone-dock">
                                             <div
-                                                class="E5-screen-dock-layer layer-1"
+                                                class="E5-phone-dock-layer layer-1"
                                                 style="
-                                                    background-image: url('files/images/section-screen/dock/E5-screen-dock.png');
+                                                    background-image: url('files/images/phone/dock/E5-screen-dock.png');
                                                 "
                                             ></div>
                                             <div
-                                                class="E5-screen-dock-layer layer-2"
+                                                class="E5-phone-dock-layer layer-2"
                                                 style="
-                                                    background-image: url('files/images/section-screen/dock/E5-screen-dock-front.png');
+                                                    background-image: url('files/images/phone/dock/E5-screen-dock-front.png');
                                                 "
                                             ></div>
+
+                                            <div class="E5-phone-indicators">
+                                                <div
+                                                    class="E5-phone-indicators-layer E5-phone-indicators-red aos-init"
+                                                    style="
+                                                        background-image: url('files/images/phone/indicators/E5-indicator-red.png');
+                                                    "
+                                                ></div>
+                                                <div
+                                                    class="E5-phone-indicators-layer E5-phone-indicators-green aos-init"
+                                                    style="
+                                                        background-image: url('files/images/phone/indicators/E5-indicator-green.png');
+                                                    "
+                                                ></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -233,30 +209,24 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-dock-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-dock-title aos-init">
                                     ДОК-СТАНЦИЯ
                                 </div>
 
-                                <div
-                                    class="E5-dock-subtitle"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-dock-subtitle aos-init">
                                     С ТОКОСЪЁМНЫМИ
                                     <br />
                                     ЭЛЕМЕНТАМИ
                                 </div>
 
-                                <figure class="E5-dock-sketch">
-                                    <img
-                                        src="files/images/section-dock/E5-dock-media-phone-side.png"
-                                        alt=""
-                                        class="E5-dock-sketch-media"
-                                    />
+                                <figure class="E5-dock-sketch aos-init">
+                                    <div class="E5-dock-sketch-inner">
+                                        <img
+                                            src="files/images/section-dock/E5-dock-media-phone-side.png"
+                                            alt=""
+                                            class="E5-dock-sketch-media"
+                                        />
+                                    </div>
                                 </figure>
                             </div>
                         </div>
@@ -276,20 +246,12 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-sos-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-sos-title aos-init">
                                     КНОПКА
                                     <b>SOS</b>
                                 </div>
 
-                                <div
-                                    class="E5-sos-subtitle"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-sos-subtitle aos-init">
                                     ПОМОЖЕТ ВАМ
                                     <br />
                                     В ЭКСТРЕННОЙ СИТУАЦИИ
@@ -305,21 +267,13 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-fm-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-fm-title aos-init">
                                     КНОПКА
                                     <br />
                                     <b>FM-РАДИО</b>
                                 </div>
 
-                                <div
-                                    class="E5-fm-subtitle"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-fm-subtitle aos-init">
                                     ВКЛЮЧАЙТЕ И ВЫКЛЮЧАЙТЕ
                                     <br />
                                     РАДИО, НЕ ОТКРЫВАЯ ТЕЛЕФОН
@@ -335,13 +289,9 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-call-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-call-title aos-init">
                                     КНОПКА
-                                    <br />
+                                    <br class="E5-call-title-br" />
                                     <b>
                                         ПРИЁМА
                                         <br />
@@ -349,11 +299,7 @@
                                     </b>
                                 </div>
 
-                                <div
-                                    class="E5-call-subtitle"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-call-subtitle aos-init">
                                     ОТВЕЧАЙТЕ НА ЗВОНКИ,
                                     <br />
                                     НЕ ОТКРЫВАЯ ТЕЛЕФОН
@@ -369,11 +315,7 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-indicator-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-indicator-title aos-init">
                                     АКТИВНАЯ
                                     <br />
                                     ИНДИКАЦИЯ
@@ -394,21 +336,13 @@
                             <div
                                 class="E5-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                             >
-                                <div
-                                    class="E5-material-title"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-material-title aos-init">
                                     ПОКРЫТИЕ
                                     <br />
                                     SOFT TOUCH
                                 </div>
 
-                                <div
-                                    class="E5-material-subtitle"
-                                    data-aos="fade-left"
-                                    data-aos-duration="500"
-                                >
+                                <div class="E5-material-subtitle aos-init">
                                     КОМФОРТ И ПРАКТИЧНОСТЬ
                                 </div>
                             </div>

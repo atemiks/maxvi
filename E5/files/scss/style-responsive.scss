@@ -42,22 +42,6 @@
             top: 265px;
             font-size: 114px;
         }
-
-        &-figure {
-            top: 70px;
-            width: 670px;
-            height: 2290px;
-        }
-
-        &-phone {
-            width: 514px;
-            height: 1632px;
-        }
-
-        &-dock {
-            width: 670px;
-            height: 658px;
-        }
     }
 
     /* section screen end */
@@ -292,22 +276,6 @@
             top: 225px;
             font-size: 96px;
         }
-
-        &-figure {
-            top: 60px;
-            width: 569px;
-            height: 1962px;
-        }
-
-        &-phone {
-            width: 436px;
-            height: 1384px;
-        }
-
-        &-dock {
-            width: 569px;
-            height: 578px;
-        }
     }
 
     /* section screen end */
@@ -524,22 +492,6 @@
             top: 190px;
             font-size: 80px;
         }
-
-        &-figure {
-            top: 50px;
-            width: 484px;
-            height: 1666px;
-        }
-
-        &-phone {
-            width: 370px;
-            height: 1174px;
-        }
-
-        &-dock {
-            width: 484px;
-            height: 492px;
-        }
     }
 
     /* section screen end */
@@ -712,6 +664,10 @@
             width: 716px;
             height: 500px;
         }
+
+        &-parallax {
+            top: -15%;
+        }
     }
 
     /* section slots end */
@@ -770,22 +726,6 @@
         &-title {
             top: 160px;
             font-size: 68px;
-        }
-
-        &-figure {
-            top: 50px;
-            width: 410px;
-            height: 1412px;
-        }
-
-        &-phone {
-            width: 314px;
-            height: 996px;
-        }
-
-        &-dock {
-            width: 410px;
-            height: 416px;
         }
     }
 
@@ -1047,22 +987,6 @@
             top: 135px;
             font-size: 56px;
         }
-
-        &-figure {
-            top: 40px;
-            width: 348px;
-            height: 1198px;
-        }
-
-        &-phone {
-            width: 266px;
-            height: 844px;
-        }
-
-        &-dock {
-            width: 348px;
-            height: 354px;
-        }
     }
 
     /* section screen end */
@@ -1235,6 +1159,10 @@
             width: 484px;
             height: 338px;
         }
+
+        &-parallax {
+            top: -25%;
+        }
     }
 
     /* section slots end */
@@ -1256,15 +1184,25 @@
     .E5-title,
     .E5-subtitle,
     .E5-description,
-    .E5-design-title,
-    .E5-design-subtitle,
+    .E5-intro-title,
+    .E5-intro-subtitle,
     .E5-screen-title,
-    .E5-screen-subtitle,
+    .E5-dock-title,
+    .E5-dock-subtitle,
+    .E5-sos-title,
+    .E5-sos-subtitle,
+    .E5-fm-title,
+    .E5-fm-subtitle,
+    .E5-call-title,
+    .E5-call-subtitle,
+    .E5-indicator-title,
+    .E5-material-title,
+    .E5-material-subtitle,
+    .E5-connector-title,
     .E5-case-title,
-    .E5-case-block,
-    .E5-battery-title,
-    .E5-battery-subtitle,
-    .E5-connector-title {
+    .E5-case-subtitle,
+    .E5-slots-title,
+    .E5-slots-subtitle {
         max-width: 280px;
     }
 
@@ -1333,7 +1271,7 @@
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
         }
     }
@@ -1342,24 +1280,29 @@
 
     /* section dock */
     .E5-dock {
-        height: 600px;
+        height: 650px;
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
         }
 
         &-subtitle {
-            top: 125px;
+            top: 120px;
             font-size: 20px;
         }
 
         &-sketch {
-            top: 85px;
+            top: 80px;
             width: 94px;
             height: 94px;
             margin-left: 220px;
+            padding: 3px;
+
+            &::after {
+                display: none;
+            }
         }
     }
 
@@ -1367,16 +1310,16 @@
 
     /* section sos */
     .E5-sos {
-        height: 630px;
+        height: 650px;
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
         }
 
         &-subtitle {
-            top: 125px;
+            top: 120px;
             font-size: 20px;
         }
     }
@@ -1385,16 +1328,16 @@
 
     /* section fm */
     .E5-fm {
-        height: 550px;
+        height: 650px;
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
         }
 
         &-subtitle {
-            top: 160px;
+            top: 155px;
             font-size: 20px;
         }
     }
@@ -1403,16 +1346,20 @@
 
     /* section call */
     .E5-call {
-        height: 550px;
+        height: 650px;
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
+
+            &-br {
+                display: none;
+            }
         }
 
         &-subtitle {
-            top: 190px;
+            top: 155px;
             font-size: 20px;
         }
     }
@@ -1421,11 +1368,22 @@
 
     /* section indicator */
     .E5-indicator {
-        height: 550px;
+        height: 650px;
         text-align: left;
 
+        &::before {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, black, transparent);
+            content: '';
+        }
+
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 24px;
         }
     }
@@ -1434,16 +1392,16 @@
 
     /* section material */
     .E5-material {
-        height: 565px;
+        height: 650px;
         text-align: left;
 
         &-title {
-            top: 80px;
+            top: 75px;
             font-size: 28px;
         }
 
         &-subtitle {
-            top: 160px;
+            top: 155px;
             font-size: 20px;
         }
     }
