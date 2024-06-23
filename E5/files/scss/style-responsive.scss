@@ -1203,7 +1203,7 @@
     .E5-case-subtitle,
     .E5-slots-title,
     .E5-slots-subtitle {
-        max-width: 280px;
+        max-width: 300px;
     }
 
     .E5-title {
@@ -1273,6 +1273,12 @@
         &-title {
             top: 75px;
             font-size: 28px;
+        }
+
+        &-bg {
+            &-layer {
+                background-size: 768px auto;
+            }
         }
     }
 

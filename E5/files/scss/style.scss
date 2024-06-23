@@ -286,6 +286,13 @@
         width: 33.75%;
         height: 11.25%;
 
+        @media (max-width: 1199px) {
+            top: 69.55%;
+            left: 33.35%;
+            width: 33.75%;
+            height: 11.25%;
+        }
+
         &-layer {
             opacity: 0;
             position: absolute;

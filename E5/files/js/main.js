@@ -113,10 +113,9 @@ $(document).ready(function () {
 
         const phoneFlipTl = gsap.timeline({
             scrollTrigger: {
-                id: 'E5-phone-trigger',
                 trigger: screenSection,
                 markers: false,
-                start: '50% 0',
+                start: isPhone ? '50% 25%' : '50% 0',
                 end: '100% 0',
                 scrub: true, // important!
             },
@@ -126,6 +125,10 @@ $(document).ready(function () {
             .addLabel('start')
             .to(phoneScene, {
                 y: () => {
+                    if(isPhone) {
+                        return;
+                    }
+
                     const spacer = phoneFigure.closest('.pin-spacer');
                     const spacerOffset = parseInt(spacer.style.top);
                     const phoneFixedHeight = phoneFigure.offsetHeight - screenSection.offsetHeight + spacerOffset;
