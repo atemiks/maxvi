@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Слой_1"
+   data-name="Слой 1"
+   viewBox="0 0 476 476"
+   version="1.1"
+   sodipodi:docname="BS101-biometric-icon-15.svg"
+   width="476"
+   height="476"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1843"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-137.71186"
+     inkscape:cy="237.28814"
+     inkscape:window-width="1440"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Слой_1" />
+  <defs
+     id="defs1834">
+    <style
+       id="style1832">.cls-1{fill:#04c3bc;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 408,476 H 68 A 68.1,68.1 0 0 1 0,408 V 68 A 68.1,68.1 0 0 1 68,0 h 340 a 68.1,68.1 0 0 1 68,68 v 340 a 68.1,68.1 0 0 1 -68,68 z M 68,10 A 58.09,58.09 0 0 0 10,68 v 340 a 58.09,58.09 0 0 0 58,58 h 340 a 58.09,58.09 0 0 0 58,-58 V 68 A 58.09,58.09 0 0 0 408,10 Z"
+     id="path1836" />
+  <path
+     class="cls-1"
+     d="M 387.05,365.47 H 89 a 26.46,26.46 0 0 1 -25.83,-32.2 l 34,-152.93 a 13.2,13.2 0 0 1 13,-10.4 h 255.7 a 13.2,13.2 0 0 1 13,10.4 l 34,152.93 a 26.46,26.46 0 0 1 -25.82,32.2 z M 110.13,179.94 a 3.25,3.25 0 0 0 -3.19,2.57 l -34,152.93 a 16.45,16.45 0 0 0 16.06,20 h 298.05 a 16.45,16.45 0 0 0 16.05,-20 l -34,-152.93 a 3.25,3.25 0 0 0 -3.19,-2.57 z"
+     id="path1838" />
+  <path
+     class="cls-1"
+     d="M 302.41,179.94 H 173.59 v -5 a 64.41,64.41 0 1 1 128.82,0 z m -118.59,-10 h 108.36 a 54.41,54.41 0 0 0 -108.36,0 z"
+     id="path1840" />
+</svg>

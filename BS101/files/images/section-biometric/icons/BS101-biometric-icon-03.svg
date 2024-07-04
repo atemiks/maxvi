@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Слой_1"
+   data-name="Слой 1"
+   viewBox="0 0 476 476"
+   version="1.1"
+   sodipodi:docname="BS101-biometric-icon-03.svg"
+   width="476"
+   height="476"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview147"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-137.71186"
+     inkscape:cy="347.45763"
+     inkscape:window-width="1440"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Слой_1" />
+  <defs
+     id="defs134">
+    <style
+       id="style132">.cls-1{fill:#04c3bc;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 408,476 H 68 A 68.09,68.09 0 0 1 0,408 V 68 A 68.09,68.09 0 0 1 68,0 h 340 a 68.09,68.09 0 0 1 68,68 v 340 a 68.09,68.09 0 0 1 -68,68 z M 68,10 A 58.09,58.09 0 0 0 10,68 v 340 a 58.09,58.09 0 0 0 58,58 h 340 a 58.09,58.09 0 0 0 58,-58 V 68 A 58.09,58.09 0 0 0 408,10 Z"
+     id="path136" />
+  <path
+     class="cls-1"
+     d="M 238,156.7 A 48.18,48.18 0 1 1 286.17,108.52 48.23,48.23 0 0 1 238,156.7 Z m 0,-86.35 A 38.18,38.18 0 1 0 276.17,108.52 38.21,38.21 0 0 0 238,70.35 Z"
+     id="path138" />
+  <path
+     class="cls-1"
+     d="m 267.86,298 h -59.72 a 35,35 0 0 1 -35,-35 v -79.35 a 35,35 0 0 1 35,-35 h 59.72 a 35,35 0 0 1 35,35 V 263 a 35,35 0 0 1 -35,35 z M 208.14,158.66 a 25,25 0 0 0 -25,25 V 263 a 25,25 0 0 0 25,25 h 59.72 a 25,25 0 0 0 25,-25 v -79.35 a 25,25 0 0 0 -25,-25 z"
+     id="path140" />
+  <path
+     class="cls-1"
+     d="M 257,415.66 H 219 A 19.16,19.16 0 0 1 199.87,396.52 V 288 h 76.26 V 396.52 A 19.16,19.16 0 0 1 257,415.66 Z M 209.87,298 v 98.51 a 9.15,9.15 0 0 0 9.13,9.14 h 38 a 9.15,9.15 0 0 0 9.13,-9.14 V 298 Z"
+     id="path142" />
+  <rect
+     class="cls-1"
+     x="233"
+     y="315.02002"
+     width="10"
+     height="95.629997"
+     id="rect144" />
+</svg>

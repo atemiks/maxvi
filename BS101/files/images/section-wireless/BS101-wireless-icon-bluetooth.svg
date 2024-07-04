@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Слой_1"
+   data-name="Слой 1"
+   viewBox="0 0 615.41138 916.00366"
+   version="1.1"
+   sodipodi:docname="BS101-wireless-icon-bluetooth.svg"
+   width="615.41138"
+   height="916.00366"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview141"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-48.728814"
+     inkscape:cy="463.98305"
+     inkscape:window-width="1654"
+     inkscape:window-height="811"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Слой_1" />
+  <defs
+     id="defs134">
+    <style
+       id="style132">.cls-1{fill:#27a2d8;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="m 268.6,916.00356 a 39.1,39.1 0 0 1 -39.1,-39.1 v -414.1 l -229.5,-169.6 46.5,-62.9 552.9,408.5 a 39.15,39.15 0 0 1 -1.4,64 l -307.5,206.6 a 39.34,39.34 0 0 1 -21.9,6.6 z m 39.2,-395.4 v 282.9 l 200.5,-134.7 z"
+     id="path136" />
+  <path
+     class="cls-1"
+     d="M 290.5,6.6035552 598.1,213.20356 a 39.15,39.15 0 0 1 1.4,64 l -552.9,408.5 -46.5,-62.9 229.4,-169.5 V 39.103555 a 39.22,39.22 0 0 1 61,-32.4999998 z m 217.8,240.6000048 -200.5,-134.7 v 282.9 z"
+     id="path138" />
+</svg>

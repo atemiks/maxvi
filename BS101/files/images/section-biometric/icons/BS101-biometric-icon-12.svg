@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Слой_1"
+   data-name="Слой 1"
+   viewBox="0 0 476 476"
+   version="1.1"
+   sodipodi:docname="BS101-biometric-icon-12.svg"
+   width="476"
+   height="476"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1443"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-137.71186"
+     inkscape:cy="237.28814"
+     inkscape:window-width="1440"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Слой_1" />
+  <defs
+     id="defs1422">
+    <style
+       id="style1420">.cls-1{fill:#04c3bc;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 408,476 H 68 A 68.11,68.11 0 0 1 0,408 V 68 A 68.11,68.11 0 0 1 68,0 h 340 a 68.1,68.1 0 0 1 68,68 v 340 a 68.1,68.1 0 0 1 -68,68 z M 68,10 A 58.09,58.09 0 0 0 10,68 v 340 a 58.09,58.09 0 0 0 58,58 h 340 a 58.09,58.09 0 0 0 58,-58 V 68 A 58.09,58.09 0 0 0 408,10 Z"
+     id="path1424" />
+  <path
+     class="cls-1"
+     d="m 90.79,441.1 a 4.94,4.94 0 0 1 -3.53,-1.46 5,5 0 0 1 0,-7.07 l 98.24,-98.24 a 5,5 0 0 1 3.53,-1.46 h 32.49 a 36.7,36.7 0 0 0 0,-73.39 v 0 a 5,5 0 0 1 -5,-5 36.74,36.74 0 0 0 -36.69,-36.7 v 0 a 36.69,36.69 0 0 0 -36.67,36.69 V 287 a 5,5 0 0 1 -1.46,3.53 l -98.24,98.24 a 5,5 0 0 1 -7.07,-7.07 l 96.77,-96.77 v -30.45 a 46.69,46.69 0 0 1 46.67,-46.7 v 0 a 46.76,46.76 0 0 1 46.45,41.94 46.7,46.7 0 0 1 -4.76,93.15 H 191.1 l -96.77,96.77 a 5,5 0 0 1 -3.54,1.46 z"
+     id="path1426" />
+  <path
+     class="cls-1"
+     d="m 296.2,268.22 v 0 a 46.76,46.76 0 0 1 -46.45,-41.94 46.7,46.7 0 0 1 4.76,-93.15 h 30.39 l 96.77,-96.77 a 5,5 0 0 1 7.07,7.07 l -98.24,98.24 a 5,5 0 0 1 -3.53,1.46 h -32.49 a 36.7,36.7 0 0 0 0,73.39 v 0 a 5,5 0 0 1 5,5 36.74,36.74 0 0 0 36.69,36.7 v 0 a 36.69,36.69 0 0 0 36.67,-36.69 V 189 a 5,5 0 0 1 1.46,-3.53 l 98.24,-98.24 a 5,5 0 1 1 7.07,7.07 l -96.74,96.8 v 30.42 a 46.69,46.69 0 0 1 -46.67,46.7 z"
+     id="path1428" />
+  <path
+     class="cls-1"
+     d="M 359.73,362.46 A 4.94,4.94 0 0 1 356.2,361 l -39.4,-39.4 a 5,5 0 0 1 7.07,-7.07 l 39.4,39.4 a 5,5 0 0 1 -3.54,8.53 z"
+     id="path1430" />
+  <path
+     class="cls-1"
+     d="m 388.91,304.82 a 5.4,5.4 0 0 1 -1.47,-0.22 L 343.15,291 a 5,5 0 1 1 2.93,-9.56 l 44.3,13.56 a 5,5 0 0 1 -1.47,9.79 z"
+     id="path1432" />
+  <path
+     class="cls-1"
+     d="m 302.08,391.64 a 5,5 0 0 1 -4.78,-3.53 l -13.58,-44.3 a 5,5 0 0 1 9.56,-2.93 l 13.58,44.3 a 5,5 0 0 1 -4.78,6.46 z"
+     id="path1434" />
+  <path
+     class="cls-1"
+     d="M 157.93,160.67 A 5,5 0 0 1 154.4,159.2 L 115,119.81 a 5.0027817,5.0027817 0 1 1 7.07,-7.08 l 39.4,39.4 a 5,5 0 0 1 -3.54,8.54 z"
+     id="path1436" />
+  <path
+     class="cls-1"
+     d="m 189.77,136.39 a 5,5 0 0 1 -4.78,-3.54 L 171.41,88.56 a 5.0009299,5.0009299 0 0 1 9.56,-2.94 l 13.58,44.3 a 5,5 0 0 1 -3.32,6.25 4.93,4.93 0 0 1 -1.46,0.22 z"
+     id="path1438" />
+  <path
+     class="cls-1"
+     d="m 133.66,192.5 a 5,5 0 0 1 -1.47,-0.22 L 87.89,178.7 a 5,5 0 0 1 2.93,-9.56 l 44.3,13.58 a 5,5 0 0 1 -1.46,9.78 z"
+     id="path1440" />
+</svg>
