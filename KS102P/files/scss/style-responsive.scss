@@ -329,12 +329,11 @@
 }
 
 @media (max-width: 767px) {
-    .KS102P-landing {
-        .container {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
+    :root {
+        --container-padding-x: 20px;
+    }
 
+    .KS102P-landing {
         .content-inner {
             margin-bottom: 40px;
             text-align: center;
