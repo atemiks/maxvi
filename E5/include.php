@@ -328,6 +328,12 @@ $this->addExternalJS($folder . 'js/main.js');
                             <br />
                             ИНДИКАЦИЯ
                         </div>
+
+                        <div class="E5-indicator-subtitle aos-init">
+                            ПОКАЖЕТ ИНФОРМАЦИЮ
+                            <br />
+                            О ЗАРЯДКЕ АККУМУЛЯТОРА
+                        </div>
                     </div>
                 </div>
             </div>
@@ -379,6 +385,13 @@ $this->addExternalJS($folder . 'js/main.js');
                             height="1398"
                             alt="Мобильный телефон Maxvi E5"
                         />
+
+                        <div
+                            class="E5-connector-figure-usb"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-connector/E5-connector-USB-side-glow.png');
+                            "
+                        ></div>
                     </figure>
                 </div>
 
@@ -561,4 +574,4 @@ $this->addExternalJS($folder . 'js/main.js');
             </div>
         </div>
     </section>
-</div>
+    </div>

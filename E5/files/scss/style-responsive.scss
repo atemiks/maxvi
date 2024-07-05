@@ -125,8 +125,13 @@
         height: 1060px;
 
         &-title {
-            top: 605px;
+            top: 360px;
             font-size: 82px;
+        }
+
+        &-subtitle {
+            top: 605px;
+            font-size: 48px;
         }
     }
 
@@ -359,8 +364,13 @@
         height: 900px;
 
         &-title {
-            top: 515px;
+            top: 305px;
             font-size: 70px;
+        }
+
+        &-subtitle {
+            top: 515px;
+            font-size: 40px;
         }
     }
 
@@ -575,8 +585,13 @@
         height: 765px;
 
         &-title {
-            top: 440px;
+            top: 260px;
             font-size: 60px;
+        }
+
+        &-subtitle {
+            top: 440px;
+            font-size: 34px;
         }
     }
 
@@ -830,8 +845,13 @@
         }
 
         &-title {
-            top: 375px;
+            top: 220px;
             font-size: 50px;
+        }
+
+        &-subtitle {
+            top: 375px;
+            font-size: 28px;
         }
     }
 
@@ -1070,8 +1090,13 @@
         height: 550px;
 
         &-title {
-            top: 320px;
+            top: 190px;
             font-size: 42px;
+        }
+
+        &-subtitle {
+            top: 320px;
+            font-size: 24px;
         }
     }
 
@@ -1196,6 +1221,7 @@
     .E5-call-title,
     .E5-call-subtitle,
     .E5-indicator-title,
+    .E5-indicator-subtitle,
     .E5-material-title,
     .E5-material-subtitle,
     .E5-connector-title,
@@ -1391,6 +1417,11 @@
         &-title {
             top: 75px;
             font-size: 24px;
+        }
+
+        &-subtitle {
+            top: 155px;
+            font-size: 20px;
         }
     }
 
