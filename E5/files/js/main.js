@@ -8,7 +8,6 @@ $(document).ready(function () {
     const slotsParallax = document.querySelector('.E5-slots-parallax');
     new Parallax(slotsParallax);
 
-
     // /* ScrollTrigger */
     const phoneFigure = document.querySelector('.E5-phone');
     const phoneScene = document.querySelector('.E5-phone-layer');
@@ -44,6 +43,7 @@ $(document).ready(function () {
     
     const indicatorSection = document.querySelector('.E5-indicator');
     const indicatorTitle = document.querySelector('.E5-indicator-title');
+    const indicatorSubtitle = document.querySelector('.E5-indicator-subtitle');
 
     const materialSection = document.querySelector('.E5-material');
     const materialTitle = document.querySelector('.E5-material-title');
@@ -465,7 +465,7 @@ $(document).ready(function () {
             },
             scrollTrigger: {
                 trigger: indicatorSection,
-                toggleActions: "play reverse restart reverse",
+                toggleActions: "play reset restart reverse",
                 markers: false,
                 start: () => {
                     return isPhone ? '50% 50%' : '25% 50%'
@@ -476,6 +476,13 @@ $(document).ready(function () {
         indicatorTl
             .addLabel('start')
             .fromTo(indicatorTitle, {
+                opacity: 0,
+                x: isPhone ? -100 : 100,
+            }, {
+                opacity: 1,
+                x: 0
+            }, 'start')
+            .fromTo(indicatorSubtitle, {
                 opacity: 0,
                 x: isPhone ? -100 : 100,
             }, {
