@@ -25,8 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             scrollTrigger: {
                 trigger: accuracySection,
                 start: '0 0',
-                end: isPhone ? '100% 535px' : '100% 100%',
-                endTrigger: '.KS102P-bowl',
+                end: '100% 0%',
                 pin: scaleFigure,
                 pinSpacing: false,
                 markers: false,
