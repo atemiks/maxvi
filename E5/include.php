@@ -299,10 +299,10 @@ $this->addExternalJS($folder . 'js/main.js');
                     >
                         <div class="E5-call-title aos-init">
                             КНОПКА
-                            <br class="E5-call-title-br" />
+                            <br />
                             <b>
                                 ПРИЁМА
-                                <br />
+                                <br class="E5-call-title-br" />
                                 ВЫЗОВА
                             </b>
                         </div>
