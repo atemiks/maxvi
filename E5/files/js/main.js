@@ -321,7 +321,7 @@ $(document).ready(function () {
             scrollTrigger: {
                 trigger: sosSection,
                 markers: false,
-                end: '100% 100%',
+                end: isPhone ? '100% 650px' : '100% 100%',
                 endTrigger: '.E5-indicator',
                 pin: sosBg,
                 pinSpacing: false,
