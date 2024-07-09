@@ -383,6 +383,8 @@
     /* section intro */
     .KS102P-intro {
         height: 605px;
+        background-size: 120% auto !important;
+        background-position: center bottom !important;
         text-align: left;
 
         &-logo {
@@ -404,7 +406,7 @@
         }
 
         &-figure {
-            top: 265px;
+            top: 245px;
             left: 0;
             right: 0;
             width: 334px;
@@ -417,6 +419,8 @@
     /* section accuracy */
     .KS102P-accuracy {
         height: 535px;
+        background-size: 100% auto !important;
+        background-position: center 80% !important;
 
         &-title {
             top: 40px;
@@ -438,6 +442,8 @@
     /* section bowl */
     .KS102P-bowl {
         height: 700px;
+        background-size: 120% auto !important;
+        background-position: center bottom !important;
 
         &-title {
             top: 40px;
