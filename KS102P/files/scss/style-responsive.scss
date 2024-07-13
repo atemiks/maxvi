@@ -48,6 +48,11 @@
             top: 600px;
             font-size: 100px;
         }
+
+        &-figure {
+            width: 962px;
+            height: 982px;
+        }
     }
 
     /* section accuracy end */
@@ -109,6 +114,11 @@
             top: 510px;
             font-size: 85px;
         }
+
+        &-figure {
+            width: 818px;
+            height: 835px;
+        }
     }
 
     /* section accuracy end */
@@ -169,6 +179,11 @@
         &-subtitle {
             top: 430px;
             font-size: 72px;
+        }
+
+        &-figure {
+            width: 696px;
+            height: 710px;
         }
     }
 
@@ -246,6 +261,11 @@
             top: 365px;
             font-size: 60px;
         }
+
+        &-figure {
+            width: 556px;
+            height: 568px;
+        }
     }
 
     /* section accuracy end */
@@ -310,6 +330,11 @@
         &-subtitle {
             top: 310px;
             font-size: 48px;
+        }
+
+        &-figure {
+            width: 472px;
+            height: 482px;
         }
     }
 
@@ -418,9 +443,12 @@
 
     /* section accuracy */
     .KS102P-accuracy {
-        height: 535px;
-        background-size: 100% auto !important;
-        background-position: center 80% !important;
+        height: 815px;
+
+        &-bg {
+            background-image: url('/files/images/section-accuracy/KS102P-accuracy-bg-mobile.jpg');
+            background-size: 100% auto;
+        }
 
         &-title {
             top: 40px;
@@ -434,6 +462,8 @@
 
         &-figure {
             top: 175px;
+            width: 330px;
+            height: 336px;
         }
     }
 
