@@ -99,10 +99,8 @@ $this->addExternalJS($folder . 'js/main.js');
 
     <section
         class="KS102P-accuracy"
-        style="
-            background-image: url('<?= $folder ?>/images/section-accuracy/KS102P-accuracy-bg.jpg');
-        "
     >
+        <div class="KS102P-accuracy-bg"></div>
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
