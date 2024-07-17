@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Слой_1"
+   data-name="Слой 1"
+   viewBox="0 0 476 476"
+   version="1.1"
+   sodipodi:docname="BS101-biometric-icon-09.svg"
+   width="476"
+   height="476"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1027"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.236"
+     inkscape:cx="-137.71186"
+     inkscape:cy="237.28814"
+     inkscape:window-width="1440"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Слой_1" />
+  <defs
+     id="defs1018">
+    <style
+       id="style1016">.cls-1{fill:#04c3bc;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 408,476 H 68 A 68.11,68.11 0 0 1 0,408 V 68 A 68.1,68.1 0 0 1 68,0 h 340 a 68.09,68.09 0 0 1 68,68 v 340 a 68.1,68.1 0 0 1 -68,68 z M 68,10 A 58.09,58.09 0 0 0 10,68 v 340 a 58.09,58.09 0 0 0 58,58 h 340 a 58.09,58.09 0 0 0 58,-58 V 68 A 58.09,58.09 0 0 0 408,10 Z"
+     id="path1020" />
+  <path
+     class="cls-1"
+     d="m 238,423.53 c -37.58,0 -69.89,-11.21 -93.45,-32.42 -25.5,-23 -39,-56.55 -39,-97.15 0,-35.43 21.71,-86.62 64.53,-152.13 a 1079.19,1079.19 0 0 1 64,-87.55 5,5 0 0 1 7.7,0 1079.19,1079.19 0 0 1 64,87.55 c 42.82,65.51 64.53,116.7 64.53,152.13 0,40.6 -13.48,74.19 -39,97.15 -23.42,21.21 -55.73,32.42 -93.31,32.42 z M 238,65.41 C 216.82,91.78 115.57,221.69 115.57,294 c 0,88.16 63.24,119.57 122.43,119.57 59.19,0 122.43,-31.45 122.43,-119.57 C 360.43,221.69 259.18,91.78 238,65.41 Z"
+     id="path1022" />
+  <path
+     class="cls-1"
+     d="m 238,380.24 a 5,5 0 0 1 0,-10 101.11,101.11 0 0 0 37.46,-6.73 c 30.58,-12.16 47.42,-39.2 47.42,-76.14 a 5,5 0 0 1 10,0 c 0,21.17 -5,39.47 -14.88,54.42 -9.27,14 -22.34,24.45 -38.84,31 A 111.06,111.06 0 0 1 238,380.24 Z"
+     id="path1024" />
+</svg>
