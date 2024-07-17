@@ -23,11 +23,11 @@ $this->addExternalCss($folder . "css/style.css");
 $this->addExternalCss($folder . "css/style-responsive.css");
 
 //parallax
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/parallax.min.js');
 
 // Анимация
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
-$this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/gsap-3.12.2.min.js');
+// $this->addExternalJS(SITE_TEMPLATE_PATH . '/js/gsap3/ScrollTrigger.js');
 
 //Scripts
 $this->addExternalJS($folder . 'js/main.js');
@@ -42,7 +42,9 @@ $this->addExternalJS($folder . 'js/main.js');
     >
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="BS101-media-container col-xs-12 col-sm-8">
+                <div
+                    class="BS101-media-container col-xs-12 col-sm-11 col-sm-offset-1"
+                >
                     <figure
                         class="BS101-intro-figure"
                         data-aos="fade-right"
@@ -52,21 +54,28 @@ $this->addExternalJS($folder . 'js/main.js');
                             loading="lazy"
                             src="<?= $folder ?>/images/section-intro/BS101-intro-scales-front.png"
                             class="BS101-intro-media"
-                            width="1240"
-                            height="1162"
+                            width="1159"
+                            height="750"
                             alt="Умные весы Maxvi BS101"
                         />
+
+                        <div
+                            class="BS101-intro-media-display"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-intro/BS101-intro-scales-display.png');
+                            "
+                        ></div>
                     </figure>
                 </div>
 
                 <div
-                    class="BS101-typography-container col-xs-12 col-sm-5 col-sm-offset-7"
+                    class="BS101-typography-container col-xs-11 col-sm-6 col-md-5 col-xs-offset-1 col-sm-offset-6 col-md-offset-7"
                 >
                     <img
                         class="BS101-intro-logo"
                         src="<?= $folder ?>/images/logo-maxvi.svg"
-                        width="546"
-                        height="94"
+                        width="94"
+                        height="547"
                         data-aos="fade-left"
                         data-aos-duration="500"
                         aria-hidden="true"
@@ -86,83 +95,127 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos="fade-left"
                         data-aos-duration="500"
                     >
-                        НЕЗАМЕНИМЫЙ
+                        УМНЫЕ ВЕСЫ
+                    </div>
+
+                    <div
+                        class="BS101-intro-subtitle"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                    >
+                        Надёжный помощник
                         <br />
-                        ПОМОЩНИК
+                        на пути к Вашей красоте
                         <br />
-                        НА КУХНЕ
+                        и здоровью.
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section
-        class="BS101-accuracy"
-        style="
-            background-image: url('<?= $folder ?>/images/section-accuracy/BS101-accuracy-bg.jpg');
-        "
-    >
+    <section class="BS101-wireless">
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div
-                    class="BS101-media-container col-xs-12 col-sm-7 col-sm-offset-5"
-                >
-                    <figure class="BS101-accuracy-figure">
-                        <div class="scales">
-                            <div
-                                class="scales-dock"
-                                style="
-                                    background-image: url('<?= $folder ?>/images/scales/scales-layer-dock.png');
-                                "
-                            >
-                                <div
-                                    class="scales-display"
-                                    style="
-                                        background-image: url('<?= $folder ?>/images/scales/scales-layer-display.png');
-                                    "
-                                ></div>
-                            </div>
-
-                            <div
-                                class="scales-bowl"
-                                data-aos="slide-down"
-                                data-aos-duration="800"
-                                data-aos-anchor-placement="top-center"
-                                style="
-                                    background-image: url('<?= $folder ?>/images/scales/scales-layer-bowl.png');
-                                "
-                            ></div>
-
-                            <div
-                                class="scales-fruits"
-                                style="
-                                    background-image: url('<?= $folder ?>/images/scales/scales-layer-fruits.png');
-                                "
-                            ></div>
+                <div class="BS101-media-container col-xs-12 col-sm-4">
+                    <figure
+                        class="BS101-wireless-phone"
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                        data-aos-anchor=".BS101-wireless"
+                    >
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-01.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-02.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-03.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-04.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-05.png"
+                                alt=""
+                            />
                         </div>
                     </figure>
                 </div>
 
                 <div
-                    class="BS101-typography-container col-xs-12 col-sm-6"
+                    class="BS101-media-container col-xs-12 col-sm-4 col-sm-offset-8"
+                >
+                    <figure
+                        class="BS101-wireless-figure"
+                        data-aos="fade-left"
+                        data-aos-duration="800"
+                        data-aos-anchor=".BS101-wireless"
+                    >
+                        <img
+                            loading="lazy"
+                            class="BS101-wireless-media"
+                            src="<?= $folder ?>/images/section-wireless/BS101-wireless-scales-side.png"
+                            width="595"
+                            height="1188"
+                            alt="Умные весы Maxvi BS101"
+                        />
+                    </figure>
+                </div>
+
+                <div
+                    class="BS101-typography-container col-xs-12 col-sm-6 col-sm-offset-3"
                 >
                     <div
-                        class="BS101-accuracy-title"
-                        data-aos="fade-right"
+                        class="BS101-wireless-title"
+                        data-aos="fade-up"
                         data-aos-duration="500"
+                        data-aos-delay="500"
+                        data-aos-anchor=".BS101-wireless"
                     >
-                        <b class="text-selected">ТОЧНОСТЬ</b>
+                        <span
+                            class="BS101-wireless-title-icon"
+                            style="
+                                background-image: url('<?= $folder ?>/images/section-wireless/BS101-wireless-icon-bluetooth.svg');
+                            "
+                        ></span>
+
+                        ПОДДЕРЖКА
                         <br />
-                        ВЗВЕШИВАНИЯ
+                        <b>IOS и Android</b>
                     </div>
 
                     <div
-                        class="BS101-accuracy-subtitle"
-                        data-aos="fade-right"
+                        class="BS101-wireless-subtitle"
+                        data-aos="fade-up"
                         data-aos-duration="500"
+                        data-aos-delay="600"
+                        data-aos-anchor=".BS101-wireless"
                     >
-                        1 ГРАММ
+                        Отслеживайте
+                        <br />
+                        прогресс в своём
+                        <br />
+                        смартфоне
                     </div>
                 </div>
             </div>
@@ -170,20 +223,269 @@ $this->addExternalJS($folder . 'js/main.js');
     </section>
 
     <section
-        class="BS101-bowl"
+        class="BS101-biometric"
         style="
-            background-image: url('<?= $folder ?>/images/section-bowl/BS101-bowl-bg.jpg');
+            background-image: url('<?= $folder ?>/images/section-biometric/BS101-biometric-bg.jpg');
+        "
+    >
+        <figure class="BS101-biometric-figure">
+            <div class="BS101-biometric-slider">
+                <div class="BS101-biometric-slide">
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-01.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-02.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-03.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-04.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-05.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-06.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-07.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                </div>
+                <div class="BS101-biometric-slide">
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-01.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-02.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-03.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-04.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-05.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-06.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-07.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                </div>
+            </div>
+
+            <div class="BS101-biometric-slider">
+                <div class="BS101-biometric-slide">
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-08.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-09.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-10.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-11.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-12.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-13.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-14.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-15.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                </div>
+                <div class="BS101-biometric-slide">
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-08.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-09.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-10.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-11.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-12.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-13.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-14.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                    <img
+                        loading="lazy"
+                        src="<?= $folder ?>/images/section-biometric/icons/BS101-biometric-icon-15.svg"
+                        alt=""
+                        class="BS101-biometric-slide-media"
+                    />
+                </div>
+            </div>
+        </figure>
+
+        <div class="container">
+            <div class="content-wrapper row d-flex">
+                <div
+                    class="BS101-typography-container col-xs-12 col-sm-10"
+                >
+                    <div
+                        class="BS101-biometric-title"
+                        data-aos="fade-right"
+                        data-aos-duration="500"
+                    >
+                        15 БИОМЕТРИЧЕСКИХ
+                        <br />
+                        ПОКАЗАТЕЛЕЙ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="BS101-screen section-dark"
+        style="
+            background-image: url('<?= $folder ?>/images/section-screen/BS101-screen-bg.jpg');
         "
     >
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="BS101-typography-container col-xs-12 col-sm-6"
+                    class="BS101-media-container col-xs-12 col-sm-9 col-sm-offset-3"
                 >
-                    <div class="BS101-bowl-title">
-                        <b class="text-selected">ЧАША</b>
+                    <figure class="BS101-screen-figure">
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-screen/BS101-screen-scales-front.png"
+                            class="BS101-screen-media"
+                            width="1800"
+                            height="1185"
+                            alt="Умные весы Maxvi BS101"
+                        />
+                    </figure>
+                </div>
+
+                <div
+                    class="BS101-typography-container col-xs-12 col-sm-8 col-sm-offset-4"
+                >
+                    <div
+                        class="BS101-screen-title"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                    >
+                        LCD-ДИСПЛЕЙ
+                    </div>
+
+                    <div
+                        class="BS101-screen-subtitle"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                        data-aos-delay="100"
+                    >
+                        УДОБНО ИСПОЛЬЗОВАТЬ
                         <br />
-                        В&nbsp;КОМПЛЕКТЕ
+                        ПРИ ЛЮБОМ ОСВЕЩЕНИИ
                     </div>
                 </div>
             </div>

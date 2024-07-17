@@ -208,13 +208,40 @@
         left: 15px;
         right: 15px;
         width: 1159px;
-        height: 750px;
+        height: 777px;
         margin: auto;
     }
 
     &-media {
         width: inherit;
         height: inherit;
+
+        &-display {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            .aos-animate & {
+                animation: 1200ms fade-in-and-out infinite;
+            }
+        }
+    }
+
+    @keyframes fade-in-and-out {
+
+        0%,
+        100% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
     }
 }
 
@@ -290,11 +317,64 @@
     }
 
     &-phone {
-        position: relative;
+        position: absolute;
+        top: 425px;
+        left: -15.5%;
+        right: 15px;
+        width: 834px;
+        height: 887px;
+        margin: auto;
+
+        &::before {
+            position: absolute;
+            top: -9.5%;
+            left: 2.5%;
+            width: 23.5%;
+            height: 23.5%;
+            background: url('../images/section-wireless/BS101-wireless-icon-wifi.svg') no-repeat center/contain;
+            transform: rotate(-35deg);
+            content: '';
+        }
 
         &-slide {
             position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
 
+            .aos-animate & {
+                &:nth-child(n+2) {
+                    opacity: 0;
+                }
+
+                &:nth-child(2) {
+                    animation: 300ms fade-in 800ms forwards;
+                }
+
+                &:nth-child(3) {
+                    animation: 300ms fade-in 1100ms forwards;
+                }
+
+                &:nth-child(4) {
+                    animation: 300ms fade-in 1400ms forwards;
+                }
+
+                &:nth-child(5) {
+                    animation: 300ms fade-in 1700ms forwards;
+                }
+            }
+
+        }
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 }
@@ -396,7 +476,7 @@
         left: 15px;
         right: 15px;
         width: 1800px;
-        height: 1801px;
+        height: 1185px;
         margin: auto;
     }
 
