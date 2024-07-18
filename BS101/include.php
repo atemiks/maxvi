@@ -69,7 +69,7 @@ $this->addExternalJS($folder . 'js/main.js');
                 </div>
 
                 <div
-                    class="BS101-typography-container col-xs-11 col-sm-6 col-md-5 col-xs-offset-1 col-sm-offset-6 col-md-offset-7"
+                    class="BS101-typography-container col-xs-8 col-sm-6 col-md-5 col-xs-offset-4 col-sm-offset-6 col-md-offset-7"
                 >
                     <img
                         class="BS101-intro-logo"
@@ -105,7 +105,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     >
                         Надёжный помощник
                         <br />
-                        на пути к Вашей красоте
+                        на пути к красоте
                         <br />
                         и здоровью.
                     </div>
@@ -127,21 +127,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         <div class="BS101-wireless-phone-slide">
                             <img
                                 loading="lazy"
-                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-01.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="BS101-wireless-phone-slide">
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-02.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="BS101-wireless-phone-slide">
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-03.png"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-05.png"
                                 alt=""
                             />
                         </div>
@@ -155,7 +141,21 @@ $this->addExternalJS($folder . 'js/main.js');
                         <div class="BS101-wireless-phone-slide">
                             <img
                                 loading="lazy"
-                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-05.png"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-03.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-02.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="BS101-wireless-phone-slide">
+                            <img
+                                loading="lazy"
+                                src="<?= $folder ?>/images/section-wireless/slides/BS101-wireless-slide-01.png"
                                 alt=""
                             />
                         </div>
