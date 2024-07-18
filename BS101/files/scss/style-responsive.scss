@@ -668,34 +668,40 @@
 
     /* section intro */
     .BS101-intro {
-        height: 465px;
+        height: 415px;
+        background-size: auto 465px !important;
+        background-position: 28.5% top !important;
 
         &-logo {
             top: 45px;
-            left: 15px;
-            width: 30px;
-            height: 176px;
+            left: 25px;
+            width: 25px;
+            height: 135px;
+        }
+
+        &-model,
+        &-title,
+        &-subtitle {
+            left: 65px;
+            right: 5px;
         }
 
         &-model {
-            left: 60px;
-            font-size: 64px;
+            font-size: 40px;
         }
 
         &-title {
-            top: 105px;
-            left: 60px;
-            font-size: 28px;
+            top: 85px;
+            font-size: 26px;
         }
 
         &-subtitle {
-            top: 155px;
-            left: 60px;
-            font-size: 20px;
+            top: 125px;
+            font-size: 16px;
         }
 
         &-figure {
-            top: 270px;
+            top: 230px;
             width: 334px;
             height: 224px;
         }
