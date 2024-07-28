@@ -1,0 +1,1129 @@
+@media (max-width: 1980px) {
+
+    /* section intro */
+    .E11ds-intro {
+        height: 1150px;
+
+        &-logo {
+            top: 280px;
+            width: 425px;
+            height: 72px;
+        }
+
+        &-model {
+            top: 430px;
+            font-size: 158px;
+        }
+
+        &-description {
+            top: 410px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: 105px;
+            width: 486px;
+            height: 1213px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 1150px;
+
+        &-title {
+            top: 90px;
+            font-size: 102px;
+        }
+
+        &-subtitle {
+            top: 230px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 435px;
+            width: 1540px;
+            height: 434px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 1150px;
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 265px;
+            font-size: 128px;
+        }
+
+        &-subtitle {
+            top: 485px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: -170px;
+            width: 758px;
+            height: 1214px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 175px;
+            font-size: 128px;
+        }
+
+        &-figure {
+            top: -145px;
+            width: 760px;
+            height: 1190px;
+        }
+
+        &-sketch {
+            top: 755px;
+            width: 580px;
+            height: 232px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 1150px;
+
+        &-title {
+            top: 70px;
+            font-size: 84px;
+        }
+
+        &-subtitle {
+            top: 755px;
+            font-size: 84px;
+        }
+
+        &-figure {
+            top: 145px;
+            width: 968px;
+            height: 760px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 1150px;
+
+        &-title {
+            top: 125px;
+            font-size: 102px;
+        }
+
+        &-figure {
+            top: -70px;
+            width: 1348px;
+            height: 1192px;
+        }
+
+        &-sketch {
+            top: 450px;
+            width: 306px;
+            height: 586px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 1150px;
+
+        &-title {
+            top: 245px;
+            font-size: 80px;
+        }
+
+        &-figure {
+            top: -75px;
+            width: 796px;
+            height: 1197px;
+        }
+    }
+
+    /* section charging end */
+}
+
+@media (max-width: 1680px) {
+
+    /* section intro */
+    .E11ds-intro {
+        height: 980px;
+
+        &-logo {
+            top: 240px;
+            width: 360px;
+            height: 62px;
+        }
+
+        &-model {
+            top: 365px;
+            font-size: 134px;
+        }
+
+        &-description {
+            top: 350px;
+            font-size: 56px;
+        }
+
+        &-figure {
+            top: 90px;
+            width: 412px;
+            height: 1028px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 980px;
+
+        &-title {
+            top: 75px;
+            font-size: 86px;
+        }
+
+        &-subtitle {
+            top: 195px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 370px;
+            width: 1284px;
+            height: 362px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 980px;
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 225px;
+            font-size: 108px;
+        }
+
+        &-subtitle {
+            top: 410px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: -145px;
+            width: 644px;
+            height: 1030px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 150px;
+            font-size: 108px;
+        }
+
+        &-figure {
+            top: -125px;
+            width: 646px;
+            height: 1012px;
+        }
+
+        &-sketch {
+            top: 640px;
+            width: 492px;
+            height: 196px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 980px;
+
+        &-title {
+            top: 60px;
+            font-size: 70px;
+        }
+
+        &-subtitle {
+            top: 640px;
+            font-size: 70px;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 820px;
+            height: 644px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 980px;
+
+        &-title {
+            top: 105px;
+            font-size: 86px;
+        }
+
+        &-figure {
+            top: -60px;
+            width: 1144px;
+            height: 1012px;
+        }
+
+        &-sketch {
+            top: 380px;
+            width: 260px;
+            height: 498px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 980px;
+
+        &-title {
+            top: 205px;
+            font-size: 68px;
+        }
+
+        &-figure {
+            top: -65px;
+            width: 676px;
+            height: 1016px;
+        }
+    }
+
+    /* section charging end */
+}
+
+@media (max-width: 1440px) {
+
+    /* section intro */
+    .E11ds-intro {
+        height: 830px;
+
+        &-logo {
+            top: 205px;
+            width: 304px;
+            height: 52px;
+        }
+
+        &-model {
+            top: 310px;
+            font-size: 112px;
+        }
+
+        &-description {
+            top: 300px;
+            font-size: 46px;
+        }
+
+        &-figure {
+            top: 75px;
+            width: 350px;
+            height: 874px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 830px;
+
+        &-title {
+            top: 65px;
+            font-size: 72px;
+        }
+
+        &-subtitle {
+            top: 165px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 315px;
+            width: 1090px;
+            height: 308px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 830px;
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 190px;
+            font-size: 90px;
+        }
+
+        &-subtitle {
+            top: 350px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: -125px;
+            width: 544px;
+            height: 870px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 130px;
+            font-size: 90px;
+        }
+
+        &-figure {
+            top: -105px;
+            width: 548px;
+            height: 858px;
+        }
+
+        &-sketch {
+            top: 545px;
+            width: 418px;
+            height: 168px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 830px;
+
+        &-title {
+            top: 50px;
+            font-size: 60px;
+        }
+
+        &-subtitle {
+            top: 545px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 100px;
+            width: 698px;
+            height: 548px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 830px;
+
+        &-title {
+            top: 90px;
+            font-size: 72px;
+        }
+
+        &-figure {
+            top: -50px;
+            width: 972px;
+            height: 860px;
+        }
+
+        &-sketch {
+            top: 320px;
+            width: 220px;
+            height: 422px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 830px;
+
+        &-title {
+            top: 175px;
+            font-size: 56px;
+        }
+
+        &-figure {
+            top: -55px;
+            width: 574px;
+            height: 864px;
+        }
+    }
+
+    /* section charging end */
+}
+
+@media (max-width: 1199px) {
+    :root {
+        --container-padding-x: 50px;
+    }
+
+    .E11ds-landing {
+        .container {
+            padding-left: var(--container-padding-x);
+            padding-right: var(--container-padding-x);
+        }
+    }
+
+    /* section intro */
+    .E11ds-intro {
+        height: 700px;
+
+        &-logo,
+        &-model {
+            left: 15px;
+            right: 15px;
+        }
+
+        &-logo {
+            top: 175px;
+            width: 258px;
+            height: 44px;
+        }
+
+        &-model {
+            top: 260px;
+            font-size: 94px;
+        }
+
+        &-description {
+            top: 255px;
+            font-size: 38px;
+        }
+
+        &-figure {
+            top: 60px;
+            width: 296px;
+            height: 738px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 700px;
+
+        &-title {
+            top: 55px;
+            font-size: 60px;
+        }
+
+        &-subtitle {
+            top: 140px;
+            font-size: 34px;
+        }
+
+        &-figure {
+            top: 265px;
+            width: 892px;
+            height: 252px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 700px;
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 160px;
+            font-size: 74px;
+        }
+
+        &-subtitle {
+            top: 300px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: -105px;
+            width: 462px;
+            height: 740px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 110px;
+            font-size: 74px;
+        }
+
+        &-figure {
+            top: -90px;
+            width: 464px;
+            height: 726px;
+        }
+
+        &-sketch {
+            top: 460px;
+            width: 354px;
+            height: 142px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 700px;
+
+        &-title {
+            top: 40px;
+            font-size: 50px;
+        }
+
+        &-subtitle {
+            top: 460px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 85px;
+            width: 592px;
+            height: 465px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 700px;
+
+        &-title {
+            top: 75px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: -40px;
+            width: 826px;
+            height: 730px;
+        }
+
+        &-sketch {
+            top: 300px;
+            width: 176px;
+            height: 336px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 700px;
+
+        &-title {
+            top: 150px;
+            font-size: 46px;
+        }
+
+        &-figure {
+            top: -45px;
+            width: 486px;
+            height: 730px;
+        }
+    }
+
+    /* section charging end */
+}
+
+@media (max-width: 991px) {
+    :root {
+        --container-padding-x: 30px;
+    }
+
+    /* section intro */
+    .E11ds-intro {
+        height: 595px;
+
+        &-logo {
+            top: 150px;
+            width: 218px;
+            height: 38px;
+        }
+
+        &-model {
+            top: 220px;
+            font-size: 78px;
+        }
+
+        &-description {
+            top: 215px;
+            font-size: 30px;
+        }
+
+        &-figure {
+            top: 50px;
+            width: 250px;
+            height: 624px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 595px;
+
+        &-title {
+            top: 45px;
+            font-size: 50px;
+        }
+
+        &-subtitle {
+            top: 120px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 225px;
+            width: 708px;
+            height: 200px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 595px;
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 135px;
+            font-size: 56px;
+            text-align: right;
+        }
+
+        &-subtitle {
+            top: 255px;
+            font-size: 34px;
+            text-align: right;
+        }
+
+        &-figure {
+            top: -90px;
+            width: 392px;
+            height: 628px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 90px;
+            font-size: 56px;
+            text-align: right;
+        }
+
+        &-figure {
+            top: -75px;
+            width: 394px;
+            height: 617px;
+        }
+
+        &-sketch {
+            top: 390px;
+            width: 284px;
+            height: 114px;
+            margin: 0 0 0 auto;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 595px;
+
+        &-title {
+            top: 40px;
+            font-size: 42px;
+        }
+
+        &-subtitle {
+            top: 390px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 85px;
+            width: 500px;
+            height: 392px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 595px;
+
+        &-title {
+            top: 60px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: -40px;
+            width: 702px;
+            height: 620px;
+        }
+
+        &-sketch {
+            top: 255px;
+            width: 148px;
+            height: 284px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 595px;
+
+        &-title {
+            top: 125px;
+            font-size: 38px;
+        }
+
+        &-figure {
+            top: -45px;
+            width: 412px;
+            height: 620px;
+        }
+    }
+
+    /* section charging end */
+}
+
+@media (max-width: 767px) {
+    :root {
+        --container-padding-x: 20px;
+    }
+
+    .E11ds-landing {
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .E11ds-title,
+    .E11ds-subtitle,
+    .E11ds-description,
+    .E11ds-intro-model,
+    .E11ds-intro-description,
+    .E11ds-screen-title,
+    .E11ds-screen-subtitle,
+    .E11ds-dock-title,
+    .E11ds-dock-subtitle,
+    .E11ds-connector-title,
+    .E11ds-design-title,
+    .E11ds-design-subtitle,
+    .E11ds-battery-title,
+    .E11ds-charging-title {
+        max-width: 300px;
+    }
+
+    .E11ds-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .E11ds-subtitle {
+        font-size: 24px !important;
+    }
+
+    .E11ds-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .E11ds-title[data-aos],
+    .E11ds-subtitle[data-aos],
+    .E11ds-description[data-aos],
+    .E11ds-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .E11ds-title[data-aos].aos-animate,
+    .E11ds-subtitle[data-aos].aos-animate,
+    .E11ds-description[data-aos].aos-animate,
+    .E11ds-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section intro */
+    .E11ds-intro {
+        height: 645px;
+
+        &-logo {
+            top: 40px;
+            width: 134px;
+            height: 24px;
+        }
+
+        &-model {
+            top: 70px;
+            font-size: 48px;
+        }
+
+        &-description {
+            top: 130px;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        &-figure {
+            top: 225px;
+            width: 250px;
+            height: 624px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .E11ds-screen {
+        height: 434px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 85px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 185px;
+            width: 708px;
+            height: 200px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section presentation */
+    .E11ds-presentation {
+        height: 745px;
+
+        &-bg {
+            &-layer {
+                background-size: auto 70%;
+                background-position: 25% top;
+
+                &:nth-child(1) {
+                    background-image: url('../images/section-presentaiton/E11ds-presentation-bg-mobile-side-left.png');
+                }
+
+                &:nth-child(2) {
+                    background-image: url('../images/section-presentaiton/E11ds-presentation-bg-mobile-side-right.png');
+                }
+            }
+        }
+    }
+
+    /* section presentation end */
+
+    /* section dock */
+    .E11ds-dock {
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            text-align: left;
+        }
+
+        &-subtitle {
+            top: 85px;
+            font-size: 24px;
+            text-align: left;
+        }
+
+        &-figure {
+            top: 180px;
+            width: 332px;
+            height: 532px;
+        }
+    }
+
+    /* section dock end */
+
+    /* section connector */
+    .E11ds-connector {
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            text-align: left;
+        }
+
+        &-figure {
+            top: 180px;
+            width: 334px;
+            height: 523px;
+        }
+
+        &-sketch {
+            top: 45px;
+            left: 150px;
+            width: 134px;
+            height: 54px;
+            margin: 0;
+        }
+    }
+
+    /* section connector end */
+
+    /* section design */
+    .E11ds-design {
+        height: 500px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+            text-align: left;
+        }
+
+        &-subtitle {
+            top: 410px;
+            left: 15px;
+            right: 15px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 185px;
+            width: 332px;
+            height: 260px;
+        }
+    }
+
+    /* section design end */
+
+    /* section battery */
+    .E11ds-battery {
+        height: 370px;
+
+        &-title {
+            top: 40px;
+            left: 15px;
+            right: 15px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: -15px;
+            left: -15px;
+            right: -15px;
+            width: 388px;
+            height: 343px;
+        }
+
+        &-sketch {
+            top: 205px;
+            width: 62px;
+            height: 118px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section charging */
+    .E11ds-charging {
+        height: 700px;
+
+        &-title {
+            top: 40px;
+            left: 15px;
+            right: 15px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 170px;
+            width: 332px;
+            height: 500px;
+        }
+    }
+
+    /* section charging end */
+}
