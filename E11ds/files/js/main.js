@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         anchorPlacement: 'bottom-bottom',
     });
 
-
-    const presentationSection = document.querySelector('.E11ds-presentation');
+    const presentationSection = document.querySelector('.E11ds-presentation-timeline');
 
     const dockTitle = document.querySelector('.E11ds-dock-title');
     const dockSubtitle = document.querySelector('.E11ds-dock-subtitle');
@@ -51,37 +50,41 @@ document.addEventListener('DOMContentLoaded', () => {
             .to(dockTitle, {
                 opacity: 0,
                 x: 100,
+                duration: 5,
             }, 'start')
             .to(dockSubtitle, {
                 opacity: 0,
                 x: 100,
+                duration: 5,
             }, 'start')
             .to(dockFigure, {
                 opacity: 0,
-                scale: 0.8,
+                x: -100,
+                duration: 5,
             }, 'start')
             .addLabel('connection')
             .fromTo(connectionTitle, {
                 opacity: 0,
-                x: 100,
-            }, {
-                opacity: 1,
-                x: 0
-            }, 'connection')
-            .fromTo(connectionSketch, {
-                opacity: 0,
-                x: 100,
+                x: isPhone ? -100 : 100,
             }, {
                 opacity: 1,
                 x: 0,
+                duration: 5,
+            }, 'connection')
+            .fromTo(connectionSketch, {
+                opacity: 0,
+                x: isPhone ? -100 : 100,
+            }, {
+                opacity: 1,
+                x: 0,
+                duration: 5,
             }, 'connection')
             .fromTo(connectionFigure, {
                 opacity: 0,
-                scale: 0.8,
-                duration: 4,
+                x: -100,
             }, {
                 opacity: 1,
-                scale: 1,
+                x: 0,
                 duration: 5,
             }, 'connection')
             .addLabel('end');
