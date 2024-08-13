@@ -180,7 +180,7 @@
 
     &-model {
         top: 130px;
-        color: #06b2c9;
+        color: #0896b2;
         font-size: 182px;
         font-weight: 700;
         line-height: 1;
@@ -451,7 +451,7 @@
         left: 0;
         right: 0;
         width: 954px;
-        height: 1429px; // 1,4979035639
+        height: 1429px;
         margin: auto;
     }
 
@@ -595,8 +595,6 @@
 
 /* section slots */
 .E10ds-slots {
-    $this: &;
-
     position: relative;
     z-index: 1;
     height: 1350px;
@@ -633,7 +631,7 @@
 
     &-title {
         top: 110px;
-        color: #048798;
+        color: #0896b2;
         font-size: 124px;
         font-weight: 700;
         line-height: normal;
@@ -672,8 +670,6 @@
         }
 
         &-layer {
-            $layer: &;
-
             &-SIM {
                 &:nth-child(1) {
                     position: absolute;
