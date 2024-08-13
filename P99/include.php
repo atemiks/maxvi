@@ -188,7 +188,11 @@ $this->addExternalJS($folder . 'js/main.js');
                         И МОЩНЫЙ
                     </div>
 
-                    <div class="P99-battery-icons">
+                    <div
+                        class="P99-battery-icons"
+                        data-aos="fade-right"
+                        data-aos-duration="500"
+                    >
                         <img
                             aria-hidden="true"
                             loading="lazy"
@@ -218,7 +222,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         class="P99-battery-title"
                         data-aos="fade-left"
                         data-aos-duration="500"
-                        data-aos-anchor=".P99-battery"
+                        data-aos-anchor=".P99-battery-figure"
                     >
                         POWER BANK
                     </div>
@@ -227,7 +231,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         class="P99-battery-subtitle"
                         data-aos="fade-left"
                         data-aos-duration="500"
-                        data-aos-anchor=".P99-battery"
+                        data-aos-anchor=".P99-battery-figure"
                     >
                         БАТАРЕЯ
                         <b class="text-lead">2500 mAh</b>
