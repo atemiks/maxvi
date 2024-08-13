@@ -1,0 +1,1170 @@
+@media (max-width: 1980px) {
+
+    /* section intro */
+    .P99-intro {
+        height: 1150px;
+
+        &-logo {
+            top: 625px;
+            width: 425px;
+            height: 72px;
+        }
+
+        &-model {
+            top: 720px;
+            font-size: 260px;
+        }
+
+        &-figure {
+            top: 25px;
+            width: 760px;
+            height: 1090px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 1150px;
+
+        &-title {
+            top: 665px;
+            font-size: 94px;
+        }
+
+        &-figure {
+            top: 60px;
+            left: unquote("min(15%, 150px)");
+            width: 632px;
+            height: 1130px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 1150px;
+
+        &-title {
+            font-size: 94px;
+
+            .P99-typography-container-left & {
+                top: 195px;
+            }
+
+            .P99-typography-container-right & {
+                top: 765px;
+            }
+        }
+
+        &-subtitle {
+            font-size: 94px;
+
+            .P99-typography-container-right & {
+                top: 905px;
+            }
+        }
+
+        &-figure {
+            top: 270px;
+            width: 1110px;
+            height: 448px;
+        }
+
+        &-icons {
+            top: 655px;
+            gap: 42px;
+        }
+
+        &-icon {
+            width: 255px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 825px;
+
+        &-title {
+            top: 100px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 475px;
+            font-size: 104px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 1470px;
+
+        &-title {
+            top: 460px;
+            font-size: 130px;
+        }
+
+        &-subtitle {
+            top: 620px;
+            font-size: 94px;
+        }
+
+        &-figure {
+            width: 668px;
+            height: 1420px;
+        }
+
+        &-cards {
+            top: 465px;
+            left: 100%;
+            width: 258px;
+            height: 426px;
+
+            &-SIM {
+                width: 116px;
+                height: 190px;
+
+                &:nth-child(2) {
+                    left: 140px;
+                }
+            }
+
+            &-SD {
+                width: 150px;
+                height: 170px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 1150px;
+
+        &-bg {
+            background-size: 2860px auto;
+        }
+
+        &-title {
+            top: 605px;
+            font-size: 110px;
+        }
+
+        &-subtitle {
+            top: 750px;
+            font-size: 60px;
+        }
+
+        &-figure {
+            top: 355px;
+            width: 594px;
+            height: 798px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1680px) {
+
+    /* section intro */
+    .P99-intro {
+        height: 980px;
+
+        &-logo {
+            top: 530px;
+            width: 360px;
+            height: 62px;
+        }
+
+        &-model {
+            top: 610px;
+            font-size: 220px;
+        }
+
+        &-figure {
+            width: 644px;
+            height: 924px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 980px;
+
+        &-title {
+            top: 565px;
+            font-size: 78px;
+        }
+
+        &-figure {
+            top: 50px;
+            width: 534px;
+            height: 955px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 980px;
+
+        &-title {
+            font-size: 80px;
+
+            .P99-typography-container-left & {
+                top: 165px;
+            }
+
+            .P99-typography-container-right & {
+                top: 650px;
+            }
+        }
+
+        &-subtitle {
+            font-size: 80px;
+
+            .P99-typography-container-right & {
+                top: 760px;
+            }
+        }
+
+        &-figure {
+            top: 230px;
+            width: 942px;
+            height: 380px;
+        }
+
+        &-icons {
+            top: 555px;
+            gap: 34px;
+        }
+
+        &-icon {
+            width: 214px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 700px;
+
+        &-title {
+            top: 85px;
+            font-size: 78px;
+        }
+
+        &-subtitle {
+            top: 405px;
+            font-size: 88px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 1250px;
+
+        &-title {
+            top: 390px;
+            font-size: 110px;
+        }
+
+        &-subtitle {
+            top: 525px;
+            font-size: 78px;
+        }
+
+        &-figure {
+            width: 564px;
+            height: 1198px;
+        }
+
+        &-cards {
+            top: 395px;
+            left: 100%;
+            width: 220px;
+            height: 364px;
+
+            &-SIM {
+                width: 98px;
+                height: 160px;
+
+                &:nth-child(2) {
+                    left: 120px;
+                }
+            }
+
+            &-SD {
+                width: 126px;
+                height: 142px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 980px;
+
+        &-bg {
+            background-size: 2430px auto;
+        }
+
+        &-title {
+            top: 515px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 640px;
+            font-size: 50px;
+        }
+
+        &-figure {
+            top: 305px;
+            width: 504px;
+            height: 678px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1440px) {
+
+    /* section intro */
+    .P99-intro {
+        height: 835px;
+
+        &-logo {
+            top: 450px;
+            width: 304px;
+            height: 52px;
+        }
+
+        &-model {
+            top: 520px;
+            font-size: 184px;
+        }
+
+        &-figure {
+            width: 544px;
+            height: 780px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 835px;
+
+        &-title {
+            top: 480px;
+            font-size: 64px;
+        }
+
+        &-figure {
+            top: 40px;
+            width: 452px;
+            height: 808px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 835px;
+
+        &-title {
+            font-size: 68px;
+
+            .P99-typography-container-left & {
+                top: 140px;
+            }
+
+            .P99-typography-container-right & {
+                top: 550px;
+            }
+        }
+
+        &-subtitle {
+            font-size: 68px;
+
+            .P99-typography-container-right & {
+                top: 645px;
+            }
+        }
+
+        &-figure {
+            top: 195px;
+            width: 800px;
+            height: 322px;
+        }
+
+        &-icons {
+            top: 470px;
+            gap: 28px;
+        }
+
+        &-icon {
+            width: 180px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 595px;
+
+        &-title {
+            top: 70px;
+            font-size: 64px;
+        }
+
+        &-subtitle {
+            top: 325px;
+            font-size: 72px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 1060px;
+
+        &-title {
+            top: 330px;
+            font-size: 94px;
+        }
+
+        &-subtitle {
+            top: 445px;
+            font-size: 64px;
+        }
+
+        &-figure {
+            width: 478px;
+            height: 1016px;
+        }
+
+        &-cards {
+            top: 335px;
+            left: 95%;
+            width: 186px;
+            height: 308px;
+
+            &-SIM {
+                width: 82px;
+                height: 134px;
+
+                &:nth-child(2) {
+                    left: 100px;
+                }
+            }
+
+            &-SD {
+                width: 106px;
+                height: 120px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 835px;
+
+        &-bg {
+            background-size: 2065px auto;
+        }
+
+        &-title {
+            top: 440px;
+            font-size: 78px;
+        }
+
+        &-subtitle {
+            top: 545px;
+            font-size: 42px;
+        }
+
+        &-figure {
+            top: 260px;
+            width: 428px;
+            height: 576px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 1199px) {
+    :root {
+        --container-padding-x: 50px;
+    }
+
+    .P99-landing {
+        .container {
+            padding-left: var(--container-padding-x);
+            padding-right: var(--container-padding-x);
+        }
+    }
+
+    /* section intro */
+    .P99-intro {
+        height: 710px;
+
+        &-logo,
+        &-model {
+            left: 15px;
+            right: 15px;
+        }
+
+        &-logo {
+            top: 380px;
+            width: 258px;
+            height: 44px;
+        }
+
+        &-model {
+            top: 440px;
+            font-size: 154px;
+        }
+
+        &-figure {
+            width: 462px;
+            height: 664px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 710px;
+
+        &-title {
+            top: 410px;
+            left: 15px;
+            right: 15px;
+            font-size: 54px;
+        }
+
+        &-figure {
+            top: 35px;
+            width: 384px;
+            height: 687px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 605px;
+
+        &-title {
+            font-size: 54px;
+
+            .P99-typography-container-left & {
+                top: 120px;
+                left: 15px;
+                right: 15px;
+            }
+
+            .P99-typography-container-right & {
+                top: 470px;
+                left: 15px;
+                right: 15px;
+            }
+        }
+
+        &-subtitle {
+            font-size: 54px;
+
+            .P99-typography-container-right & {
+                top: 550px;
+                left: 15px;
+                right: 15px;
+            }
+        }
+
+        &-figure {
+            top: 200px;
+            width: 680px;
+            height: 275px;
+        }
+
+        &-icons {
+            top: 400px;
+            left: 15px;
+            right: 15px;
+            gap: 24px;
+        }
+
+        &-icon {
+            width: 150px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 505px;
+
+        &-title,
+        &-subtitle {
+            left: 15px;
+            right: 15px;
+        }
+
+        &-title {
+            top: 75px;
+            font-size: 54px;
+        }
+
+        &-subtitle {
+            top: 280px;
+            font-size: 60px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 900px;
+
+        &-title,
+        &-subtitle {
+            left: 15px;
+            right: 15px;
+        }
+
+        &-title {
+            top: 280px;
+            font-size: 80px;
+        }
+
+        &-subtitle {
+            top: 380px;
+            font-size: 54px;
+        }
+
+        &-figure {
+            width: 404px;
+            height: 858px;
+        }
+
+        &-cards {
+            top: 285px;
+            width: 158px;
+            height: 260px;
+
+            &-SIM {
+                width: 68px;
+                height: 112px;
+
+                &:nth-child(2) {
+                    left: 85px;
+                }
+            }
+
+            &-SD {
+                width: 90px;
+                height: 102px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 710px;
+
+        &-bg {
+            background-size: 1755px auto;
+        }
+
+        &-title,
+        &-subtitle {
+            left: 15px;
+            right: 15px;
+        }
+
+        &-title {
+            top: 375px;
+            font-size: 64px;
+        }
+
+        &-subtitle {
+            top: 460px;
+            font-size: 34px;
+        }
+
+        &-figure {
+            top: 230px;
+            width: 362px;
+            height: 486px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 991px) {
+    :root {
+        --container-padding-x: 30px;
+    }
+
+    /* section intro */
+    .P99-intro {
+        height: 605px;
+
+        &-logo {
+            top: 320px;
+            width: 220px;
+            height: 38px;
+        }
+
+        &-model {
+            top: 375px;
+            font-size: 130px;
+        }
+
+        &-figure {
+            width: 392px;
+            height: 562px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 605px;
+
+        &-title {
+            top: 350px;
+            font-size: 44px;
+        }
+
+        &-figure {
+            width: 324px;
+            height: 580px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 605px;
+
+        &-title {
+            font-size: 44px;
+
+            .P99-typography-container-left & {
+                top: 100px;
+            }
+
+            .P99-typography-container-right & {
+                top: 400px;
+            }
+        }
+
+        &-subtitle {
+            font-size: 44px;
+
+            .P99-typography-container-right & {
+                top: 465px;
+            }
+        }
+
+        &-figure {
+            top: 175px;
+            width: 560px;
+            height: 226px;
+        }
+
+        &-icons {
+            top: 340px;
+            gap: 20px;
+        }
+
+        &-icon {
+            width: 124px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 430px;
+
+        &-title {
+            top: 70px;
+            font-size: 44px;
+        }
+
+        &-subtitle {
+            top: 235px;
+            font-size: 50px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 765px;
+
+        &-title {
+            top: 240px;
+            font-size: 68px;
+        }
+
+        &-subtitle {
+            top: 320px;
+            font-size: 44px;
+        }
+
+        &-figure {
+            width: 342px;
+            height: 726px;
+        }
+
+        &-cards {
+            top: 240px;
+            width: 134px;
+            height: 222px;
+
+            &-SIM {
+                width: 56px;
+                height: 92px;
+
+                &:nth-child(2) {
+                    left: 70px;
+                }
+            }
+
+            &-SD {
+                width: 76px;
+                height: 86px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 605px;
+
+        &-bg {
+            background-size: 1490px auto;
+        }
+
+        &-title {
+            top: 320px;
+            font-size: 54px;
+        }
+
+        &-subtitle {
+            top: 390px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 195px;
+            width: 308px;
+            height: 414px;
+        }
+    }
+
+    /* section camera end */
+}
+
+@media (max-width: 767px) {
+    :root {
+        --container-padding-x: 20px;
+    }
+
+    .P99-landing {
+        background-size: 1010px auto;
+        background-position: 45% top;
+
+        .content-inner {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .P99-title,
+    .P99-subtitle,
+    .P99-description,
+    .P99-intro-model,
+    .P99-screen-title,
+    .P99-battery-title,
+    .P99-battery-subtitle,
+    .P99-connector-title,
+    .P99-connector-subtitle,
+    .P99-slots-title,
+    .P99-slots-subtitle,
+    .P99-camera-title,
+    .P99-camera-subtitle {
+        max-width: 300px;
+    }
+
+    .P99-title {
+        margin: 0 0 15px;
+        font-size: 28px !important;
+        line-height: 1.25;
+    }
+
+    .P99-subtitle {
+        font-size: 24px !important;
+    }
+
+    .P99-description {
+        margin: 0 0 20px;
+        font-size: 20px !important;
+        line-height: 1.3;
+    }
+
+    .P99-title[data-aos],
+    .P99-subtitle[data-aos],
+    .P99-description[data-aos],
+    .P99-media-figure[data-aos] {
+        transform: translate(0, 50px);
+    }
+
+    .P99-title[data-aos].aos-animate,
+    .P99-subtitle[data-aos].aos-animate,
+    .P99-description[data-aos].aos-animate,
+    .P99-media-figure[data-aos].aos-animate {
+        transform: translate(0);
+    }
+
+    /* section intro */
+    .P99-intro {
+        height: 660px;
+        background-position: 0% top !important;
+        background-size: auto 80% !important;
+
+        &-logo {
+            top: 40px;
+            width: 100px;
+            height: 18px;
+        }
+
+        &-model {
+            top: 60px;
+            font-size: 58px;
+        }
+
+        &-figure {
+            top: 150px;
+            width: 332px;
+            height: 476px;
+        }
+    }
+
+    /* section intro end */
+
+    /* section screen */
+    .P99-screen {
+        height: 635px;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-figure {
+            top: 140px;
+            left: 15px;
+            right: 15px;
+            width: 290px;
+            height: 518px;
+        }
+    }
+
+    /* section screen end */
+
+    /* section battery */
+    .P99-battery {
+        height: 410px;
+
+        &-bg {
+            background-position: right 150%;
+            background-size: 562px auto;
+        }
+
+        &-title {
+            font-size: 28px;
+
+            .P99-typography-container-left & {
+                top: 75px;
+            }
+
+            .P99-typography-container-right & {
+                top: 335px;
+                margin-left: auto;
+                margin-right: 0;
+            }
+        }
+
+        &-subtitle {
+            font-size: 24px;
+
+            .P99-typography-container-right & {
+                top: 370px;
+                margin-left: auto;
+                margin-right: 0;
+            }
+        }
+
+        &-figure {
+            top: 185px;
+            left: -15px;
+            right: -15px;
+            width: 354px;
+            height: 142px;
+        }
+
+        &-icons {
+            top: 325px;
+            gap: 8px;
+        }
+
+        &-icon {
+            width: 50px;
+        }
+    }
+
+    /* section battery end */
+
+    /* section connector */
+    .P99-connector {
+        height: 355px;
+
+        &-title {
+            top: 75px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 185px;
+            font-size: 30px;
+        }
+    }
+
+    /* section connector end */
+
+    /* section slots */
+    .P99-slots {
+        height: 835px;
+        text-align: left;
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 70px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 190px;
+            width: 290px;
+            height: 616px;
+        }
+
+        &-cards {
+            top: 20px;
+            left: 77.5%;
+            width: 114px;
+            height: 168px;
+
+            &-SIM {
+                width: 46px;
+                height: 76px;
+
+                &:nth-child(2) {
+                    left: 60px;
+                }
+            }
+
+            &-SD {
+                width: 64px;
+                height: 72px;
+            }
+        }
+    }
+
+    /* section slots end */
+
+    /* section camera */
+    .P99-camera {
+        height: 565px;
+
+        &-bg {
+            background-size: 1265px auto;
+        }
+
+        &-title {
+            top: 40px;
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            top: 80px;
+            font-size: 24px;
+        }
+
+        &-figure {
+            top: 180px;
+            width: 292px;
+            height: 392px;
+        }
+
+        @keyframes midday {
+            0% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 40% 50%;
+            }
+        }
+    }
+
+    /* section camera end */
+}
