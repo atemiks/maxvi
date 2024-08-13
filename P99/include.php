@@ -323,6 +323,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         class="P99-slots-title"
                         data-aos="fade-left"
                         data-aos-duration="500"
+                        data-aos-anchor-placement="bottom-bottom"
                     >
                         2 SIM
                     </div>
