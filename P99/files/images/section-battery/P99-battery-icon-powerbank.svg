@@ -2,16 +2,18 @@
 <svg
    id="Слой_1"
    data-name="Слой 1"
-   viewBox="0 0 476.01 359.04"
+   viewBox="0 0 492.04 375.04"
    version="1.1"
    sodipodi:docname="powerbank.svg"
+   width="492.04001"
+   height="375.04001"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview389"
+     id="namedview5653"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -20,59 +22,32 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.65730836"
-     inkscape:cx="111.81966"
-     inkscape:cy="183.32339"
-     inkscape:window-width="1440"
-     inkscape:window-height="701"
-     inkscape:window-x="285"
-     inkscape:window-y="1321"
+     inkscape:zoom="0.47966504"
+     inkscape:cx="66.713222"
+     inkscape:cy="192.84291"
+     inkscape:window-width="1743"
+     inkscape:window-height="873"
+     inkscape:window-x="193"
+     inkscape:window-y="156"
      inkscape:window-maximized="0"
      inkscape:current-layer="Слой_1" />
   <defs
-     id="defs372">
+     id="defs5646">
     <style
-       id="style370">.cls-1{fill:#fff;}</style>
+       id="style5644">.cls-1{fill:#f30a0a;stroke:#f6ab0a;stroke-linecap:round;stroke-linejoin:round;stroke-width:8px;}</style>
   </defs>
-  <polygon
-     class="cls-1"
-     points="323.09 236.83 321.07 154.98 149.79 272.21 279.13 236.83 279.13 318.68 430.71 210.06 323.09 236.83"
-     id="polygon374"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M556.16,465.45V275.35A27.2,27.2,0,0,0,529,248.19H215.48a27.19,27.19,0,0,0-27.15,27.16v190.1a27.18,27.18,0,0,0,27.15,27.16H529A27.19,27.19,0,0,0,556.16,465.45ZM215.48,480.61a15.17,15.17,0,0,1-15.15-15.16V275.35a15.2,15.2,0,0,1,15.15-15.16H529a15.19,15.19,0,0,1,15.16,15.16v190.1A15.18,15.18,0,0,1,529,480.61Z"
-     transform="translate(-81.99 -133.57)"
-     id="path376"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M188.33,429.63H142.89A61,61,0,0,1,82,368.73V227a61,61,0,0,1,60.9-60.9H421.76v12.49H142.89A48.49,48.49,0,0,0,94.46,227V368.73a48.48,48.48,0,0,0,48.43,48.43h45.44Z"
-     transform="translate(-81.99 -133.57)"
-     id="path378"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M196,443.48H167.09a4.45,4.45,0,0,1-4.45-4.45V407.76h0a4.46,4.46,0,0,1,4.45-4.45H196Z"
-     transform="translate(-81.99 -133.57)"
-     id="path380"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M447.15,184.53H433.76V157.87h13.39v-12H430.69a9,9,0,0,0-8.93,8.94v32.78a9,9,0,0,0,8.93,8.94h16.46Z"
-     transform="translate(-81.99 -133.57)"
-     id="path382"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M519.4,197.25V145.16a11.6,11.6,0,0,0-11.59-11.59H458.74a11.62,11.62,0,0,0-11.59,11.59v52.1a11.63,11.63,0,0,0,11.59,11.59h49.07A11.59,11.59,0,0,0,519.4,197.25Zm-60.25-.41V145.57H507.4v51.28Z"
-     transform="translate(-81.99 -133.57)"
-     id="path384"
-     style="fill:#f30b0a;fill-opacity:1" />
-  <path
-     class="cls-1"
-     d="M548,193.87H519.44v-12h26.65V160.53H519.4v-12H548a10.07,10.07,0,0,1,10,10v25.24A10.05,10.05,0,0,1,548,193.87Z"
-     transform="translate(-81.99 -133.57)"
-     id="path386"
-     style="fill:#f30b0a;fill-opacity:1" />
+  <g
+     id="g5774"
+     transform="matrix(0,-1,-1,0,492.01,375.04)">
+    <path
+       class="cls-1"
+       d="M 488.56,109.7 V 85.06 a 14.13,14.13 0 0 0 -14,-14 h -25.27 a 14.11,14.11 0 0 0 -14.07,14 v 24.64 a 15.64,15.64 0 0 0 -15,15.58 v 49.08 a 15.76,15.76 0 0 0 12.32,15.22 v 12.86 a 13.06,13.06 0 0 0 12.94,12.89 h 5 V 490.2 a 44.56,44.56 0 0 1 -44.43,44.43 H 264.36 A 44.56,44.56 0 0 1 219.93,490.2 v -15.75 h 5.4 a 8.45,8.45 0 0 0 8.45,-8.45 v -17.24 h 124 a 31.23,31.23 0 0 0 31.16,-31.15 V 104.09 A 31.25,31.25 0 0 0 357.78,72.93 H 167.64 a 31.25,31.25 0 0 0 -31.16,31.16 v 313.52 a 31.23,31.23 0 0 0 31.16,31.15 h 18 V 466 a 8.46,8.46 0 0 0 8.45,8.45 h 5.4 v 15.76 a 65.11,65.11 0 0 0 64.9,64.89 H 406.11 A 65.12,65.12 0 0 0 471,490.2 V 215.33 h 7.31 a 13,13 0 0 0 12.91,-12.93 v -12.82 a 15.74,15.74 0 0 0 12.3,-15.23 V 125.28 A 15.65,15.65 0 0 0 488.56,109.7 Z M 167.64,428.76 A 11.19,11.19 0 0 1 156.48,417.61 V 104.09 a 11.2,11.2 0 0 1 11.16,-11.16 h 190.09 a 11.23,11.23 0 0 1 11.17,11.16 V 417.6 a 11.22,11.22 0 0 1 -11.16,11.16 z M 455.22,91 h 13.34 v 18.68 h -13.34 z m 16,104.33 h -18.66 v -5.39 h 18.66 z m 12.3,-25.39 h -43.27 v -40.25 h 43.28 z"
+       transform="translate(-132.48,-67.09)"
+       id="path5648" />
+    <path
+       class="cls-1"
+       d="m 347.87,232.25 v 0 L 230.62,403.56 a 4,4 0 0 1 -3.31,1.75 4,4 0 0 1 -1.61,-0.34 h -0.1 a 4,4 0 0 1 -2.14,-4.68 l 34,-124.28 h -76.62 a 4,4 0 0 1 -3.23,-6.36 L 286.21,118.1 a 4,4 0 0 1 7.12,3.33 l -25.56,102.7 76.87,1.9 a 4,4 0 0 1 3.23,6.22 z"
+       transform="translate(-132.48,-67.09)"
+       id="path5650" />
+  </g>
 </svg>
