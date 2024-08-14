@@ -284,7 +284,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             class="P99-slots-cards"
                             data-aos="fade-right"
                             data-aos-duration="800"
-                            data-aos-anchor=".P99-slots-title"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             <img
                                 loading="lazy"
