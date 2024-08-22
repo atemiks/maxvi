@@ -337,7 +337,7 @@
         &:nth-child(n+2) {
             width: 32%;
             height: 19.8%;
-            animation-duration: 500ms;
+            animation-duration: 600ms;
             animation-timing-function: ease;
             animation-fill-mode: forwards;
 
@@ -390,53 +390,53 @@
         }
 
         &:nth-child(2) {
-            animation-delay: 300ms;
+            animation-delay: 400ms;
         }
 
         &:nth-child(3) {
-            animation-delay: 600ms;
+            animation-delay: 800ms;
         }
 
         &:nth-child(4) {
-            animation-delay: 900ms;
-        }
-
-        &:nth-child(5) {
             animation-delay: 1200ms;
         }
 
+        &:nth-child(5) {
+            animation-delay: 1600ms;
+        }
+
         &:nth-child(6) {
-            animation-delay: 1500ms;
+            animation-delay: 2000ms;
         }
 
         &:nth-child(7) {
-            animation-delay: 1800ms;
-        }
-
-        &:nth-child(8) {
-            animation-delay: 2100ms;
-        }
-
-        &:nth-child(9) {
             animation-delay: 2400ms;
         }
 
+        &:nth-child(8) {
+            animation-delay: 2800ms;
+        }
+
+        &:nth-child(9) {
+            animation-delay: 3200ms;
+        }
+
         &:nth-child(10) {
-            animation-delay: 2700ms;
+            animation-delay: 3600ms;
         }
 
         &:nth-child(11) {
             left: 1.5%;
-            animation-delay: 3000ms;
+            animation-delay: 4000ms;
         }
 
         &:nth-child(12) {
-            animation-delay: 3300ms;
+            animation-delay: 4400ms;
         }
 
         &:nth-child(13) {
             left: 66%;
-            animation-delay: 3600ms;
+            animation-delay: 4800ms;
         }
 
         &-sos {
