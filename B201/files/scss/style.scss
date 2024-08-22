@@ -221,13 +221,17 @@
 
 /* section presentation */
 .B210-presentation {
-    height: 1350px;
+    height: 5400px;
     padding-top: 0;
     padding-bottom: 0;
 
     .container {
         padding-left: 13.425%;
         padding-right: 13.425%;
+    }
+
+    &-scene {
+        height: 1350px;
     }
 
     &-squoosh {
@@ -626,6 +630,7 @@
             width: 28%;
             height: 175%;
             background: url('../images/section-battery/B201-battery-icon-flashlight.svg') no-repeat center/contain;
+            animation: fade-in-and-out 1800ms infinite;
             content: '';
         }
     }
@@ -653,6 +658,19 @@
     &-media {
         width: inherit;
         height: inherit;
+    }
+
+    @keyframes fade-in-and-out {
+
+        0%,
+        100% {
+            opacity: 0;
+        }
+
+        45%,
+        55% {
+            opacity: 1;
+        }
     }
 }
 
@@ -784,7 +802,9 @@
     }
 
     &-figure {
+        pointer-events: none;
         position: absolute;
+        z-index: 1;
         top: 250px;
         left: 15px;
         right: 15px;
@@ -796,6 +816,18 @@
     &-media {
         width: inherit;
         height: inherit;
+    }
+
+    &-flashlight {
+        position: absolute;
+        z-index: -1;
+        top: -50%;
+        left: -50%;
+        width: 120%;
+        height: 120%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
 }
 

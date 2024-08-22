@@ -6,6 +6,7 @@ $(document).ready(function () {
 
     /* ScrollTrigger */
     const presentationSection = document.querySelector('.B210-presentation');
+    const presentationScene = document.querySelector('.B210-presentation-scene');
     const presentationFigure = document.querySelector('.B210-presentation-figure');
     const keyboardBlock = document.querySelector('.B210-keyboard-block');
     const sosBlock = document.querySelector('.B210-sos-block');
@@ -23,7 +24,7 @@ $(document).ready(function () {
 
         const presentationTl = gsap.timeline({
             scrollTrigger: {
-                trigger: presentationSection,
+                trigger: presentationScene,
                 markers: false,
                 start: '-60px 0%',
                 end: '300% 0%',
