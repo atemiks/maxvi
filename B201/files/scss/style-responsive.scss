@@ -1124,8 +1124,7 @@
 
     /* section intro */
     .B201-intro {
-        $this: &;
-        height: 735px;
+        height: 625px;
 
         &-logo,
         &-model {
@@ -1155,30 +1154,20 @@
 
         &-figure {
             top: 245px;
-            left: 0;
-            right: 0;
-            width: 355px;
+            width: 330px;
             height: 412px;
         }
 
         &-layer {
             &.layer-1 {
-                top: 40px;
-                width: 192px;
-                height: 412px;
-
-                #{$this}-media {
-                    transform: rotate(4.5deg);
-                }
+                top: 10px;
+                width: 168px;
+                height: 322px;
             }
 
             &.layer-2 {
-                width: 212px;
-                height: 406px;
-
-                #{$this}-media {
-                    transform: rotate(-10deg);
-                }
+                width: 168px;
+                height: 322px;
             }
         }
     }
