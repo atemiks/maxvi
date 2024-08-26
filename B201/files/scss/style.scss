@@ -3,7 +3,7 @@
     --case-figure-height: 1219px;
 }
 
-.B210-landing {
+.B201-landing {
     overflow: hidden;
     max-width: 2160px;
     margin: auto;
@@ -78,14 +78,14 @@
     }
 
     .section-dark,
-    .section-dark .B210-title,
-    .section-dark .B210-subtitle,
-    .section-dark .B210-description {
+    .section-dark .B201-title,
+    .section-dark .B201-subtitle,
+    .section-dark .B201-description {
         color: #fff;
     }
 }
 
-.B210-title {
+.B201-title {
     margin: 0 0 20px;
     font-size: 35px;
     font-weight: 700;
@@ -102,7 +102,7 @@
     }
 }
 
-.B210-description {
+.B201-description {
     margin: 0 0 45px;
     font-size: 20px;
     font-weight: 300;
@@ -123,26 +123,26 @@
     }
 }
 
-.B210-media-figure {
+.B201-media-figure {
     position: relative;
     opacity: 1 !important;
     margin: 0;
 
-    .B210-media {
+    .B201-media {
         max-width: 100%;
         max-height: 100%;
     }
 }
 
 /* section intro */
-.B210-intro {
+.B201-intro {
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
 
     .container {
-        padding-left: 13.425%;
-        padding-right: 13.425%;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
     &-logo,
@@ -156,28 +156,22 @@
 
     &-logo {
         top: 230px;
-        left: 15%;
         width: 642px;
         height: 110px;
-        margin: auto;
     }
 
     &-model {
         top: 380px;
-        left: 15%;
         color: #58d2f8;
         font-size: 292px;
         font-weight: 500;
-        text-align: center;
         line-height: 1;
     }
 
     &-description {
-        top: 1100px;
-        color: #000;
-        font-size: 88px;
-        font-weight: 400;
-        text-align: right;
+        top: 790px;
+        font-size: 74px;
+        font-weight: 700;
         line-height: normal;
     }
 
@@ -186,10 +180,10 @@
         position: absolute;
         z-index: 1;
         top: 50px;
-        left: -10%;
-        right: -10%;
-        width: 1860px;
-        height: 1106px;
+        left: 15px;
+        right: 15px;
+        width: 1160px;
+        height: 1105px;
         margin: auto;
     }
 
@@ -200,14 +194,14 @@
         &.layer-1 {
             z-index: 1;
             left: 0;
-            width: 638px;
-            height: 1106px;
+            width: 516px;
+            height: 1105px;
         }
 
         &.layer-2 {
             right: 0;
-            width: 535px;
-            height: 1024px;
+            width: 574px;
+            height: 1098px;
         }
     }
 
@@ -220,7 +214,7 @@
 /* section intro end */
 
 /* section presentation */
-.B210-presentation {
+.B201-presentation {
     height: 5400px;
     padding-top: 0;
     padding-bottom: 0;
@@ -236,13 +230,13 @@
 
     &-squoosh {
         position: absolute;
-        top: -540px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 2160px;
-        height: 1690px;
-        background-color: #fff;
-        clip-path: polygon(0 32%, 100% 0, 100% 68%, 0% 100%);
+        top: -665px;
+        left: 0;
+        width: 100%;
+        height: 1820px;
+        background-repeat: no-repeat;
+        background-position: -480px top;
+        background-size: 3120px auto;
     }
 
     &-figure {
@@ -272,7 +266,7 @@
 
     &-screen {
         position: absolute;
-        top: 14.15%;
+        top: 14%;
         left: 21%;
         width: 58%;
         height: 25.25%;
@@ -337,7 +331,7 @@
         &:nth-child(n+2) {
             width: 32%;
             height: 19.8%;
-            animation-duration: 600ms;
+            animation-duration: 800ms;
             animation-timing-function: ease;
             animation-fill-mode: forwards;
 
@@ -390,53 +384,53 @@
         }
 
         &:nth-child(2) {
-            animation-delay: 400ms;
+            animation-delay: 600ms;
         }
 
         &:nth-child(3) {
-            animation-delay: 800ms;
-        }
-
-        &:nth-child(4) {
             animation-delay: 1200ms;
         }
 
+        &:nth-child(4) {
+            animation-delay: 1800ms;
+        }
+
         &:nth-child(5) {
-            animation-delay: 1600ms;
-        }
-
-        &:nth-child(6) {
-            animation-delay: 2000ms;
-        }
-
-        &:nth-child(7) {
             animation-delay: 2400ms;
         }
 
+        &:nth-child(6) {
+            animation-delay: 3000ms;
+        }
+
+        &:nth-child(7) {
+            animation-delay: 3600ms;
+        }
+
         &:nth-child(8) {
-            animation-delay: 2800ms;
+            animation-delay: 4200ms;
         }
 
         &:nth-child(9) {
-            animation-delay: 3200ms;
+            animation-delay: 4800ms;
         }
 
         &:nth-child(10) {
-            animation-delay: 3600ms;
+            animation-delay: 5400ms;
         }
 
         &:nth-child(11) {
             left: 1.5%;
-            animation-delay: 4000ms;
+            animation-delay: 6000ms;
         }
 
         &:nth-child(12) {
-            animation-delay: 4400ms;
+            animation-delay: 6600ms;
         }
 
         &:nth-child(13) {
             left: 66%;
-            animation-delay: 4800ms;
+            animation-delay: 7200ms;
         }
 
         &-sos {
@@ -494,7 +488,7 @@
 /* section presentation end */
 
 /* section keyboard */
-.B210-keyboard {
+.B201-keyboard {
     &-block {
         position: absolute;
         top: 140px;
@@ -522,7 +516,7 @@
 /* section keyboard end */
 
 /* section sos */
-.B210-sos {
+.B201-sos {
     &-block {
         opacity: 0;
         position: absolute;
@@ -555,7 +549,7 @@
 /* section sos end */
 
 /* section screen */
-.B210-screen {
+.B201-screen {
     &-block {
         opacity: 0;
         position: absolute;
@@ -588,7 +582,7 @@
 /* section screen end */
 
 /* section battery */
-.B210-battery {
+.B201-battery {
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
@@ -677,7 +671,7 @@
 /* section battery end */
 
 /* section slots */
-.B210-slots {
+.B201-slots {
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
@@ -775,7 +769,7 @@
 /* section slots end */
 
 /* section camera */
-.B210-camera {
+.B201-camera {
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
@@ -783,6 +777,7 @@
     &-title,
     &-description {
         position: absolute;
+        z-index: 1;
         left: 15px;
         right: 15px;
     }
@@ -804,7 +799,6 @@
     &-figure {
         pointer-events: none;
         position: absolute;
-        z-index: 1;
         top: 250px;
         left: 15px;
         right: 15px;
@@ -814,13 +808,14 @@
     }
 
     &-media {
+        position: relative;
+        z-index: 1;
         width: inherit;
         height: inherit;
     }
 
     &-flashlight {
         position: absolute;
-        z-index: -1;
         top: -50%;
         left: -50%;
         width: 120%;

@@ -5,12 +5,12 @@ $(document).ready(function () {
     });
 
     /* ScrollTrigger */
-    const presentationSection = document.querySelector('.B210-presentation');
-    const presentationScene = document.querySelector('.B210-presentation-scene');
-    const presentationFigure = document.querySelector('.B210-presentation-figure');
-    const keyboardBlock = document.querySelector('.B210-keyboard-block');
-    const sosBlock = document.querySelector('.B210-sos-block');
-    const screenBlock = document.querySelector('.B210-screen-block');
+    const presentationSection = document.querySelector('.B201-presentation');
+    const presentationScene = document.querySelector('.B201-presentation-scene');
+    const presentationFigure = document.querySelector('.B201-presentation-figure');
+    const keyboardBlock = document.querySelector('.B201-keyboard-block');
+    const sosBlock = document.querySelector('.B201-sos-block');
+    const screenBlock = document.querySelector('.B201-screen-block');
    
     const mm = gsap.matchMedia();
 

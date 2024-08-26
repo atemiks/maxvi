@@ -1,13 +1,8 @@
 @media (max-width: 1980px) {
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         height: 1150px;
-
-        .container {
-            padding-left: 11.4%;
-            padding-right: 11.4%;
-        }
 
         &-logo {
             top: 195px;
@@ -21,25 +16,25 @@
         }
 
         &-description {
-            top: 935px;
-            font-size: 74px;
+            top: 670px;
+            font-size: 62px;
         }
 
         &-figure {
             top: 40px;
-            width: 1580px;
+            width: 986px;
             height: 938px;
         }
 
         &-layer {
             &.layer-1 {
-                width: 542px;
+                width: 438px;
                 height: 938px;
             }
 
             &.layer-2 {
-                width: 454px;
-                height: 869px;
+                width: 486px;
+                height: 930px;
             }
         }
     }
@@ -47,7 +42,7 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 4600px;
 
         .container {
@@ -60,9 +55,10 @@
         }
 
         &-squoosh {
-            top: -460px;
-            width: 1980px;
-            height: 1435px;
+            top: -565px;
+            height: 1550px;
+            background-position: -410px top;
+            background-size: 2650px auto;
         }
 
         &-figure {
@@ -74,7 +70,7 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 120px;
             row-gap: 30px;
@@ -89,7 +85,7 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 240px;
             row-gap: 30px;
@@ -104,7 +100,7 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 240px;
             row-gap: 30px;
@@ -119,7 +115,7 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
+    .B201-battery {
         height: 1150px;
 
         .container {
@@ -153,7 +149,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 1150px;
 
         &-title {
@@ -192,7 +188,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 1150px;
 
         &-title {
@@ -206,7 +202,7 @@
         }
 
         &-figure {
-            top: 210px;
+            top: 220px;
             width: 934px;
             height: 934px;
         }
@@ -218,13 +214,8 @@
 @media (max-width: 1680px) {
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         height: 980px;
-
-        .container {
-            padding-left: 9.7%;
-            padding-right: 9.7%;
-        }
 
         &-logo {
             top: 165px;
@@ -238,25 +229,25 @@
         }
 
         &-description {
-            top: 795px;
-            font-size: 62px;
+            top: 570px;
+            font-size: 52px;
         }
 
         &-figure {
             top: 35px;
-            width: 1344px;
+            width: 838px;
             height: 796px;
         }
 
         &-layer {
             &.layer-1 {
-                width: 460px;
+                width: 372px;
                 height: 796px;
             }
 
             &.layer-2 {
-                width: 384px;
-                height: 736px;
+                width: 412px;
+                height: 788px;
             }
         }
     }
@@ -264,7 +255,7 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 3920px;
 
         .container {
@@ -277,9 +268,10 @@
         }
 
         &-squoosh {
-            top: -390px;
-            width: 1680px;
-            height: 1218px;
+            top: -480px;
+            height: 1300px;
+            background-position: -370px top;
+            background-size: 2200px auto;
         }
 
         &-figure {
@@ -291,7 +283,7 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 100px;
             row-gap: 24px;
@@ -306,7 +298,7 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 205px;
             row-gap: 24px;
@@ -321,7 +313,7 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 205px;
             row-gap: 24px;
@@ -336,7 +328,7 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
+    .B201-battery {
         height: 980px;
 
         .container {
@@ -370,7 +362,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 980px;
 
         &-title {
@@ -409,7 +401,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 980px;
 
         &-title {
@@ -435,13 +427,8 @@
 @media (max-width: 1440px) {
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         height: 835px;
-
-        .container {
-            padding-left: 8.564%;
-            padding-right: 8.564%;
-        }
 
         &-logo {
             top: 140px;
@@ -455,24 +442,24 @@
         }
 
         &-description {
-            top: 675px;
-            font-size: 52px;
+            top: 485px;
+            font-size: 44px;
         }
 
         &-figure {
-            width: 1142px;
+            width: 712px;
             height: 676px;
         }
 
         &-layer {
             &.layer-1 {
-                width: 390px;
+                width: 316px;
                 height: 676px;
             }
 
             &.layer-2 {
-                width: 324px;
-                height: 620px;
+                width: 350px;
+                height: 670px;
             }
         }
     }
@@ -480,7 +467,7 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 3340px;
 
         .container {
@@ -493,9 +480,10 @@
         }
 
         &-squoosh {
-            top: -330px;
-            width: 1440px;
-            height: 1044px;
+            top: -410px;
+            height: 1100px;
+            background-position: -350px top;
+            background-size: 1900px auto;
         }
 
         &-figure {
@@ -507,7 +495,7 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 85px;
             row-gap: 20px;
@@ -522,7 +510,7 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 175px;
             row-gap: 20px;
@@ -537,7 +525,7 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 175px;
             row-gap: 20px;
@@ -552,7 +540,7 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
+    .B201-battery {
         height: 835px;
 
         .container {
@@ -586,7 +574,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 835px;
 
         &-title {
@@ -625,7 +613,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 835px;
 
         &-title {
@@ -654,7 +642,7 @@
         --container-padding-x: 50px;
     }
 
-    .B210-landing {
+    .B201-landing {
         .container {
             padding-left: var(--container-padding-x);
             padding-right: var(--container-padding-x);
@@ -662,13 +650,8 @@
     }
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         height: 710px;
-
-        .container {
-            padding-left: var(--container-padding-x);
-            padding-right: var(--container-padding-x);
-        }
 
         &-logo {
             top: 120px;
@@ -682,24 +665,24 @@
         }
 
         &-description {
-            top: 575px;
-            font-size: 44px;
+            top: 410px;
+            font-size: 38px;
         }
 
         &-figure {
-            width: 970px;
-            height: 572px;
+            width: 604px;
+            height: 574px;
         }
 
         &-layer {
             &.layer-1 {
-                width: 330px;
-                height: 572px;
+                width: 268px;
+                height: 574px;
             }
 
             &.layer-2 {
-                width: 274px;
-                height: 525px;
+                width: 296px;
+                height: 566px;
             }
         }
     }
@@ -707,22 +690,18 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 2840px;
-
-        .container {
-            padding-left: var(--container-padding-x);
-            padding-right: var(--container-padding-x);
-        }
 
         &-scene {
             height: 710px;
         }
 
         &-squoosh {
-            top: -280px;
-            width: 1200px;
-            height: 870px;
+            top: -350px;
+            height: 950px;
+            background-position: -265px top;
+            background-size: 1600px auto;
         }
 
         &-figure {
@@ -734,7 +713,7 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 70px;
             row-gap: 16px;
@@ -749,7 +728,7 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 150px;
             row-gap: 16px;
@@ -764,7 +743,7 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 150px;
             row-gap: 16px;
@@ -779,13 +758,8 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
+    .B201-battery {
         height: 710px;
-
-        .container {
-            padding-left: var(--container-padding-x);
-            padding-right: var(--container-padding-x);
-        }
 
         &-squoosh {
             top: -70px;
@@ -813,7 +787,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 710px;
 
         &-title {
@@ -852,7 +826,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 710px;
 
         &-title {
@@ -882,7 +856,7 @@
     }
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         height: 605px;
 
         &-logo {
@@ -897,24 +871,24 @@
         }
 
         &-description {
-            top: 490px;
-            font-size: 36px;
+            top: 350px;
+            font-size: 32px;
         }
 
         &-figure {
-            width: 794px;
-            height: 485px;
+            width: 514px;
+            height: 484px;
         }
 
         &-layer {
             &.layer-1 {
-                width: 280px;
-                height: 485px;
+                width: 226px;
+                height: 484px;
             }
 
             &.layer-2 {
-                width: 232px;
-                height: 444px;
+                width: 250px;
+                height: 478px;
             }
         }
     }
@@ -922,7 +896,7 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 2420px;
 
         &-scene {
@@ -930,9 +904,10 @@
         }
 
         &-squoosh {
-            top: -240px;
-            width: 991px;
-            height: 718px;
+            top: -300px;
+            height: 790px;
+            background-position: -245px top;
+            background-size: 1350px auto;
         }
 
         &-figure {
@@ -944,7 +919,7 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 60px;
             row-gap: 14px;
@@ -959,7 +934,7 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 125px;
             row-gap: 14px;
@@ -974,7 +949,7 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 125px;
             row-gap: 14px;
@@ -989,7 +964,7 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
+    .B201-battery {
         height: 605px;
 
         &-squoosh {
@@ -1020,7 +995,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 605px;
 
         &-title {
@@ -1061,7 +1036,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 605px;
 
         &-title {
@@ -1085,7 +1060,7 @@
 }
 
 @media (max-width: 767px) {
-    .B210-landing {
+    .B201-landing {
         .container {
             padding-left: 20px;
             padding-right: 20px;
@@ -1097,58 +1072,58 @@
         }
     }
 
-    .B210-title,
-    .B210-subtitle,
-    .B210-description,
-    .B210-intro-model,
-    .B210-intro-description,
-    .B210-keyboard-title,
-    .B210-keyboard-description,
-    .B210-sos-title,
-    .B210-sos-description,
-    .B210-screen-title,
-    .B210-screen-description,
-    .B210-battery-title,
-    .B210-battery-description,
-    .B210-slots-title,
-    .B210-slots-subtitle,
-    .B210-camera-title,
-    .B210-camera-description {
+    .B201-title,
+    .B201-subtitle,
+    .B201-description,
+    .B201-intro-model,
+    .B201-intro-description,
+    .B201-keyboard-title,
+    .B201-keyboard-description,
+    .B201-sos-title,
+    .B201-sos-description,
+    .B201-screen-title,
+    .B201-screen-description,
+    .B201-battery-title,
+    .B201-battery-description,
+    .B201-slots-title,
+    .B201-slots-subtitle,
+    .B201-camera-title,
+    .B201-camera-description {
         max-width: 300px;
     }
 
-    .B210-title {
+    .B201-title {
         margin: 0 0 15px;
         font-size: 28px !important;
         line-height: 1.25;
     }
 
-    .B210-subtitle {
+    .B201-subtitle {
         font-size: 24px !important;
     }
 
-    .B210-description {
+    .B201-description {
         margin: 0 0 20px;
         font-size: 20px !important;
         line-height: 1.3;
     }
 
-    .B210-title[data-aos],
-    .B210-subtitle[data-aos],
-    .B210-description[data-aos],
-    .B210-media-figure[data-aos] {
+    .B201-title[data-aos],
+    .B201-subtitle[data-aos],
+    .B201-description[data-aos],
+    .B201-media-figure[data-aos] {
         transform: translate(0, 50px);
     }
 
-    .B210-title[data-aos].aos-animate,
-    .B210-subtitle[data-aos].aos-animate,
-    .B210-description[data-aos].aos-animate,
-    .B210-media-figure[data-aos].aos-animate {
+    .B201-title[data-aos].aos-animate,
+    .B201-subtitle[data-aos].aos-animate,
+    .B201-description[data-aos].aos-animate,
+    .B201-media-figure[data-aos].aos-animate {
         transform: translate(0);
     }
 
     /* section intro */
-    .B210-intro {
+    .B201-intro {
         $this: &;
         height: 735px;
 
@@ -1180,24 +1155,26 @@
 
         &-figure {
             top: 245px;
-            width: 375px;
-            height: 460px;
+            left: 0;
+            right: 0;
+            width: 355px;
+            height: 412px;
         }
 
         &-layer {
             &.layer-1 {
                 top: 40px;
-                width: 238px;
+                width: 192px;
                 height: 412px;
 
                 #{$this}-media {
-                    transform: rotate(10deg);
+                    transform: rotate(4.5deg);
                 }
             }
 
             &.layer-2 {
-                width: 198px;
-                height: 380px;
+                width: 212px;
+                height: 406px;
 
                 #{$this}-media {
                     transform: rotate(-10deg);
@@ -1209,7 +1186,7 @@
     /* section intro end */
 
     /* section presentation */
-    .B210-presentation {
+    .B201-presentation {
         height: 2900px;
 
         &-scene {
@@ -1217,9 +1194,10 @@
         }
 
         &-squoosh {
-            top: -150px;
-            width: 768px;
-            height: 556px;
+            top: -285px;
+            height: 790px;
+            background-position: -230px top;
+            background-size: 1160px auto;
         }
 
         &-figure {
@@ -1232,9 +1210,11 @@
     /* section presentation end */
 
     /* section keyboard */
-    .B210-keyboard {
+    .B201-keyboard {
         &-block {
             top: 20px;
+            left: 45px;
+            right: 45px;
             row-gap: 10px;
         }
 
@@ -1247,9 +1227,11 @@
     /* section keyboard end */
 
     /* section sos */
-    .B210-sos {
+    .B201-sos {
         &-block {
             top: 20px;
+            left: 45px;
+            right: 45px;
             row-gap: 10px;
         }
 
@@ -1262,9 +1244,11 @@
     /* section sos end */
 
     /* section screen */
-    .B210-screen {
+    .B201-screen {
         &-block {
             top: 20px;
+            left: 45px;
+            right: 45px;
             row-gap: 10px;
         }
 
@@ -1277,18 +1261,18 @@
     /* section screen end */
 
     /* section battery */
-    .B210-battery {
-        height: 875px;
+    .B201-battery {
+        height: 935px;
         text-align: left;
 
         &-squoosh {
-            top: -60px;
+            top: 0;
             width: 768px;
             height: 556px;
         }
 
         &-title {
-            top: 90px;
+            top: 150px;
             left: 90px;
             font-size: 28px;
 
@@ -1298,13 +1282,13 @@
         }
 
         &-description {
-            top: 160px;
+            top: 220px;
             left: 90px;
             font-size: 28px;
         }
 
         &-figure {
-            top: 255px;
+            top: 315px;
             width: 334px;
             height: 596px;
         }
@@ -1313,7 +1297,7 @@
     /* section battery end */
 
     /* section slots */
-    .B210-slots {
+    .B201-slots {
         height: 505px;
 
         &-title {
@@ -1358,7 +1342,7 @@
     /* section slots end */
 
     /* section camera */
-    .B210-camera {
+    .B201-camera {
         height: 655px;
 
         &-title {
