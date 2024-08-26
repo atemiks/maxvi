@@ -36,9 +36,6 @@ $(document).ready(function () {
                     ease: 'power1.inOut'
                 },
                 scrub: true,
-                onSnapComplete: (snap) => {
-                    console.log('snap', snap);
-                }
             },
         });
 
@@ -46,23 +43,28 @@ $(document).ready(function () {
             .addLabel('start')
             .to(keyboardBlock, {
                 opacity: 0,
-                x: -100,
+                x: () => {
+                    return isPhone ? -20 : -50;
+                },
                 duration: 1,
                 onReverseComplete: () => {
-                    console.log('keyboard onReverseComplete');
                     presentationFigure.setAttribute('data-animation', 'keyboard');
                 }
             }, 'start')
             .fromTo(sosBlock, {
                 opacity: 0,
-                x: -100
+                x: () => {
+                    return isPhone ? -20 : -50;
+                },
             }, {
                 opacity: 1,
                 x: 0,
                 duration: 1,
                 delay: 1,
+                onStart: () => {
+                    presentationFigure.setAttribute('data-animation', 'sos');
+                },
                 onComplete: () => {
-                    console.log('sos onComplete');
                     presentationFigure.setAttribute('data-animation', 'sos');
                 },
             }, 'start')
@@ -72,23 +74,28 @@ $(document).ready(function () {
                 x: 0,
             }, {
                 opacity: 0,
-                x: -100,
+                x: () => {
+                    return isPhone ? -20 : -50;
+                },
                 duration: 1,
                 onReverseComplete: () => {
-                    console.log('sos onReverseComplete');
                     presentationFigure.setAttribute('data-animation', 'sos');
                 }
             }, 'screen')
             .fromTo(screenBlock, {
                 opacity: 0,
-                x: -100
+                x: () => {
+                    return isPhone ? -20 : -50;
+                },
             }, {
                 opacity: 1,
                 x: 0,
                 duration: 1,
                 delay: 1,
+                onStart: () => {
+                    presentationFigure.setAttribute('data-animation', 'screen');
+                },
                 onComplete: () => {
-                    console.log('screen onComplete');
                     presentationFigure.setAttribute('data-animation', 'screen');
                 },
             }, 'screen')
