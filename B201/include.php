@@ -35,7 +35,7 @@ $this->addExternalJS($folder . 'js/main.js');
 ?>
 <div
     class="B201-landing"
-    style="background-image: url('<?= $folder ?>//images/B201-landing-bg.jpg')"
+    style="background-image: url('<?= $folder ?>/images/B201-landing-bg.jpg')"
 >
     <section class="B201-intro section-dark">
         <div class="container">
@@ -49,14 +49,22 @@ $this->addExternalJS($folder . 'js/main.js');
                             data-aos="fade-right"
                             data-aos-duration="800"
                         >
-                            <img
-                                loading="lazy"
-                                src="<?= $folder ?>//images/section-intro/B201-intro-phone-front.png"
-                                class="B201-intro-media"
-                                width="516"
-                                height="1105"
-                                alt="Мобильный телефон Maxvi B201"
-                            />
+                            <picture>
+                                <source
+                                    srcset="
+                                        <?= $folder ?>/images/section-intro/B201-intro-phone-front.png
+                                    "
+                                    media="(min-width: 768px)"
+                                />
+                                <img
+                                    loading="lazy"
+                                    src="<?= $folder ?>/images/section-intro/B201-intro-phone-front-mobile.png"
+                                    class="B201-intro-media"
+                                    width="516"
+                                    height="1105"
+                                    alt="Мобильный телефон Maxvi B201"
+                                />
+                            </picture>
                         </div>
 
                         <div
@@ -66,7 +74,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         >
                             <img
                                 loading="lazy"
-                                src="<?= $folder ?>//images/section-intro/B201-intro-phone-back.png"
+                                src="<?= $folder ?>/images/section-intro/B201-intro-phone-back.png"
                                 class="B201-intro-media"
                                 width="574"
                                 height="1098"
@@ -82,7 +90,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     <img
                         data-aos="fade-right"
                         data-aos-duration="500"
-                        src="<?= $folder ?>//images/logo-maxvi.svg"
+                        src="<?= $folder ?>/images/logo-maxvi.svg"
                         class="B201-intro-logo"
                         width="642"
                         height="110"
@@ -117,7 +125,7 @@ $this->addExternalJS($folder . 'js/main.js');
             <div
                 class="B201-presentation-squoosh"
                 style="
-                    background-image: url('<?= $folder ?>//images/section-presentation/B201-presentation-squoosh.svg');
+                    background-image: url('<?= $folder ?>/images/section-presentation/B201-presentation-squoosh.svg');
                 "
             ></div>
 
@@ -199,7 +207,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             >
                                 <img
                                     loading="lazy"
-                                    src="<?= $folder ?>//images/section-presentation/B201-presentation-phone-front.png"
+                                    src="<?= $folder ?>/images/section-presentation/B201-presentation-phone-front.png"
                                     class="B201-presentation-media"
                                     width="648"
                                     height="1200"
@@ -210,37 +218,37 @@ $this->addExternalJS($folder . 'js/main.js');
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-06.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-06.jpg');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-05.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-05.jpg');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-04.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-04.jpg');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-03.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-03.jpg');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-02.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-02.jpg');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-screen-slide"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/screen/B201-presentation-phone-screen-media-01.jpg');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/screen/B201-presentation-phone-screen-media-01.jpg');
                                         "
                                     ></div>
                                 </div>
@@ -249,80 +257,80 @@ $this->addExternalJS($folder . 'js/main.js');
                                     <div
                                         class="B201-presentation-key B201-presentation-key-sos"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-sos.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-sos.png');
                                         "
                                     ></div>
 
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-01.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-01.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-02.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-02.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-03.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-03.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-04.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-04.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-05.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-05.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-06.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-06.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-07.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-07.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-08.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-08.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-09.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-09.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-star.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-star.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-00.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-00.png');
                                         "
                                     ></div>
                                     <div
                                         class="B201-presentation-key"
                                         style="
-                                            background-image: url('<?= $folder ?>//images/section-presentation/keyboard/B201-presentation-phone-key-hash.png');
+                                            background-image: url('<?= $folder ?>/images/section-presentation/keyboard/B201-presentation-phone-key-hash.png');
                                         "
                                     ></div>
                                 </div>
@@ -347,7 +355,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     >
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-battery/B201-battery-phone-front.png"
+                            src="<?= $folder ?>/images/section-battery/B201-battery-phone-front.png"
                             class="B201-battery-media"
                             width="764"
                             height="1362"
@@ -390,7 +398,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     <figure class="B201-slots-figure">
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-slots/B201-slots-phone-side.png"
+                            src="<?= $folder ?>/images/section-slots/B201-slots-phone-side.png"
                             class="B201-slots-media"
                             width="1524"
                             height="578"
@@ -403,7 +411,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             data-aos-duration="800"
                             data-aos-achor=".B201-slots-figure"
                             style="
-                                background-image: url('<?= $folder ?>//images/section-slots/B201-slots-phone-connector-zoom.png');
+                                background-image: url('<?= $folder ?>/images/section-slots/B201-slots-phone-connector-zoom.png');
                             "
                         ></div>
                     </figure>
@@ -429,7 +437,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     >
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-slots/B201-slots-icon-SIM.svg"
+                            src="<?= $folder ?>/images/section-slots/B201-slots-icon-SIM.svg"
                             class="B201-slots-cards-SIM"
                             width="194"
                             height="315"
@@ -438,7 +446,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-slots/B201-slots-icon-SIM.svg"
+                            src="<?= $folder ?>/images/section-slots/B201-slots-icon-SIM.svg"
                             class="B201-slots-cards-SIM"
                             width="194"
                             height="315"
@@ -447,7 +455,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-slots/B201-slots-icon-SD.svg"
+                            src="<?= $folder ?>/images/section-slots/B201-slots-icon-SD.svg"
                             class="B201-slots-cards-SD"
                             width="246"
                             height="280"
@@ -510,13 +518,13 @@ $this->addExternalJS($folder . 'js/main.js');
                             data-aos-delay="800"
                             data-aos-achor=".B201-camera-figure"
                             style="
-                                background-image: url('<?= $folder ?>//images/section-camera/B201-camera-flashlight.png');
+                                background-image: url('<?= $folder ?>/images/section-camera/B201-camera-flashlight.png');
                             "
                         ></div>
 
                         <img
                             loading="lazy"
-                            src="<?= $folder ?>//images/section-camera/B201-camera-phone-front.png"
+                            src="<?= $folder ?>/images/section-camera/B201-camera-phone-front.png"
                             class="B201-camera-media"
                             width="1098"
                             height="1098"
