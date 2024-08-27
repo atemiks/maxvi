@@ -30,7 +30,7 @@ $(document).ready(function () {
                 end: '300% 0%',
                 pin: true,
                 snap: {
-                    snapTo:  "labels",
+                    snapTo:  "labelsDirectional",
                     duration: { min: 0.1, max: 0.8 }, 
                     delay: 0, 
                     ease: 'power1.inOut'
@@ -60,7 +60,7 @@ $(document).ready(function () {
                 opacity: 1,
                 x: 0,
                 duration: 1,
-                delay: 1,
+                delay: 0.75,
                 onStart: () => {
                     presentationFigure.setAttribute('data-animation', 'sos');
                 },
@@ -91,7 +91,7 @@ $(document).ready(function () {
                 opacity: 1,
                 x: 0,
                 duration: 1,
-                delay: 1,
+                delay: 0.75,
                 onStart: () => {
                     presentationFigure.setAttribute('data-animation', 'screen');
                 },
