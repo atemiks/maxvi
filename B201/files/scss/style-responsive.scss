@@ -1154,20 +1154,22 @@
 
         &-figure {
             top: 245px;
-            width: 330px;
-            height: 412px;
+            left: 0;
+            right: 0;
+            width: 350px;
+            height: 356px;
         }
 
         &-layer {
             &.layer-1 {
                 top: 10px;
-                width: 168px;
-                height: 322px;
+                width: 186px;
+                height: 356px;
             }
 
             &.layer-2 {
-                width: 168px;
-                height: 322px;
+                width: 186px;
+                height: 356px;
             }
         }
     }
