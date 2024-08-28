@@ -43,17 +43,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 4600px;
-
-        .container {
-            padding-left: 11.4%;
-            padding-right: 11.4%;
-        }
-
-        &-scene {
-            height: 1150px;
-        }
-
         &-squoosh {
             top: -565px;
             height: 1550px;
@@ -71,6 +60,13 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 1150px;
+
+        .container {
+            padding-left: 11.4%;
+            padding-right: 11.4%;
+        }
+
         &-block {
             top: 120px;
             row-gap: 30px;
@@ -86,6 +82,13 @@
 
     /* section sos */
     .B201-sos {
+        height: 1150px;
+
+        .container {
+            padding-left: 11.4%;
+            padding-right: 11.4%;
+        }
+
         &-block {
             top: 240px;
             row-gap: 30px;
@@ -101,6 +104,13 @@
 
     /* section screen */
     .B201-screen {
+        height: 1150px;
+
+        .container {
+            padding-left: 11.4%;
+            padding-right: 11.4%;
+        }
+
         &-block {
             top: 240px;
             row-gap: 30px;
@@ -256,17 +266,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 3920px;
-
-        .container {
-            padding-left: 9.7%;
-            padding-right: 9.7%;
-        }
-
-        &-scene {
-            height: 980px;
-        }
-
         &-squoosh {
             top: -480px;
             height: 1300px;
@@ -284,6 +283,13 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 980px;
+
+        .container {
+            padding-left: 9.7%;
+            padding-right: 9.7%;
+        }
+
         &-block {
             top: 100px;
             row-gap: 24px;
@@ -299,6 +305,13 @@
 
     /* section sos */
     .B201-sos {
+        height: 980px;
+
+        .container {
+            padding-left: 9.7%;
+            padding-right: 9.7%;
+        }
+
         &-block {
             top: 205px;
             row-gap: 24px;
@@ -314,6 +327,13 @@
 
     /* section screen */
     .B201-screen {
+        height: 980px;
+
+        .container {
+            padding-left: 9.7%;
+            padding-right: 9.7%;
+        }
+
         &-block {
             top: 205px;
             row-gap: 24px;
@@ -468,17 +488,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 3340px;
-
-        .container {
-            padding-left: 8.564%;
-            padding-right: 8.564%;
-        }
-
-        &-scene {
-            height: 835px;
-        }
-
         &-squoosh {
             top: -410px;
             height: 1100px;
@@ -496,6 +505,13 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 835px;
+
+        .container {
+            padding-left: 8.564%;
+            padding-right: 8.564%;
+        }
+
         &-block {
             top: 85px;
             row-gap: 20px;
@@ -511,6 +527,13 @@
 
     /* section sos */
     .B201-sos {
+        height: 835px;
+
+        .container {
+            padding-left: 8.564%;
+            padding-right: 8.564%;
+        }
+
         &-block {
             top: 175px;
             row-gap: 20px;
@@ -526,6 +549,13 @@
 
     /* section screen */
     .B201-screen {
+        height: 835px;
+
+        .container {
+            padding-left: 8.564%;
+            padding-right: 8.564%;
+        }
+
         &-block {
             top: 175px;
             row-gap: 20px;
@@ -691,12 +721,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 2840px;
-
-        &-scene {
-            height: 710px;
-        }
-
         &-squoosh {
             top: -350px;
             height: 950px;
@@ -714,6 +738,8 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 710px;
+
         &-block {
             top: 70px;
             row-gap: 16px;
@@ -729,6 +755,8 @@
 
     /* section sos */
     .B201-sos {
+        height: 710px;
+
         &-block {
             top: 150px;
             row-gap: 16px;
@@ -744,6 +772,8 @@
 
     /* section screen */
     .B201-screen {
+        height: 710px;
+
         &-block {
             top: 150px;
             row-gap: 16px;
@@ -897,12 +927,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 2420px;
-
-        &-scene {
-            height: 605px;
-        }
-
         &-squoosh {
             top: -300px;
             height: 790px;
@@ -920,6 +944,8 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 605px;
+
         &-block {
             top: 60px;
             row-gap: 14px;
@@ -935,6 +961,8 @@
 
     /* section sos */
     .B201-sos {
+        height: 605px;
+
         &-block {
             top: 125px;
             row-gap: 14px;
@@ -950,6 +978,8 @@
 
     /* section screen */
     .B201-screen {
+        height: 605px;
+
         &-block {
             top: 125px;
             row-gap: 14px;
@@ -1178,12 +1208,6 @@
 
     /* section presentation */
     .B201-presentation {
-        height: 2900px;
-
-        &-scene {
-            height: 725px;
-        }
-
         &-squoosh {
             top: -285px;
             height: 790px;
@@ -1202,6 +1226,8 @@
 
     /* section keyboard */
     .B201-keyboard {
+        height: 725px;
+
         &-block {
             top: 20px;
             left: 45px;
@@ -1219,6 +1245,8 @@
 
     /* section sos */
     .B201-sos {
+        height: 725px;
+
         &-block {
             top: 20px;
             left: 45px;
@@ -1236,6 +1264,8 @@
 
     /* section screen */
     .B201-screen {
+        height: 725px;
+
         &-block {
             top: 20px;
             left: 45px;
