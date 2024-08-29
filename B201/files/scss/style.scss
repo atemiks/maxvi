@@ -1,16 +1,15 @@
 :root {
     --c-default: #313131;
-    --case-figure-height: 1219px;
 }
 
 .B201-landing {
     overflow: hidden;
+    position: relative;
     max-width: 2160px;
     margin: auto;
     background-color: #fff;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center top;
-    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -82,6 +81,17 @@
     .section-dark .B201-subtitle,
     .section-dark .B201-description {
         color: #fff;
+    }
+
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110vh;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
     }
 }
 

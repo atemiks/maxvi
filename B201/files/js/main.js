@@ -5,6 +5,8 @@ $(document).ready(function () {
     });
 
     /* ScrollTrigger */
+    const landing = document.querySelector('.B201-landing');
+    const landingBg = document.querySelector('.B201-landing-bg')
     const presentationSection = document.querySelector('.B201-presentation');
     const presentationScene = document.querySelector('.B201-presentation-scene');
     const presentationFigure = document.querySelector('.B201-presentation-figure');
@@ -39,6 +41,17 @@ $(document).ready(function () {
 
         const triggerSectionsSnaps = triggerSections.map(section => {
             return section.offsetTop / (presentationSection.offsetHeight + triggerStartOffset - triggerEndOffset);
+        });
+
+        const landingTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: landing,
+                markers: false,
+                start: '0 0',
+                end: '100% 100%',
+                pin: landingBg,
+                scrub: true,
+            },
         });
 
         const presentationTl = gsap.timeline({
