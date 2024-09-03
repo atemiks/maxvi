@@ -37,7 +37,7 @@ $(document).ready(function () {
         ];
 
         const triggerStartOffset = 60;
-        const triggerEndOffset = screenSection.offsetHeight;
+        const triggerEndOffset = isPhone ? screenSection.offsetHeight + triggerStartOffset : screenSection.offsetHeight;
 
         const landingTl = gsap.timeline({
             scrollTrigger: {
@@ -53,7 +53,7 @@ $(document).ready(function () {
         const presentationTl = gsap.timeline({
             scrollTrigger: {
                 trigger: presentationScene,
-                markers: false,
+                markers: true,
                 start: () => {
                     return `0 ${triggerStartOffset}px`;
                 },
