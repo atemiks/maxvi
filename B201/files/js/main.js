@@ -53,7 +53,7 @@ $(document).ready(function () {
         const presentationTl = gsap.timeline({
             scrollTrigger: {
                 trigger: presentationScene,
-                markers: true,
+                markers: false,
                 start: () => {
                     return `0 ${triggerStartOffset}px`;
                 },
