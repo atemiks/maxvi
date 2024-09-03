@@ -39,10 +39,6 @@ $(document).ready(function () {
         const triggerStartOffset = 60;
         const triggerEndOffset = screenSection.offsetHeight;
 
-        const triggerSectionsSnaps = triggerSections.map(section => {
-            return section.offsetTop / (presentationSection.offsetHeight + triggerStartOffset - triggerEndOffset);
-        });
-
         const landingTl = gsap.timeline({
             scrollTrigger: {
                 trigger: landing,
@@ -66,13 +62,7 @@ $(document).ready(function () {
                 },
                 endTrigger: presentationSection,
                 pin: presentationScene,
-                snap: {
-                    snapTo:  triggerSectionsSnaps,
-                    duration: { min: 0.1, max: 0.8 }, 
-                    delay: 0, 
-                    ease: 'power1.inOut'
-                },
-                scrub: true,
+                scrub: 0.1,
             },
         });
 
@@ -81,11 +71,9 @@ $(document).ready(function () {
                 trigger: keyboardSection,
                 toggleActions: "play reverse play reverse",
                 markers: false,
-                start: () => {
-                    return isPhone ? '0 75%' : '0 75%';
-                },
+                start: '0 75%',
                 end: () => {
-                    return '100% 75%';
+                    return isPhone ? '100% 10%' : '100% 15%';
                 },
                 onEnter: () => {
                     presentationFigure.setAttribute('data-animation', 'keyboard');
@@ -103,10 +91,10 @@ $(document).ready(function () {
             .addLabel('start')
             .fromTo(keyboardBlock, {
                 opacity: 0,
-                x: isPhone ? -20 : -50,
             }, {
                 opacity: 1,
-                x: 0
+                delay: 0,
+                duration: 0.4,
             }, 'start')
             .addLabel('end');
 
@@ -116,10 +104,10 @@ $(document).ready(function () {
                 toggleActions: "play reverse play reverse",
                 markers: false,
                 start: () => {
-                    return isPhone ? '15% 25%' : '15% 25%';
+                    return isPhone ? '0 10%' : '0 15%';
                 },
                 end: () => {
-                    return '100% 75%';
+                    return isPhone ? '100% 10%' : '100% 15%';
                 },
                 onEnter: () => {
                     presentationFigure.setAttribute('data-animation', 'sos');
@@ -134,10 +122,10 @@ $(document).ready(function () {
             .addLabel('start')
             .fromTo(sosBlock, {
                 opacity: 0,
-                x: isPhone ? -20 : -50,
             }, {
                 opacity: 1,
-                x: 0
+                delay: 0,
+                duration: 0.4,
             }, 'start')
             .addLabel('end');
 
@@ -147,7 +135,7 @@ $(document).ready(function () {
                 toggleActions: "play reverse restart reverse",
                 markers: false,
                 start: () => {
-                    return isPhone ? '15% 25%' : '15% 25%'
+                    return isPhone ? '0 10%' : '0% 15%'
                 },
                 onEnter: () => {
                     presentationFigure.setAttribute('data-animation', 'screen');
@@ -162,10 +150,10 @@ $(document).ready(function () {
             .addLabel('start')
             .fromTo(screenBlock, {
                 opacity: 0,
-                x: isPhone ? -20 : -50,
             }, {
                 opacity: 1,
-                x: 0
+                delay: 0,
+                duration: 0.4,
             }, 'start')
             .addLabel('end');
     });

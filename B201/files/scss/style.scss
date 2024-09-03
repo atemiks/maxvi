@@ -496,7 +496,7 @@
 
 /* section keyboard */
 .B201-keyboard {
-    height: 1350px;
+    height: 675px;
     padding-top: 0;
     padding-bottom: 0;
 
@@ -533,7 +533,8 @@
 
 /* section sos */
 .B201-sos {
-    height: 1350px;
+    margin-top: -1px;
+    height: 675px;
     padding-top: 0;
     padding-bottom: 0;
 
@@ -546,8 +547,8 @@
         opacity: 0;
         position: absolute;
         top: 280px;
-        left: 15px;
-        right: 15px;
+        left: 4.5%;
+        right: 4.5%;
         display: flex;
         flex-direction: column;
         row-gap: 36px;
@@ -575,6 +576,7 @@
 
 /* section screen */
 .B201-screen {
+    margin-top: -1px;
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
@@ -588,8 +590,8 @@
         opacity: 0;
         position: absolute;
         top: 280px;
-        left: 15px;
-        right: 15px;
+        left: 4.5%;
+        right: 4.5%;
         display: flex;
         flex-direction: column;
         row-gap: 36px;
