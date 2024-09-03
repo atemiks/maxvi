@@ -289,7 +289,7 @@ $this->addExternalJS($folder . 'js/main.js');
                         <div class="B201-keyboard-block">
                             <div
                                 class="B201-keyboard-title"
-                                data-aos="fade-right"
+                                data-aos="fade-up"
                                 data-aos-duration="500"
                             >
                                 КЛАВИАТУРА
@@ -303,7 +303,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
                             <div
                                 class="B201-keyboard-description"
-                                data-aos="fade-right"
+                                data-aos="fade-up"
                                 data-aos-duration="500"
                             >
                                 Пользуйтесь
