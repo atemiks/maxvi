@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger: capacitySection,
         markers: false,
         start: () => {
-          return isPhone ? '0 0' : '-50% 0';
+          return isPhone ? '-25% 0' : '-50% 0';
         },
         end: '100% 0',
         toggleActions: "play reverse play reverse",
