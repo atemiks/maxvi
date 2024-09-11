@@ -1,6 +1,5 @@
 :root {
     --c-default: #313131;
-    --case-figure-height: 1219px;
 }
 
 .KE2021S-landing {
@@ -112,7 +111,7 @@
         margin: 0;
     }
 
-    p+p {
+    p + p {
         margin-top: 20px;
     }
 
@@ -140,6 +139,10 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
+
+    &.aos-animate {
+        color: #3d404b;
+    }
 
     .container {
         padding-left: 4.85%;
@@ -170,6 +173,7 @@
         top: 145px;
         width: 72px;
         height: 424px;
+        fill: currentColor;
     }
 
     &-model {
@@ -179,6 +183,13 @@
         font-size: 154px;
         font-weight: 500;
         line-height: 1;
+        transition: color 300ms ease;
+
+        .text-mark {
+            &.aos-animate {
+                color: #1775b0;
+            }
+        }
     }
 
     &-title {
@@ -276,13 +287,12 @@
         margin: auto;
     }
 
-    &-media {
+    &-canvas {
         width: inherit;
         height: inherit;
     }
 
     @keyframes zoom-in {
-
         0%,
         100% {
             transform: scale(1);
@@ -299,22 +309,32 @@
 
 /* section presentation */
 .KE2021S-presentation {
-    // height: 5400px;
+    overflow: hidden;
+    height: calc(min(200vh, 2700px));
     padding-top: 0;
     padding-bottom: 0;
+    background-color: #000;
 
     &-scene {
-        height: 1350px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+
+    &-content {
+        display: flex;
+        flex-wrap: nowrap;
+        height: calc(min(100vh, 1350px));
     }
 
     &-figure {
         pointer-events: none;
         position: absolute;
-        top: 95px;
+        top: calc(min(7.035vh, 95px));
         left: 15px;
         right: 15px;
-        width: 1032px;
-        height: 1000px;
+        width: calc(min(76.44vh, 1032px));
+        height: auto;
         margin: auto;
     }
 
@@ -322,15 +342,52 @@
         width: inherit;
         height: inherit;
     }
+
+    &-indicator {
+        opacity: 0;
+        position: absolute;
+        top: 73.5%;
+        left: 18.75%;
+        width: 42.64%;
+        height: 42.64%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: opacity 300ms ease;
+
+        [data-animation='indicator'] &,
+        [data-animation='poweroff'] & {
+            opacity: 1;
+        }
+    }
+
+    &-steam {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        left: -35%;
+        bottom: 90%;
+        width: 85%;
+        transform: rotate(60deg);
+        transition: opacity 300ms ease;
+
+        [data-animation='poweroff'] & {
+            opacity: 1;
+        }
+    }
 }
 
 /* section presentation end */
 
 /* section power */
 .KE2021S-power {
+    flex: 0 0 100%;
+    width: 100%;
+    height: calc(min(100vh, 1350px));
+
     &-block {
         position: absolute;
-        top: 1120px;
+        top: calc(min(82.96vh, 1120px));
         left: 15px;
         right: 15px;
         text-align: center;
@@ -343,6 +400,11 @@
 
         .text-lead {
             font-size: 125.45%;
+            transition: 300ms color 300ms ease;
+
+            [data-animation='power'] & {
+                color: #fb2c03;
+            }
         }
     }
 }
@@ -351,9 +413,13 @@
 
 /* section indicator */
 .KE2021S-indicator {
+    flex: 0 0 100%;
+    width: 100%;
+    height: calc(min(100vh, 1350px));
+
     &-block {
         position: absolute;
-        top: 1120px;
+        top: calc(min(85.55vh, 1155px));
         left: 15px;
         right: 15px;
         text-align: center;
@@ -370,9 +436,13 @@
 
 /* section poweroff */
 .KE2021S-poweroff {
+    flex: 0 0 100%;
+    width: 100%;
+    height: calc(min(100vh, 1350px));
+
     &-block {
         position: absolute;
-        top: 1120px;
+        top: calc(min(85.55vh, 1155px));
         left: 15px;
         right: 15px;
         text-align: center;
@@ -447,19 +517,18 @@
         background-size: contain;
 
         .aos-animate & {
-            animation: 1600ms fade-in-and-out 600ms forwards;
+            animation: 2400ms fade-in-and-out 600ms infinite;
         }
     }
 
     @keyframes fade-in-and-out {
-
         0%,
         100% {
             opacity: 0;
         }
 
-        40%,
-        60% {
+        33.333%,
+        66.666% {
             opacity: 1;
         }
     }
