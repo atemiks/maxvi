@@ -69,8 +69,6 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: calc(min(200vh, 2300px));
-
         &-content {
             height: calc(min(100vh, 1150px));
         }
@@ -153,6 +151,11 @@
     /* section material */
     .KE2021S-material {
         height: 1150px;
+
+        &-bg {
+            background-position: -640px center;
+            background-size: 1980px auto;
+        }
 
         &-title {
             top: 560px;
@@ -244,8 +247,6 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: calc(min(200vh, 1960px));
-
         &-content {
             height: calc(min(100vh, 980px));
         }
@@ -328,6 +329,11 @@
     /* section material */
     .KE2021S-material {
         height: 980px;
+
+        &-bg {
+            background-position: -545px center;
+            background-size: 1680px auto;
+        }
 
         &-title {
             top: 475px;
@@ -418,8 +424,6 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: calc(min(200vh, 1660px));
-
         &-content {
             height: calc(min(100vh, 830px));
         }
@@ -501,6 +505,11 @@
     /* section material */
     .KE2021S-material {
         height: 830px;
+
+        &-bg {
+            background-position: -475px center;
+            background-size: 1440px auto;
+        }
 
         &-title {
             top: 405px;
@@ -603,8 +612,6 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: 1410px;
-
         &-content {
             height: 705px;
         }
@@ -686,6 +693,11 @@
     /* section material */
     .KE2021S-material {
         height: 705px;
+
+        &-bg {
+            background-position: -420px center;
+            background-size: 1200px auto;
+        }
 
         &-title {
             top: 345px;
@@ -780,8 +792,6 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: 1200px;
-
         &-content {
             height: 600px;
         }
@@ -863,6 +873,11 @@
     /* section material */
     .KE2021S-material {
         height: 600px;
+
+        &-bg {
+            background-position: -360px center;
+            background-size: 991px auto;
+        }
 
         &-title {
             top: 295px;
@@ -984,7 +999,7 @@
 
     /* section capacity */
     .KE2021S-capacity {
-        height: 720px;
+        height: 690px;
         text-align: left;
 
         &-title {
@@ -1003,7 +1018,7 @@
         }
 
         &-figure {
-            top: 180px;
+            top: 150px;
             left: auto;
             right: calc(63vw - 484px / 2);
             width: 484px;
@@ -1015,7 +1030,9 @@
 
     /* section presentation */
     .KE2021S-presentation {
-        height: 1020px;
+        &-scene {
+            background-position: -280% top, 280% top;
+        }
 
         &-content {
             height: 510px;
@@ -1103,6 +1120,11 @@
     .KE2021S-material {
         height: 700px;
 
+        &-bg {
+            background-position: -100px center;
+            background-size: 868px auto;
+        }
+
         &-title {
             top: 40px;
             font-size: 28px;
@@ -1117,6 +1139,16 @@
             top: 205px;
             width: 282px;
             height: 470px;
+
+            &::before {
+                top: 5%;
+                left: -5%;
+                right: -5%;
+                bottom: 0;
+                width: auto;
+                border-radius: 50%;
+                filter: blur(60px);
+            }
         }
     }
 
