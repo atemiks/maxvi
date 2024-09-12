@@ -37,14 +37,13 @@ $this->addExternalJS($folder . 'js/main.js');
     <section
         class="KE2021S-intro section-dark"
         data-aos
-        data-aos-duration="800"
-        data-aos-delay="500"
+        data-aos-delay="1200"
     >
         <div
             class="KE2021S-intro-bg"
             data-aos="fade-in"
-            data-aos-duration="800"
-            data-aos-delay="500"
+            data-aos-delay="800"
+            data-aos-duration="1200"
             data-aos-achor=".KE2021S-intro"
             style="
                 background-image: url('<?= $folder ?>/images/section-intro/KE2021S-intro-bg.jpg');
@@ -191,7 +190,8 @@ $this->addExternalJS($folder . 'js/main.js');
         <div
             class="KE2021S-presentation-scene"
             style="
-                background-image: url('<?= $folder ?>/images/section-presentation/KE2021S-presentation-bg.jpg');
+                background-image: url('<?= $folder ?>/images/section-presentation/KE2021S-presentation-bg-side-left.jpg'),
+                    url('<?= $folder ?>/images/section-presentation/KE2021S-presentation-bg-side-right.jpg');
             "
         >
             <div class="container">
@@ -312,6 +312,9 @@ $this->addExternalJS($folder . 'js/main.js');
 
                         <div
                             class="KE2021S-heating-element-heat"
+                            data-aos
+                            data-aos-delay="500"
+                            data-aos-anchor-placement="bottom-bottom"
                             style="
                                 background-image: url('<?= $folder ?>/images/section-heating-element/KE2021S-heating-element-kettle-heat.png');
                             "
@@ -348,14 +351,35 @@ $this->addExternalJS($folder . 'js/main.js');
         </div>
     </section>
 
-    <section
-        class="KE2021S-material section-dark"
-        style="
-            background-image: url('<?= $folder ?>/images/section-material/KE2021S-material-bg.jpg');
-        "
-    >
+    <section class="KE2021S-material section-dark">
+        <div
+            class="KE2021S-material-bg"
+            style="
+                background-image: url('<?= $folder ?>/images/section-material/KE2021S-material-bg.jpg');
+            "
+        ></div>
+
         <div class="container">
             <div class="content-wrapper row d-flex">
+                <div
+                    class="KE2021S-media-container col-xs-12 col-sm-5 col-sm-offset-7"
+                >
+                    <figure
+                        class="KE2021S-material-figure"
+                        data-aos="fade-left"
+                        data-aos-duration="800"
+                    >
+                        <img
+                            loading="lazy"
+                            src="<?= $folder ?>/images/section-material/KE2021S-material-kettle-side.png"
+                            class="KE2021S-material-media"
+                            width="755"
+                            height="1261"
+                            alt="Электрический чайник Maxvi KE2021S"
+                        />
+                    </figure>
+                </div>
+
                 <div
                     class="KE2021S-typography-container col-xs-12 col-sm-7"
                 >
@@ -378,19 +402,6 @@ $this->addExternalJS($folder . 'js/main.js');
                         <br />
                         И ПРАКТИЧНО
                     </div>
-                </div>
-
-                <div class="KE2021S-media-container col-xs-12 col-sm-5">
-                    <figure class="KE2021S-material-figure">
-                        <img
-                            loading="lazy"
-                            src="<?= $folder ?>/images/section-material/KE2021S-material-kettle-side.png"
-                            class="KE2021S-material-media"
-                            width="755"
-                            height="1261"
-                            alt="Электрический чайник Maxvi KE2021S"
-                        />
-                    </figure>
                 </div>
             </div>
         </div>

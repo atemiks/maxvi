@@ -2,11 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const body = document.querySelector('body');
   const landing = document.querySelector('.KE2021S-landing');
 
-  /* Animation */
-  AOS.init({
-    anchorPlacement: 'bottom-bottom',
-  });
-
   function imageSequence(config) {
     let playhead = { frame: 0 },
       canvas = config.canvas || console.warn("canvas not defined"),
@@ -99,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isTablet: '(min-width: 768px) and (max-width: 991.98px)',
     isPhone: '(max-width: 767.98px)'
   }, ({ conditions }) => {
-    const { isPhone } = conditions;
+    const { isPhone, isLaptop } = conditions;
     const screenWidth = body.offsetWidth;
     const landingWidth = landing.offsetWidth;
     const scrollerXOffset = (screenWidth - landingWidth) / 2;
@@ -129,15 +124,16 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger: presentationScene,
         pin: true,
         scrub: 0.1,
+        end: '+=150% 0',
         markers: false,
-        pinSpacing: false,
+        pinSpacing: true,
       }
     });
 
     presentationTl
       .addLabel('start')
       .to(presentationPanels, {
-        xPercent: -100 * (presentationPanels.length - 1),
+        xPercent: 100 * (presentationPanels.length - 1),
         ease: "none" // IMPORTANT
       })
       .addLabel('end');
@@ -149,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         start: () => {
           return `0 ${scrollerXOffset}`;
         },
-        end: '100% 50%',
+        end: '0% 50%',
         toggleActions: "none play reverse none",
         markers: false,
         onEnter: () => {
@@ -166,6 +162,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     powerTl
       .addLabel('start')
+      .to(presentationSection, {
+        scrollTrigger: {
+          trigger: presentationScene,
+          start: () => {
+            return isLaptop ? '0 25%' : '0 5%';
+          },
+          end: '100% 0%',
+          markers: false,
+          onEnter: () => {
+            presentationSection.setAttribute('data-animation', 'power');
+          },
+          onLeaveBack: () => {
+            presentationSection.removeAttribute('data-animation');
+          }
+        }
+      }, 'start')
       .to(powerBlock, {
         opacity: 0,
         duration: 0.4,
@@ -176,8 +188,8 @@ document.addEventListener('DOMContentLoaded', () => {
       scrollTrigger: {
         trigger: indicatorSection,
         containerAnimation: presentationTl,
-        start: "0 50%",
-        end: '100% 50%',
+        start: '100% 50%',
+        end: '0 50%',
         toggleActions: "play reverse play reverse",
         markers: false,
         onEnter: () => {
@@ -203,8 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
       scrollTrigger: {
         trigger: poweroffSection,
         containerAnimation: presentationTl,
-        start: "0 50%",
-        end: '100% 50%',
+        start: '100% 50%',
+        end: '0 50%',
         toggleActions: "play reverse play reverse",
         markers: false,
         onEnter: () => {
@@ -231,4 +243,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 'start')
       .addLabel('end');
   });
+
+    /* Animation */
+  AOS.init({
+    anchorPlacement: 'bottom-bottom',
+  });
+  
 });
