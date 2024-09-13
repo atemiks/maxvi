@@ -164,8 +164,9 @@ $this->addExternalJS($folder . 'js/main.js');
                     <div
                         class="KT723P-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                     >
-                        <div class="KT723P-levels-title">
+                        <div class="KT723P-levels-block">
                             <div
+                                class="KT723P-levels-title"
                                 data-aos="fade-left"
                                 data-aos-duration="500"
                                 data-aos-achor=".KT723P-levels"
@@ -177,10 +178,9 @@ $this->addExternalJS($folder . 'js/main.js');
                                     class="KT723P-levels-title-line"
                                 ></div>
                             </div>
-                        </div>
 
-                        <div class="KT723P-levels-subtitle">
                             <div
+                                class="KT723P-levels-subtitle"
                                 data-aos="fade-left"
                                 data-aos-duration="500"
                                 data-aos-achor=".KT723P-levels"
@@ -206,14 +206,18 @@ $this->addExternalJS($folder . 'js/main.js');
                 <div
                     class="KT723P-typography-container col-xs-12 col-sm-7"
                 >
-                    <div class="KT723P-poweroff-title">
-                        КНОПКА
+                    <div class="KT723P-poweroff-block">
+                        <div class="KT723P-poweroff-title">
+                            КНОПКА
 
-                        <div class="KT723P-poweroff-title-line"></div>
-                    </div>
+                            <div
+                                class="KT723P-poweroff-title-line"
+                            ></div>
+                        </div>
 
-                    <div class="KT723P-poweroff-subtitle">
-                        ВЫКЛЮЧЕНИЯ
+                        <div class="KT723P-poweroff-subtitle">
+                            ВЫКЛЮЧЕНИЯ
+                        </div>
                     </div>
                 </div>
             </div>
