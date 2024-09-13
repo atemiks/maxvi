@@ -53,13 +53,15 @@
             background-size: 1980px auto;
         }
 
-        &-title {
+        &-block {
             top: calc(min(56.95vh, 655px));
+        }
+
+        &-title {
             font-size: 142px;
         }
 
         &-subtitle {
-            top: calc(min(74.3478vh, 855px));
             font-size: 110px;
         }
 
@@ -76,13 +78,15 @@
     .KT723P-poweroff {
         height: calc(min(100vh, 1150px));
 
-        &-title {
+        &-block {
             top: calc(min(60vh, 690px));
+        }
+
+        &-title {
             font-size: 142px;
         }
 
         &-subtitle {
-            top: calc(min(73.91vh, 850px));
             font-size: 110px;
         }
     }
@@ -163,13 +167,15 @@
             background-size: 1680px auto;
         }
 
-        &-title {
+        &-block {
             top: calc(min(56.63vh, 555px));
+        }
+
+        &-title {
             font-size: 120px;
         }
 
         &-subtitle {
-            top: calc(min(73.97vh, 725px));
             font-size: 94px;
         }
 
@@ -186,13 +192,15 @@
     .KT723P-poweroff {
         height: calc(min(100vh, 980px));
 
-        &-title {
+        &-block {
             top: calc(min(59.7vh, 585px));
+        }
+
+        &-title {
             font-size: 120px;
         }
 
         &-subtitle {
-            top: calc(min(73.46vh, 720px));
             font-size: 94px;
         }
     }
@@ -273,13 +281,15 @@
             background-size: 1440px auto;
         }
 
-        &-title {
+        &-block {
             top: calc(min(56.28vh, 470px));
+        }
+
+        &-title {
             font-size: 100px;
         }
 
         &-subtitle {
-            top: calc(min(73.65vh, 615px));
             font-size: 80px;
         }
 
@@ -296,8 +306,11 @@
     .KT723P-poweroff {
         height: calc(min(100vh, 835px));
 
-        &-title {
+        &-block {
             top: calc(min(59.88vh, 500px));
+        }
+
+        &-title {
             font-size: 100px;
         }
 
@@ -395,13 +408,15 @@
             background-size: 1200px auto;
         }
 
-        &-title {
+        &-block {
             top: 400px;
+        }
+
+        &-title {
             font-size: 80px;
         }
 
         &-subtitle {
-            top: 520px;
             font-size: 68px;
         }
 
@@ -418,8 +433,11 @@
     .KT723P-poweroff {
         height: 710px;
 
-        &-title {
+        &-block {
             top: 425px;
+        }
+
+        &-title {
             font-size: 80px;
         }
 
@@ -511,8 +529,11 @@
             background-size: 991px auto;
         }
 
-        &-title {
+        &-block {
             top: 350px;
+        }
+
+        &-title {
             font-size: 68px;
         }
 
@@ -534,8 +555,11 @@
     .KT723P-poweroff {
         height: 605px;
 
-        &-title {
+        &-block {
             top: 360px;
+        }
+
+        &-title {
             font-size: 68px;
         }
 
@@ -697,8 +721,11 @@
             }
         }
 
-        &-title {
+        &-block {
             top: 40px;
+        }
+
+        &-title {
             font-size: 28px;
 
             &-line {
@@ -707,7 +734,6 @@
         }
 
         &-subtitle {
-            top: 85px;
             font-size: 24px;
         }
 
@@ -726,8 +752,11 @@
     .KT723P-poweroff {
         height: 560px;
 
-        &-title {
+        &-block {
             top: 465px;
+        }
+
+        &-title {
             font-size: 28px;
 
             &-line {
@@ -736,7 +765,6 @@
         }
 
         &-subtitle {
-            top: 505px;
             font-size: 24px;
         }
     }
