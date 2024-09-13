@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const introFigure = document.querySelector('.KT723P-intro-figure');
 
   const powerSection = document.querySelector('.KT723P-power');
+  const powerBg = document.querySelector('.KT723P-power-bg');
   const powerTitle = document.querySelector('.KT723P-power-title');
   const powerValue = document.querySelector('.KT723P-power-value');
 
   const levelsSection = document.querySelector('.KT723P-levels');
-  const levelsBg = document.querySelector('.KT723P-levels-bg');
   const levelsScene = document.querySelector('.KT723P-levels-scene');
   const levelsFigure = document.querySelector('.KT723P-levels-figure');
   const levelsBlock = document.querySelector('.KT723P-levels-block');
@@ -49,6 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
     });
+
+    introTl
+      .add('start')
+      .to(powerBg, {
+        opacity: 1,
+        delay: 7,
+        duration: 2.5,
+      })
+      .add('end');
 
     const powerTl = gsap.timeline({
       scrollTrigger: {
@@ -105,15 +114,15 @@ document.addEventListener('DOMContentLoaded', () => {
     levelsTl
       .addLabel('start')
       .to(levelsScene, {
-        delay: 1,
-        duration: 4,
+        delay: 2,
+        duration: 3,
         x: () => {
           return poweroffFigure.offsetParent.offsetLeft;
         },
       }, 'start')
       .to(levelsBlock, {
-        delay: 1,
-        duration: 4,
+        delay: 2,
+        duration: 3,
         xPercent: () => {
           return 50;
         },

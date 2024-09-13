@@ -650,35 +650,35 @@
 
     /* section intro */
     .KT723P-intro {
-        height: 290px;
+        height: 540px;
 
-        &-bg {
-            background-position: left 110%;
-            background-size: 498px auto;
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         &-logo {
-            top: 250px;
-            width: 100px;
-            height: 17px;
+            top: 40px;
+            width: 138px;
+            height: 24px;
         }
 
         &-title {
-            top: 170px;
-            font-size: 20px;
+            top: 75px;
+            font-size: 38px;
         }
 
         &-model {
-            top: 200px;
-            font-size: 26px;
+            top: 115px;
+            font-size: 38px;
         }
 
         &-figure {
-            top: 80px;
-            left: -20px;
+            top: 190px;
+            left: 0;
             right: 0;
-            width: 238px;
-            height: 228px;
+            width: 348px;
+            height: 335px;
         }
     }
 
@@ -686,16 +686,21 @@
 
     /* section power */
     .KT723P-power {
-        height: 275px;
+        height: 500px;
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
 
         &-title {
-            top: 20px;
-            font-size: 18px;
+            top: 40px;
+            font-size: 28px;
         }
 
         &-value {
-            top: 50px;
-            font-size: 32px;
+            top: 75px;
+            font-size: 38px;
         }
     }
 

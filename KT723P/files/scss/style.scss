@@ -214,6 +214,7 @@
     background-color: #000;
 
     &-bg {
+        opacity: 0;
         position: absolute;
         top: 0;
         left: 0;
@@ -413,7 +414,8 @@
     height: 1350px;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fff;
+    background-color: #faeadf;
+    background-image: linear-gradient(to top, #faeadf, #fff);
     color: #444444;
 
     &-title {

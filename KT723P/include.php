@@ -49,7 +49,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="KT723P-media-container col-xs-8 col-md-7 col-xs-offset-4 col-md-offset-5"
+                    class="KT723P-media-container col-xs-12 col-sm-8 col-md-7 col-sm-offset-4 col-md-offset-5"
                 >
                     <figure class="KT723P-intro-figure">
                         <div
@@ -69,7 +69,9 @@ $this->addExternalJS($folder . 'js/main.js');
                     </figure>
                 </div>
 
-                <div class="KT723P-typography-container col-xs-5">
+                <div
+                    class="KT723P-typography-container col-xs-12 col-sm-5"
+                >
                     <img
                         loading="lazy"
                         src="<?= $folder ?>/images/logo-maxvi.svg"
@@ -104,9 +106,6 @@ $this->addExternalJS($folder . 'js/main.js');
     <section class="KT723P-power section-dark">
         <div
             class="KT723P-power-bg"
-            data-aos="fade-in"
-            data-aos-duration="800"
-            data-aos-achor=".KT723P-power"
             style="
                 background-image: url('<?= $folder ?>/images/section-power/KT723P-power-bg.jpg');
             "
@@ -114,7 +113,9 @@ $this->addExternalJS($folder . 'js/main.js');
 
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div class="KT723P-typography-container col-xs-5">
+                <div
+                    class="KT723P-typography-container col-xs-12 col-sm-5"
+                >
                     <div class="KT723P-power-title">МОЩНОСТЬ</div>
 
                     <div class="KT723P-power-value">700&nbsp;W</div>
