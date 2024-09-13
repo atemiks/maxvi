@@ -108,28 +108,22 @@ document.addEventListener('DOMContentLoaded', () => {
         delay: 1,
         duration: 4,
         x: () => {
-          return isPhone ? 0 : poweroffFigure.offsetParent.offsetLeft;
+          return poweroffFigure.offsetParent.offsetLeft;
         },
       }, 'start')
       .to(levelsBlock, {
         delay: 1,
         duration: 4,
         xPercent: () => {
-          return isPhone ? 0: 50;
+          return 50;
         },
-        y: () => {
-          return isPhone ? -115 : 0;
-        }
       }, 'start')
       .to(levelsFigure, {
         delay: 1,
         duration: 4,
-        y: () => {
-          return isPhone ? -115 : 0;
-        }
       }, 'start')
       .addLabel('end');
-      
+
     const poweroffTl = gsap.timeline({
       scrollTrigger: {
         trigger: poweroffSection,

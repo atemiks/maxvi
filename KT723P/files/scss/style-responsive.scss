@@ -593,8 +593,8 @@
 @media (max-width: 767px) {
     .KT723P-landing {
         .container {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         .content-inner {
@@ -650,30 +650,35 @@
 
     /* section intro */
     .KT723P-intro {
-        height: 540px;
+        height: 290px;
+
+        &-bg {
+            background-position: left 110%;
+            background-size: 498px auto;
+        }
 
         &-logo {
-            top: 40px;
-            width: 138px;
-            height: 24px;
+            top: 250px;
+            width: 100px;
+            height: 17px;
         }
 
         &-title {
-            top: 75px;
-            font-size: 38px;
+            top: 170px;
+            font-size: 20px;
         }
 
         &-model {
-            top: 115px;
-            font-size: 38px;
+            top: 200px;
+            font-size: 26px;
         }
 
         &-figure {
-            top: 190px;
-            left: 0;
+            top: 80px;
+            left: -20px;
             right: 0;
-            width: 348px;
-            height: 335px;
+            width: 238px;
+            height: 228px;
         }
     }
 
@@ -681,16 +686,16 @@
 
     /* section power */
     .KT723P-power {
-        height: 500px;
+        height: 275px;
 
         &-title {
-            top: 40px;
-            font-size: 28px;
+            top: 20px;
+            font-size: 18px;
         }
 
         &-value {
-            top: 75px;
-            font-size: 38px;
+            top: 50px;
+            font-size: 32px;
         }
     }
 
@@ -698,51 +703,31 @@
 
     /* section levels */
     .KT723P-levels {
-        height: 560px;
-        text-align: left;
+        height: 245px;
 
         &-bg {
             background-size: 991px auto;
             background-position: center 50%;
-
-            &::after {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(
-                    to bottom,
-                    #c5bcb3,
-                    transparent 50%
-                );
-                filter: blur(10px);
-                content: '';
-            }
         }
 
         &-block {
-            top: 40px;
+            top: 140px;
         }
 
         &-title {
-            font-size: 28px;
-
-            &-line {
-                display: none;
-            }
+            font-size: 25px;
         }
 
         &-subtitle {
-            font-size: 24px;
+            font-size: 18px;
         }
 
         &-figure {
-            top: 150px;
+            top: 10px;
             left: 0;
             right: 0;
-            width: 340px;
-            height: 422px;
+            width: 180px;
+            height: 224px;
         }
     }
 
@@ -750,22 +735,18 @@
 
     /* section poweroff */
     .KT723P-poweroff {
-        height: 560px;
+        height: 245px;
 
         &-block {
-            top: 465px;
+            top: 155px;
         }
 
         &-title {
-            font-size: 28px;
-
-            &-line {
-                display: none;
-            }
+            font-size: 25px;
         }
 
         &-subtitle {
-            font-size: 24px;
+            font-size: 18px;
         }
     }
 
@@ -773,21 +754,17 @@
 
     /* section pallet */
     .KT723P-pallet {
-        height: 325px;
+        height: 220px;
 
         &-title {
-            top: 40px;
-            font-size: 24px;
-
-            &-breakpoint {
-                display: block;
-            }
+            top: 20px;
+            font-size: 22px;
         }
 
         &-figure {
-            top: 150px;
-            width: 360px;
-            height: 120px;
+            top: 70px;
+            width: 324px;
+            height: 108px;
         }
     }
 

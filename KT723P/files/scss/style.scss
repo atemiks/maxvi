@@ -139,6 +139,12 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
+    background-image: linear-gradient(
+        to bottom,
+        #69625c,
+        #453f3d 13%,
+        #000000 35%
+    );
 
     &-bg {
         position: absolute;
@@ -190,14 +196,6 @@
         width: 1209px;
         height: 1162px;
         margin: auto;
-
-        &-aos {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
     }
 
     &-media {
@@ -425,10 +423,6 @@
         right: 15px;
         font-size: 130px;
         line-height: normal;
-
-        &-breakpoint {
-            display: none;
-        }
 
         .text-lead {
             color: #ba5924;

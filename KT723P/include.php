@@ -49,7 +49,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="KT723P-media-container col-xs-12 col-sm-8 col-md-7 col-sm-offset-4 col-md-offset-5"
+                    class="KT723P-media-container col-xs-8 col-md-7 col-xs-offset-4 col-md-offset-5"
                 >
                     <figure class="KT723P-intro-figure">
                         <div
@@ -69,9 +69,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     </figure>
                 </div>
 
-                <div
-                    class="KT723P-typography-container col-xs-12 col-sm-5"
-                >
+                <div class="KT723P-typography-container col-xs-5">
                     <img
                         loading="lazy"
                         src="<?= $folder ?>/images/logo-maxvi.svg"
@@ -116,9 +114,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
         <div class="container">
             <div class="content-wrapper row d-flex">
-                <div
-                    class="KT723P-typography-container col-xs-12 col-sm-5"
-                >
+                <div class="KT723P-typography-container col-xs-5">
                     <div class="KT723P-power-title">МОЩНОСТЬ</div>
 
                     <div class="KT723P-power-value">700&nbsp;W</div>
@@ -138,9 +134,7 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="KT723P-levels-scene">
             <div class="container">
                 <div class="content-wrapper row d-flex">
-                    <div
-                        class="KT723P-media-container col-xs-12 col-sm-6"
-                    >
+                    <div class="KT723P-media-container col-xs-7">
                         <figure class="KT723P-levels-figure">
                             <div class="KT723P-levels-aos">
                                 <div
@@ -162,7 +156,7 @@ $this->addExternalJS($folder . 'js/main.js');
                     </div>
 
                     <div
-                        class="KT723P-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
+                        class="KT723P-typography-container col-xs-7 col-sm-7 col-xs-offset-5"
                     >
                         <div class="KT723P-levels-block">
                             <div
@@ -198,14 +192,12 @@ $this->addExternalJS($folder . 'js/main.js');
         <div class="container">
             <div class="content-wrapper row d-flex">
                 <div
-                    class="KT723P-media-container col-xs-12 col-sm-6 col-sm-offset-6"
+                    class="KT723P-media-container col-xs-7 col-sm-6 col-xs-offset-5 col-sm-offset-6"
                 >
                     <figure class="KT723P-poweroff-figure"></figure>
                 </div>
 
-                <div
-                    class="KT723P-typography-container col-xs-12 col-sm-7"
-                >
+                <div class="KT723P-typography-container col-xs-7">
                     <div class="KT723P-poweroff-block">
                         <div class="KT723P-poweroff-title">
                             КНОПКА
@@ -261,7 +253,6 @@ $this->addExternalJS($folder . 'js/main.js');
                         data-aos-duration="500"
                     >
                         <span class="text-lead">ПОДДОН</span>
-                        <br class="KT723P-pallet-title-breakpoint" />
                         ДЛЯ КРОШЕК
                     </div>
                 </div>
