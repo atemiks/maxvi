@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .add('start')
       .to(powerBg, {
         opacity: 1,
-        delay: 7,
-        duration: 2.5,
+        delay: isPhone ? 7.5 : 8,
+        duration: isPhone ? 2.5 : 2,
       })
       .add('end');
 
