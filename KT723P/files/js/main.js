@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isPhone: '(max-width: 767.98px)'
   }, ({ conditions }) => {
     const { isPhone } = conditions;
+    const screenHeight = window.innerHeight;
 
     const introTl = gsap.timeline({
       scrollTrigger: {
@@ -95,10 +96,10 @@ document.addEventListener('DOMContentLoaded', () => {
         pinSpacing: false,
         markers: false,
         start: () => {
-          return `0 ${headerHeight}`;
+          return isPhone ? `0 ${screenHeight / 2}` : `0 ${headerHeight}`;
         },
         end: () => {
-          return `100% ${headerHeight + levelsSection.offsetHeight}`;
+          return isPhone ? `100% ${screenHeight / 2 + levelsSection.offsetHeight}` : `100% ${headerHeight + levelsSection.offsetHeight}`;
         },
         endTrigger: poweroffSection,
         scrub: 0.1,
