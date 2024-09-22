@@ -738,12 +738,12 @@
     /* section presentation */
     .KT723P-presentation {
         &-bg {
-            height: 845px;
+            height: calc(min(100vh, 845px));
             background-size: auto 100%;
         }
 
         &-figure {
-            top: 330px;
+            top: calc(min(39.05vh, 330px));
             left: 0;
             right: 0;
             width: 320px;
@@ -754,11 +754,11 @@
 
     /* section levels */
     .KT723P-levels {
-        height: 335px;
+        height: calc(min(39.65vh, 335px));
         text-align: center;
 
         &-block {
-            top: 100px;
+            top: calc(min(11.85vh, 100px));
         }
 
         &-title,
@@ -784,11 +784,11 @@
 
     /* section poweroff */
     .KT723P-poweroff {
-        height: 845px;
+        height: calc(min(100vh, 845px));
         text-align: center;
 
         &-block {
-            top: 100px;
+            top: calc(min(11.85vh, 100px));
         }
 
         &-title,
