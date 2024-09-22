@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const headerHeight = 68;
+  const landingContainer = document.querySelector('.KT723P-landing .container');
+  const landingContainerWidth = landingContainer.offsetWidth;
+
   const introSection = document.querySelector('.KT723P-intro');
   const introFigure = document.querySelector('.KT723P-intro-figure');
 
@@ -7,6 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const powerBg = document.querySelector('.KT723P-power-bg');
   const powerTitle = document.querySelector('.KT723P-power-title');
   const powerValue = document.querySelector('.KT723P-power-value');
+
+
+  const presentationSection = document.querySelector('.KT723P-presentation');
+  const presentationScene = document.querySelector('.KT723P-presentation-scene');
+  const presentationMediaContainer = document.querySelector('.KT723P-presentation .KT723P-media-container');
+  const presentationFigure = document.querySelector('.KT723P-presentation-figure');
+
 
   const levelsSection = document.querySelector('.KT723P-levels');
   const levelsScene = document.querySelector('.KT723P-levels-scene');
@@ -89,19 +99,19 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 'start')
       .addLabel('end');
 
-    const levelsTl = gsap.timeline({
+    const presentationTl = gsap.timeline({
       scrollTrigger: {
-        trigger: levelsSection,
-        pin: true,
-        pinSpacing: false,
+        trigger: presentationSection,
+        pin: presentationScene,
+        pinSpacing: true,
         markers: false,
         start: () => {
-          return isPhone ? `0 ${screenHeight / 2}` : `0 ${headerHeight}`;
+          return `0 ${headerHeight}`;
         },
         end: () => {
-          return isPhone ? `100% ${screenHeight / 2 + levelsSection.offsetHeight}` : `100% ${headerHeight + levelsSection.offsetHeight}`;
+          return `100% ${screenHeight + headerHeight}`
         },
-        endTrigger: poweroffSection,
+        endTrigger: presentationSection,
         scrub: 0.1,
         snap: {
           snapTo: 'labelsDirectional',
@@ -112,27 +122,45 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     });
 
-    levelsTl
+    presentationTl
       .addLabel('start')
-      .to(levelsScene, {
+      .to(presentationFigure, {
         delay: 2,
         duration: 3,
         x: () => {
-          return poweroffFigure.offsetParent.offsetLeft;
+          return isPhone ? 0 : landingContainerWidth / 2 - presentationFigure.offsetLeft;
         },
       }, 'start')
+      .addLabel('end');
+
+    const levelsTl = gsap.timeline({
+      scrollTrigger: {
+        trigger: levelsSection,
+        pin: isPhone ? false : levelsSection,
+        pinSpacing: false,
+        markers: false,
+        start: () => {
+          return  `0 ${headerHeight}`;
+        },
+        end: () => {
+          return `100% ${headerHeight}`;
+        },
+        scrub: 0.1,
+      },
+    });
+
+    levelsTl
+      .addLabel('start')
       .to(levelsBlock, {
         delay: 2,
         duration: 3,
-        xPercent: () => {
-          return 50;
+        x: () => {
+          return isPhone ? 0 : landingContainerWidth / 2 - presentationFigure.offsetLeft;
         },
-      }, 'start')
-      .to(levelsFigure, {
-        delay: 1,
-        duration: 4,
-      }, 'start')
+      })
       .addLabel('end');
+
+    
 
     const poweroffTl = gsap.timeline({
       scrollTrigger: {
@@ -149,10 +177,12 @@ document.addEventListener('DOMContentLoaded', () => {
       .addLabel('start')
       .fromTo(poweroffBlock, {
         opacity: 0,
-        x: -100,
+        x: isPhone ? 0 : -100,
+        y: isPhone ? 100 : 0,
       }, {
         opacity: 1,
         x: 0,
+        y: 0,
         duration: 0.5,
       }, 'start')
       .addLabel('end');

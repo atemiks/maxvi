@@ -249,26 +249,10 @@
 
 /* section power end */
 
-/* section levels */
-.KT723P-levels {
-    height: calc(min(100vh, 1350px));
+/* section presentation */
+.KT723P-presentation {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #c5bcb3;
-    color: #444444;
-    text-align: right;
-
-    &-bg {
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: 2160px auto;
-    }
 
     &-scene {
         position: absolute;
@@ -279,13 +263,53 @@
         height: 100%;
     }
 
-    &-block {
+    &-bg {
         position: absolute;
         z-index: 1;
-        top: 770px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(min(100vh, 1350px));
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 2160px auto;
+    }
+
+    &-figure {
+        pointer-events: none;
+        position: absolute;
+        z-index: 1;
+        top: calc(min(6.6666vh, 90px));
+        left: 15px;
+        right: 15px;
+        width: 937px;
+        height: 1164px;
+        margin: auto;
+    }
+
+    &-media {
+        width: inherit;
+        height: inherit;
+    }
+}
+/* section presentation end */
+
+/* section levels */
+.KT723P-levels {
+    position: relative;
+    z-index: 1;
+    height: calc(min(100vh, 1350px));
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #444444;
+    text-align: right;
+
+    &-block {
+        position: absolute;
         top: calc(min(57vh, 770px));
         left: 15px;
         right: 15px;
+        width: calc(100% - 30px);
     }
 
     &-title {
@@ -331,23 +355,6 @@
         margin-top: -0.15em;
         font-size: 130px;
         line-height: normal;
-    }
-
-    &-figure {
-        pointer-events: none;
-        position: absolute;
-        z-index: 1;
-        top: calc(min(6.6666vh, 90px));
-        left: 15px;
-        right: 15px;
-        width: 937px;
-        height: 1164px;
-        margin: auto;
-    }
-
-    &-media {
-        width: inherit;
-        height: inherit;
     }
 }
 

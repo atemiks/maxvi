@@ -45,13 +45,24 @@
 
     /* section power end */
 
+    /* section presentation */
+    .KT723P-presentation {
+        &-bg {
+            height: calc(min(100vh, 1150px));
+            background-size: 1980px auto;
+        }
+
+        &-figure {
+            top: calc(min(7.82vh, 90px));
+            width: 750px;
+            height: 932px;
+        }
+    }
+    /* section presentation end */
+
     /* section levels */
     .KT723P-levels {
         height: calc(min(100vh, 1150px));
-
-        &-bg {
-            background-size: 1980px auto;
-        }
 
         &-block {
             top: calc(min(56.95vh, 655px));
@@ -63,12 +74,6 @@
 
         &-subtitle {
             font-size: 110px;
-        }
-
-        &-figure {
-            top: calc(min(7.82vh, 90px));
-            width: 750px;
-            height: 932px;
         }
     }
 
@@ -159,13 +164,24 @@
 
     /* section power end */
 
+    /* section presentation */
+    .KT723P-presentation {
+        &-bg {
+            height: calc(min(100vh, 980px));
+            background-size: 1680px auto;
+        }
+
+        &-figure {
+            top: calc(min(9.18vh, 90px));
+            width: 634px;
+            height: 788px;
+        }
+    }
+    /* section presentation end */
+
     /* section levels */
     .KT723P-levels {
         height: calc(min(100vh, 980px));
-
-        &-bg {
-            background-size: 1680px auto;
-        }
 
         &-block {
             top: calc(min(56.63vh, 555px));
@@ -177,12 +193,6 @@
 
         &-subtitle {
             font-size: 94px;
-        }
-
-        &-figure {
-            top: calc(min(9.18vh, 90px));
-            width: 634px;
-            height: 788px;
         }
     }
 
@@ -273,13 +283,24 @@
 
     /* section power end */
 
+    /* section presentation */
+    .KT723P-presentation {
+        &-bg {
+            height: calc(min(100vh, 835px));
+            background-size: 1440px auto;
+        }
+
+        &-figure {
+            top: calc(min(8.98vh, 75px));
+            width: 538px;
+            height: 668px;
+        }
+    }
+    /* section presentation end */
+
     /* section levels */
     .KT723P-levels {
         height: calc(min(100vh, 835px));
-
-        &-bg {
-            background-size: 1440px auto;
-        }
 
         &-block {
             top: calc(min(56.28vh, 470px));
@@ -291,12 +312,6 @@
 
         &-subtitle {
             font-size: 80px;
-        }
-
-        &-figure {
-            top: calc(min(8.98vh, 75px));
-            width: 538px;
-            height: 668px;
         }
     }
 
@@ -400,13 +415,24 @@
 
     /* section power end */
 
+    /* section presentation */
+    .KT723P-presentation {
+        &-bg {
+            height: 710px;
+            background-size: 1200px auto;
+        }
+
+        &-figure {
+            top: 75px;
+            width: 454px;
+            height: 564px;
+        }
+    }
+    /* section presentation end */
+
     /* section levels */
     .KT723P-levels {
         height: 710px;
-
-        &-bg {
-            background-size: 1200px auto;
-        }
 
         &-block {
             top: 400px;
@@ -418,12 +444,6 @@
 
         &-subtitle {
             font-size: 68px;
-        }
-
-        &-figure {
-            top: 75px;
-            width: 454px;
-            height: 564px;
         }
     }
 
@@ -521,13 +541,24 @@
 
     /* section power end */
 
+    /* section presentation */
+    .KT723P-presentation {
+        &-bg {
+            height: 605px;
+            background-size: 991px auto;
+        }
+
+        &-figure {
+            top: 120px;
+            width: 340px;
+            height: 422px;
+        }
+    }
+    /* section presentation end */
+
     /* section levels */
     .KT723P-levels {
         height: 605px;
-
-        &-bg {
-            background-size: 991px auto;
-        }
 
         &-block {
             top: 350px;
@@ -540,12 +571,6 @@
         &-subtitle {
             top: 450px;
             font-size: 54px;
-        }
-
-        &-figure {
-            top: 120px;
-            width: 340px;
-            height: 422px;
         }
     }
 
@@ -710,33 +735,48 @@
 
     /* section power end */
 
-    /* section levels */
-    .KT723P-levels {
-        height: 245px;
-
+    /* section presentation */
+    .KT723P-presentation {
         &-bg {
-            background-size: 991px auto;
-            background-position: center 50%;
-        }
-
-        &-block {
-            top: 140px;
-        }
-
-        &-title {
-            font-size: 25px;
-        }
-
-        &-subtitle {
-            font-size: 18px;
+            height: 845px;
+            background-size: auto 100%;
         }
 
         &-figure {
-            top: 10px;
+            top: 330px;
             left: 0;
             right: 0;
-            width: 180px;
-            height: 224px;
+            width: 320px;
+            height: 398px;
+        }
+    }
+    /* section presentation end */
+
+    /* section levels */
+    .KT723P-levels {
+        height: 335px;
+        text-align: center;
+
+        &-block {
+            top: 100px;
+        }
+
+        &-title,
+        &-subtitle {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &-title {
+            font-size: 50px;
+
+            &-line {
+                display: none;
+            }
+        }
+
+        &-subtitle {
+            font-size: 38px;
         }
     }
 
@@ -744,18 +784,29 @@
 
     /* section poweroff */
     .KT723P-poweroff {
-        height: 245px;
+        height: 845px;
+        text-align: center;
 
         &-block {
-            top: 155px;
+            top: 100px;
+        }
+
+        &-title,
+        &-subtitle {
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &-title {
-            font-size: 25px;
+            font-size: 50px;
+
+            &-line {
+                display: none;
+            }
         }
 
         &-subtitle {
-            font-size: 18px;
+            font-size: 38px;
         }
     }
 

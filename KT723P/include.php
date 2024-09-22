@@ -124,40 +124,46 @@ $this->addExternalJS($folder . 'js/main.js');
         </div>
     </section>
 
-    <section class="KT723P-levels">
-        <div
-            class="KT723P-levels-bg"
-            style="
-                background-image: url('<?= $folder ?>/images/section-levels/KT723P-levels-bg.jpg');
-            "
-        ></div>
+    <section class="KT723P-presentation">
+        <div class="KT723P-presentation-scene">
+            <div
+                class="KT723P-presentation-bg"
+                style="
+                    background-image: url('<?= $folder ?>/images/section-levels/KT723P-levels-bg.jpg');
+                "
+            ></div>
 
-        <div class="KT723P-levels-scene">
             <div class="container">
                 <div class="content-wrapper row d-flex">
-                    <div class="KT723P-media-container col-xs-7">
-                        <figure class="KT723P-levels-figure">
-                            <div class="KT723P-levels-aos">
-                                <div
-                                    class="KT723P-levels-figure-aos"
-                                    data-aos="fade-right"
-                                    data-aos-duration="800"
-                                >
-                                    <img
-                                        loading="lazy"
-                                        src="<?= $folder ?>/images/section-levels/KT723P-levels-toaster-front.png"
-                                        class="KT723P-levels-media"
-                                        width="937"
-                                        height="1164"
-                                        alt="Тостер Maxvi KT723P"
-                                    />
-                                </div>
+                    <div
+                        class="KT723P-media-container col-xs-12 col-sm-7"
+                    >
+                        <figure class="KT723P-presentation-figure">
+                            <div
+                                class="KT723P-presentation-aos"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="<?= $folder ?>/images/section-levels/KT723P-levels-toaster-front.png"
+                                    class="KT723P-presentation-media"
+                                    width="937"
+                                    height="1164"
+                                    alt="Тостер Maxvi KT723P"
+                                />
                             </div>
                         </figure>
                     </div>
+                </div>
+            </div>
+        </div>
 
+        <section class="KT723P-levels">
+            <div class="container">
+                <div class="content-wrapper row d-flex">
                     <div
-                        class="KT723P-typography-container col-xs-7 col-sm-7 col-xs-offset-5"
+                        class="KT723P-typography-container col-xs-12 col-sm-7 col-sm-offset-5"
                     >
                         <div class="KT723P-levels-block">
                             <div
@@ -186,35 +192,37 @@ $this->addExternalJS($folder . 'js/main.js');
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="KT723P-poweroff">
-        <div class="container">
-            <div class="content-wrapper row d-flex">
-                <div
-                    class="KT723P-media-container col-xs-7 col-sm-6 col-xs-offset-5 col-sm-offset-6"
-                >
-                    <figure class="KT723P-poweroff-figure"></figure>
-                </div>
+        <section class="KT723P-poweroff">
+            <div class="container">
+                <div class="content-wrapper row d-flex">
+                    <!-- <div
+                        class="KT723P-media-container col-xs-7 col-sm-6 col-xs-offset-5 col-sm-offset-6"
+                    >
+                        <figure class="KT723P-poweroff-figure"></figure>
+                    </div> -->
 
-                <div class="KT723P-typography-container col-xs-7">
-                    <div class="KT723P-poweroff-block">
-                        <div class="KT723P-poweroff-title">
-                            КНОПКА
+                    <div
+                        class="KT723P-typography-container col-xs-12 col-sm-7"
+                    >
+                        <div class="KT723P-poweroff-block">
+                            <div class="KT723P-poweroff-title">
+                                КНОПКА
 
-                            <div
-                                class="KT723P-poweroff-title-line"
-                            ></div>
-                        </div>
+                                <div
+                                    class="KT723P-poweroff-title-line"
+                                ></div>
+                            </div>
 
-                        <div class="KT723P-poweroff-subtitle">
-                            ВЫКЛЮЧЕНИЯ
+                            <div class="KT723P-poweroff-subtitle">
+                                ВЫКЛЮЧЕНИЯ
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
 
     <section class="KT723P-pallet">
@@ -260,4 +268,6 @@ $this->addExternalJS($folder . 'js/main.js');
             </div>
         </div>
     </section>
-</div>
+
+    <section style="height: 500px"></section>
+    </div>
