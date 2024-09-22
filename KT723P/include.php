@@ -126,12 +126,7 @@ $this->addExternalJS($folder . 'js/main.js');
 
     <section class="KT723P-presentation">
         <div class="KT723P-presentation-scene">
-            <div
-                class="KT723P-presentation-bg"
-                style="
-                    background-image: url('<?= $folder ?>/images/section-levels/KT723P-levels-bg.jpg');
-                "
-            ></div>
+            <div class="KT723P-presentation-bg"></div>
 
             <div class="container">
                 <div class="content-wrapper row d-flex">
@@ -146,7 +141,7 @@ $this->addExternalJS($folder . 'js/main.js');
                             >
                                 <img
                                     loading="lazy"
-                                    src="<?= $folder ?>/images/section-levels/KT723P-levels-toaster-front.png"
+                                    src="<?= $folder ?>/images/section-presentation/KT723P-presentation-toaster-front.png"
                                     class="KT723P-presentation-media"
                                     width="937"
                                     height="1164"
@@ -268,6 +263,4 @@ $this->addExternalJS($folder . 'js/main.js');
             </div>
         </div>
     </section>
-
-    <section style="height: 500px"></section>
-    </div>
+</div>

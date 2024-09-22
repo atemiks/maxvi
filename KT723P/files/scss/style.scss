@@ -270,9 +270,8 @@
         left: 0;
         width: 100%;
         height: calc(min(100vh, 1350px));
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: 2160px auto;
+        background: url('../images/section-presentation/KT723P-presentation-bg.jpg')
+            no-repeat center bottom/2160px auto;
     }
 
     &-figure {
